@@ -1,24 +1,9 @@
-# User
-
-* [[User Guide]]
-* [[User FAQ]]
+# Popular
+* [[Compiling]]
+* [[Command Line]]
 * [[Text Config]]
-* [[Security]]
-* [[Requirements]]
-* [[Command line]]
-* [[Use as a KVM]]
-* [[IOS client]]
-* [[Android client]]
-* [[Archived content]]
-* [[Sending Logs]]
-* [[Startup]]
-* [[Version 1.3]]
-* [[Conflicting Software]]
-* [[Related Software]]
-* [[Known workaround]]
 
-# Developer
-
+# Everything
 * [[Developer FAQ]]
 * [[Public Release]]
 * [[Testing Release]]
@@ -29,7 +14,6 @@
 * [[Pull Requests]]
 * [[Plugins]]
 * [[Source Code]]
-* [[Compiling]]
 * [[Code Style]]
 * [[Buildbot]]
 * [[Diagrams]]
@@ -42,4 +26,17 @@
 * [[Protocol]]
 * [Next milestone](https://github.com/symless/synergy/issues?q=milestone%3Anext)
 * [Dev mailing list](http://groups.google.com/group/synergy-dev)
-* [Buildbot builders](http://buildbot.synergy-project.org/builders)
+* [[User Guide]]
+* [[User FAQ]]
+* [[Security]]
+* [[Requirements]]
+* [[Use as a KVM]]
+* [[IOS client]]
+* [[Android client]]
+* [[Archived content]]
+* [[Sending Logs]]
+* [[Startup]]
+* [[Version 1.3]]
+* [[Conflicting Software]]
+* [[Related Software]]
+* [[Known workaround]]
