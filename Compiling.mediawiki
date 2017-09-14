@@ -134,11 +134,15 @@ Use <code>cmake</code> to build the project from the root directory of the git r
 ===Unix and Linux===
  git clone https://github.com/symless/synergy-core.git
  cd synergy
- cmake CMakeLists.txt
+ mkdir build
+ cd build
+ cmake ..
  make
 
 ===Mac OS X===
  git clone https://github.com/symless/synergy-core.git
  cd synergy
- cmake CMakeLists.txt
+ mkdir build
+ cd build
+ cmake ..
  make
