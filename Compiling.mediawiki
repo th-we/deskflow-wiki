@@ -133,7 +133,7 @@ Use <code>cmake</code> to build the project from the root directory of the git r
 
 ===macOS===
  git clone https://github.com/symless/synergy-core.git
- cd synergy
+ cd synergy-core
  mkdir build
  cd build
  cmake -DCMAKE_OSX_SYSROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -DCMAKE_OSX_DEPLOYMENT_TARGET=10.9 -DCMAKE_OSX_ARCHITECTURES=x86_64 ..
