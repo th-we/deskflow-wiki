@@ -123,6 +123,8 @@ If you already have [MacPorts], run:
 Use <code>cmake</code> to build the project from the root directory of the git repository.
 
 ===Windows===
+ git clone https://github.com/symless/synergy-core.git
+ cd synergy
  mkdir build
  cd build
  call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat"
@@ -130,13 +132,13 @@ Use <code>cmake</code> to build the project from the root directory of the git r
  msbuild synergy.sln /p:Platform="x64" /p:Configuration=%CMAKE_BUILD_TYPE% /m
 
 ===Unix and Linux===
- git clone https://github.com/symless/synergy.git
+ git clone https://github.com/symless/synergy-core.git
  cd synergy
  cmake CMakeLists.txt
  make
 
 ===Mac OS X===
- git clone https://github.com/symless/synergy.git
+ git clone https://github.com/symless/synergy-core.git
  cd synergy
  cmake CMakeLists.txt
  make
