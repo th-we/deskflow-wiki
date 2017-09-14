@@ -16,7 +16,7 @@ These are for Windows XP SP3 (the earliest Windows supported) and above.
 * [https://developer.apple.com/download/more/?q=Bonjour%20SDK%20for%20Windows Bonjour SDK for Windows]
 * Command line [https://git-scm.com/downloads git] in your PATH.
 
-You may need to add your Python install directory to the end of your PATH environment variable <pre>(System --> Advanced System Settings --> Environment Variables)</pre> so that <code>hm</code> can be called from the command prompt.
+You may need to add your Python install directory to the end of your PATH environment variable <pre>(System --> Advanced System Settings --> Environment Variables)</pre>.
 
 Using Python 3.x will result in syntax errors as print became a function rather than a statement: [http://docs.python.org/3.0/whatsnew/3.0.html#print-is-a-function What's new in Python 3.0]
 
@@ -88,10 +88,6 @@ If you already have [MacPorts], run:
  sudo yum install cmake make gcc-c++ libX11-devel libXext-devel libXi-devel libXtst-devel libXinerama-devel libcurl-devel qt-devel avahi-compat-libdns_sd-devel openssl-devel rpm-build rpmlint
  PATH="$PATH:/usr/lib64/qt4/bin:/usr/lib/qt4/bin"
 
-After compiling, run the following to build and install the RPM:
-  ./hm.sh package rpm
-  sudo rpm -i bin/synergy-master-*.rpm 
-
 ===Debian 7/8===
   sudo apt-get install build-essential cmake libavahi-compat-libdnssd-dev libcurl4-openssl-dev libssl-dev lintian python qt4-dev-tools xorg-dev fakeroot
 
@@ -124,11 +120,14 @@ After compiling, run the following to build and install the RPM:
 * SSL dev package
 
 ==Compile==
-Use <code>cmake</code> to build the project from the root directory of the git repository. Older versions of the git repository included a script called <code>hm</code> (or <code>./hm.sh</code>) that was a wrapper around <code>cmake</code>, but <code>hm</code> has since been removed.
+Use <code>cmake</code> to build the project from the root directory of the git repository.
 
 ===Windows===
- hm conf -g1
- hm build
+ mkdir build
+ cd build
+ call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat"
+ cmake -G "Visual Studio 14 2015 Win64" -DCMAKE_BUILD_TYPE=%CMAKE_BUILD_TYPE% ..
+ msbuild synergy.sln /p:Platform="x64" /p:Configuration=%CMAKE_BUILD_TYPE% /m
 
 ===Unix and Linux===
  git clone https://github.com/symless/synergy.git
@@ -141,9 +140,3 @@ Use <code>cmake</code> to build the project from the root directory of the git r
  cd synergy
  cmake CMakeLists.txt
  make
-
-==Building installers==
-Use the <code>hm package [os]</code> command to build installers. (<code>[os] = {deb,mac,rpm,win}</code>)
-
-On Windows the [http://wixtoolset.org/ WiX Toolset] is required.
-Note: On Windows, when using Visual C++ 2010 Express, it does not provide the Merge Module needed for packaging.
