@@ -15,7 +15,6 @@
 * [[Plugins]]
 * [[Source Code]]
 * [[Code Style]]
-* [[Buildbot]]
 * [[Diagrams]]
 * [[Unit Testing]]
 * [[Branches]]
