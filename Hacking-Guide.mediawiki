@@ -1,8 +1,8 @@
 Before checking in code, make sure:
 
 # You read the [[Code Style]] guide
-# Considered writing [[Unit Testing|unit/integ tests]] for new code
-# That the '''existing''' unit/integ tests all pass
+# Considered writing [[Unit Testing|unit/integration tests]] for new code
+# That the '''existing''' unit/integration tests all pass
 # You've fully tested your fix (and any other feature it might affect)
 # Changes to cross-platform code compiles on all platforms (Windows, Mac and Linux)
 
