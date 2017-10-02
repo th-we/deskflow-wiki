@@ -1,1 +1,3 @@
-In 1992, at MacHack, Eric Hayes partnered with a (future) co-worker to write what they called NetMouse, a very rough predecessor to Synergy.
+In 1992, at [https://en.wikipedia.org/wiki/MacHack MacHack], Eric Hayes partnered with a (future) co-worker to write what they called ''NetMouse'', a very rough predecessor to Synergy.
+
+The tool was one of the five Winning Hacks of that year's conference, as reported in [http://tidbits.com/static/html/TidBITS-135.html#lnk3 issue 135] of the [https://en.wikipedia.org/wiki/Tidbits TidBITS newsletter] (July 1992), and in [http://www.callapple.org/Members/magazine/co-op/CoopSpirit_1992-09.pdf volume 2, number 7] of the [https://en.wikipedia.org/wiki/Apple_Pugetsound_Program_Library_Exchange#Publications Co-Op Spirit magazine] (September 1992).
