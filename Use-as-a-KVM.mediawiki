@@ -1,10 +1,12 @@
 == Motivation ==
 
-As a platform for software based input sharing, Synergy currently requires the use of locally connected displays. This means that each physical (not locally virtualized) member of the Synergy network requires the deskspace of at least one monitor. This limitation can be overcome by some method of switching the input being given to a display. In general, this would be done manually, with either a physical input switcher or the monitor's built in controls. However, hardware switches can be clunky and expensive, and reaching out to navigate your monitor's menus every minute can be frustrating.
+As a platform for software-based input sharing, Synergy currently requires the use of locally connected displays. This means that each physical (not locally virtualized) member of the Synergy network requires the deskspace of at least one monitor.
 
-For some, VNC would provide an acceptable solution, but its video performance, understandably, leaves a lot to be desired. Coupled with Synergy's very speedy input sharing, a software-based method of switching video among local boxes can be used to create what is effectively a software [https://en.wikipedia.org/wiki/KVM_switch KVM switch].
+This limitation can be overcome by some method of switching the input being given to a display. In general, this would be done manually, with either a physical input switcher or the monitor's built in controls. However, hardware switches can be clunky and expensive, and reaching out to navigate your monitor's menus every minute can be frustrating.
 
-== General Method ==
+For some, VNC would provide an acceptable solution, but its video performance, understandably, leaves a lot to be desired. Instead, a software-based method of switching video among local boxes, coupled with Synergy's very speedy input sharing, can be used to create what is effectively a software-based [https://en.wikipedia.org/wiki/KVM_switch KVM switch].
+
+== General method ==
 
 Every platform currently supported by Synergy provides methods of turning video outputs on and off at will from the command line.
 
@@ -14,11 +16,11 @@ These are:
 * [http://en.wikipedia.org/wiki/Pmset Pmset] for OS X
 * [http://www.nirsoft.net/utils/nircmd.html NirCmd] for Windows ('''Untested''')
 
-We can use these tools to write scripts that will appropriately schedule the toggling of video outputs among the locally attached boxes, so as to provide the appearance of a hardware KVM switch. Existing OS and Synergy functionality can be used to enhance the effect, with globalized keybindings to toggle inputs and relocate focus, clipboard sharing, and flawless interscreen mouse transitions.
+We can use these tools to write scripts that will appropriately schedule the toggling of video outputs among the locally attached boxes, so as to provide the appearance of a hardware KVM switch. Existing OS and Synergy functionality can be used to enhance the effect, with globalized keybindings to toggle inputs and relocate focus, clipboard sharing, and flawless inter-screen mouse transitions.
 
-== Linux and Mac OS X ==
+== Linux and macOS ==
 
-I succesfully use the following script with a Linux server and Mac OS X client. I suspect that something similar will work with the majority of configurations, but I don't have the capacity for further testing right now.
+I successfully use the following script with a Linux server and Mac OS X client. I suspect that something similar will work with the majority of configurations, but I don't have the capacity for further testing right now.
 
 This script can be seen in action around 50 seconds into [http://youtu.be/-PyzHl-kqTk#t=50s this video].
 
@@ -62,7 +64,7 @@ fi
 sudo /etc/rc.d/synergys restart
 </pre>
 
-I use the WM on my Synergy host to map a keyboard shortcut to the toggle_display.sh script. Synergy is configured, using [http://synergy2.sourceforge.net/configuration.html keystrokes], to always forward this input event to the host, so that the script on the host can be triggered from anywhere. This configuration also requires that you've shared ssh keys between your server and client, and that both your local and remote users are passwordless sudoers or root, because pmset won't work without root.
+I use the WM on my Synergy host to map a keyboard shortcut to the toggle_display.sh script. Synergy is configured, using [http://synergy2.sourceforge.net/configuration.html keystrokes], to always forward this input event to the host, so that the script on the host can be triggered from anywhere. This configuration also requires that you've shared ssh keys between your server and client, and that both your local and remote users are passwordless sudoers or root, because <tt>pmset</tt> won't work without root.
 
 == Problems ==
-* On at least some versions of OS X, you have to [http://mactips.dwhoard.com/mactips/system/wake-on-demand fiddle around] if you want to let it sleep in this configuration. The darkwake=no option worked for me.
+* On at least some versions of OS X, you have to [http://mactips.dwhoard.com/mactips/system/wake-on-demand fiddle around] if you want to let it sleep in this configuration. The <tt>darkwake=no</tt> option worked for me.
