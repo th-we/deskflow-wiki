@@ -36,11 +36,12 @@ Note: You may need to set your <code>QMAKESPEC</code> environmental variable. th
 * Install [http://brew.sh/ Homebrew]
 * Install [https://developer.apple.com/xcode/download/ XCode] (also available via the Mac App Store)
 ** You may need to open XCode, go to Preferences, select Locations, and then make sure an option is selected for Command Line Tools.
-* Install cmake, Qt, and openssh using Homebrew
+* Install cmake, Qt, openssh, and openssl using Homebrew
 ```
 brew install cmake
 brew install qt
 brew install openssh
+brew install openssl
 ```
 * Find the path for Qt installation - this should be something like "usr/local/Cellar/qt/4.8.7_2/Frameworks"
 ```
@@ -50,6 +51,13 @@ brew info qt
 ```
 export CMAKE_PREFIX_PATH="usr/local/Cellar/qt/4.8.7_2/Frameworks"
 ```
+* Add the openssl library to path to allow proper linking
+```
+export LD_LIBRARY_PATH=$(brew --prefix openssl)/lib
+export CPATH=$(brew --prefix openssl)/include
+export PKG_CONFIG_PATH=$(brew --prefix openssl)/lib/pkgconfig
+```
+
 * Continue to the [[Compiling#Compile|compile instructions]] below
 
 ====Mac OS X 10.9 Mavericks====
