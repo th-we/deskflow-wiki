@@ -1,14 +1,36 @@
-Using Synergy 1.4, it's easy to send us your log for when we need debug info about your problem.
+Synergy 2:
 
+If you need help, please email us: support@symless.com
+
+To send logs for Synergy 2, follow these steps:
+
+1. Right-click on the blue background
+2. Select "Send log" from the menu
+2. Click on the "View log" link
+3. The log will show in your browser
+4. Copy the log link from your browser
+5. Paste the link into your reply
+6. Let me know which computer the log is for
+7. Repeat for all of your computers
+
+If you're unable to do this, log files can also be found on your file system:
+
+Windows: C:\ProgramData\Symless\Synergy\
+Mac: ~/Library/Synergy/
+Linux: /var/log/synergy/
+
+Please attach any log files to your reply. Let me know if you need any help with this.
+
+Synergy 1:
+
+Using Synergy 1, do this instead:
 
 First, turn up the logging to "Debug2". Go to '''Edit''' > '''Settings''' > '''Logging'''. Select '''Debug''', unless you have been requested with higher level, from the '''Logging level''' drop down and then click '''OK'''.
 
 [[Images/LogLevelDebug2.png]]
 
-
 Then click '''Apply''', or '''Stop''' and then '''Start''' if using desktop mode.
 
 [[Images/ApplyHighlight.png]]
-
 
 Right click the log output area and click '''Select All''' then '''Copy'''. Paste your results on [http://pastebin.com/ Pastebin] or [https://gist.github.com/ Gist] then send us the link!
