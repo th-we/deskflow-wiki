@@ -15,22 +15,12 @@ To send logs for Synergy 2, follow these steps:
 
 If you're unable to do this, log files can also be found on your file system:
 
-Windows: C:\ProgramData\Symless\Synergy\
-Mac: ~/Library/Synergy/
-Linux: /var/log/synergy/
+* Windows: C:\ProgramData\Symless\Synergy\
+* Mac: ~/Library/Synergy/
+* Linux: /var/log/synergy/
 
 Please attach any log files to your reply. Let me know if you need any help with this.
 
 # Synergy 1
 
-Using Synergy 1, do this instead:
-
-First, turn up the logging to "Debug2". Go to '''Edit''' > '''Settings''' > '''Logging'''. Select '''Debug''', unless you have been requested with higher level, from the '''Logging level''' drop down and then click '''OK'''.
-
-![Debug log level](Images/LogLevelDebug2.png)
-
-Then click '''Apply''', or '''Stop''' and then '''Start''' if using desktop mode.
-
-![Apply higlight](Images/ApplyHighlight.png)
-
-Right-click the log output area and click '''Select All''' then '''Copy'''. Paste your results on [Pastebin](http://pastebin.com/) or [GitHub Gist](https://gist.github.com/) then send us the link!
+Synergy 1 is no longer supported.
