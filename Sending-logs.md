@@ -33,4 +33,4 @@ Then click '''Apply''', or '''Stop''' and then '''Start''' if using desktop mode
 
 ![Apply higlight](Images/ApplyHighlight.png)
 
-Right-click the log output area and click '''Select All''' then '''Copy'''. Paste your results on [http://pastebin.com/ Pastebin] or [https://gist.github.com/ Gist] then send us the link!
+Right-click the log output area and click '''Select All''' then '''Copy'''. Paste your results on [Pastebin](http://pastebin.com/) or [GitHub Gist](https://gist.github.com/) then send us the link!
