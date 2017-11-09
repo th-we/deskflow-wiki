@@ -1,4 +1,4 @@
-Synergy 2:
+# Synergy 2
 
 If you need help, please email us: support@symless.com
 
@@ -21,16 +21,16 @@ Linux: /var/log/synergy/
 
 Please attach any log files to your reply. Let me know if you need any help with this.
 
-Synergy 1:
+# Synergy 1
 
 Using Synergy 1, do this instead:
 
 First, turn up the logging to "Debug2". Go to '''Edit''' > '''Settings''' > '''Logging'''. Select '''Debug''', unless you have been requested with higher level, from the '''Logging level''' drop down and then click '''OK'''.
 
-[[Images/LogLevelDebug2.png]]
+![Debug log level](Images/LogLevelDebug2.png)
 
 Then click '''Apply''', or '''Stop''' and then '''Start''' if using desktop mode.
 
-[[Images/ApplyHighlight.png]]
+![Apply higlight](Images/ApplyHighlight.png)
 
-Right click the log output area and click '''Select All''' then '''Copy'''. Paste your results on [http://pastebin.com/ Pastebin] or [https://gist.github.com/ Gist] then send us the link!
+Right-click the log output area and click '''Select All''' then '''Copy'''. Paste your results on [http://pastebin.com/ Pastebin] or [https://gist.github.com/ Gist] then send us the link!
