@@ -1,90 +1,58 @@
 Some users prefer to use the command line to run Synergy instead of using automatic configuration.
 
-General Info
-------------
+General information
+-------------------
 
 The Synergy binaries generally take the same parameters on all 3
 platforms.
 
-See [[Text Config]] for information on how to create a config file. If you
+See [Text Config] for information on how to create a config file. If you
 have another system on which you can use the GUI, you might consider
 setting up your system in that GUI, and then exporting the config file
 with File --&gt; Save Configuration As and copy it over to the system
 you need it on. The same config file will work on any platform.
 
-Windows
--------
-
-### Client
+Basic usage instructions
+------------------------
 
 Open up a command prompt and cd into the Synergy install directory.
 Something like:
 
-`cd `“`c:\program` `files\synergy`”
+|         |                                               |
+| ------- | --------------------------------------------- |
+| Windows | `cd "c:\program files\synergy"`               |
+| macOS   | `cd /Applications/Synergy.app/Contents/MacOS` |
+| Linux   | `cd /usr/bin`                                 |
 
-Then run the Synergy client binary, pointing it at the Synergy Server.
+Run the Synergy client binary, pointing it at the Synergy Server.
 Something like:
 
-`synergyc [server IP]`
+|         |                                       |
+| ------- | ------------------------------------- |
+| Windows | `synergy-core --client [server IP]`   |
+| macOS   | `./synergy-core --client [server IP]` |
+| Linux   | `./synergy-core --client [server IP]` |
 
-### Server
-
-Again from the Synergy install directory:
-
-`synergys -c [path to config file]`
-
-Mac
----
-
-### Client
-
-Open up a Terminal and cd into the Synergy install directory. Something
-like:
-
-`cd /Applications/Synergy.app/Contents/MacOS`
-
-Then run the Synergy client binary, pointing it at the Synergy Server.
+Run the Synergy server binary, pointing it at the configuration file.
 Something like:
 
-`./synergyc [server IP]`
+|         |                                                    |
+| ------- | -------------------------------------------------- |
+| Windows | `synergy-core --server -c [path to config file]`   |
+| macOS   | `./synergy-core --server -c [path to config file]` |
+| Linux   | `./synergy-core --server -c [path to config file]` |
 
-### Server
-
-Again from the Synergy install directory:
-
-`./synergys -c [path to config file]`
-
-Linux
------
-
-### Client
-
-Open up a Terminal and cd into the Synergy install directory. Something
-like:
-
-`cd /usr/bin`
-
-Then run the Synergy client binary, pointing it at the Synergy Server.
-Something like:
-
-`./synergyc [server IP]`
-
-### Server
-
-Again from the Synergy install directory:
-
-`./synergys -c [path to config file]`
-
-### Command line options
+Command line options
+--------------------
 
   [Text Config]: Text_Config "wikilink"
 
-#### synergyc options
+### Options for `synergy-core --client`
 
 Taken from MacOS X 10.11 system:
 
 ```
-Usage: synergyc [--yscroll <delta>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>] <server-address>
+Usage: synergy-core --client [--yscroll <delta>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>] <server-address>
 
 Connect to a synergy mouse/keyboard sharing server.
 
@@ -112,16 +80,15 @@ must be the address or hostname of the server.  The port overrides the
 default port, 24800.
 ```
 
-Unlike the synergys (Synergy server), the synergyc (Synergy client) has
-no config file. The options are set either at runtime by the command
-line on the client, or for settings inherited from Synergy server they
-are set at connection time.
+Unlike `synergy-core --server`, `synergy-core --client` has no config file.
+The options are set either at runtime by the command line on the client,
+or for settings inherited from Synergy server they are set at connection time.
 
-#### synergys options
+## Options for `synergy-core --server`
 
 Taken from a MacOS X 10.11 system:
 ```
-Usage: synergys [--address <address>] [--config <pathname>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>]
+Usage: synergy-core --server [--address <address>] [--config <pathname>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>]
 
 Start the synergy mouse/keyboard sharing server.
 
@@ -154,5 +121,3 @@ following to load successfully sets the configuration:
   $HOME/.synergy.conf
   /etc/synergy.conf
 ```
-
-</nowiki>
