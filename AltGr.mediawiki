@@ -39,4 +39,4 @@ for the clients in the Screen section of the Synergy configuration file (same pl
 
 See the GitHub issue here:
 
-https://github.com/symless/synergy/issues/4411
+https://github.com/symless/synergy-core/issues/4411
