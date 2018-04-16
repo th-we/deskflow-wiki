@@ -20,8 +20,8 @@ Something like:
 
 |         |                                               |
 | ------- | --------------------------------------------- |
-| Windows | `cd "c:\program files\synergy"`               |
-| macOS   | `cd /Applications/Synergy.app/Contents/MacOS` |
+| Windows | `cd "C:\Program Files\Synergy"`               |
+| macOS   | `cd /Applications/Synergy.app/Contents/Resources/` |
 | Linux   | `cd /usr/bin`                                 |
 
 Run the Synergy client binary, pointing it at the Synergy Server.
