@@ -32,18 +32,18 @@ Note: You may need to set your <code>QMAKESPEC</code> environmental variable. th
 
 ===macOS 10.13===
 
-1. Install [Homebrew](http://brew.sh/)
-1. Install [XCode](https://developer.apple.com/xcode/download/) (also available via the Mac App Store)
-    1. Update the command line tools setting - Preferences -> Locations
-    1. In the Command Line Tools drop down, select "Xcode 9.4"
-1. Install the latest version of Qt 5.9 [Qt](https://www1.qt.io/download-open-source/) (5.9.6 as of Jun 11/18)
-    1. Choose open source option
-    1. Run package manager
-    1. Select Qt 5.9.x and unselect everything other than macOS
-    1. At bottom of list ensure Qt Creator is selected under "Tools"
-    1. Select Continue and agree to terms
-1. Install cmake, openssl, libsodium using Homebrew:
-    1. `brew install cmake openssl libsodium`
+# Install [http://brew.sh/ Homebrew]
+# Install [https://developer.apple.com/xcode/download/ XCode] (also available via the Mac App Store)
+## Update the command line tools setting - Preferences -&gt; Locations
+## In the Command Line Tools drop down, select “Xcode 9.4”
+# Install the latest version of Qt 5.9 [https://www1.qt.io/download-open-source/ Qt] (5.9.6 as of Jun 11/18)
+## Choose open source option
+## Run package manager
+## Select Qt 5.9.x and unselect everything other than macOS
+## At bottom of list ensure Qt Creator is selected under “Tools”
+## Select Continue and agree to terms
+# Install cmake, openssl, libsodium using Homebrew:
+## <code>brew install cmake openssl libsodium</code>
 
 ===Ubuntu 10.04 to 15.10===
  sudo apt-get install git cmake make g++ xorg-dev libqt4-dev libcurl4-openssl-dev libavahi-compat-libdnssd-dev libssl-dev libx11-dev
