@@ -30,64 +30,22 @@ Note: You may need to set your <code>QMAKESPEC</code> environmental variable. th
 
 * All dependencies required for [[Compiling#Windows_x86|Windows x86]]
 
-===Mac OS X===
+==macOS==
 
-====Mac OS X 10.10 and above====
-* Install [http://brew.sh/ Homebrew]
-* Install [https://developer.apple.com/xcode/download/ XCode] (also available via the Mac App Store)
-** You may need to open XCode, go to Preferences, select Locations, and then make sure an option is selected for Command Line Tools.
-* Install cmake, Qt, openssh, and openssl using Homebrew
-```
-brew install cmake
-brew install qt
-brew install openssh
-brew install openssl
-```
-* Find the path for Qt installation - this should be something like "usr/local/Cellar/qt/4.8.7_2/Frameworks"
-```
-brew info qt
-```
-* Add the qt installation path from the previous step to the CMAKE_PREFIX_PATH (replace "usr/local/Cellar/qt/4.8.7_2/Frameworks" with the path found in the previous step)
-```
-export CMAKE_PREFIX_PATH="usr/local/Cellar/qt/4.8.7_2/Frameworks"
-```
-* Add the openssl library to path to allow proper linking
-```
-export LD_LIBRARY_PATH=$(brew --prefix openssl)/lib
-export CPATH=$(brew --prefix openssl)/include
-export PKG_CONFIG_PATH=$(brew --prefix openssl)/lib/pkgconfig
-```
+===macOS 10.13 High Sierra===
 
-* Continue to the [[Compiling#Compile|compile instructions]] below
-
-====Mac OS X 10.9 Mavericks====
-
-[http://www.computersnyou.com/2025/2013/06/install-command-line-tools-in-osx-10-9-mavericks-how-to/ Install Command Line Tools In OSX 10.9 Mavericks]
-
-====Mac OS X 10.4 through 10.8.x====
-* [https://developer.apple.com/xcode/download/ XCode] (with command line tools. Make sure to download the Xcode version for your OS X version, e.g Xcode 3.1.4 for 10.5)
-* [http://download.qt.io/archive/qt/4.6/qt-mac-opensource-4.6.3.dmg.mirrorlist Qt SDK 2010.03] (provides qmake)
-
-To install the command line tools: <pre> Xcode --> Preferences --> Downloads and install ''Command Line Tools''.</pre>
-
-If you are missing the ''/Developer'' directory, you may need to run (assuming the path is correct):
- mkdir /Developer
- cd /Developer
- ln -s /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Library
- ln -s /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/SDKs
-
-'''Note:''' For Mac OS X 10.5 and above, Python should already be installed. Otherwise, visit the [http://www.cmake.org/cmake/resources/software.html CMake] and [http://www.python.org/download/ Python] download pages.
-
-'''Note:''' Upgrading Mac OS X may cause the command line tools and Qt libraries to be removed (even on minor upgrades), so you may have to reinstall both each time after doing this.
-
-====Using “brew” method====
-
-[http://mxcl.github.com/homebrew/ Brew] for Mac OS X is an alternative to MacPorts and Fink.
- brew install cmake
-
-====Using “macports” method====
-If you already have [MacPorts], run:
- sudo port install cmake
+1. Install [Homebrew](http://brew.sh/)
+1. Install [XCode](https://developer.apple.com/xcode/download/) (also available via the Mac App Store)
+    1. Update the command line tools setting - Preferences -> Locations
+    1. In the Command Line Tools drop down, select "Xcode 9.4"
+1. Install the latest version of Qt 5.9 [Qt](https://www1.qt.io/download-open-source/) (5.9.6 as of Jun 11/18)
+    1. Choose open source option
+    1. Run package manager
+    1. Select Qt 5.9.x and unselect everything other than macOS
+    1. At bottom of list ensure Qt Creator is selected under "Tools"
+    1. Select Continue and agree to terms
+1. Install cmake, openssl, libsodium using Homebrew:
+    1. `brew install cmake openssl libsodium`
 
 ===Ubuntu 10.04 to 15.10===
  sudo apt-get install git cmake make g++ xorg-dev libqt4-dev libcurl4-openssl-dev libavahi-compat-libdnssd-dev libssl-dev libx11-dev
