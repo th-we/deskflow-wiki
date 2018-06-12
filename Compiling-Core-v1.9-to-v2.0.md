@@ -4,14 +4,15 @@ If using v1.3.5 to v1.8, follow the [[Compiling Legacy|Compiling-Legacy-v1.3.5-t
 
 ## Windows
 
-1. Install [Visual Studio Professional 2015 with Updates](https://my.visualstudio.com/Downloads?q=Visual%20Studio%202015%20Update%203)
+1. Install [Visual Studio Professional 2015 with Updates](https://go.microsoft.com/fwlink/?LinkId=532606&clcid=0x409)
    1. Select Custom
    1. Deselect all
    1. Within `Programming Languages`, select `Visual C++`
-   1. Within `Windows and Web Development > Universal... >`, select `Windows 10 SDK (...86)`
-1. Install [Windows 10 SDK](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk)
+   1. Do *not* install Git for Windows
+1. Download the [Windows 10 SDK Web Installer](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk)
+   1. Use the installer to install only the Windows Debugging Tools
 1. Install [Qt](https://www1.qt.io/download-open-source/)
-1. Install [CMake](https://cmake.org/files/v3.9/cmake-3.9.2-win64-x64.msi)
+1. Install [CMake](https://cmake.org/)
 1. If using command line, set `CMAKE_PREFIX_PATH` environment variable to `\path\to\qt\qt_version\msvc2015_64`
 
 
