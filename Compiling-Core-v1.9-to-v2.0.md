@@ -37,11 +37,13 @@ sudo yum groupinstall "Development Tools"
 sudo yum -y install epel-release cmake3 git libXtst-devel qt5-qtbase-devel qt5-qtdeclarative-devel libcurl-devel openssl-devel
 ```
 
-# IDE Compile
+# Compile Steps
+
+## IDE Compile
 
 Compiling from the IDE (e.g. Qt Creator).
 
-## All OSes
+### All OSes
 
 1. Open Qt Creator
 2. Open Project
@@ -51,16 +53,15 @@ Compiling from the IDE (e.g. Qt Creator).
 6. Untick all except Debug and Release
 7. If macOS, follow *macOS Only* steps
 
-
-## macOS Only
+### macOS Only
 
 TODO
 
-# CLI Compile
+## CLI Compile
 
 Compiling from the command line.
 
-## Windows
+### Windows
 ```
 cd Projects\synergy
 mkdir build
@@ -70,7 +71,7 @@ cmake -G "Visual Studio 14 2015 Win64" -DCMAKE_BUILD_TYPE=%CMAKE_BUILD_TYPE% ..
 msbuild synergy.sln /p:Platform="x64" /p:Configuration=%CMAKE_BUILD_TYPE% /m
 ```
 
-## macOS
+### macOS
 ```
 cd Projects/synergy
 mkdir build
@@ -82,7 +83,7 @@ cmake  -DCMAKE_OSX_DEPLOYMENT_TARGET=10.10 -DCMAKE_OSX_ARCHITECTURES=x86_64 -DCM
 make
 ```
 
-## Linux
+### Linux
 ```
 cd Projects/synergy
 mkdir build
