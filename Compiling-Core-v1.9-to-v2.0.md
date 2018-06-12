@@ -37,7 +37,28 @@ sudo yum groupinstall "Development Tools"
 sudo yum -y install epel-release cmake3 git libXtst-devel qt5-qtbase-devel qt5-qtdeclarative-devel libcurl-devel openssl-devel
 ```
 
-# Compile
+# IDE Compile
+
+Compiling from the IDE (e.g. Qt Creator).
+
+## All OSes
+
+1. Open Qt Creator
+2. Open Project
+3. Open CMakeLists.txt
+4. Untick "Imported Kit"
+5. Expand "Desktop Qt..."
+6. Untick all except Debug and Release
+7. If macOS, follow *macOS Only* steps
+
+
+## macOS Only
+
+TODO
+
+# CLI Compile
+
+Compiling from the command line.
 
 ## Windows
 ```
