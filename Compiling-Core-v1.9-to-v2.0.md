@@ -61,12 +61,15 @@ Do this first on macOS.
 ### All OSes
 
 1. Open Qt Creator
-7. If macOS, follow *macOS Only* steps
-2. Open Project
-3. Open CMakeLists.txt
-4. Untick "Imported Kit"
-5. Expand "Desktop Qt..."
-6. Untick all except Debug and Release
+1. If macOS, follow *macOS Only* steps
+1. Open Project
+1. Navigate to project dir
+1. Open CMakeLists.txt
+1. Untick "Imported Kit"
+1. Expand "Desktop Qt..."
+1. Untick all except Debug and Release
+1. Right-click project and select Run CMake
+1. Right-click project and select Build
 
 ## CLI Compile
 
