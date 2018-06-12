@@ -69,7 +69,17 @@ Do this first on macOS.
 1. Expand "Desktop Qt..."
 1. Untick all except Debug and Release
 1. Right-click project and select Run CMake
+1. If macOS, follow *macOS Post-CMake* steps
 1. Right-click project and select Build
+
+### macOS Post-CMake
+
+1. Open Projects
+1. Select Build
+1. Find `CMAKE_OSX_SYSROOT`
+1. Set value to `/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/`
+1. Click *Apply Configuration Changes*
+1. Go back to the *All OSes* steps (above)
 
 ## CLI Compile
 
