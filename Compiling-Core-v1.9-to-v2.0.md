@@ -39,6 +39,8 @@ sudo yum -y install epel-release cmake3 git libXtst-devel qt5-qtbase-devel qt5-q
 
 # Compile Steps
 
+First, follow the [[Checkout Code]] guide.
+
 ## IDE Compile
 
 Compiling from the IDE (e.g. Qt Creator).
