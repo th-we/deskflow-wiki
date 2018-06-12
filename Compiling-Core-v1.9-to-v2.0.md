@@ -1,5 +1,7 @@
 # Dependencies
 
+If using v1.3.5 to v1.8, follow the [[Compiling Legacy|Compiling-Legacy-v1.3.5-to-v1.8]] guide.
+
 ## Windows
 
 1. Install [Visual Studio Professional 2015 with Updates](https://my.visualstudio.com/Downloads?q=Visual%20Studio%202015%20Update%203)
