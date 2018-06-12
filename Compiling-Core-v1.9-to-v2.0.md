@@ -4,6 +4,7 @@ If using v1.3.5 to v1.8, follow the [[Compiling Legacy|Compiling-Legacy-v1.3.5-t
 
 ## Windows
 
+1. Install [Git for Windows](https://gitforwindows.org/)
 1. Install [Visual Studio Professional 2015 with Updates](https://go.microsoft.com/fwlink/?LinkId=532606&clcid=0x409)
    1. Select Custom
    1. Deselect all
