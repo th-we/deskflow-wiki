@@ -48,19 +48,25 @@ First, follow the [[Checkout Code]] guide.
 
 Compiling from the IDE (e.g. Qt Creator).
 
+### macOS Only
+
+Do this first on macOS.
+
+1. Qt Creator > Preferences > Build & Run > CMake
+1. Click Add, set Path to: `/usr/local/bin/cmake`
+1. Go to the Kits tab
+1. Set the C compiler to Clang 64-bit
+1. Restart Qt Creator
+
 ### All OSes
 
 1. Open Qt Creator
+7. If macOS, follow *macOS Only* steps
 2. Open Project
 3. Open CMakeLists.txt
 4. Untick "Imported Kit"
 5. Expand "Desktop Qt..."
 6. Untick all except Debug and Release
-7. If macOS, follow *macOS Only* steps
-
-### macOS Only
-
-TODO
 
 ## CLI Compile
 
