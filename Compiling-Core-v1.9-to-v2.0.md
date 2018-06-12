@@ -9,7 +9,7 @@ If using v1.3.5 to v1.8, follow the [[Compiling Legacy|Compiling-Legacy-v1.3.5-t
    1. Select Custom
    1. Deselect all
    1. Within `Programming Languages`, select `Visual C++`
-   1. Do *not* install Git for Windows
+   1. Git for Windows should already be installed
 1. Download the [Windows 10 SDK Web Installer](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk)
    1. Use the installer to install only the Windows Debugging Tools
 1. Install [Qt](https://www1.qt.io/download-open-source/)
