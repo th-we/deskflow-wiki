@@ -7,4 +7,4 @@ First, you'll need to get the code via git.
     1. Beta v2.x: `git checkout master`
     1. Stable v1.x: `git checkout v1.x` (replace x with the version you need)
 
-Next step, [Compiling].
+Next step, [[Compiling]].
