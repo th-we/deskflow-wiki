@@ -1,4 +1,4 @@
-# Process for Beta & RC
+## Beta & RC Release Process
 
 1. Ensure version number in `Version.cmake` and `Build.properties` is correct
 2. Ensure stage name in `Version.cmake` and `Build.properties` is correct
