@@ -1,16 +1,14 @@
-== Process for Synergy 1 Public Release ==
-
 === During Development ===
 
 # Create release branch (e.g. v1.2)
 # Make code changes (do not commit to master)
 # Follow [[Testing Release]] when ready to test
 
-=== Public Release Process ===
+=== GA Release Process ===
 
 # Ensure that ChangeLog file is up to date
-# Ensure version number in CMakeLists.txt is correct
-# Ensure stage name in CMakeLists.txt is correct (stable, beta, etc)
+# Ensure version number in `Version.cmake` and `Build.properties` is correct
+# Ensure stage name in `Version.cmake` and `Build.properties` is correct
 # Test snapshot on all operating systems
 # Close the release milestone
 # Tag the release branch
