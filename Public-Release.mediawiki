@@ -4,7 +4,7 @@
 
 # Create release branch (e.g. v1.2)
 # Make code changes (do not commit to master)
-# Follow [[Release Candidate]] when ready to test
+# Follow [[Testing Release]] when ready to test
 
 === Public Release Process ===
 
