@@ -1,6 +1,6 @@
 ## GA Release Process
 
-1. First, follow [[Testing Release]].
+1. First, follow [[Testing Release]]
 1. Ensure that `ChangeLog` file is up to date
 1. Ensure version number in `Version.cmake` and `Build.properties` is correct
 1. Ensure stage name in `Version.cmake` and `Build.properties` is correct
