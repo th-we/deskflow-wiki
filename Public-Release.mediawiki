@@ -1,21 +1,16 @@
-=== During Development ===
+## GA Release Process
 
-# Create release branch (e.g. v1.2)
-# Make code changes (do not commit to master)
-# Follow [[Testing Release]] when ready to test
-
-=== GA Release Process ===
-
-# Ensure that ChangeLog file is up to date
-# Ensure version number in `Version.cmake` and `Build.properties` is correct
-# Ensure stage name in `Version.cmake` and `Build.properties` is correct
-# Test snapshot on all operating systems
-# Close the release milestone
-# Tag the release branch
-# Merge release branch into master
-# Delete the release branch
-# Upload to public website and test links
-# Set current version in website settings
-# Test all download links
-# Install previous version and test update check feature
-# Set next version in <code>CMakeLists.txt</code> (master branch)
+1. First, follow [[Testing Release]].
+1. Ensure that `ChangeLog` file is up to date
+1. Ensure version number in `Version.cmake` and `Build.properties` is correct
+1. Ensure stage name in `Version.cmake` and `Build.properties` is correct
+1. Test snapshot on all operating systems
+1. Close the release milestone
+1. Tag the release branch
+1. Merge release branch into master
+1. Delete the release branch
+1. Upload to the public website and test links
+1. Set current version in website settings
+1. Test all download links
+1. Install the previous version and test update check feature
+1. Set next version in <code>CMakeLists.txt</code> (master branch)
