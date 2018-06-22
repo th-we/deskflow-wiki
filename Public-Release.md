@@ -6,9 +6,8 @@
 1. Ensure stage name in `Version.cmake` and `Build.properties` is correct
 1. Test snapshot on all operating systems
 1. Close the release milestone
-1. Tag the release branch
-1. Merge release branch into master
-1. Delete the release branch
+1. Tag the version branch
+1. Merge version branch into master
 1. Upload to the public website and test links
 1. Set current version in website settings
 1. Test all download links
