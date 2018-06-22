@@ -8,4 +8,4 @@
 7. Share snapshot links on Slack
 8. Test internally for 1 week
 9. Fix urgent issues and repeat from step 1
-10. Go to [Public Release]
+10. Go to [[Public Release]]
