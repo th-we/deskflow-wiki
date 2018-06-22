@@ -1,4 +1,4 @@
-# Process
+# Process for S1 & Core
 
 1. Ensure version number in CMakeLists.txt is correct
 2. Ensure stage name in CMakeLists.txt is correct (beta or rc)
