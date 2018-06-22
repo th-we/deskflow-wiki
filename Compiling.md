@@ -1,5 +1,7 @@
 # Dependencies
 
+This guide is for Core v1.9 and up (including v2.0).
+
 If using v1.3.5 to v1.8, follow the [[Compiling Legacy|Compiling-Legacy-v1.3.5-to-v1.8]] guide.
 
 ## Windows
