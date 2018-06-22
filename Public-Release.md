@@ -13,4 +13,4 @@
 1. Set current version in website settings
 1. Test all download links
 1. Install the previous version and test update check feature
-1. Set next version in <code>CMakeLists.txt</code> (master branch)
+1. Set next version in `Version.cmake` and `Build.properties` (master branch)
