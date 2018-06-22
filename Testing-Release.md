@@ -1,7 +1,7 @@
-# Process for Synergy 1 Beta & RC
+# Process for Beta & RC
 
-1. Ensure version number in Version.cmake and Build.properties is correct
-2. Ensure stage name in Version.cmake and Build.properties is correct
+1. Ensure version number in `Version.cmake` and `Build.properties` is correct
+2. Ensure stage name in `Version.cmake` and `Build.properties` is correct
 3. Tidy up issue titles (these will be shared publicly with users)
 4. Update ChangeLog file (use [github-query](https://github.com/symless/github-query))
 6. Test new bug fixes and features
