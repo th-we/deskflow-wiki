@@ -1,4 +1,4 @@
-# Checkout Code
+# Get the Code
 
 First, you'll need to get the code via git.
 
