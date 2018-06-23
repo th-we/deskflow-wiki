@@ -1,4 +1,6 @@
-This guide is for compiling Synergy Core v1.9 and up (including v2.0). If using v1.3.5 to v1.8, follow the [[Compiling Legacy|Compiling-Legacy-v1.3.5-to-v1.8]] guide.
+Before you can compile, you'll need the source code. Follow the [[Getting Started]] guide for help with this. 
+
+Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If using v1.3.5 to v1.8, follow the [[Compiling Legacy|Compiling-Legacy-v1.3.5-to-v1.8]] guide.
 
 # Dependencies
 
@@ -42,8 +44,6 @@ sudo yum -y install epel-release cmake3 git libXtst-devel qt5-qtbase-devel qt5-q
 ```
 
 # Compile Steps
-
-First, follow the [[Checkout Code]] guide.
 
 ## IDE Compile
 
