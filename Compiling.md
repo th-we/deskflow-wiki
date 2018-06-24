@@ -4,6 +4,8 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 
 # Dependencies
 
+**Important:** Please also reflect changes in the [Core Compiling](https://github.com/symless/synergy-core/wiki/Compiling-Core-v1.9-to-v2.0) guide.
+
 ## Windows
 
 1. Install [Git for Windows](https://gitforwindows.org/)
@@ -13,11 +15,22 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
    1. Within `Programming Languages`, select `Visual C++`
    1. Git for Windows should already be installed
 1. Download the [Windows 10 SDK Web Installer](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk)
-   1. Use the installer to install only the Windows Debugging Tools
+   1. Click **Download the installer** (not the iso)
+   1. Use default options for first 2 screens 
+   1. On the feature screen, untick everything except **Debugging Tools for Windows**
+1. Install Bonjour
+   1. Download: [bonjoursdksetup.exe](https://download.developer.apple.com/Developer_Tools/bonjour_sdk_for_windows_v3.0/bonjoursdksetup.exe) (may require sign in with Apple ID)
 1. Install [Qt](https://www1.qt.io/download-open-source/)
+   1. Install to C:\Qt
+   1. Select latest Qt 5.9.x
+1. Add 'C:\Qt\Tools\QtCreator\bin' to the system PATH 
 1. Install [CMake](https://cmake.org/)
-1. If using command line, set `CMAKE_PREFIX_PATH` environment variable to `\path\to\qt\qt_version\msvc2015_64`
-
+   1. Add CMake to PATH for all users
+1. Install [Boost 1.65.1](https://sourceforge.net/projects/boost/files/boost-binaries/1.65.1/boost_1_65_1-msvc-14.0-64.exe/download) (from boost-binaries)
+1. Install [Git for Windows](https://git-scm.com/download/win)
+1. Restart Qt
+1. Set `CMAKE_PREFIX_PATH` environment variable to `\path\to\qt\qt_version\msvc2015_64`
+1. Now follow the compile steps below
 
 ## macOS
 1. Install [Homebrew](http://brew.sh/)
@@ -30,20 +43,22 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
     1. Select Qt 5.9.x and unselect everything other than macOS
     1. At bottom of list ensure Qt Creator is selected under "Tools"
     1. Select Continue and agree to terms
-1. Install cmake, openssl using Homebrew:
-    1. `$ brew install cmake openssl`
+1. Install cmake, openssl, libsodium using Homebrew: `brew install cmake openssl libsodium`
+1. Now follow the compile steps below
 
 ## Ubuntu 16.04 and up
-1. Install packages: `sudo apt-get install cmake make g++ xorg-dev libssl-dev libx11-dev libsodium-dev libgl1-mesa-glx libegl1-mesa libcurl3-dev`
-1. Install [Qt](https://www1.qt.io/download-open-source/)
+1. $ `sudo apt install qtcreator qtbase5-dev cmake make g++ xorg-dev libssl-dev libx11-dev libsodium-dev libgl1-mesa-glx libegl1-mesa libcurl4-openssl-dev libavahi-compat-libdnssd-dev qtdeclarative5-dev libqt5svg5-dev libsystemd-dev`
+1. Edit the Qt kit environment field (*Manage Kits* in *Projects*) and add `BOOST_ROOT=/home/<user>/boost`
 
 ## CentOS 7
 ```
 sudo yum groupinstall "Development Tools"
-sudo yum -y install epel-release cmake3 git libXtst-devel qt5-qtbase-devel qt5-qtdeclarative-devel libcurl-devel openssl-devel
+sudo yum -y install epel-release cmake3 boost-static git libXtst-devel qt5-qtbase-devel qt5-qtdeclarative-devel libcurl-devel openssl-devel
 ```
 
 # Compile Steps
+
+First, follow the [[Checkout Code]] guide.
 
 ## IDE Compile
 
@@ -86,7 +101,7 @@ Do this first on macOS.
 
 Compiling from the command line.
 
-### Windows
+## Windows
 ```
 cd Projects\synergy
 mkdir build
@@ -96,7 +111,7 @@ cmake -G "Visual Studio 14 2015 Win64" -DCMAKE_BUILD_TYPE=%CMAKE_BUILD_TYPE% ..
 msbuild synergy.sln /p:Platform="x64" /p:Configuration=%CMAKE_BUILD_TYPE% /m
 ```
 
-### macOS
+## macOS
 ```
 cd Projects/synergy
 mkdir build
@@ -108,7 +123,7 @@ cmake  -DCMAKE_OSX_DEPLOYMENT_TARGET=10.10 -DCMAKE_OSX_ARCHITECTURES=x86_64 -DCM
 make
 ```
 
-### Linux
+## Linux
 ```
 cd Projects/synergy
 mkdir build
