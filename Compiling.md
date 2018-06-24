@@ -92,6 +92,8 @@ Do this first on macOS.
 
 1. Open Projects
 1. Select Build
+1. Find `CMAKE_OSX_DEPLOYMENT_TARGET`
+1. Set value to `10.10`
 1. Find `CMAKE_OSX_SYSROOT`
 1. Set value to `/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/`
 1. Click *Apply Configuration Changes*
