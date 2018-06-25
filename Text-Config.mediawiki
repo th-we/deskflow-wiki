@@ -5,10 +5,10 @@ Needing to deal with text-based configuration files directly can be avoided by u
 When a text-based configuration file is needed you can specify it on the command-line using the <code>--config</code> option. Example:
 
 <pre>
- synergys --config /path/to/synergy.conf
+ synergy-core --config /path/to/synergy.conf
 </pre>
 
-Synergy also checks certain pathnames to load the configuration file if you don't specify a path using the <code>--config</code>. Running <code>synergys --help</code> reports those pathnames.
+Synergy also checks certain pathnames to load the configuration file if you don't specify a path using the <code>--config</code>. Running <code>synergy-core --help</code> reports those pathnames.
 
 If you need to access a feature that is not available in the GUI, but otherwise have it working, you can get a good starting point by exporting your config from the GUI by using the ''File'' --> ''Save Configuration As...'' option.
 
@@ -505,7 +505,7 @@ The following screen config allows the mapping for ''Alt'' to ''AltGr''. Althoug
  end
 </pre>
 
-See also: the man page for ''synergys''.
+See also: the man page for ''synergy-core''.
 
 <span id="1">[1]</span> [https://github.com/synergy/synergy/issues/4411 Synergy Issue Tracker Bug #4411 - AltGr not sent to client from server]
 
