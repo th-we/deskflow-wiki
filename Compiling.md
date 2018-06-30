@@ -58,7 +58,7 @@ sudo yum -y install epel-release cmake3 boost-static git libXtst-devel qt5-qtbas
 
 # Compile Steps
 
-First, follow the [[Checkout Code]] guide.
+Make sure you have completed the steps at [[Getting Started]].
 
 ## IDE Compile
 
