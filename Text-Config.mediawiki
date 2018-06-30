@@ -496,7 +496,7 @@ The text config allows screens to be wrapped around. For example, with two machi
 
 ===AltGr key===
 
-The following screen config allows the mapping for ''Alt'' to ''AltGr''. Although this may not work, see [https://github.com/synergy/synergy/issues/4411 bug #4411].
+The following screen config allows the mapping for ''Alt'' to ''AltGr''. Although this may not work, see [https://github.com/symless/synergy-core/issues/4411 bug #4411].
 <pre>
  section: screens
  	  client1:
@@ -507,7 +507,7 @@ The following screen config allows the mapping for ''Alt'' to ''AltGr''. Althoug
 
 See also: the man page for ''synergy-core''.
 
-<span id="1">[1]</span> [https://github.com/synergy/synergy/issues/4411 Synergy Issue Tracker Bug #4411 - AltGr not sent to client from server]
+<span id="1">[1]</span> [https://github.com/symless/synergy-core/issues/4411 Synergy Issue Tracker Bug #4411 - AltGr not sent to client from server]
 
 ==Tips/Notes==
 
