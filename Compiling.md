@@ -79,7 +79,7 @@ Do this first on macOS.
 1. Open Qt Creator
 1. If macOS, follow *macOS Only* steps
 1. Open Project
-1. Navigate to project dir
+1. Navigate to the project directory (from git clone)
 1. Open CMakeLists.txt
 1. Untick "Imported Kit"
 1. Expand "Desktop Qt..."
