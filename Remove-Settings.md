@@ -37,5 +37,6 @@ First, ensure that Synergy is uninstalled.
 
 Run these commands to delete these files and folders (if they exist):
 
+* `$ rm -rf ~/.config/Synergy/`
 * `$ rm -rf ~/.config/Symless/`
 * `$ rm -rf ~/.synergy/`
