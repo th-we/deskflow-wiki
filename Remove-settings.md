@@ -6,16 +6,16 @@ First, ensure that Synergy is uninstalled.
 
 Run `regedit` and delete these registry keys (if they exist):
 
-* HKEY_CURRENT_USER\Software\Symless
-* HKEY_CURRENT_USER\Software\Synergy
+* `HKEY_CURRENT_USER\Software\Symless`
+* `HKEY_CURRENT_USER\Software\Synergy`
 
 Now, delete these directories (if they exist):
 
-* %ProgramData%\Symless
-* %ProgramData%\Synergy
-* %ProgramData%\Synergy v2
-* %USERPROFILE%\AppData\Local\Synergy
-* %USERPROFILE%\AppData\Local\Symless
+* `%ProgramData%\Symless`
+* `%ProgramData%\Synergy`
+* `%ProgramData%\Synergy v2`
+* `%USERPROFILE%\AppData\Local\Synergy`
+* `%USERPROFILE%\AppData\Local\Symless`
 
 # macOS
 
