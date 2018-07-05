@@ -23,13 +23,13 @@ First, ensure that Synergy is uninstalled.
 
 Run these commands to delete these files and folders (if they exist):
  
-`$ rm -rf ~/Library/Preferences/Symless`
-`$ rm -rf ~/Library/Synergy`
-`$ rm ~/Library/Preferences/com.https-symless-com.Synergy.plist`
+* `$ rm -rf ~/Library/Preferences/Symless`
+* `$ rm -rf ~/Library/Synergy`
+* `$ rm ~/Library/Preferences/com.https-symless-com.Synergy.plist`
 
 Then run this command to clear the cached preferences stored in memory:
 
-`$ killall -u $USER cfprefsd`
+* `$ killall -u $USER cfprefsd`
 
 # Linux
 
@@ -37,5 +37,5 @@ First, ensure that Synergy is uninstalled.
 
 Run these commands to delete these files and folders (if they exist):
 
-`$ rm -rf ~/.config/Symless/`
-`$ rm -rf ~/.synergy/`
+* `$ rm -rf ~/.config/Symless/`
+* `$ rm -rf ~/.synergy/`
