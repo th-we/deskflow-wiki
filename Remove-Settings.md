@@ -26,6 +26,7 @@ Run these commands to delete these files and folders (if they exist):
 * `$ rm -rf ~/Library/Preferences/Symless`
 * `$ rm -rf ~/Library/Synergy`
 * `$ rm ~/Library/Preferences/com.https-symless-com.Synergy.plist`
+* `$ rm ~/Library/Preferences/com.http-symless-com.Synergy.plist`
 
 Then run this command to clear the cached preferences stored in memory:
 
