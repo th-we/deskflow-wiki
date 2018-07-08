@@ -19,7 +19,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
    1. Use default options for first 2 screens 
    1. On the feature screen, untick everything except **Debugging Tools for Windows**
 1. Install Bonjour
-   1. Download: [bonjoursdksetup.exe](https://download.developer.apple.com/Developer_Tools/bonjour_sdk_for_windows_v3.0/bonjoursdksetup.exe) (may require sign in with Apple ID)
+   1. Download: [Bonjour SDK for Windows v3.0](https://binaries.symless.com/bonjour/bonjoursdksetup.exe)
 1. Install [Qt](https://www1.qt.io/download-open-source/)
    1. Install to C:\Qt
    1. Select latest Qt 5.9.x
