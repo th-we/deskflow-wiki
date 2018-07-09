@@ -27,7 +27,6 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 1. Install [CMake](https://cmake.org/)
    1. Add CMake to PATH for all users
 1. Install [Boost 1.65.1](https://sourceforge.net/projects/boost/files/boost-binaries/1.65.1/boost_1_65_1-msvc-14.0-64.exe/download) (from boost-binaries)
-1. Install [Git for Windows](https://git-scm.com/download/win)
 1. Restart Qt
 1. Set `CMAKE_PREFIX_PATH` environment variable to `\path\to\qt\qt_version\msvc2015_64`
 1. Now follow the compile steps below
