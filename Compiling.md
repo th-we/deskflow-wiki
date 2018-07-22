@@ -54,7 +54,11 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 sudo yum groupinstall "Development Tools"
 sudo yum -y install epel-release cmake3 boost-static git libXtst-devel qt5-qtbase-devel qt5-qtdeclarative-devel libcurl-devel openssl-devel
 ```
-
+## Fedora 28 (may work for earlier releases)
+```
+sudo yum groupinstall "Development Tools"
+sudo yum -y install libavahi-compat-libdnssd-devel avahi-compat-libdns_sd cmake3 boost-static git libXtst-devel qt5-qtbase-devel qt5-qtdeclarative-devel libcurl-devel openssl-devel
+```
 # Compile Steps
 
 Make sure you have completed the steps at [[Getting Started]].
