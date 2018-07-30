@@ -22,7 +22,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
    1. Download: [Bonjour SDK for Windows v3.0](https://binaries.symless.com/bonjour/bonjoursdksetup.exe)
 1. Install [Qt](https://www1.qt.io/download-open-source/)
    1. Install to C:\Qt
-   1. Select latest Qt 5.9.x
+   1. Select Qt 5.9.5
 1. Add 'C:\Qt\Tools\QtCreator\bin' to the system PATH 
 1. Install [CMake](https://cmake.org/)
    1. Add CMake to PATH for all users
