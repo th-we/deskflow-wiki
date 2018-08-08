@@ -8,7 +8,7 @@
 1. Close the release milestone
 1. Tag the version branch
 1. Wait for Jenkins to finish building, then delete release branch
-1. Merge version branch into master (if required)
+1. Merge development branch into `master` and/or `v1.x`
 1. Upload to the public website and test links
 1. Set current version in website settings
 1. Test all download links
