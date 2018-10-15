@@ -56,7 +56,7 @@ sudo yum -y install epel-release cmake3 boost-static git libXtst-devel qt5-qtbas
 ## Fedora 28 (may work for earlier releases)
 ```
 sudo yum groupinstall "Development Tools"
-sudo yum -y install libavahi-compat-libdnssd-devel avahi-compat-libdns_sd cmake3 boost-static git libXtst-devel qt5-qtbase-devel qt5-qtdeclarative-devel libcurl-devel openssl-devel
+sudo yum -y install avahi-compat-libdns_sd-devel avahi-compat-libdns_sd cmake3 boost-static git libXtst-devel qt5-qtbase-devel qt5-qtdeclarative-devel libcurl-devel openssl-devel
 ```
 # Compile Steps
 
