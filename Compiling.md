@@ -58,6 +58,10 @@ sudo yum -y install epel-release cmake3 boost-static git libXtst-devel qt5-qtbas
 sudo yum groupinstall "Development Tools"
 sudo yum -y install avahi-compat-libdns_sd-devel avahi-compat-libdns_sd cmake3 boost-static git libXtst-devel qt5-qtbase-devel qt5-qtdeclarative-devel libcurl-devel openssl-devel
 ```
+## SUSE Linux 12 SP3 
+```
+sudo zypper install avahi-compat-mDNSResponder-devel libavahi-devel libqt5-qtbase-devel cmake libopenssl-devel libcurl-devel libXtst-devel
+```
 # Compile Steps
 
 Make sure you have completed the steps at [[Getting Started]].
