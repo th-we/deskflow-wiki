@@ -14,7 +14,7 @@ There is not currently a known way to do this in OSX 10.9 or newer. In all versi
 
 Originates from Bug #1755
 
-Howto start synergy client (synergyc) at boot on FC11 (Fedora Core 11)
+How to start synergy client (synergyc) at boot on FC11 (Fedora Core 11)
 
 This is not really a bug report - but just some hints how to successfuly install synergyc so that it start at boot in Fedora Core 11. 
 Please integrate this in the main help.
