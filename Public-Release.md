@@ -3,7 +3,7 @@
 1. First, follow [[Testing Release]]
 1. Ensure that `ChangeLog` file is up to date
 1. Ensure version number in `Version.cmake` is correct
-1. Ensure stage name in `Version.cmake` is `stable`
+1. Change stage name in `Version.cmake` to `stable`
 1. Merge release branch (e.g. `1.2.3`) into `master`
 1. Manually build from `master`
 1. Test master build on all operating systems
