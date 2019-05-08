@@ -11,7 +11,7 @@
 1. Create a release branch (e.g. `v1.2.3`) based on dev branch (e.g. `v1-dev`)
 1. Update stage name in `Version.cmake` (e.g. `rc1`, `beta1`, etc)
 1. Tag version (e.g. `v1.2.3-rc1`) from release branch (e.g. `v1.2.3`)
-1. Wait for build to complete
+1. Trigger manual build on the release branch (e.g. `v1.2.3`)
     * Do full QA internally
     * If issues** found from QA:
        * Fix in release branch (e.g. `v1.2.3`)
