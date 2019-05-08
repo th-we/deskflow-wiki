@@ -13,5 +13,7 @@
 1. Update stage name in `Version.cmake` (e.g. `rc1`, `beta1`, etc)
 1. Tag version from release branch (e.g. `v1.2.3`)
 1. Wait for build and share RC snapshot links with the testing community
-1. If issues found, fix in release branch (e.g. `v1.2.3`) then repeat from step 1
+1. If issues** found, fix in release branch (e.g. `v1.2.3`) then repeat from step 1
 1. Finally, go to [[Public Release]]
+
+** An issue that is a direct result of fixes in the release candidate.
