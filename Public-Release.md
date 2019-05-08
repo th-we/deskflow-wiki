@@ -10,7 +10,7 @@
 1. Test master build on all operating systems
     * This is a cursory test to ensure build is as expected
     * This not full QA as that was done in [[Testing Release]]
-1. Tag version from `master` branch
+1. Create GitHub release from `master` branch (e.g. `v1.2.3-stable`)
 1. Close the release milestone
 1. Upload installers to the public website:
     * Test all download links on the website
