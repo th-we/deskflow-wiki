@@ -6,6 +6,7 @@
     * Change stage to `stable` in `ChangeLog`
 1. Ensure version number in `Version.cmake` is correct
 1. Change stage name in `Version.cmake` to `stable`
+1. Commit changes to release branch (e.g. `v1.2.3`)
 1. Merge release branch (e.g. `v1.2.3`) into `master`
 1. Manually build from `master`
 1. Test master build on all operating systems
