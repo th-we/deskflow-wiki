@@ -1,6 +1,7 @@
 ## GA Release Process
 
 1. First, follow [[Testing Release]]
+1. Checkout release branch (e.g. `v1.2.3`)
 1. Ensure that `ChangeLog` file is up to date
     * Change stage to `stable` in `ChangeLog`
 1. Ensure version number in `Version.cmake` is correct
