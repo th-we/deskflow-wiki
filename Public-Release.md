@@ -16,7 +16,8 @@
 1. Close the release milestone
 1. Upload installers to the public website:
     * Test all download links on the website
-1. Set current version in website settings
+1. Flush website cache: `php artisan cache:clear`
+    * The website actually queries the GitHub releases (but is cached)
     * Older versions will now show as out of date in the config app
     * This prompts users to download the new update
 1. Test update check feature by installing the previous version
