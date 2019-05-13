@@ -21,3 +21,5 @@
     * Older versions will now show as out of date in the config app
     * This prompts users to download the new update
 1. Test update check feature by installing the previous version
+1. Update Synergy [Wikipedia page](https://en.wikipedia.org/wiki/Synergy_(software))
+1. Announce new version to users
