@@ -106,6 +106,26 @@ Do this first on macOS.
 1. Click *Apply Configuration Changes*
 1. Go back to the *All OSes* steps (above)
 
+### Run `synergy.exe` standalone in Windows
+
+These steps apply to 64-bit compilations.
+
+In release and debug mode:
+1. Copy all contents of `synergy-core/ext/openssl/windows/x64/bin/*` to `{build_folder}/bin/`
+1. Copy the following files from `{QtInstallDir}/{Version}/MSVC2017_64bit/bin/` to `{build_folder}/bin/`:
+    - `Qt5Core.dll`
+    - `Qt5Gui.dll`
+    - `Qt5Network.dll`
+    - `Qt5Widgets.dll`
+
+In debug mode only:
+1. Copy all the files requested in release mode
+1. Also from Qt installation directory, copy the following files (pay attention to the letter `d` in file names):
+    - `Qt5Cored.dll`
+    - `Qt5Guid.dll`
+    - `Qt5Networkd.dll`
+    - `Qt5Widgetsd.dll`
+
 ## CLI Compile
 
 Compiling from the command line.
