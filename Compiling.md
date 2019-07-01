@@ -102,7 +102,7 @@ _Note:_ this may already be pre-configured for you.
 1. Open Projects
 1. Select Build
 1. Find `CMAKE_OSX_DEPLOYMENT_TARGET`
-1. Set value to `10.10`
+1. Set value to your version of OSX, e.g. `10.10`, `10.13`, etc. If you do not match the version of the OS SDK libraries you are linking against, there will be a lot of warnings during the build.
 1. Find `CMAKE_OSX_SYSROOT`
 1. Set value to `/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/`
 1. Click *Apply Configuration Changes*
