@@ -1,4 +1,4 @@
-**Important:** Follow the [[Getting Started]] guide first to get the code. Before you can compile, you'll need the source code.
+**Important:** Follow the [[Getting Started]] guide first to get the code. Before you can compile, you'll need the source code. Ensure you checkout the appropriate branch you wish to compile, e.g. if you wish to compile v2.0, `git checkout v2-dev`.
 
 Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If using v1.3.5 to v1.8, follow the [[Compiling Legacy|Compiling-Legacy-v1.3.5-to-v1.8]] guide.
 
