@@ -81,6 +81,8 @@ Do this first on macOS.
 1. Set the C compiler to Clang 64-bit
 1. Restart Qt Creator
 
+_Note:_ this may already be pre-configured for you.
+
 ### All OSes
 
 1. Open Qt Creator
