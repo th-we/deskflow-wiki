@@ -47,7 +47,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 
 ## Ubuntu 16.04 and up
 1. $ `sudo apt install qtcreator qtbase5-dev cmake make g++ xorg-dev libssl-dev libx11-dev libsodium-dev libgl1-mesa-glx libegl1-mesa libcurl4-openssl-dev libavahi-compat-libdnssd-dev qtdeclarative5-dev libqt5svg5-dev libsystemd-dev`
-1. Edit the Qt kit environment field (*Manage Kits* in *Projects*) and add `BOOST_ROOT=/home/<user>/boost`
+1. Edit the Qt kit "Environment" field under Tools -> Options -> Build & Run -> Kits and add `BOOST_ROOT=/home/<user>/boost`
 
 ## CentOS 7
 ```
