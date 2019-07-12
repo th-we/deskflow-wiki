@@ -145,6 +145,7 @@ copy ext\openssl\windows\x64\bin\* build\
 ```
 
 ### Example
+- QT version is 5.12.3, and is installed at 'C:\Qt\5.12.3'
 - Windows 10 SDK version is 10.0.18362.0
  - Open C:\Program Files (x86)\Windows Kits\10\SDKManifest.xml
  - Find 'PlatformIdentity = "UAP, Version=10.0.18362.0"'
@@ -153,6 +154,7 @@ copy ext\openssl\windows\x64\bin\* build\
 - Your host is x64
 - Will build as x64 binary
 ```
+set CMAKE_PREFIX_PATH=C:\Qt\5.12.3\msvc2017_64
 cd "c:\<path>\synergy-core"
 mkdir build
 cd build
