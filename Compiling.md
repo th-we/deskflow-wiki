@@ -144,6 +144,25 @@ cd ..
 copy ext\openssl\windows\x64\bin\* build\
 ```
 
+### Example
+- Windows 10 SDK version is 10.0.18362.0
+ - Open C:\Program Files (x86)\Windows Kits\10\SDKManifest.xml
+ - Find 'PlatformIdentity = "UAP, Version=10.0.18362.0"'
+- Visual studio 2019 community
+- Your source path is "c:\<path>\synergy-core"
+- Your host is x64
+- Will build as x64 binary
+```
+cd "c:\<path>\synergy-core"
+mkdir build
+cd build
+call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64 10.0.18362.0
+cmake -G "Visual Studio 16 2019"  -DCMAKE_BUILD_TYPE=Debug ..
+msbuild synergy-core.sln /p:Platform="x64" /p:Configuration=Debug /m
+cd ..
+copy ext\openssl\windows\x64\bin\* build\
+```
+
 ## macOS
 ```
 cd Projects/synergy
