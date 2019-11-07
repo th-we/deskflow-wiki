@@ -9,7 +9,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 ## Windows
 
 1. Install [Git for Windows](https://gitforwindows.org/)
-1. Install [Visual Studio Professional 2015 with Updates](https://go.microsoft.com/fwlink/?LinkId=532606&clcid=0x409)
+1. Install [Visual Studio Professional 2019 with Updates](https://go.microsoft.com/fwlink/?LinkId=532606&clcid=0x409)
    1. Select Custom
    1. Deselect all
    1. Within `Programming Languages`, select `Visual C++`
@@ -22,13 +22,13 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
    1. Download: [Bonjour SDK for Windows v3.0](https://binaries.symless.com/bonjour/bonjoursdksetup.exe)
 1. Install [Qt](https://www1.qt.io/download-open-source/)
    1. Install to C:\Qt
-   1. Select Qt 5.9.5
+   1. Select Qt 5.12.5
 1. Add 'C:\Qt\Tools\QtCreator\bin' to the system PATH 
 1. Install [CMake](https://cmake.org/)
    1. Add CMake to PATH for all users
 1. Restart Qt
 1. Set `CMAKE_PREFIX_PATH` environment variable
-   1. `C:\Qt\5.9.5\msvc2017_64`
+   1. `C:\Qt\5.12.5\msvc2017_64`
 1. Now follow the compile steps below
 
 ## macOS
@@ -36,10 +36,10 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 1. Install [XCode](https://developer.apple.com/xcode/download/) (also available via the Mac App Store)
     1. Update the command line tools setting - Preferences -> Locations
     1. In the Command Line Tools drop-down, select "Xcode 9.4"
-1. Install the latest version of Qt 5.9 [Qt](https://www1.qt.io/download-open-source/) (5.9.6 as of Jun 11/18)
+1. Install the latest version of Qt 5 [Qt](https://www1.qt.io/download-open-source/) (5.12.5 as of Nov 2019)
     1. Choose open-source option when downloading the installer
     1. Run the installer
-    1. At the component selection screen, select "LTS" and refresh. Qt 5.9.x should be visible in the dropdown: select macOS for the latest 5.9.x version (5.9.8 as of 2019-07-01)
+    1. At the component selection screen, select "LTS" and refresh. Qt 5.12.x should be visible in the dropdown: select macOS for the latest 5.12.x version 
     1. At bottom of list ensure Qt Creator is selected under "Tools", it should be selected by default
     1. Select Continue, agree to terms, and install
 1. Install CMake, libsodium using Homebrew: 
