@@ -1,4 +1,10 @@
-= Running Synergy on MacOS via plist =
+= Waring =
+
+These instructions are not recommended for most people; instead, simply add the Synergy app to your startup items and enable auto-start in settings.
+
+= Command Line instructions =
+
+== Running Synergy on MacOS via plist ==
 Here we create a shell script and a property list file (plist), and activate the plist using the launchctl command-line tool.
 
 The shell script runs the synergyc Unix executable, telling it to connect to a laboratory workstation.  The property list file '''[please briefly explain what the plist file does here]'''.  
