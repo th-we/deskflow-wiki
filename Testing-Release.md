@@ -21,6 +21,10 @@
     * If issues** found from the community:
        * Fix in release branch (e.g. `v1.2.3`)
        * Repeat from step 1 (increment RC stage)
+1. Post link to build on relevant:
+    * GitHub issues
+    * Forum threads
+    * Support tickets
 1. Go to [[Public Release]]
 
 ** An issue that is a direct result of fixes in the release candidate.
