@@ -45,8 +45,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 1. Install CMake, libsodium using Homebrew: 
     1.`brew install cmake libsodium`
 1. Install OpenSSL
-    1. If compiling version 1.10.3+ `brew install openssl@1.1`
-    1. v1.10.2 or lower `brew install openssl`
+    1. `brew install openssl`
 1. Now follow the compile steps below
 
 ## Ubuntu 16.04 and up
