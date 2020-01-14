@@ -123,7 +123,7 @@ In release and debug mode:
     - `Qt5Network.dll`
     - `Qt5Widgets.dll`
 1. Create folder `platforms` under `{build_folder}/bin/` 
-1. Copy {QtInstallDir}/{Version}/MSVC2017_64bit/bin/plugins/platforms/qwindows.dll in to `{build_folder}/bin/platforms`
+1. Copy `{QtInstallDir}/{Version}/MSVC2017_64bit/bin/plugins/platforms/qwindows.dll` in to `{build_folder}/bin/platforms`
 
 In debug mode only:
 1. Copy all the files requested in release mode
