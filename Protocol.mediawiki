@@ -2,8 +2,8 @@ If you're writing your own Synergy client or server, you'll need to use the Syne
 
 These files describe the protocol:
 
-* [https://github.com/symless/synergy-core/blob/master/src/lib/core/protocol_types.h protocol_types.h]
-* [https://github.com/symless/synergy-core/blob/master/src/lib/core/protocol_types.cpp protocol_types.cpp]
+* [https://github.com/symless/synergy-core/blob/master/src/lib/synergy/protocol_types.h protocol_types.h]
+* [https://github.com/symless/synergy-core/blob/master/src/lib/synergy/protocol_types.cpp protocol_types.cpp]
 
 The uSynergy code was a good example of how to use this protocol:
 
