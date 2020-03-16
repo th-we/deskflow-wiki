@@ -167,6 +167,8 @@ cd ..
 copy ext\openssl\windows\x64\bin\* build\
 ```
 
+If you want to build the msi package, see [Building the MSI Installer](https://github.com/symless/synergy-core/wiki/Building-the-Windows-MSI-Package) for details. 
+
 ## macOS
 ```
 cd Projects/synergy
