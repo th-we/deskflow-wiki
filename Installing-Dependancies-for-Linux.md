@@ -1,4 +1,4 @@
-# Installing dependencies for Linux
+
 All section have the versions of the operating system they work with listed in the title, Other versions may still work as well
 
 
