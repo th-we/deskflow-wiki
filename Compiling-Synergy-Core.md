@@ -13,6 +13,9 @@ Get the source with sub modules
 git clone --recurse-submodules https://github.com/symless/synergy-core.git
 ```
 
+### Compiling 
+These instruction cover building the source from the command line. You will need to adapt these instructions to work with IDE's of your choice.
+
 * [[Compile instructions for Linux]]
 * [[Compile instructions for Windows]]
 * [[Compile Instructions for Mac]]
