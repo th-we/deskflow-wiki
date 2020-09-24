@@ -9,7 +9,7 @@ Before you begin, you need to have successfully built Synergy as described on in
 
 # Building Using MSBuild
 
-From a developer console (or after running `call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat"`), run: `msbuild -p:Configuration:Debug` or `msbuild -p:Configuration:Release` from the `build/installer` folder, depending on your settings during compilation.
+From a developer console (or after running `call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat"`), run: `msbuild /p:Configuration=Debug` or `msbuild /p:Configuration=Release` from the `build/installer` folder, depending on your settings during compilation.
 
 If the build is successful, it will generate `bin/Debug/Synergy.msi` or `bin/Release/Synergy.msi` in the installer folder. 
 
