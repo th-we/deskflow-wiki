@@ -1,11 +1,14 @@
-#### Tabs are used for indentation (not spaces)
+#### 4 Spaces are used for indentation (not Tabs)
 
-    (tab)printf("hello world"); // correct
-         printf("hello world"); // incorrect
+     printf("hello world"); // correct
+(tab)printf("hello world"); // incorrect
 
-Synergy-core has a mix of spacing in the source, current style is to respect
+**NOTE:** Synergy-core has a mix of spacing in the source, current style is to respect
 the spacing of the current file. If the code around your change is spaced, 
 then use spaces, if it tabbed use tabs.
+
+New code will use 4 spaced indentation, existing coed will respect the indentation style 
+currently in use 
 
 #### Newline/LF (\\n) used for line endings
 
