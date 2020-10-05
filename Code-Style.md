@@ -3,10 +3,9 @@
     (tab)printf("hello world"); // correct
          printf("hello world"); // incorrect
 
-Currently we use tabs instead of spaces. However we are considering
-using 2 spaces instead of tabs in the future, since tab sizing can be
-changed (people often change their tab size to 2), which results in
-inconsistent tab sizes between different editors.
+Synergy-core has a mix of spacing in the source, current style is to respect
+the spacing of the current file. If the code around your change is spaced, 
+then use spaces, if it tabbed use tabs.
 
 #### Newline/LF (\\n) used for line endings
 
