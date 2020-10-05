@@ -1,7 +1,7 @@
 #### 4 Spaces are used for indentation (not Tabs)
 
-     printf("hello world"); // correct
-(tab)printf("hello world"); // incorrect
+        printf("hello world"); // correct
+    (tab)printf("hello world"); // incorrect
 
 **NOTE:** Synergy-core has a mix of spacing in the source, current style is to respect
 the spacing of the current file. If the code around your change is spaced, 
