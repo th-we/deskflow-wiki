@@ -6,12 +6,10 @@
 
 ## Beta & RC Release Process
 
-1. Tidy up issue titles (these will be shared publicly with users)
-1. Update ChangeLog file (use [github-query](https://github.com/symless/github-query))
-1. Create a release branch (e.g. `v1.2.3`) based on dev branch (e.g. `v1-dev`)
+1. Create a release branch (e.g. `v1.2.3`) based on master branch
 1. Update stage name in `Version.cmake` (e.g. `rc1`, `beta1`, etc)
 1. Tag version (e.g. `v1.2.3-rc1`) from release branch (e.g. `v1.2.3`)
-1. Trigger manual build on the release branch (e.g. `v1.2.3`)
+1. Trigger manual build using Azure Pipelines on the release branch (e.g. `v1.2.3`)
     * Do full QA internally
     * If issues** found from QA:
        * Fix in release branch (e.g. `v1.2.3`)
