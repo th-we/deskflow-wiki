@@ -31,14 +31,8 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 ## macOS
 1. Install [Homebrew](http://brew.sh/)
 1. Install [XCode](https://developer.apple.com/xcode/download/) (also available via the Mac App Store)
-    1. Update the command line tools setting - Preferences -> Locations
-    1. In the Command Line Tools drop-down, select "Xcode 9.4"
 1. Install the latest version of Qt 5 [Qt](https://www1.qt.io/download-open-source/) (5.12.5 as of Nov 2019)
-    1. Choose open-source option when downloading the installer
-    1. Run the installer
-    1. At the component selection screen, select "LTS" and refresh. Qt 5.12.x should be visible in the dropdown: select macOS for the latest 5.12.x version 
-    1. At bottom of list ensure Qt Creator is selected under "Tools", it should be selected by default
-    1. Select Continue, agree to terms, and install
+    1. `brew install qt`
 1. Install CMake, libsodium using Homebrew: 
     1.`brew install cmake libsodium`
 1. Install OpenSSL
