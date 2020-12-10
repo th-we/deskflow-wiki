@@ -133,7 +133,7 @@ Compiling from the command line.
 
 ## Windows
 ```
-cd Projects\synergy
+cd synergy-core
 mkdir build
 cd build
 call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat"
@@ -168,7 +168,7 @@ If you want to build the msi package, see [Building the MSI Installer](https://g
 
 ## macOS
 ```
-cd Projects/synergy
+cd synergy-core
 mkdir build
 cd build
 export  QT_PATH=$HOME/Qt/<qt version>
@@ -180,7 +180,7 @@ make
 
 ## Linux
 ```
-cd Projects/synergy
+cd synergy-core
 mkdir build
 cd build
 cmake ..
