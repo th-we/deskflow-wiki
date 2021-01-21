@@ -21,12 +21,14 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
    1. Install to C:\Qt
    1. Select Qt 5.12.5
 1. Add 'C:\Qt\Tools\QtCreator\bin' to the system PATH 
-1. Install [CMake](https://cmake.org/)
+7. Install OpenSSL with either chocolatey or [directly](https://slproweb.com/products/Win32OpenSSL.html)
+   1. `choco install openssl`
+8. Install [CMake](https://cmake.org/)
    1. Add CMake to PATH for all users
-1. Restart Qt
-1. Set `CMAKE_PREFIX_PATH` environment variable
+9. Restart Qt
+10. Set `CMAKE_PREFIX_PATH` environment variable
    1. `C:\Qt\5.12.5\msvc2017_64`
-1. Now follow the compile steps below
+11. Now follow the compile steps below
 
 ## macOS
 1. Install [Homebrew](http://brew.sh/)
@@ -40,24 +42,24 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 1. Now follow the compile steps below
 
 ## Ubuntu 16.04 and up
-```
+```sh
 sudo apt install qtcreator qtbase5-dev qttools5-dev cmake make g++ xorg-dev libssl-dev libx11-dev libsodium-dev libgl1-mesa-glx libegl1-mesa libcurl4-openssl-dev libavahi-compat-libdnssd-dev qtdeclarative5-dev libqt5svg5-dev libsystemd-dev 
 ```
 
 Edit the Qt kit _"Environment"_ field under _Tools -> Options -> Build & Run -> Kits_ and add `BOOST_ROOT=/home/<user>/boost`
- 
+
 ## CentOS 7
-```
+```sh
 sudo yum groupinstall "Development Tools"
 sudo yum -y install epel-release cmake3 boost-static git libXtst-devel qt5-qtbase-devel qt5-qtdeclarative-devel libcurl-devel openssl-devel
 ```
 ## Fedora 28 (may work for earlier releases)
-```
+```sh
 sudo yum groupinstall "Development Tools"
 sudo yum -y install avahi-compat-libdns_sd-devel avahi-compat-libdns_sd cmake3 boost-static git libXtst-devel qt5-qtbase-devel qt5-qtdeclarative-devel libcurl-devel openssl-devel
 ```
 ## SUSE Linux 12 SP3 
-```
+```sh
 sudo zypper install avahi-compat-mDNSResponder-devel libavahi-devel libqt5-qtbase-devel cmake libopenssl-devel libcurl-devel libXtst-devel
 ```
 # Compile Steps
@@ -132,12 +134,12 @@ In debug mode only:
 Compiling from the command line.
 
 ## Windows
-```
+```powershell
 cd synergy-core
 mkdir build
 cd build
-call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat"
-cmake -G "Visual Studio 14 2015 Win64" -DCMAKE_BUILD_TYPE=Debug ..
+call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat"
+cmake -G "Visual Studio 16 2019" -DCMAKE_BUILD_TYPE=Debug ..
 msbuild synergy-core.sln /p:Platform="x64" /p:Configuration=Debug /m
 cd ..
 copy ext\openssl\windows\x64\bin\* build\
@@ -152,7 +154,7 @@ copy ext\openssl\windows\x64\bin\* build\
 - Your source path is "c:\<path>\synergy-core"
 - Your host is x64
 - Will build as x64 binary
-```
+```sh
 set CMAKE_PREFIX_PATH=C:\Qt\5.12.3\msvc2017_64
 cd "c:\<path>\synergy-core"
 mkdir build
@@ -164,22 +166,23 @@ cd ..
 copy ext\openssl\windows\x64\bin\* build\
 ```
 
-If you want to build the msi package, see [Building the MSI Installer](https://github.com/symless/synergy-core/wiki/Building-the-Windows-MSI-Package) for details. 
+If you want to build the MSI package, see [Building the MSI Installer](https://github.com/symless/synergy-core/wiki/Building-the-Windows-MSI-Package) for details. 
 
 ## macOS
-```
+
+```sh
 cd synergy-core
 mkdir build
 cd build
 export  QT_PATH=$HOME/Qt/<qt version>
 export PATH=$PATH:/usr/local/bin:$QT_PATH/bin
-#cmake -DCMAKE_OSX_SYSROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -DOSX_TARGET_MAJOR=10 -DOSX_TARGET_MINOR=12 -DCMAKE_OSX_ARCHITECTURES=x86_64 ..
-cmake  -DCMAKE_OSX_DEPLOYMENT_TARGET=10.10 -DCMAKE_OSX_ARCHITECTURES=x86_64 -DCMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE -DCMAKE_CONFIGURATION_TYPES=$CMAKE_BUILD_TYPE ..
+cmake -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl -DOPENSSL_LIBRARIES=/usr/local/opt/openssl/lib -DCMAKE_OSX_DEPLOYMENT_TARGET=10.13 -DCMAKE_OSX_ARCHITECTURES=x86_64 -DCMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE ..
 make
 ```
 
 ## Linux
-```
+
+```sh
 cd synergy-core
 mkdir build
 cd build
