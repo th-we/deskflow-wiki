@@ -6,7 +6,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 ## Windows
 
 1. Install [Git for Windows](https://gitforwindows.org/)
-1. Install [Visual Studio Professional 2019 with Updates](https://go.microsoft.com/fwlink/?LinkId=532606&clcid=0x409)
+1. Install [Visual Studio Community 2019 with Updates](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16)
    1. Select Custom
    1. Deselect all
    1. Within `Programming Languages`, select `Visual C++`
@@ -19,7 +19,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
    1. Download: [Bonjour SDK for Windows v3.0](https://binaries.symless.com/bonjour/bonjoursdksetup.exe)
 1. Install [Qt](https://www1.qt.io/download-open-source/)
    1. Install to C:\Qt
-   1. Select Qt 5.12.5
+   1. Select Qt 5.12.10
 1. Add 'C:\Qt\Tools\QtCreator\bin' to the system PATH 
 7. Install OpenSSL with either chocolatey or [directly](https://slproweb.com/products/Win32OpenSSL.html)
    1. `choco install openssl`
@@ -27,7 +27,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
    1. Add CMake to PATH for all users
 9. Restart Qt
 10. Set `CMAKE_PREFIX_PATH` environment variable
-   1. `C:\Qt\5.12.5\msvc2017_64`
+   1. `C:\Qt\5.12.10\msvc2019_64`
 11. Now follow the compile steps below
 
 ## macOS
@@ -113,13 +113,13 @@ These steps apply to 64-bit compilations.
 
 In release and debug mode:
 1. Copy all contents of `synergy-core/ext/openssl/windows/x64/bin/*` to `{build_folder}/bin/`
-1. Copy the following files from `{QtInstallDir}/{Version}/MSVC2017_64bit/bin/` to `{build_folder}/bin/`:
+1. Copy the following files from `{QtInstallDir}/{Version}/MSVC2019_64bit/bin/` to `{build_folder}/bin/`:
     - `Qt5Core.dll`
     - `Qt5Gui.dll`
     - `Qt5Network.dll`
     - `Qt5Widgets.dll`
 1. Create folder `platforms` under `{build_folder}/bin/` 
-1. Copy `{QtInstallDir}/{Version}/MSVC2017_64bit/bin/plugins/platforms/qwindows.dll` in to `{build_folder}/bin/platforms`
+1. Copy `{QtInstallDir}/{Version}/MSVC2019_64bit/bin/plugins/platforms/qwindows.dll` in to `{build_folder}/bin/platforms`
 
 In debug mode only:
 1. Copy all the files requested in release mode
@@ -134,7 +134,7 @@ In debug mode only:
 Compiling from the command line.
 
 ## Windows
-```powershell
+```cmd
 cd synergy-core
 mkdir build
 cd build
@@ -146,20 +146,20 @@ copy ext\openssl\windows\x64\bin\* build\
 ```
 
 ### Example
-- QT version is 5.12.3, and is installed at 'C:\Qt\5.12.3'
-- Windows 10 SDK version is 10.0.18362.0
+- QT version is 5.12.10, and is installed at 'C:\Qt\5.12.10'
+- Windows 10 SDK version is 10.0.19041.0
  - Open C:\Program Files (x86)\Windows Kits\10\SDKManifest.xml
- - Find 'PlatformIdentity = "UAP, Version=10.0.18362.0"'
+ - Find 'PlatformIdentity = "UAP, Version=10.0.19041.0"'
 - Visual studio 2019 community
 - Your source path is "c:\<path>\synergy-core"
 - Your host is x64
 - Will build as x64 binary
-```sh
-set CMAKE_PREFIX_PATH=C:\Qt\5.12.3\msvc2017_64
+```cmd
+set CMAKE_PREFIX_PATH=C:\Qt\5.12.10\msvc2019_64
 cd "c:\<path>\synergy-core"
 mkdir build
 cd build
-call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64 10.0.18362.0
+call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64 10.0.19041.0
 cmake -G "Visual Studio 16 2019"  -DCMAKE_BUILD_TYPE=Debug ..
 msbuild synergy-core.sln /p:Platform="x64" /p:Configuration=Debug /m
 cd ..
