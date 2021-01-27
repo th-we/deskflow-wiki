@@ -24,7 +24,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 7. Install OpenSSL with either chocolatey or [directly](https://slproweb.com/products/Win32OpenSSL.html)
    1. `choco install openssl`
 8. Install [CMake](https://cmake.org/)
-   1. Add CMake to PATH for all users
+   1. When prompted for PATH, choose one of the options starting with "Add CMake to system PATH …" 
 9. Restart Qt
 10. Set `CMAKE_PREFIX_PATH` environment variable
    1. `C:\Qt\5.12.10\msvc2019_64`
