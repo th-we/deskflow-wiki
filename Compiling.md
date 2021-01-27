@@ -11,24 +11,22 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
    1. Deselect all
    1. Within `Programming Languages`, select `Visual C++`
    1. Git for Windows should already be installed
-1. Download the [Windows 10 SDK Web Installer](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk)
-   1. Click **Download the installer** (not the iso)
+1. Install [Windows 10 SDK](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk)
+   1. Select **Download the installer**, not the iso
    1. Use default options for first 2 screens 
-   1. On the feature screen, untick everything except **Debugging Tools for Windows**
-1. Install Bonjour
-   1. Download: [Bonjour SDK for Windows v3.0](https://binaries.symless.com/bonjour/bonjoursdksetup.exe)
+   1. On the feature screen, unselect everything except **Debugging Tools for Windows**
+1. Install [Bonjour SDK for Windows v3.0](https://binaries.symless.com/bonjour/bonjoursdksetup.exe)
 1. Install [Qt](https://www1.qt.io/download-open-source/)
    1. Install to C:\Qt
    1. Select Qt 5.12.10
-1. Add 'C:\Qt\Tools\QtCreator\bin' to the system PATH 
-7. Install OpenSSL with either chocolatey or [directly](https://slproweb.com/products/Win32OpenSSL.html)
+   1. After installation, add 'C:\Qt\Tools\QtCreator\bin' to the system PATH 
+7. Install OpenSSL either [directly](https://slproweb.com/products/Win32OpenSSL.html) or with [Chocolatey](https://chocolatey.org/)
    1. `choco install openssl`
 8. Install [CMake](https://cmake.org/)
-   1. When prompted for PATH, choose one of the options starting with "Add CMake to system PATH …" 
+   1. When prompted for PATH, select one of the options starting with "Add CMake to system PATH …" 
 9. Restart Qt
-10. Set `CMAKE_PREFIX_PATH` environment variable
-   1. `C:\Qt\5.12.10\msvc2019_64`
-11. Now follow the compile steps below
+10. Set `CMAKE_PREFIX_PATH` environment variable `C:\Qt\5.12.10\msvc2019_64`
+11. Follow the compile steps below
 
 ## macOS
 1. Install [Homebrew](http://brew.sh/)
