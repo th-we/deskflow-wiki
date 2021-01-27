@@ -19,7 +19,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 1. Install [Qt](https://www1.qt.io/download-open-source/)
    1. Install to C:\Qt
    1. Select Qt 5.12.10
-   1. After installation, add 'C:\Qt\Tools\QtCreator\bin' to the system PATH 
+   1. After installation, add `C:\Qt\Tools\QtCreator\bin` to the system PATH 
 7. Install OpenSSL either [directly](https://slproweb.com/products/Win32OpenSSL.html) or with [Chocolatey](https://chocolatey.org/)
    1. `choco install openssl`
 8. Install [CMake](https://cmake.org/)
