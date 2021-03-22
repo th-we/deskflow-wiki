@@ -156,7 +156,7 @@ copy ext\openssl\windows\x64\bin\* build\
 - Your host is x64
 - Will build as x64 binary
 ```cmd
-set CMAKE_PREFIX_PATH=C:\Qt\5.12.10\msvc2019_64
+set CMAKE_PREFIX_PATH=C:\Qt\5.12.10\msvc2017_64
 cd "c:\<path>\synergy-core"
 mkdir build
 cd build
