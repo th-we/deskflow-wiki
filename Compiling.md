@@ -25,7 +25,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 8. Install [CMake](https://cmake.org/)
    1. When prompted for PATH, select one of the options starting with "Add CMake to system PATH …" 
 9. Restart Qt
-10. Set `CMAKE_PREFIX_PATH` environment variable `C:\Qt\5.12.10\msvc2019_64`
+10. Set `CMAKE_PREFIX_PATH` environment variable `C:\Qt\5.12.10\msvc2017_64`
 11. Follow the compile steps below
 
 ## macOS
