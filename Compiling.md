@@ -34,8 +34,8 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 1. Install the latest version of Qt 5 [Qt](https://www1.qt.io/download-open-source/) (5.12.5 as of Nov 2019)
     1. `brew install --cask qt-creator`
     1. `brew install qt`
-1. Install CMake, libsodium using Homebrew: 
-    1.`brew install cmake libsodium`
+1. Install CMake, libsodium using Homebrew:
+    1. `brew install cmake libsodium`
 1. Install OpenSSL
     1. `brew install openssl`
 1. Now follow the compile steps below
