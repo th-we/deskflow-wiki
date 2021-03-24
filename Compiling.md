@@ -1,4 +1,4 @@
-**Important:** Follow the [[Getting Started]] guide first to get the code. Before you can compile, you'll need the source code. Ensure you checkout the appropriate branch you wish to compile, e.g. if you wish to compile v2.0, `git checkout v2-dev`.
+**Important:** Follow the [[Getting Started]] guide first to get the code. Before you can compile, you'll need the source code. Ensure you checkout the appropriate branch you wish to compile, e.g. if you wish to compile v1.13.1, `git checkout v1.13.1`.
 
 Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If using v1.3.5 to v1.8, follow the [[Compiling Legacy|Compiling-Legacy-v1.3.5-to-v1.8]] guide.
 
@@ -21,7 +21,10 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
    1. Select Qt 5.12.10
    1. After installation, add `C:\Qt\Tools\QtCreator\bin` to the system PATH 
 7. Install OpenSSL either [directly](https://slproweb.com/products/Win32OpenSSL.html) or with [Chocolatey](https://chocolatey.org/)
-   1. `choco install openssl`
+   1. Remove(if exist) old OpenSSL from PATH in environment variables
+   1. Remove(if exist) old OpenSSL folder from C:\Program Files\ and C:\Program Files (x86)
+   1. Install new OpenSSL either [directly](https://slproweb.com/products/Win32OpenSSL.html) or with [Chocolatey](https://chocolatey.org/)
+      1. `choco install openssl`
 8. Install [CMake](https://cmake.org/)
    1. When prompted for PATH, select one of the options starting with "Add CMake to system PATH …" 
 9. Restart Qt
