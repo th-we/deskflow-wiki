@@ -7,6 +7,6 @@ First, you'll need to get the code via git.
     1. `$ cd synergy-core`
 1. Switch to the right branch
     * Stable v1.x: `$ git checkout master`
-    * Dev v1.x: e.g.`$ git checkout v1.13.1`
+    * Release v1.x: e.g.`$ git checkout v1.13.1`
 
 Next step, [[Compiling]].
