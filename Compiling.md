@@ -72,7 +72,7 @@ Make sure you have completed the steps at [[Getting Started]].
 
 ## IDE Compile
 
-Compiling from the IDE (e.g. Qt Creator).
+Lower is example for Qt Creator.
 
 ### macOS Only
 
@@ -91,14 +91,17 @@ _Note:_ this may already be pre-configured for you.
 1. Open Qt Creator
 1. If macOS, follow *macOS Only* steps
 1. Open Project
-1. Navigate to the project directory (from git clone)
-1. Open CMakeLists.txt
+    1. Ctrl + O or File->Open File or Project
+    1. Navigate to the project directory (from git clone)
+    1. Open CMakeLists.txt
 1. Untick "Imported Kit"
-1. Expand "Desktop Qt..."
-1. Untick all except Debug and Release
-1. Right-click project and select Run CMake
+1. Expand "Desktop Qt 5.12.10 MSVC{VS version} {Prefered configuration}" e.g. Desktop Qt 5.12.10 MSVC2015 64bit
+1. Untick all except Debug and Release and clicl Configure
+1. Right-click on project and select Run CMake
 1. If macOS, follow *macOS Post-CMake* steps
-1. Right-click project and select Build
+1. Build
+    1. Check that selected mode is Release(bottom-left corner in QT CReator)
+    1. Right-click project and select Build
 
 ### macOS Post-CMake
 
@@ -111,21 +114,21 @@ _Note:_ this may already be pre-configured for you.
 1. Click *Apply Configuration Changes*
 1. Go back to the *All OSes* steps (above)
 
-### Run `synergy.exe` standalone in Windows
+### How to run `synergy.exe` standalone in Windows
 
 These steps apply to 64-bit compilations.
 
 In release and debug mode:
 1. Copy all contents of `synergy-core/ext/openssl/windows/x64/bin/*` to `{build_folder}/bin/`
-1. Copy the following files from `{QtInstallDir}/{Version}/MSVC2019_64bit/bin/` to `{build_folder}/bin/`:
+1. Copy the following files from `{QtInstallDir}/{QT Version}/{Compiler version}/bin/`(e.g. C:\Qt\5.12.10\msvc2015_64) to `{build_folder}/bin/`:
     - `Qt5Core.dll`
     - `Qt5Gui.dll`
     - `Qt5Network.dll`
     - `Qt5Widgets.dll`
 1. Create folder `platforms` under `{build_folder}/bin/` 
-1. Copy `{QtInstallDir}/{Version}/MSVC2019_64bit/bin/plugins/platforms/qwindows.dll` in to `{build_folder}/bin/platforms`
+1. Copy `{QtInstallDir}/{Version}/MSVC2019_64bit/plugins/platforms/qwindows.dll` in to `{build_folder}/bin/platforms`
 
-In debug mode only:
+To make possible debugging:
 1. Copy all the files requested in release mode
 1. Also from Qt installation directory, copy the following files (pay attention to the letter `d` in file names):
     - `Qt5Cored.dll`
@@ -159,7 +162,6 @@ copy ext\openssl\windows\x64\bin\* build\
 - Your host is x64
 - Will build as x64 binary
 ```cmd
-set CMAKE_PREFIX_PATH=C:\Qt\5.12.10\msvc2017_64
 cd "c:\<path>\synergy-core"
 mkdir build
 cd build
