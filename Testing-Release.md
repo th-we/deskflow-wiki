@@ -2,7 +2,7 @@
 
 1. Ensure version number in `Version.cmake` is correct
 1. Ensure stage name in `Version.cmake` is `snapshot`
-1. Develop on feature branches based on dev branch (e.g. `v1-dev`)
+1. Develop on feature branches based on `master` branch
 
 ## Beta & RC Release Process
 
