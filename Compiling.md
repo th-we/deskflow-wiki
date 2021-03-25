@@ -96,7 +96,7 @@ _Note:_ this may already be pre-configured for you.
     1. Open CMakeLists.txt
 1. Untick "Imported Kit"
 1. Expand "Desktop Qt 5.12.10 MSVC{VS version} {Prefered configuration}" e.g. Desktop Qt 5.12.10 MSVC2015 64bit
-1. Untick all except Debug and Release and clicl Configure
+1. Untick all except Debug and Release and click Configure
 1. Right-click on project and select Run CMake
 1. If macOS, follow *macOS Post-CMake* steps
 1. Build
