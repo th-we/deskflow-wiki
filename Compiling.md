@@ -37,7 +37,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 1. Install the latest version of Qt 5
     1. [Offline installer for Qt 5](https://www.qt.io/offline-installers)
         1. 5.12 is LTS until Dec 2021
-        1. 5.12.10 is latest LTS release for Qt 5 as of March 2021
+        1. 5.12.11 is latest LTS release for Qt 5 as of May 2021
         1. The Online Qt installer will install Qt 6 (not recommended)
 1. Install CMake, libsodium using Homebrew:
     1. `brew install cmake libsodium`
