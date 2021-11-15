@@ -1,3 +1,0 @@
-Hey i have a question on my lenovo chrome book iv been able to download synergy and even connect everything the only thing that does'nt work is even though it even tells me its going to the screen of the chrome book the chromebook mouse doesnt move but on all 3 other computers it has no problem what so ever
-
-what are you doing in here???? ^^^^^^
