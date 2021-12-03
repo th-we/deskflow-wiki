@@ -177,6 +177,7 @@ Note that links do not have to be symmetrical; for instance, here the edge betwe
 : Synergy won't switch screens when the mouse reaches the edge of a screen unless it's moved away from the edge and then back to the edge within <code>N</code> milliseconds. With the option you have to quickly tap the edge twice to switch. This helps prevent unintentional switching when working near the edge of a screen.
 
 * <code>screenSaverSync = {true|false}</code>
+: ''Note: Removed in v1.14.1''
 : If set to ''false'' then Synergy won't synchronize screen savers. Client screen savers will start according to their individual configurations. The server screen saver won't start if there is input, even if that input is directed toward a client screen.
 
 * <code>relativeMouseMoves = {true|false}</code>
