@@ -51,7 +51,8 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
     1. `brew install openssl`
 1. Now follow the compile steps below
 
-## Ubuntu 16.04 and up
+## Linux
+### Ubuntu 16.04 and up
 ```sh
 sudo apt install -y \
   qtcreator \
@@ -79,17 +80,17 @@ sudo apt install -y \
 
 Edit the Qt kit _"Environment"_ field under _Tools -> Options -> Build & Run -> Kits_ and add `BOOST_ROOT=/home/<user>/boost`
 
-## CentOS 7
+### CentOS 7
 ```sh
 sudo yum groupinstall "Development Tools"
 sudo yum -y install epel-release cmake3 boost-static git libXtst-devel qt5-qtbase-devel qt5-qtdeclarative-devel libcurl-devel openssl-devel
 ```
-## Fedora 28 (may work for earlier releases)
+### Fedora 28 (may work for earlier releases)
 ```sh
 sudo yum groupinstall "Development Tools"
 sudo yum -y install avahi-compat-libdns_sd-devel avahi-compat-libdns_sd cmake3 boost-static git libXtst-devel qt5-qtbase-devel qt5-qtdeclarative-devel libcurl-devel openssl-devel
 ```
-## SUSE Linux 12 SP3 
+### SUSE Linux 12 SP3 
 ```sh
 sudo zypper install avahi-compat-mDNSResponder-devel libavahi-devel libqt5-qtbase-devel cmake libopenssl-devel libcurl-devel libXtst-devel
 ```
@@ -99,9 +100,9 @@ Make sure you have completed the steps at [[Getting Started]].
 
 ## IDE Compile
 
-Lower is example for Qt Creator.
+Compile instructions for Qt Creator.
 
-### macOS Only
+### macOS
 
 Do this first on macOS.
 
@@ -141,7 +142,7 @@ _Note:_ this may already be pre-configured for you.
 1. Click *Apply Configuration Changes*
 1. Go back to the *All OSes* steps (above)
 
-### How to run `synergy.exe` standalone in Windows
+### GUI standalone in Windows
 
 These steps apply to 64-bit compilations.
 
