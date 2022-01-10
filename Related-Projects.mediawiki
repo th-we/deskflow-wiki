@@ -1,9 +1,4 @@
-
-Other existing projects that are similar to ours.
-
-[http://alternativeto.net/software/synergy/ Alternativeto.net]
-
-== Active (Free and Open Source) ==
+Mostly inactive existing projects that are or were similar to ours.
 
 === QSynergy ===
 
@@ -83,8 +78,6 @@ Other existing projects that are similar to ours.
 | Platform || Mac OS X
 |}
 
-== Inactive (Free and Open Source) ==
-
 === Synergy2 ===
 
 {| class="wikitable" cellpadding="2"
@@ -135,90 +128,4 @@ Other existing projects that are similar to ours.
 | Website || http://sourceforge.net/projects/osxsynergygui/
 |-
 | Info date || Information updated: June 6, 2009
-|}
- 
-== Non-Free/Proprietary ==
-
-=== KaVoom ===
-
-{| class="wikitable" cellpadding="2"
-| Website || http://www.kavoom.biz
-|-
-| Platform || Windows only
-|-
-| Source || Closed-source
-|-
-| Cost || $39.95 (2 PCs)
-|-
-| Info date || Information updated: Jan 17 2011
-|}
-
-=== Input Director ===
-
-{| class="wikitable" cellpadding="2"
-| Website || http://www.inputdirector.com/
-|-
-| Platform || Windows only
-|-
-| Cost || Free (as in free beer)
-|-
-| Source || Closed-source
-|-
-| Info date || Information updated: Jan 17 2011
-|}
-
-=== MaxiVista ===
-
-{| class="wikitable" cellpadding="2"
-| Website || http://www.maxivista.com/kvm.htm
-|-
-| Platform || Windows only
-|-
-| Source || Closed-source
-|-
-| Cost || $99.95
-|-
-| Info date || Information updated: April 23 2011
-|}
-
-=== Desktop Rover ===
-
-{| class="wikitable" cellpadding="2"
-| Website || http://www.neslosoftware.com
-|-
-| Platform || Windows only
-|-
-| Source || Closed-source
-|-
-| Cost || $48
-|-
-| Info date || Information updated: Jan 17 2011
-|}
-
-=== Mouse Without Borders ===
-
-{| class="wikitable" cellpadding="2"
-| Website || http://blogs.technet.com/b/next/archive/2011/09/09/microsoft-garage-download-mouse-without-borders.aspx
-|-
-| Platform || Windows only
-|-
-| Source || Closed-source
-|-
-| Cost || Free (as in free beer)
-|-
-| Info date || Information updated: Apr 22 2012
-|}
-
-=== ShareMouse ===
-
-{| class="wikitable" cellpadding="2"
-| Website || http://www.keyboard-and-mouse-sharing.com/
-|-
-| Platform || Windows, Mac
-|-
-| Source || Closed-source
-|-
-| Cost || $59.38 (2 PCs)
-|-
-| Info date || Information updated: Apr 22 2012
 |}
