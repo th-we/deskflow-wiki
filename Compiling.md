@@ -213,7 +213,7 @@ export PATH=$PATH:/usr/local/bin:$QT_PATH/bin
 cmake -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl -DOPENSSL_LIBRARIES=/usr/local/opt/openssl/lib -DCMAKE_OSX_DEPLOYMENT_TARGET=10.13 -DCMAKE_OSX_ARCHITECTURES=x86_64 -DCMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE ..
 make
 ```
-
+Go to build folder > bin copy all execs and place in bundler > Synergy.app (click left and Show package contents) > Contents and make a folder called MacOS and paste the execs there
 ## Linux
 
 ```sh
