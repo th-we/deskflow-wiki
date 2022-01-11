@@ -208,7 +208,7 @@ If you want to build the MSI package, see [Building the MSI Installer](https://g
 cd synergy-core
 mkdir build
 cd build
-export  QT_PATH=$HOME/Qt/<qt version>
+export  QT_PATH=$HOME/Qt/<qt version> ("ex:export  QT_PATH=/Users/user/Qt5.12.12/5.12.12/clang_64")
 export PATH=$PATH:/usr/local/bin:$QT_PATH/bin
 cmake -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl -DOPENSSL_LIBRARIES=/usr/local/opt/openssl/lib -DCMAKE_OSX_DEPLOYMENT_TARGET=10.13 -DCMAKE_OSX_ARCHITECTURES=x86_64 -DCMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE ..
 make
