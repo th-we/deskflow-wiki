@@ -106,7 +106,7 @@ Compile instructions for Qt Creator.
 
 Do this first on macOS.
 
-1. Qt Creator > Preferences > Build & Run > CMake
+1. Qt Creator > Preferences > Kits > CMake
 1. Click Add, set Path to: `/usr/local/bin/cmake`
 1. Go to the Kits tab
 1. Set the C compiler to Clang 64-bit
