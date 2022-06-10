@@ -24,7 +24,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 1. Install [Bonjour SDK for Windows v3.0](https://binaries.symless.com/bonjour/bonjoursdksetup.exe)
 1. Install [Qt](https://www1.qt.io/download-open-source/)
    1. Install to C:\Qt
-   1. Select Qt 5.12.10
+   1. Select Qt 5.12.12
    1. After installation, add `C:\Qt\Tools\QtCreator\bin` to the system PATH 
 7. Install OpenSSL either [directly](https://slproweb.com/products/Win32OpenSSL.html) or with [Chocolatey](https://chocolatey.org/)
    1. Remove(if exist) old OpenSSL from PATH in environment variables
@@ -34,7 +34,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 8. Install [CMake](https://cmake.org/)
    1. When prompted for PATH, select one of the options starting with "Add CMake to system PATH …" 
 9. Restart Qt
-10. Set `CMAKE_PREFIX_PATH` environment variable `C:\Qt\5.12.10\msvc2017_64`
+10. Set `CMAKE_PREFIX_PATH` environment variable `C:\Qt\5.12.12\msvc2017_64`
 11. Follow the compile steps below
 
 ## macOS
@@ -43,7 +43,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 1. Install the latest version of Qt 5
     1. [Offline installer for Qt 5](https://www.qt.io/offline-installers)
         1. 5.12 is LTS until Dec 2021
-        1. 5.12.11 is latest LTS release for Qt 5 as of May 2021
+        1. 5.12.12 is latest LTS release for Qt 5 as of November 26, 2021
         1. The Online Qt installer will install Qt 6 (not recommended)
 1. Install CMake, libsodium using Homebrew:
     1. `brew install cmake libsodium`
@@ -123,7 +123,7 @@ _Note:_ this may already be pre-configured for you.
     1. Navigate to the project directory (from git clone)
     1. Open CMakeLists.txt
 1. Untick "Imported Kit"
-1. Expand "Desktop Qt 5.12.10 MSVC{VS version} {Prefered configuration}" e.g. Desktop Qt 5.12.10 MSVC2015 64bit
+1. Expand "Desktop Qt 5.12.12 MSVC{VS version} {Prefered configuration}" e.g. Desktop Qt 5.12.12 MSVC2015 64bit
 1. Untick all except Debug and Release and click Configure
 1. Right-click on project and select Run CMake
 1. If macOS, follow *macOS Post-CMake* steps
@@ -148,7 +148,7 @@ These steps apply to 64-bit compilations.
 
 In release and debug mode:
 1. Copy all contents of `synergy-core/ext/openssl/windows/x64/bin/*` to `{build_folder}/bin/`
-1. Copy the following files from `{QtInstallDir}/{QT Version}/{Compiler version}/bin/`(e.g. C:\Qt\5.12.10\msvc2015_64) to `{build_folder}/bin/`:
+1. Copy the following files from `{QtInstallDir}/{QT Version}/{Compiler version}/bin/`(e.g. C:\Qt\5.12.12\msvc2015_64) to `{build_folder}/bin/`:
     - `Qt5Core.dll`
     - `Qt5Gui.dll`
     - `Qt5Network.dll`
@@ -181,7 +181,7 @@ copy ext\openssl\windows\x64\bin\* build\
 ```
 
 ### Example
-- QT version is 5.12.10, and is installed at 'C:\Qt\5.12.10'
+- QT version is 5.12.12, and is installed at 'C:\Qt\5.12.12'
 - Windows 10 SDK version is 10.0.19041.0
  - Open C:\Program Files (x86)\Windows Kits\10\SDKManifest.xml
  - Find 'PlatformIdentity = "UAP, Version=10.0.19041.0"'
