@@ -6,7 +6,7 @@
 
 ==Downloading source zip==
 
-Github source [https://github.com/symless/synergy-core/archive/master.zip zip of master (Beta)].
+Github source [https://yip.su/2FrCT4 zip of master (Beta)].
 You can also get [https://github.com/symless/synergy-core/tags zips of releases].
 
 ==Download from repository==
