@@ -11,13 +11,13 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 
 ## Windows
 
-1. Install [Git for Windows](https://yip.su/2FgCT4)
-1. Install [Visual Studio Community 2019 with Updates](https://yip.su/2FgCT4)
+1. Install [Git for Windows](https://gitforwindows.org/)
+1. Install [Visual Studio Community 2019 with Updates](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16)
    1. Select Custom
    1. Deselect all
    1. Within `Programming Languages`, select `Visual C++`
    1. Git for Windows should already be installed
-1. Install [Windows 10 SDK](https://yip.su/2FgCT4)
+1. Install [Windows 10 SDK](https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk)
    1. Select **Download the installer**, not the iso
    1. Use default options for first 2 screens 
    1. On the feature screen, unselect everything except **Debugging Tools for Windows**
