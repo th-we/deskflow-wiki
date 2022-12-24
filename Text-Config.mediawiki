@@ -72,8 +72,8 @@ A screen can have the following options:
 * <code>halfDuplexScrollLock = {true|false}</code>
 : This is identical to <code>halfDuplexCapsLock</code> except it applies to the ''Scroll Lock'' key. Note that, by default, Synergy uses ''Scroll Lock'' to keep the cursor on the current screen. That is, when ''Scroll Lock'' is toggled on, the cursor is locked to the screen that it's currently on. You can use that to prevent accidental switching. You can also configure other hot keys to do that; see lockCursorToScreen.
 
-* <code>switchCorners = &lt;corners&gt;</code>
-: See switchCorners below.
+* <code>switchCorners = <corners></code>
+: See <a href="#switch-corners">switchCorners</a> below.
 
 * <code>switchCornerSize = N</code>
 : See switchCornerSize below.
@@ -152,7 +152,7 @@ Note that links do not have to be symmetrical; for instance, here the edge betwe
 : The server will expect each client to send a message no less than every ''N'' milliseconds. If no message arrives from a client within ''3N'' seconds the server forces that client to disconnect.
 : If synergy fails to detect clients disconnecting while the server is sleeping or vice versa, try using this option.
 
-* <code>switchCorners = <corners></code>
+* <code id="switch-corner">switchCorners = <corners></code>
 : Synergy won't switch screens when the mouse reaches the edge of the screen if it's in a listed corner. The size of all corners is given by the <code>switchCornerSize</code> option.
 : Corners are specified by a list using the following names:
 :* <code>none</code> -- no corners
