@@ -22,7 +22,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
    1. Use default options for first 2 screens 
    1. On the feature screen, unselect everything except **Debugging Tools for Windows**
 1. Install [Bonjour SDK for Windows v3.0](https://binaries.symless.com/bonjour/bonjoursdksetup.exe)
-1. Install [Qt](https://www1.qt.io/download-open-source/)
+1. Install [Qt](https://www.qt.io/download-open-source`)
    1. Install to C:\Qt
    1. Select Qt 5.12.12
    1. After installation, add `C:\Qt\Tools\QtCreator\bin` to the system PATH 
