@@ -76,10 +76,11 @@ Command line options
 Taken from MacOS X 10.11 system:
 
 ```
-Usage: synergy-core --client [--yscroll <delta>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>] <server-address>
+Usage: synergy-core client [--address <address>] [--yscroll <delta>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>] <server-address>
 
 Connect to a synergy mouse/keyboard sharing server.
 
+  -a, --address <address>  local network interface address.
   -d, --debug <level>      filter out log messages with priority below level.
                              level may be: FATAL, ERROR, WARNING, NOTE, INFO,
                              DEBUG, DEBUG1, DEBUG2.
@@ -112,7 +113,7 @@ or for settings inherited from Synergy server they are set at connection time.
 
 Taken from a MacOS X 10.11 system:
 ```
-Usage: synergy-core --server [--address <address>] [--config <pathname>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>]
+Usage: synergy-core server [--address <address>] [--config <pathname>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>]
 
 Start the synergy mouse/keyboard sharing server.
 
