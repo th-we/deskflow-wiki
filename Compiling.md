@@ -27,7 +27,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
    1. Select 'Custom installation'
    1. Expand 'Qt'
    1. Select 'Qt 5.x.x' (e.g. 5.15.2)
-   1. After installation, add `C:\Qt\Tools\QtCreator\bin` to the system PATH 
+   1. After installation, add `C:\Qt\5.15.2\msvc2019_64\bin` to the system PATH 
 7. Install OpenSSL either [directly](https://slproweb.com/products/Win32OpenSSL.html) or with [Chocolatey](https://chocolatey.org/)
    1. Remove(if exist) old OpenSSL from PATH in environment variables
    1. Remove(if exist) old OpenSSL folder from C:\Program Files\ and C:\Program Files (x86)
