@@ -24,7 +24,9 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
 1. Install [Bonjour SDK for Windows v3.0](https://binaries.symless.com/bonjour/bonjoursdksetup.exe)
 1. Install [Qt](https://www.qt.io/download-qt-installer-oss) (latest version; not Qt 5)
    1. Install to C:\Qt
-   1. Select Qt 5.12.12
+   1. Select 'Custom installation'
+   1. Expand 'Qt'
+   1. Select 'Qt 5.x.x' (e.g. 5.15.2)
    1. After installation, add `C:\Qt\Tools\QtCreator\bin` to the system PATH 
 7. Install OpenSSL either [directly](https://slproweb.com/products/Win32OpenSSL.html) or with [Chocolatey](https://chocolatey.org/)
    1. Remove(if exist) old OpenSSL from PATH in environment variables
