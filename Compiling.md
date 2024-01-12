@@ -46,7 +46,7 @@ Also, this guide is for compiling Synergy Core v1.9 and up (including v2.0). If 
    - Brew:
       1. `brew install qt@5`
       1. `export CMAKE_PREFIX_PATH=$(brew --prefix)/Cellar/qt@5/5.15.12`
-   - [Qt](https://www.qt.io/download-qt-installer-oss) (latest version; not Qt 5)
+   - [Online installer](https://www.qt.io/download-qt-installer-oss) (latest version; not Qt 5)
       1. Select 'Custom installation'
       1. Expand 'Qt'
       1. Select 'Qt 5.x.x' (e.g. 5.15.2) 
