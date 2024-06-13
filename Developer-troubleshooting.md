@@ -2,6 +2,8 @@
 
 ## Dependencies
 
+Problems running the `python scripts/install_deps.py` script.
+
 ### There is no `python` or `pip` command
 
 If you don't have Python installed, you'll need to install it.
