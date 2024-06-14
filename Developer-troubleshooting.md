@@ -14,6 +14,10 @@ If you do have it installed, then you may need to use `python3` or `pip3` respec
 
 Try using `brew install pyyaml` instead of using `pip`.
 
+### Stuck at 'Starting package install' on Windows
+
+The Visual Studio installer may be stuck. Reboot your computer and try again.
+
 ## Configure step
 
 ### Error: `The CXX compiler identification is unknown`
