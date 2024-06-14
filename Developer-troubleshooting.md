@@ -16,7 +16,7 @@ Try using `brew install pyyaml` instead of using `pip`.
 
 ### On Windows: Stuck at `Starting package install`
 
-The Visual Studio installer may be stuck. Reboot your computer and try again.
+If this takes longer than 5-10 mins, the Visual Studio installer may be stuck. Reboot your computer and try again.
 
 ## Configure step
 
