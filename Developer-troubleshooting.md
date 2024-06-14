@@ -29,6 +29,10 @@ If the Visual Studio Build Tools are already installed then it will not be modif
 
 Problems running `cmake` in configure mode.
 
+### Error: `cmake : The term 'cmake' is not recognized`
+
+Try restarting your IDE. Depending on your OS, the CMake path may be in a new or changed environment variable.
+
 ### CMake cannot find Qt: `CMake Warning at src/gui/CMakeLists.txt`
 
 You may need to add the `CMAKE_PREFIX_PATH` environment variable with the path to the Qt library dir (e.g. on Windows, `C:\Qt\5.15.2\msvc2019_64`)
