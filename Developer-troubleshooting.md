@@ -22,4 +22,4 @@ The Visual Studio installer may be stuck. Reboot your computer and try again.
 
 ### Error: `The CXX compiler identification is unknown`
 
-If the dependencies script was successful and Visual Studio was installed, try restarting your IDE.
+If the dependencies script was successful and Visual Studio was installed, try restarting your IDE to use new environment variables.
