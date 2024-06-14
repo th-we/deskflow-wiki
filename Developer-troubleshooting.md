@@ -31,11 +31,11 @@ Problems running `cmake` in configure mode.
 
 ### Error: `cmake : The term 'cmake' is not recognized`
 
-Try restarting your IDE. Depending on your OS, the CMake path may be in a new or changed environment variable.
+Try restarting your IDE. Depending on your OS, the CMake path may be in a new or changed environment variable. On some OS, like Windows, the CMake directory is not always added to your path, so you may need to edit your `PATH` environment variable to include the CMake directory (e.g. `C:\Program Files\CMake\bin`).
 
 ### CMake cannot find Qt: `CMake Warning at src/gui/CMakeLists.txt`
 
-You may need to add the `CMAKE_PREFIX_PATH` environment variable with the path to the Qt library dir (e.g. on Windows, `C:\Qt\5.15.2\msvc2019_64`)
+You may need to add the `CMAKE_PREFIX_PATH` environment variable with the path to the Qt library dir (e.g. on Windows, `C:\Qt\5.15.2\msvc2019_64`).
 
 ### The same error persists even after trying solutions
 
