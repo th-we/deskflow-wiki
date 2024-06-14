@@ -1,5 +1,8 @@
 # Common problems
 
+- [Dependencies](#dependencies)
+- [Configure step](#configure-step)
+
 ## Dependencies
 
 Problems running the dependencies script (`python scripts/install_deps.py`)
