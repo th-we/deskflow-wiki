@@ -14,7 +14,7 @@ If you do have it installed, then you may need to use `python3` or `pip3` respec
 
 Try using `brew install pyyaml` instead of using `pip`.
 
-### Stuck at 'Starting package install' on Windows
+### On Windows: Stuck at `Starting package install`
 
 The Visual Studio installer may be stuck. Reboot your computer and try again.
 
@@ -26,6 +26,6 @@ Problems running `cmake` in configure mode.
 
 CMake caches configuration but doesn't invalidate the cache when the environment changes. Delete the `build` directory and re-run the configure step to create a fresh configuration.
 
-### Error: `The CXX compiler identification is unknown`
+### Windows error: `The CXX compiler identification is unknown`
 
-On Windows, if the dependencies script was successful and Visual Studio was installed, try restarting your IDE to use new environment variables.
+If the dependencies script was successful and Visual Studio was installed, try restarting your IDE to use new environment variables.
