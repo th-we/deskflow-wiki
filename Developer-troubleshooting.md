@@ -20,6 +20,10 @@ The Visual Studio installer may be stuck. Reboot your computer and try again.
 
 ## Configure step
 
+### The same error persists even after trying solutions
+
+CMake caches configuration but doesn't invalidate the cache when the environment changes. Delete the `build` directory and re-run the configure step to create a fresh configuration.
+
 ### Error: `The CXX compiler identification is unknown`
 
 If the dependencies script was successful and Visual Studio was installed, try restarting your IDE to use new environment variables.
