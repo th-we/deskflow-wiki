@@ -18,6 +18,10 @@ Try using `brew install pyyaml` instead of using `pip`.
 
 If this takes longer than 5-10 mins, the Visual Studio installer may be stuck. Reboot your computer and try again.
 
+### On Windows: Visual Studio is installed but the VC++ tools are not
+
+If the Visual Studio Build Tools are already installed then it will not be modified. You'll need to manually modify the Visual Studio installation and add the C++ workload.
+
 ## Configure step
 
 Problems running `cmake` in configure mode.
