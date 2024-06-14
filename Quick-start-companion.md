@@ -1,4 +1,4 @@
-# Common problems
+The quick start instructions on the README are an oversimplification of the steps required to build Synergy Core. You'll almost always have to do at least a few of the steps in this companion. Because developer environments vary, it's difficult to know exactly what every developer will need to do.
 
 - [Dependencies](#dependencies)
 - [Configure step](#configure-step)
@@ -9,7 +9,7 @@ Problems running the dependencies script (`python scripts/install_deps.py`)
 
 ### There is no `python` or `pip` command
 
-If you don't have Python installed, you'll need to install it.
+You'll need to install Python if you don't have it installed.
 
 If you do have it installed, then you may need to use `python3` or `pip3` respectively.
 
