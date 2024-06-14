@@ -20,6 +20,8 @@ The Visual Studio installer may be stuck. Reboot your computer and try again.
 
 ## Configure step
 
+Problems running `cmake` in configure mode.
+
 ### The same error persists even after trying solutions
 
 CMake caches configuration but doesn't invalidate the cache when the environment changes. Delete the `build` directory and re-run the configure step to create a fresh configuration.
