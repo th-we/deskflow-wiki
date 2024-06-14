@@ -23,7 +23,7 @@ The Visual Studio installer takes a while. If this takes longer than 5-10 mins, 
 
 ### On Windows: Visual Studio is installed but the VC++ tools are not
 
-If the Visual Studio Build Tools are already installed then it will not be modified. You'll need to manually modify the Visual Studio installation and add the C++ workload.
+If the Visual Studio Build Tools are already installed then it will not be modified. You'll need to manually modify the Visual Studio installation and add the C++ workload. Failing that, completely remove Visual Studio and re-run the dependencies script.
 
 ## Configure step
 
