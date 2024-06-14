@@ -35,7 +35,7 @@ Depending onyour OS, the CMake directory is not always added to your path during
 
 ### CMake cannot find Qt: `CMake Warning at src/gui/CMakeLists.txt`
 
-You may need to add the `CMAKE_PREFIX_PATH` environment variable with the path to the Qt library dir (e.g. on Windows, `C:\Qt\5.15.2\msvc2019_64`).
+You may need to add the `CMAKE_PREFIX_PATH` environment variable with the path to the Qt library dir (e.g. on Windows, `C:\Qt\5.15.2\msvc2019_64`). Don't forget to delete your `build` dir and restart VS Code.
 
 ### The same error persists even after trying solutions
 
