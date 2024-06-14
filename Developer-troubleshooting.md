@@ -32,4 +32,4 @@ CMake caches configuration but doesn't invalidate the cache when the environment
 
 ### Windows error: `The CXX compiler identification is unknown`
 
-If the dependencies script was successful and Visual Studio was installed, try restarting your IDE to use new environment variables.
+If the configure command was run previously before Visual Studio was properly installed, the cached CMake configuration may be incorrect. Delete the `build` directory and re-run the configure step to create a fresh configuration.
