@@ -44,7 +44,7 @@ On Windows and macOS, you need to add the `CMAKE_PREFIX_PATH` environment variab
 - Windows: `C:\Qt\5.15.2\msvc2019_64`
 - macOS: `$(brew --prefix qt@5)`
 
-As always, you may need to restart your IDE after changing environment variables.
+Remember, you may need to restart your IDE after changing environment variables.
 
 ### Windows error: `The CXX compiler identification is unknown`
 
