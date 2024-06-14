@@ -29,6 +29,10 @@ If the Visual Studio Build Tools are already installed then it will not be modif
 
 Problems running `cmake` in configure mode.
 
+### CMake cannot find Qt: `CMake Warning at src/gui/CMakeLists.txt`
+
+You may need to add the `CMAKE_PREFIX_PATH` environment variable with the path to the Qt library dir (e.g. on Windows, `C:\Qt\5.15.2\msvc2019_64`)
+
 ### The same error persists even after trying solutions
 
 CMake caches configuration but doesn't invalidate the cache when the environment changes. Delete the `build` directory and re-run the configure step to create a fresh configuration.
