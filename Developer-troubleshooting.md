@@ -43,4 +43,4 @@ CMake caches configuration but doesn't invalidate the cache when the environment
 
 ### Windows error: `The CXX compiler identification is unknown`
 
-If the configure command was run previously before Visual Studio was properly installed, the cached CMake configuration may be incorrect. Delete the `build` directory and re-run the configure step to create a fresh configuration. Failing that, you may not be running from the Visual Studio developer tools environment, in which case run `vcvarsall.bat`.
+First, make sure you're running from the Visual Studio developer tools environment (i.e. run `vcvarsall.bat`). Failing that, if the configure command was run previously before Visual Studio was properly installed, the cached CMake configuration may be incorrect. Delete the `build` directory and re-run the configure step to create a fresh configuration.
