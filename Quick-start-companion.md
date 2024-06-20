@@ -13,7 +13,7 @@ You'll need to install Python if you don't have it installed.
 
 If you do have it installed, then you may need to use `python3` or `pip3` respectively.
 
-### Unable to install `pyyaml` on macOS
+### On macOS: Unable to install `pyyaml`
 
 Try using `brew install pyyaml` instead of using `pip`.
 
