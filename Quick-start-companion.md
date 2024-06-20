@@ -41,7 +41,7 @@ Depending onyour OS, the CMake directory is not always added to your path during
 
 CMake caches configuration but doesn't invalidate the cache when the environment changes. Delete the `build` directory and re-run the configure step to create a fresh configuration.
 
-For example, a common CMake error solved by removing the `build` dir is 'The C compiler [...] is not able to compile a simple test program'.
+For example, a common CMake error solved by removing the `build` dir is: `The C compiler [...] is not able to compile a simple test program`
 
 ### CMake cannot find Qt: `CMake Warning at src/gui/CMakeLists.txt`
 
