@@ -17,7 +17,7 @@ If you do have it installed, then you may need to use `python3` or `pip3` respec
 
 Try using `brew install pyyaml` instead of using `pip`.
 
-### On macOS: The deps script loops with `brew install pyyaml`
+### On macOS: The dependencies script loops with `brew install pyyaml`
 
 This can happen when brew is installing `pyyaml` to a different version than you're using, e.g. if you have `python@3.11` and `python@3.12` installed. Try removing the older version, e.g.: `brew remove python@3.11`
 
@@ -28,6 +28,10 @@ The Visual Studio installer takes a while. If this takes longer than 5-10 mins, 
 ### On Windows: Visual Studio is installed but the VC++ tools are not
 
 If the Visual Studio Build Tools are already installed then it will not be modified. You'll need to manually modify the Visual Studio installation and add the C++ workload. Failing that, completely remove Visual Studio and re-run the dependencies script.
+
+### On Linux: Error related to `pip` or `venv`
+
+On some Linux distros, `pip` and `venv` are not included with Python by default. You'll need to install these to use the dependencies script. Alternatively, check the `deps.yml` file and run the command manually.
 
 ## Configure step
 
