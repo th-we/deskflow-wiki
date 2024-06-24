@@ -13,6 +13,11 @@ You'll need to install Python if you don't have it installed.
 
 If you do have it installed, then you may need to use `python3` or `pip3` respectively.
 
+Examples:
+- Windows: `winget install Python.Python.3.12`
+- macOS: `brew install python`
+
+
 ### On macOS: The dependencies script loops with `brew install pyyaml`
 
 This can happen when brew is installing `pyyaml` to a different version than you're using, e.g. if you have `python@3.11` and `python@3.12` installed. Try removing the older version, e.g.: `brew remove python@3.11`
