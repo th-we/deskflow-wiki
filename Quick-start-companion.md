@@ -7,7 +7,7 @@ The quick start instructions in the [README](/symless/synergy-core/blob/master/R
 
 Problems running the dependencies script (`python scripts/install_deps.py`)
 
-### There is no `python` or `pip` command
+### There is no `python3` command
 
 You'll need to install Python if you don't have it installed.
 
