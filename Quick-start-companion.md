@@ -27,7 +27,9 @@ If the Visual Studio Build Tools are already installed then it might not be poss
 
 ### On Linux: Error related to `pip` or `venv`
 
-On some Linux distros, `pip` and `venv` are not included with Python by default. The dependencies will try to resolve this, but if this fails you'll need to install these to use the dependencies script. Alternatively, get the packages command from `config.yml` file and run it manually.
+On some Linux distros, `pip` and `venv` are not included with Python by default. The dependencies script will try to resolve this, but if this fails you'll need to install these to use the dependencies script. 
+
+If you're still having problems running the dependencies script, you can get the packages command from `config.yml` file and run it manually.
 
 ## Configure step
 
