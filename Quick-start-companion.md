@@ -17,10 +17,6 @@ Examples:
 
 If you do have it installed, then you may need to use `python3` (instead of `python`).
 
-### On macOS: The dependencies script loops with `brew install pyyaml`
-
-This can happen when brew is installing `pyyaml` to a different version than you're using, e.g. if you have `python@3.11` and `python@3.12` installed. Try removing the older version, e.g.: `brew remove python@3.11`
-
 ### On Windows: Stuck at `Starting package install`
 
 The Visual Studio installer takes a while. If this takes longer than 5-10 mins, the Visual Studio installer may be stuck. Kill the command, completely remove Visual Studio, reboot your computer, and try again.
