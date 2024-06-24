@@ -13,25 +13,21 @@ You'll need to install Python if you don't have it installed.
 
 If you do have it installed, then you may need to use `python3` or `pip3` respectively.
 
-### On macOS: Unable to install `pyyaml`
-
-Try using `brew install pyyaml` instead of using `pip`.
-
 ### On macOS: The dependencies script loops with `brew install pyyaml`
 
 This can happen when brew is installing `pyyaml` to a different version than you're using, e.g. if you have `python@3.11` and `python@3.12` installed. Try removing the older version, e.g.: `brew remove python@3.11`
 
 ### On Windows: Stuck at `Starting package install`
 
-The Visual Studio installer takes a while. If this takes longer than 5-10 mins, the Visual Studio installer may be stuck. Kill the command, completely remove Visual Studio, reboot your computer and try again.
+The Visual Studio installer takes a while. If this takes longer than 5-10 mins, the Visual Studio installer may be stuck. Kill the command, completely remove Visual Studio, reboot your computer, and try again.
 
 ### On Windows: Visual Studio is installed but the VC++ tools are not
 
-If the Visual Studio Build Tools are already installed then it will not be modified. You'll need to manually modify the Visual Studio installation and add the C++ workload. Failing that, completely remove Visual Studio and re-run the dependencies script.
+If the Visual Studio Build Tools are already installed then it might not be possible for the script to modify the existing install. You'll need to manually modify the Visual Studio installation and add the C++ workload. Failing that, completely remove Visual Studio and re-run the dependencies script.
 
 ### On Linux: Error related to `pip` or `venv`
 
-On some Linux distros, `pip` and `venv` are not included with Python by default. You'll need to install these to use the dependencies script. Alternatively, check the `deps.yml` file and run the command manually.
+On some Linux distros, `pip` and `venv` are not included with Python by default. The dependencies will try to resolve this, but if this fails you'll need to install these to use the dependencies script. Alternatively, get the packages command from `config.yml` file and run it manually.
 
 ## Configure step
 
@@ -39,7 +35,9 @@ Problems running `cmake` in configure mode.
 
 ### Error: `cmake : The term 'cmake' is not recognized`
 
-Depending onyour OS, the CMake directory is not always added to your path during installation. For example on Windows, you may need to edit your `PATH` environment variable to include the CMake directory (e.g. `C:\Program Files\CMake\bin`). After changing your environment variables, you may need to restart your IDE.
+The dependencies script should set the `PATH` environment variable on Windows and macOS, but you may need to do this manually if you're still having problems. 
+
+On Windows, you will probably need to restart your IDE to use the new environment variable values.
 
 ### The same `cmake` error persists even after trying solutions
 
@@ -49,12 +47,15 @@ For example, a common CMake error solved by removing the `build` dir is: `The C 
 
 ### CMake cannot find Qt: `CMake Warning at src/gui/CMakeLists.txt`
 
-On Windows and macOS, you need to add the `CMAKE_PREFIX_PATH` environment variable with the path to the Qt library dir. This is not normally required on Linux.
-
+On Windows and macOS, the dependencies script should set the `CMAKE_PREFIX_PATH` environment variables with the Qt path, for example:
 - Windows: `C:\Qt\5.15.2\msvc2019_64`
 - macOS: `$(brew --prefix qt@5)`
 
-Remember, you may need to restart your IDE after changing environment variables. Delete the `build` directory and re-run the configure step to create a fresh configuration.
+This is not normally required on Linux.
+
+On Windows, you will probably need to restart your IDE to use the new environment variable values.
+
+After environment variables change, you may need to delete the `build` directory and re-run the configure step to create a fresh configuration.
 
 ### Windows error: `The CXX compiler identification is unknown`
 
