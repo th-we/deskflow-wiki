@@ -11,12 +11,11 @@ Problems running the dependencies script (`python scripts/install_deps.py`)
 
 You'll need to install Python if you don't have it installed.
 
-If you do have it installed, then you may need to use `python3` or `pip3` respectively.
-
 Examples:
 - Windows: `winget install Python.Python.3.12`
 - macOS: `brew install python`
 
+If you do have it installed, then you may need to use `python3` (instead of `python`).
 
 ### On macOS: The dependencies script loops with `brew install pyyaml`
 
