@@ -1,4 +1,4 @@
-The quick start instructions on the README are an oversimplification of the steps required to build Synergy Core. You'll almost always have to do at least a few of the steps in this companion. Because developer environments vary, it's difficult to know exactly what every developer will need to do.
+The quick start instructions in the [README](/symless/synergy-core/blob/master/README.md) are simplified and should work in the ideal development environment. However, some developers will likely need to make changes to their environment to build Synergy Core. This guide aims to help with common development environment issues.
 
 - [Dependencies](#dependencies)
 - [Configure step](#configure-step)
