@@ -39,7 +39,7 @@ Problems running `cmake` in configure mode.
 
 The dependencies script should set the `PATH` environment variable on Windows and macOS, but you may need to do this manually if you're still having problems. 
 
-On Windows, you will probably need to restart your IDE to use the new environment variable values.
+On Windows, you will probably need to run `refreshenv` or restart your IDE to use the new environment variable values.
 
 ### The same `cmake` error persists even after trying solutions
 
@@ -55,7 +55,7 @@ On Windows and macOS, the dependencies script should set the `CMAKE_PREFIX_PATH`
 
 This is not normally required on Linux.
 
-On Windows, you will probably need to restart your IDE to use the new environment variable values.
+On Windows, you will probably need to run `refreshenv` or restart your IDE to use the new environment variable values.
 
 After environment variables change, you may need to delete the `build` directory and re-run the configure step to create a fresh configuration.
 
