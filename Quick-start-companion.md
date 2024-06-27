@@ -61,4 +61,24 @@ After environment variables change, you may need to delete the `build` directory
 
 ### Windows error: `The CXX compiler identification is unknown`
 
-Assuming the Visual Studio C++ tools are installed correctly, this error may occur for a few reasons. Most likely is that you're not running from the Visual Studio developer tools environment (i.e. `vcvarsall.bat` was not run). If you're using VS Code, a recommended extension is [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) by Microsoft which automatically sets up the Visual Studio developer tools environment for you. Failing that, if the configure command was run previously before Visual Studio was properly installed, the cached CMake configuration may be incorrect. Delete the `build` directory and re-run the configure step to create a fresh configuration.
+This error may occur for a few reasons assuming the Visual Studio C++ tools are installed correctly. Most likely, you're not running from the Visual Studio developer tools environment (i.e. `vcvarsall.bat` was not run). 
+
+If you're using VS Code, a recommended extension is [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) by Microsoft which automatically sets up the Visual Studio developer tools environment for you. 
+
+Alternatively, if you're using VS Code but don't want to use the CMake Tools extension, you could add the 'Developer PowerShell for VS 2022' terminal to `settings.json`:
+```
+  "terminal.integrated.profiles.windows": {
+    "Developer PowerShell for VS 2022": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "args": [
+        "-WorkingDirectory",
+        "${workspaceFolder}",
+        "-NoExit",
+        "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/Launch-VsDevShell.ps1"
+      ]
+    }
+  }
+```
+
+If the CMake configure command was run before Visual Studio was properly installed, the cached CMake configuration may be incorrect. Delete the `build` directory and re-run the configure step to create a fresh configuration.
