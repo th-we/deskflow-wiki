@@ -72,10 +72,9 @@ Alternatively, if you're using VS Code but don't want to use the CMake Tools ext
       "source": "PowerShell",
       "icon": "terminal-powershell",
       "args": [
-        "-WorkingDirectory",
-        "${workspaceFolder}",
         "-NoExit",
-        "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/Launch-VsDevShell.ps1"
+        "-Command",
+        "$vsWhere = \"${Env:ProgramFiles(x86)}\\Microsoft Visual Studio\\Installer\\vswhere.exe\"; $vsInstallationPath = & $vsWhere -products * -latest -property installationPath; & \"${vsInstallationPath}\\Common7\\Tools\\Launch-VsDevShell.ps1\" -Arch amd64 -SkipAutomaticLocation"
       ]
     }
   }
