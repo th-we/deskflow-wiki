@@ -46,7 +46,7 @@ Command line options
 Taken from MacOS X 10.11 system:
 
 ```
-Usage: synergy-core client [--address <address>] [--yscroll <delta>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>] <server-address>
+Usage: synergyc [--address <address>] [--yscroll <delta>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>] <server-address>
 
 Connect to a synergy mouse/keyboard sharing server.
 
@@ -75,7 +75,7 @@ must be the address or hostname of the server.  The port overrides the
 default port, 24800.
 ```
 
-Unlike `synergy-core --server`, `synergy-core --client` has no config file.
+Unlike `synergys`, `synergyc` has no config file.
 The options are set either at runtime by the command line on the client,
 or for settings inherited from Synergy server they are set at connection time.
 
@@ -83,7 +83,7 @@ or for settings inherited from Synergy server they are set at connection time.
 
 Taken from a MacOS X 10.11 system:
 ```
-Usage: synergy-core server [--address <address>] [--config <pathname>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>]
+Usage: synergys [--address <address>] [--config <pathname>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>]
 
 Start the synergy mouse/keyboard sharing server.
 
