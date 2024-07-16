@@ -1,3 +1,5 @@
+# macOS laggy cursor
+
 ### OS Info
 Client: MacOS
 
