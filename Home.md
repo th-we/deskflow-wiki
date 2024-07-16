@@ -4,3 +4,4 @@
 * [[History]] - Learn about the original authors and how it all started.
 * [[Unit Testing]] - How to write unit tests for the project using Google Test.
 * [[Clear settings]] - Clear all settings on each OS for a fresh config.
+* [[Workarounds]] - Inventive solutions to strange problems.
