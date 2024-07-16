@@ -12,9 +12,6 @@ setting up your system in that GUI, and then exporting the config file
 with File --&gt; Save Configuration As and copy it over to the system
 you need it on. The same config file will work on any platform.
 
-Synergy Core v1.x
------------------
-
 Open up a command prompt and cd into the Synergy install directory.
 
 | OS | Command |
@@ -38,33 +35,6 @@ Run the Synergy server binary, pointing it at the configuration file.
 | Windows | `synergys -c [path to config file]`   |
 | macOS   | `./synergys -c [path to config file]` |
 | Linux   | `./synergys -c [path to config file]` |
-
-Synergy Core v2.x
------------------
-
-Open up a command prompt and cd into the Synergy install directory.
-
-| OS | Command |
-| ------- | --------------------------------------------- |
-| Windows | `cd "C:\Program Files\Synergy"`               |
-| macOS   | `cd /Applications/Synergy.app/Contents/Resources/` |
-| Linux   | `cd /usr/bin`                                 |
-
-Run the Synergy client binary, pointing it at the Synergy Server.
-
-| OS | Command |
-| ------- | ------------------------------------- |
-| Windows | `synergy-core --client [server IP]`   |
-| macOS   | `./synergy-core --client [server IP]` |
-| Linux   | `./synergy-core --client [server IP]` |
-
-Run the Synergy server binary, pointing it at the configuration file.
-
-| OS | Command |
-| ------- | -------------------------------------------------- |
-| Windows | `synergy-core --server -c [path to config file]`   |
-| macOS   | `./synergy-core --server -c [path to config file]` |
-| Linux   | `./synergy-core --server -c [path to config file]` |
 
 Command line options
 --------------------
