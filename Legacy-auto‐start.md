@@ -4,10 +4,6 @@ The official way is to use the Windows service feature in 1.4 which works with W
 
 # Mac
 
-You can use a [[Mac plist startup|plist through launchd]]. There's also an example of this method in the source code.
-
-You can use [[Mac plist startup#OS_X_Server|Login Items in the Accounts control panel]]. 1.4.12 w/ encryption - 8/21/13 [[User:Kitz | Kitz]]
-
 These instructions are not recommended for most people; instead, simply add the Synergy app to your startup items and enable auto-start in settings.
 
 ## Running Synergy on MacOS via plist
