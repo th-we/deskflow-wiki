@@ -1,16 +1,131 @@
-==How to make Synergy run automatically at startup==
-
-===Windows===
+# Windows
 
 The official way is to use the Windows service feature in 1.4 which works with Windows Vista/7. This is now the default behavior upon installation. To have Synergy ''not'' start on boot, you need to edit the properties of the service and set it to Manual.
 
-===Mac===
+# Mac
 
 You can use a [[Mac plist startup|plist through launchd]]. There's also an example of this method in the source code.
 
 You can use [[Mac plist startup#OS_X_Server|Login Items in the Accounts control panel]]. 1.4.12 w/ encryption - 8/21/13 [[User:Kitz | Kitz]]
 
-===Linux===
+These instructions are not recommended for most people; instead, simply add the Synergy app to your startup items and enable auto-start in settings.
+
+## Running Synergy on MacOS via plist
+
+Here we create a shell script and a property list file (plist), and activate the plist using the launchctl command-line tool.
+
+The shell script runs the synergyc Unix executable, telling it to connect to a laboratory workstation.  The property list file '''[please briefly explain what the plist file does here]'''.  
+
+## Shell script
+
+First make a little bash script or whatever to contain your synergy calls..
+
+For example, I put mine in <code>~/.scripts/synergyscript.sh</code>
+
+Here's what my script looks like:
+<pre>
+#!/bin/bash
+
+## Synergy client, connecting to Lab workstation
+/Applications/Synergy.app/Contents/MacOS/synergyc -f -d FATAL -n Intrepid 192.168.1.102
+</pre>
+
+Here I'm telling the synergy client I'm running to announce my machine's name is ''Intrepid'' and I'm getting to to connect to the ip ''192.168.1.102''.
+
+I used this format so that I might later add additional separate instances of synergy, as this was on a laptop that moves around.
+
+Then make sure you make your script executable: <pre>chmod +x ~/.scripts/synergyscript.sh</pre>
+
+''does it need to be made executable?  we don't need that to run it manually.  Does launchctl or the plist require it?''
+
+Run the script manually to confirm it works: <pre>~/.scripts/synergyscript.sh</pre>
+
+If it works, you should see '''[please describe that here]'''.  If it doesn't work, you might see '''[please describe]'''.  In that case, try '''[please describe]'''.  
+
+## Create the corresponding plist file
+I created my plist file under <tt>~/Library/LaunchAgents/ca.dawning.scripts.osx.synergy.plist</tt>
+
+It contains:
+<pre>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC -//Apple Computer//DTD PLIST 1.0//EN http://www.apple.com/DTDs/PropertyList-1.0.dtd >
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>ca.dawning.scripts.osx.synergy</string>
+    <key>Program</key>
+    <string>/Users/j/.scripts/synergyscript.sh</string>
+    <key>KeepAlive</key>
+    <true/>
+  </dict>
+</plist>
+</pre>
+
+## Activate your plist with launchctl
+<pre>
+launchctl load ~/Library/LaunchAgents/ca.dawning.scripts.osx.synergy.plist
+</pre>
+
+To unload it, just swap that ''load'' above with ''unload''.
+
+Using a Mac OS X 10.6.8 server with synergys 1.4.12 and a Windows 7 SP1 client with synergyc.exe 1.4.12
+
+## OS X Server
+Create a config file ~/Library/Synergy/synergy.conf (or where ever) with the following contents:
+<pre>
+section: screens
+	win:
+		alt = super
+		super = alt
+		halfDuplexCapsLock = false
+		halfDuplexNumLock = false
+		halfDuplexScrollLock = false
+		xtestIsXineramaUnaware = false
+		switchCorners = none +top-right +bottom-right 
+		switchCornerSize = 0
+	osx:
+		halfDuplexCapsLock = false
+		halfDuplexNumLock = false
+		halfDuplexScrollLock = false
+		xtestIsXineramaUnaware = false
+		switchCorners = none 
+		switchCornerSize = 0
+end
+
+section: aliases
+end
+
+section: links
+	win:
+		right = osx
+	osx:
+		left = win
+end
+
+section: options
+	relativeMouseMoves = false
+	screenSaverSync = true
+	win32KeepForeground = false
+	switchCorners = none +top-left +bottom-left 
+	switchCornerSize = 32
+end
+</pre>
+
+Create a file ~/bin/initsynergy.command with the following contents:
+ #!/bin/bash
+ 
+ # Hides tray icon. set to 0 to have it show again.
+ defaults write /Applications/Synergy.app/Contents/Info LSUIElement 1
+ 
+ /Applications/Synergy.app/Contents/MacOS/synergys --enable-crypto --config ~/Library/Synergy/synergy.conf -n osx -l /var/log/synergy.log
+
+Make sure you:
+ sudo touch /var/log/synergy.log
+ sudo chown YOUROSXUSERNAME /var/log/synergy.log
+
+Add ~/bin/initsynergy.command to your account's Login Items in System Preferences -> Accounts -> Login Items
+
+# Linux
 
 Start synergy client (synergyc) on Fedora 22 using LightDM
 
