@@ -68,7 +68,7 @@ Using a Mac OS X 10.6.8 server with synergys 1.4.12 and a Windows 7 SP1 client w
 
 ## OS X Server
 Create a config file ~/Library/Synergy/synergy.conf (or where ever) with the following contents:
-<pre>
+```
 section: screens
 	win:
 		alt = super
@@ -105,19 +105,23 @@ section: options
 	switchCorners = none +top-left +bottom-left 
 	switchCornerSize = 32
 end
-</pre>
+```
 
 Create a file ~/bin/initsynergy.command with the following contents:
+```
  #!/bin/bash
  
  # Hides tray icon. set to 0 to have it show again.
  defaults write /Applications/Synergy.app/Contents/Info LSUIElement 1
  
  /Applications/Synergy.app/Contents/MacOS/synergys --enable-crypto --config ~/Library/Synergy/synergy.conf -n osx -l /var/log/synergy.log
+```
 
 Make sure you:
+```
  sudo touch /var/log/synergy.log
  sudo chown YOUROSXUSERNAME /var/log/synergy.log
+```
 
 Add ~/bin/initsynergy.command to your account's Login Items in System Preferences -> Accounts -> Login Items
 
