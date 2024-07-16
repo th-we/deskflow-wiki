@@ -10,9 +10,9 @@ These instructions are not recommended for most people; instead, simply add the 
 
 Here we create a shell script and a property list file (plist), and activate the plist using the launchctl command-line tool.
 
-The shell script runs the synergyc Unix executable, telling it to connect to a laboratory workstation.  The property list file '''[please briefly explain what the plist file does here]'''.  
+The shell script runs the synergyc Unix executable, telling it to connect to a laboratory workstation.
 
-## Shell script
+## Make the shell script
 
 First make a little bash script or whatever to contain your synergy calls..
 
