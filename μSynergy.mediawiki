@@ -1,5 +1,0 @@
-μSynergy (aka uSynergy) was an embedded Synergy client library developed by [http://en.wikipedia.org/wiki/Alex_Evans_(video_game_developer) Alex Evans], and contributed to by [http://en.wikipedia.org/wiki/Michiel_van_der_Leeuw Michiel van der Leeuw].
-
-It existed in the Synergy [[Source Code|source code]] under the <code>src/micro</code> directory, until its removal in [https://github.com/symless/synergy-core/commit/0feb5df3277fa8d045605556525a4bdb2688135b commit 0feb5df32]. The last release of Synergy that contained the uSynergy code was [https://github.com/symless/synergy-core/tree/v1.8.8-stable/src/micro v1.8.8].
-
-This code can be used with any platform, and was originally designed for the Playstation 3 platform (platform specific code has been replaced with callbacks).
