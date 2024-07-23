@@ -2,7 +2,7 @@ The quick start instructions in the [README](/symless/synergy-core/blob/master/R
 
 ## IDE
 
-We recommend [VS Code](https://code.visualstudio.com/) with our recommended workspace extensions (`.vscode/extensions.json`), especially the [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) extension (`ms-vscode.cmake-tools`).
+We suggest using [VS Code](https://code.visualstudio.com/) with our recommended workspace extensions (`.vscode/extensions.json`), especially the [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) extension (`ms-vscode.cmake-tools`).
 
 ## Common problems
 
