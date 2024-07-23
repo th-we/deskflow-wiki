@@ -15,7 +15,9 @@ Examples:
 - Windows: `winget install Python.Python.3.12`
 - macOS: `brew install python`
 
-If you do have it installed, then you may need to use `python3` (instead of `python`).
+If you do have it installed, then you may need to use `python3` (instead of `python`). 
+
+Tip: If you need the `python` command to run Python 3, there are often packages available to do this (e.g. `python-is-python3`).
 
 ### On Windows: Stuck at `Starting package install`
 
