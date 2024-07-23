@@ -1,4 +1,5 @@
 * [[Quick Start FAQ]] - Things you'll probably need to do if using the quick start.
+* [[Code Style]] - What code style you should use when contributing.
 * [[Code Planning]] - Long-term plans for the future of the code base.
 * [[Command Line]] - Go full manual and run Synergy Core from the command line.
 * [[Text Config]] - Write a text config file when running Synergy Core manually.
