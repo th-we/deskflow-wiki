@@ -92,7 +92,7 @@ If the CMake configure command was run before Visual Studio was properly install
 
 #### Linix error: `gcovr not found! Aborting`
 
-When building with `-DENABLE_COVERAGE=ON`, gcovr is required. This is not satisfied by the `install_deps.py` script, since it's not a normal dependency. We could install this with the OS package manager (e.g. `apt`) but usually, it's an older version that gets installed. To install the latest version, you could use pipx:
+When building with `-DENABLE_COVERAGE=ON`, gcovr is required. This is not satisfied by the dependencies script, since it's not a normal dependency. We could install this with the OS package manager (e.g. `apt`) but usually, it's an older version that gets installed. To install the latest version, you could use pipx:
 ```
 sudo apt install pipx
 pipx install gcovr
