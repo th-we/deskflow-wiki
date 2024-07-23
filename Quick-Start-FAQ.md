@@ -71,9 +71,11 @@ After environment variables change, you may need to delete the `build` directory
 
 This error may occur for a few reasons assuming the Visual Studio C++ tools are installed correctly. 
 
+If the CMake configure command was run before Visual Studio was properly installed, the cached CMake configuration may be incorrect. Delete the `build` directory and re-run the configure step to create a fresh configuration.
+
 If you're using VS Code, the easiest way to fix this is to use the recommended extension, [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) which automatically sets up the Visual Studio developer tools environment for you.
 
-When running the configure command from a regular terminal, most likely, you're not running from the Visual Studio developer tools environment (i.e. `vcvarsall.bat` was not run). Microsoft provides a start menu entry to a special terminal which they call 'Developer PowerShell for VS 2022'.
+When running the CMake configure command from a regular terminal, most likely, you're not running from the Visual Studio developer tools environment (i.e. `vcvarsall.bat` was not run). Microsoft provides a start menu entry to a special terminal which they call 'Developer PowerShell for VS 2022'.
 
 Alternatively, if you're using VS Code but don't want to use the CMake Tools extension, you could add the 'Developer PowerShell for VS 2022' terminal to `settings.json`:
 ```
@@ -89,8 +91,6 @@ Alternatively, if you're using VS Code but don't want to use the CMake Tools ext
     }
   }
 ```
-
-If the CMake configure command was run before Visual Studio was properly installed, the cached CMake configuration may be incorrect. Delete the `build` directory and re-run the configure step to create a fresh configuration.
 
 #### Linix error: `gcovr not found! Aborting`
 
