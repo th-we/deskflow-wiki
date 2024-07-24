@@ -4,3 +4,9 @@ Our code style is enforced via CI which runs the `scripts/lint_cmake.py` and `sc
 - CLang (C/C++/Objective-C): `.clang-format` - LLVM with a few minor tweaks.
 - CMake: `cmake-format.yaml` - Standard with a few minor tweaks.
 - Python: Use [black](https://github.com/psf/black)
+
+# Naming
+
+- Member variables should be prefixed with `m_`
+- Getters _should not_ have `get` prefixed, e.g. `helloWorld()`
+- Setters should have `set` prefixed, e.g. `setHelloWorld(int value)`
