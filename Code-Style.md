@@ -9,6 +9,8 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 - Member variables should be prefixed with `m_helloWorld`
 - Getters _should not_ have `get` prefixed, e.g. `helloWorld()`
 - Setters should have `set` prefixed, e.g. `setHelloWorld(...)`
+- Qt slots should always begin with `on_` (e.g. `on_somethingHappened`)
+- Qt signals should indicate that something happened (e.g. `somethingHappened`)
 
 # Organization
 
