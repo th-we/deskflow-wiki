@@ -20,12 +20,12 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 # Organization
 
 1. `.cpp` files should be ordered in the following:
-  - Copyright
-  - Headers
-  - `using`
-  - Constants
-  - Free functions
-  - Class members
+    - Copyright
+    - Headers
+    - `using`
+    - Constants
+    - Free functions
+    - Class members
 1. Getters should be grouped together
 1. Setters should be grouped together
 1. Getters and setters should not be paired
