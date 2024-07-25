@@ -7,18 +7,25 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 
 # Naming
 
-- Member variables should be prefixed with `m_helloWorld`
-- Pointers should begin with a lower case `p`, e.g. `m_pHelloWorld`
-- Getters _should not_ have `get` prefixed, e.g. `helloWorld()`
-- Setters should have `set` prefixed, e.g. `setHelloWorld(...)`
+1. Member variables should be prefixed with `m_helloWorld`
+1. Pointers should begin with a lower case `p`, e.g. `m_pHelloWorld`
+1. Getters _should not_ have `get` prefixed, e.g. `helloWorld()`
+1. Setters should have `set` prefixed, e.g. `setHelloWorld(...)`
 
 ## Qt naming
-- Qt slots should always begin with `on_`, e.g. `on_foo_bar`
-- Qt slots should include both the signal origin and signal name, e.g. `on_signalOrigin_somethingHappened`
-- Qt signals should indicate that something happened, e.g. `somethingHappened`
+1. Qt slots should always begin with `on_`, e.g. `on_foo_bar`
+1. Qt slots should include both the signal origin and signal name, e.g. `on_signalOrigin_somethingHappened`
+1. Qt signals should indicate that something happened, e.g. `somethingHappened`
 
 # Organization
 
-- Getters should be grouped together
-- Setters should be grouped together
-- Getters and setters should not be paired
+1. `.cpp` files should be ordered in the following:
+  - Copyright
+  - Headers
+  - `using`
+  - Constants
+  - Free functions
+  - Class members
+1. Getters should be grouped together
+1. Setters should be grouped together
+1. Getters and setters should not be paired
