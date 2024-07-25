@@ -14,7 +14,7 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 
 ## Qt naming
 - Qt slots should always begin with `on_`, e.g. `on_foo_bar`
-- Qt slots should include both the signal origin and signal name, e.g. on_signalOrigin_somethingHappened
+- Qt slots should include both the signal origin and signal name, e.g. `on_signalOrigin_somethingHappened`
 - Qt signals should indicate that something happened, e.g. `somethingHappened`
 
 # Organization
