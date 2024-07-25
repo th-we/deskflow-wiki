@@ -26,6 +26,11 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
     - Constants
     - Free functions
     - Class members
+1. Headers should be ordered in separate groups of:
+    - Header file for the `.cpp` file
+    - For Qt, the `_ui.h` file
+    - Project header files
+    - 3rd party lib and system headers
 1. Getters should be grouped together
 1. Setters should be grouped together
 1. Getters and setters should not be paired
