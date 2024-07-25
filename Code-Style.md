@@ -13,9 +13,10 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 1. Setters should have `set` prefixed, e.g. `setHelloWorld(...)`
 
 ## Qt naming
-1. Qt slots should always begin with `on_`, e.g. `on_foo_bar`
-1. Qt slots should include both the signal origin and signal name, e.g. `on_signalOrigin_somethingHappened`
 1. Qt signals should indicate that something happened, e.g. `somethingHappened`
+1. Qt slots should not follow the MOC convention (`on_foo_bar`) to avoid using [Qt autoconnection](https://stackoverflow.com/questions/24355023/qmetaobjectconnectslotsbyname-no-matching-signal#comment75275406_24355288)
+1. Qt slots should always begin with `on`, e.g. `onFooBar`
+1. Qt slots should include both the signal origin and signal name, e.g. `onOriginSomethingHappened`
 
 # Organization
 
