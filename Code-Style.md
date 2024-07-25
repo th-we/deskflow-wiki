@@ -19,7 +19,7 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 
 # Organization
 
-1. `.cpp` files should be ordered in the following:
+1. `.cpp` files should be ordered:
     - Copyright
     - Headers
     - `using`
