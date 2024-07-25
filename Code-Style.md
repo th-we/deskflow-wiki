@@ -15,9 +15,9 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 ## Qt naming
 
 1. Qt signals should indicate that something happened, e.g. `somethingHappened`
-1. Qt slots should not follow the autoconnection convention (`on_foo_bar`) to demonstrate use of manual slots
-1. Qt slots should always begin with `on`, e.g. `onFooBar`
-1. Qt slots should include both the signal origin and signal name, e.g. `onOriginSomethingHappened`
+1. Qt slots should always begin with `on`
+1. Manual Qt slots should _not_ follow the autoconnection convention (`on_foo_bar`)
+1. Manual Qt slots should include both the signal origin and signal name, e.g. `onOriginSomethingHappened`
 
 # Organization
 
