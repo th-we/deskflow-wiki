@@ -103,7 +103,7 @@ pipx install gcovr
 
 ### Development
 
-#### The GUI behaves differently compared to Qt Creator
+#### The GUI looks different compared to Qt Creator preview
 
 Make sure you use the version of Qt Creator that you're building against. For example, on Linux we depend on the version of Qt from package mangers which is sometimes a few years old (for stability). Rather than using the very latest version of Qt Creator (which is often pretty unstable anyway), use the version that matches the version of Qt you're building against.
 
