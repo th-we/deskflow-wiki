@@ -11,6 +11,7 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 1. Pointers should begin with a lower case `p`, e.g. `m_pHelloWorld`
 1. Getters _should not_ have `get` prefixed, e.g. `helloWorld()`
 1. Setters should have `set` prefixed, e.g. `setHelloWorld(...)`
+1. Enum values and constants should begin with `k`, e.g. `kHelloWorld`
 
 ## Qt naming
 
