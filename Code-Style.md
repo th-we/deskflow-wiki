@@ -12,6 +12,8 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 1. Getters _should not_ have `get` prefixed, e.g. `helloWorld()`
 1. Setters should have `set` prefixed, e.g. `setHelloWorld(...)`
 1. Enum values and constants should begin with `k`, e.g. `kHelloWorld`
+1. Class filenames should be pascal case, e.g. `HelloWorld.cpp`
+1. Files with many classes or functions should be snake case, e.g. `hello_world.cpp`
 
 ## Qt naming
 
