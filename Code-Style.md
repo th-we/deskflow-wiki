@@ -36,3 +36,8 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 1. Getters should be grouped together
 1. Setters should be grouped together
 1. Getters and setters should not be paired
+
+# Exceptions
+
+1. Do use exceptions for exceptional situations (things that should not happen)
+1. Do not use exceptions for validation (e.g. if a user input value is unexpected)
