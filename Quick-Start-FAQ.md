@@ -107,6 +107,6 @@ pipx install gcovr
 
 Make sure you use the version of Qt Creator that you're building against. For example, on Linux we depend on the version of Qt from package mangers which is sometimes a few years old (for stability). Rather than using the very latest version of Qt Creator (which is often pretty unstable anyway), use the version that matches the version of Qt you're building against.
 
-#### The `.ui` file changes radically between computers
+#### Qt `.ui` files change radically between computers
 
 Different versions of Qt Creator save `.ui` files differently. For the best development experience, use the same version of Qt Creator on all of your computers.
