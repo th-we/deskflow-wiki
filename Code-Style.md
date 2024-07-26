@@ -40,5 +40,6 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 
 # Exceptions
 
+1. Do not allow exceptions to propagate to Qt (instead, use `qtCritical()`)
 1. Do use exceptions for exceptional situations (things that should not happen)
 1. Do not use exceptions for validation (e.g. if a user input value is unexpected)
