@@ -15,6 +15,7 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 1. Class filenames should be pascal case, e.g. `HelloWorld.cpp`
 1. Files with many classes or functions should be snake case, e.g. `hello_world.cpp`
 1. Unit test names should follow the function-input-output pattern, e.g. `helloWorld_fooIn_barOut`
+1. The word "deps" should be used to mean "dependencies"
 
 ## Qt naming
 
@@ -40,6 +41,10 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 1. Getters should be grouped together
 1. Setters should be grouped together
 1. Getters and setters should not be paired
+
+# Unit tests
+
+1. Use ctor dependency injection when writing unit tests (use `std::function`)
 1. A unit test body should follow the AAA (arrange-act-assert) pattern, e.g.:
     ```
     auto foo = "hello";
