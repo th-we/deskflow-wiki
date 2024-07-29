@@ -43,10 +43,11 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 1. A unit test body should follow the AAA (arrange-act-assert) pattern, e.g.:
     ```
     auto foo = "hello";
+    auto bar = "world";
 
-    auto bar = addWorld(foo);
+    auto baz = combine(foo, bar);
 
-    EXPECT_EQ(bar, "hello world");
+    EXPECT_EQ(baz, "hello world");
     ```
 
 # Exceptions
