@@ -44,7 +44,7 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 
 # Unit tests
 
-1. Use ctor dependency injection when writing unit tests (use `std::function`)
+1. Use ctor dependency injection (e.g. `std::function` or a `Deps` struct)
 1. A unit test body should follow the AAA (arrange-act-assert) pattern, e.g.:
     ```
     auto foo = "hello";
