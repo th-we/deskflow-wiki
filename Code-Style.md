@@ -54,6 +54,8 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 
     EXPECT_EQ(baz, "hello world");
     ```
+1. A unit test should test only one scenario and expectation
+    - Split test scenarios into separate test functions
 
 # Exceptions
 
