@@ -14,7 +14,7 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 1. Enum values and constants should begin with `k`, e.g. `kHelloWorld`
 1. Class filenames should be pascal case, e.g. `HelloWorld.cpp`
 1. Files with many classes or functions should be snake case, e.g. `hello_world.cpp`
-1. Unit test names follow the function-input-output convention, e.g. `helloWorld_fooIn_barOut`
+1. Unit test names should follow the function-input-output pattern, e.g. `helloWorld_fooIn_barOut`
 
 ## Qt naming
 
@@ -40,6 +40,14 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 1. Getters should be grouped together
 1. Setters should be grouped together
 1. Getters and setters should not be paired
+1. A unit test body should follow the AAA (arrange-act-assert) pattern, e.g.:
+    ```
+    auto foo = "hello";
+
+    auto bar = addWorld(foo);
+
+    EXPECT_EQ(bar, "hello world");
+    ```
 
 # Exceptions
 
