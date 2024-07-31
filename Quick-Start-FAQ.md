@@ -105,7 +105,11 @@ pipx install gcovr
 
 #### The GUI looks different compared to Qt Creator preview
 
-Make sure you use the version of Qt Creator that you're building against. For example, on Linux we depend on the version of Qt from package mangers which is sometimes a few years old (for stability). Rather than using the very latest version of Qt Creator (which is often pretty unstable anyway), use the version that matches the version of Qt you're building against.
+Qt development with `.ui` files is tricky due to Linux package dependencies. We have limited control over the Qt version available on each distro. On Windows and macOS, we can bundle the specific Qt DLLs, giving us more control over the Qt version the app is rendered with.
+
+To ensure as much consistency as possible between each OS, use the same version of Qt Creator across Windows, macOS, and Linux. This ensures that `.ui` files are at least saved in the same way, which can help to prevent some rendering issues. This requires using the [Qt Online Installer](https://www.qt.io/download-open-source) to install Qt Creator instead of a package manager. However, this won't fix runtime rendering issues in the built Linux app since it'll be built against a much older version of Qt.
+
+Unfortunately, we have to work around weird rendering issues on Linux because of the Qt versions available in the package repositories.
 
 #### Qt `.ui` files change radically between computers
 
