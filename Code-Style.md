@@ -19,7 +19,7 @@ Our code formatting is enforced via CI which runs the `scripts/lint_cmake.py` an
 
 ## Qt naming
 
-1. Qt controls should be named `m_p<type><description>`, e.g. `m_pLabelStuff`
+1. Qt controls should be named `m_p<type><description>`, e.g. `m_pLabelSpecificThing`
 1. Qt signals should indicate that something happened, e.g. `somethingHappened`
 1. Qt slots should always begin with `on`
 1. Manual Qt slots should _not_ follow the autoconnection convention (`on_foo_bar`)
