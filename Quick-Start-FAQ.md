@@ -9,7 +9,7 @@ The quick start instructions in the [README](/symless/synergy-core/blob/master/R
 
 We suggest using [VS Code](https://code.visualstudio.com/) with our recommended workspace extensions (`.vscode/extensions.json`), especially the [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) extension (`ms-vscode.cmake-tools`).
 
-For developing the GUI, we recommend using Qt Creator. This can be installed either by downloading a package from the [Qt Creator GitHub project](https://github.com/qt-creator/qt-creator/releases), or by using the [Qt Online Installer](https://www.qt.io/download-open-source) to install Qt Creator. We don't recommend using your favorite package manager, because it's normally harder to install the same version on all computers (which is important).
+For developing the GUI, we recommend using Qt Creator. This can be installed either by downloading a package from the [Qt Creator GitHub project](https://github.com/qt-creator/qt-creator/releases), or by using the [Qt Online Installer](https://www.qt.io/download-open-source). We don't recommend using your favorite package manager, because it's normally harder to install the same version on all computers (which is important).
 
 ## Dependencies
 
