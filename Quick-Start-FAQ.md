@@ -9,6 +9,8 @@ The quick start instructions in the [README](/symless/synergy-core/blob/master/R
 
 We suggest using [VS Code](https://code.visualstudio.com/) with our recommended workspace extensions (`.vscode/extensions.json`), especially the [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) extension (`ms-vscode.cmake-tools`).
 
+For developing the GUI, we recommend using the [Qt Online Installer](https://www.qt.io/download-open-source) to install Qt Creator instead of a package manager to ensure that you have the same version of Qt Creator on each computer.
+
 ## Dependencies
 
 Problems running the dependencies script (`python scripts/install_deps.py`)
