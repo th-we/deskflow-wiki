@@ -106,7 +106,7 @@ pipx install gcovr
 
 ### Qt `.ui` files change radically between computers
 
-Different versions of Qt Creator save `.ui` files differently. To ensure as much consistency as possible between each OS, use the same version of Qt Creator across Windows, macOS, and Linux. This ensures that `.ui` files are at least saved in the same way, which can help to prevent _some_ rendering issues. This requires using the [Qt Online Installer](https://www.qt.io/download-open-source) to install Qt Creator instead of a package manager. However, this won't fix runtime rendering issues in the built Linux app since it'll be built against a much older version of Qt.
+Different versions of Qt Creator save `.ui` files differently. To ensure as much consistency as possible between each OS, use the same version of Qt Creator across Windows, macOS, and Linux. This ensures that `.ui` files are at least saved in the same way, which can help to prevent _some_ rendering issues. However, this won't fix runtime rendering issues in the built Linux app since it'll be built against a much older version of Qt.
 
 ### The GUI looks different compared to Qt Creator preview
 
