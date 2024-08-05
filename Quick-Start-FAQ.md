@@ -16,6 +16,8 @@ For developing the GUI, we recommend using Qt Creator. This can be installed in 
 
 We don't recommend using your favorite package manager, because it's often harder to install the same version on all computers (which is important).
 
+If you choose to use the Qt Online Installer, then you'll only need to install Qt Creator (and not Qt itself, as this dependency is managed by the dependencies script).
+
 ## Dependencies
 
 Problems running the dependencies script (`python scripts/install_deps.py`)
