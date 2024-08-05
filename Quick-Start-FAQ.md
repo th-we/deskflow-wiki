@@ -118,3 +118,14 @@ Different versions of Qt Creator save `.ui` files differently. To ensure as much
 ### The GUI looks different compared to Qt Creator preview
 
 Qt development with `.ui` files is tricky due to Linux package dependencies. We have limited control over the Qt version available on each distro. On Windows and macOS, we can bundle the specific Qt DLLs, giving us more control over the Qt version the app is rendered with. Unfortunately, we have to work around weird rendering issues on Linux because of the Qt versions available in the package repositories.
+
+### VS Code uses wrong `clang-format` or `cmake-format`
+
+You should use the same version of `clang-format` on all of your computers, and you should use the latest version. 
+
+```
+pipx install clang-format cmakelang
+pipx inject clang-format pyyaml
+```
+
+For some reason `clang-format` does not try to resolve it's dependency on `pyyaml` which isn't always available (depending on the version of Python you have), so you'll sometimes need to use `pipx inject` to satisfy this dependency.
