@@ -23,27 +23,30 @@ First, ensure that Synergy is uninstalled.
 
 Run these commands to delete these files and folders (if they exist):
 
-Newer macOS:
+1. Newer macOS:
 ```
 defaults delete com.symless.Synergy.plist
 defaults delete com.http-symless-com.Synergy.plist
 defaults delete com.https-symless-com.Synergy.plist
 ```
- 
-* `$ rm -r ~/Library/Preferences/Symless`
-* `$ rm -r ~/Library/Synergy`
-* `$ rm ~/Library/Preferences/com.symless.Synergy.plist`
-* `$ rm ~/Library/Preferences/com.http-symless-com.Synergy.plist`
-* `$ rm ~/Library/Preferences/com.https-symless-com.Synergy.plist`
+
+2. All macOS versions:
+```
+rm -r ~/Library/Preferences/Symless
+rm -r ~/Library/Synergy
+rm ~/Library/Preferences/com.symless.Synergy.plist
+rm ~/Library/Preferences/com.http-symless-com.Synergy.plist
+rm ~/Library/Preferences/com.https-symless-com.Synergy.plist
+```
 
 Then run this command to clear the cached preferences stored in memory:
 
-Newer macOS:
+3. Newer macOS:
 ```
 killall SystemUIServer
 ```
 
-Older macOS:
+3. Older macOS:
 ```
 $ killall -u $USER cfprefsd
 ```
@@ -53,7 +56,8 @@ $ killall -u $USER cfprefsd
 First, ensure that Synergy is uninstalled.
 
 Run these commands to delete these files and folders (if they exist):
-
-* `$ rm -rf ~/.config/Synergy/`
-* `$ rm -rf ~/.config/Symless/`
-* `$ rm -rf ~/.synergy/`
+```
+rm -rf ~/.config/Synergy/
+rm -rf ~/.config/Symless/
+rm -rf ~/.synergy/
+```
