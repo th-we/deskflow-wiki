@@ -22,15 +22,31 @@ Now, delete these directories (if they exist):
 First, ensure that Synergy is uninstalled.
 
 Run these commands to delete these files and folders (if they exist):
+
+Newer macOS:
+```
+defaults delete com.symless.Synergy.plist
+defaults delete com.http-symless-com.Synergy.plist
+defaults delete com.https-symless-com.Synergy.plist
+```
  
-* `$ rm -rf ~/Library/Preferences/Symless`
-* `$ rm -rf ~/Library/Synergy`
-* `$ rm ~/Library/Preferences/com.https-symless-com.Synergy.plist`
+* `$ rm -r ~/Library/Preferences/Symless`
+* `$ rm -r ~/Library/Synergy`
+* `$ rm ~/Library/Preferences/com.symless.Synergy.plist`
 * `$ rm ~/Library/Preferences/com.http-symless-com.Synergy.plist`
+* `$ rm ~/Library/Preferences/com.https-symless-com.Synergy.plist`
 
 Then run this command to clear the cached preferences stored in memory:
 
-* `$ killall -u $USER cfprefsd`
+Newer macOS:
+```
+killall SystemUIServer
+```
+
+Older macOS:
+```
+$ killall -u $USER cfprefsd
+```
 
 # Linux
 
