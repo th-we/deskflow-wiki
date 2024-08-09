@@ -21,16 +21,14 @@ Now, delete these directories (if they exist):
 
 First, ensure that Synergy is uninstalled.
 
-Run these commands to delete these files and folders (if they exist):
-
-1. Newer macOS:
+On newer macOS versions, you'll need to use `defaults delete` to clear the settings cache:
 ```
 defaults delete com.symless.Synergy.plist
 defaults delete com.http-symless-com.Synergy.plist
 defaults delete com.https-symless-com.Synergy.plist
 ```
 
-2. All macOS versions:
+For all macOS versions, delete any files on disk:
 ```
 rm -r ~/Library/Preferences/Symless
 rm -r ~/Library/Synergy
@@ -39,16 +37,9 @@ rm ~/Library/Preferences/com.http-symless-com.Synergy.plist
 rm ~/Library/Preferences/com.https-symless-com.Synergy.plist
 ```
 
-Then run this command to clear the cached preferences stored in memory:
-
-3. Newer macOS:
+On older macOS versions, you'll need to kill the `cfprefsd` process to clear the cache:
 ```
-killall SystemUIServer
-```
-
-3. Older macOS:
-```
-$ killall -u $USER cfprefsd
+killall -u $USER cfprefsd
 ```
 
 # Linux
