@@ -22,6 +22,14 @@ If you choose to use the Qt Online Installer, then you'll only need to install Q
 
 Problems running the dependencies script (`python scripts/install_deps.py`)
 
+### `ERROR: File "setup.py" not found.`
+
+This happens on older Linux distros such as Ubuntu 20, as they come with an older version of Python. Try upgrading `pip` to solve this.
+
+```
+pip install --upgrade pip
+```
+
 ### There is no `python3` command
 
 You'll need to install Python if you don't have it installed.
