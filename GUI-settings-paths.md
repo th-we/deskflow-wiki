@@ -1,6 +1,30 @@
-How to remove all Synergy settings and config files for a clean uninstall/reinstall.
+# GUI Settings Paths
 
-# Windows
+**v1.15.0 or higher**
+
+- *Windows:* `\HKEY_CURRENT_USER\Software\Synergy\Synergy`
+- *macOS:* `~/Library/Preferences/com.symless.Synergy.plist`
+- *Linux:* `~/.config/Synergy/Synergy.conf`
+
+**v1.14.x or lower**
+
+- *Windows:* `\HKEY_CURRENT_USER\Software\Synergy\Synergy`
+- *macOS:* `~/Library/Preferences/http-symless-com.Synergy.plist`
+- *Linux:* `~/.config/Synergy/Synergy.conf`
+
+# Clear GUI Settings
+
+## Soft-reset
+
+If you have v1.15.0 or higher, use the GUI to reset the settings.
+
+![image](https://github.com/user-attachments/assets/4b62b8c7-b585-432f-bbf3-1999a91c17f1)
+
+## Hard-reset
+
+For a more thorough reset, you can delete the actual files on disk.
+
+**Windows:**
 
 First, ensure that Synergy is uninstalled.
 
@@ -17,7 +41,7 @@ Now, delete these directories (if they exist):
 * `%USERPROFILE%\AppData\Local\Synergy`
 * `%USERPROFILE%\AppData\Local\Symless`
 
-# macOS
+**macOS:**
 
 First, ensure that Synergy is uninstalled.
 
@@ -42,7 +66,7 @@ On older macOS versions, you'll need to kill the `cfprefsd` process to clear the
 killall -u $USER cfprefsd
 ```
 
-# Linux
+**Linux:**
 
 First, ensure that Synergy is uninstalled.
 
