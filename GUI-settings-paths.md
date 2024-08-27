@@ -1,4 +1,4 @@
-# GUI Settings Paths
+# Paths
 
 **v1.15.0 or higher**
 
@@ -12,7 +12,9 @@
 - *macOS:* `~/Library/Preferences/http-symless-com.Synergy.plist`
 - *Linux:* `~/.config/Synergy/Synergy.conf`
 
-# Clear GUI Settings
+# Clear
+
+Clearing settings may help resolve some bugs.
 
 ## Soft-reset
 
