@@ -4,6 +4,6 @@
 * [[Command Line]] - Go full manual and run Synergy Core from the command line.
 * [[Text Config]] - Write a text config file when running Synergy Core manually.
 * [[Unit Testing]] - How to write unit tests for the project using Google Test.
-* [[Clear settings]] - Clear all settings on each OS for a fresh config.
+* [[GUI settings]] - Info about the GUI settings (including how to reset them).
 * [[Workarounds]] - Inventive solutions to strange problems.
 * [[History]] - Learn about the original authors and how it all started.
