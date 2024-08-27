@@ -39,7 +39,6 @@ Now, delete these directories (if they exist):
 
 * `%ProgramData%\Symless`
 * `%ProgramData%\Synergy`
-* `%ProgramData%\Synergy v2`
 * `%USERPROFILE%\AppData\Local\Synergy`
 * `%USERPROFILE%\AppData\Local\Symless`
 
