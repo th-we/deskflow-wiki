@@ -121,6 +121,8 @@ pipx install gcovr
 
 This may be because the wrong arch is being used to compile. Instead of using the default `Developer command prompt for VS 2022`, try using `x86_64 Cross Tools Command Prompt for VS 2022` instead.
 
+If you're using VS Code, the easiest way to fix this is to use the recommended extension, [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) which automatically sets up the Visual Studio developer tools environment for you.
+
 ## Development
 
 ### Qt `.ui` files change radically between computers
