@@ -6,4 +6,5 @@
 * [[Unit Testing]] - How to write unit tests for the project using Google Test.
 * [[GUI Settings]] - Info about the GUI settings (including how to reset them).
 * [[Workarounds]] - Inventive solutions to strange problems.
+* [[Protocol]] - Useful for writing a Synergy-compatible app.
 * [[History]] - Learn about the original authors and how it all started.
