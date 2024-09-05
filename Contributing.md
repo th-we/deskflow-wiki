@@ -6,7 +6,7 @@ Don't worry about getting your code perfect. Our philosophy is to be friendly an
 If you have any questions or need help with making changes:
 
 * Join us on [Discord](https://discord.com/invite/xBFv6j7) or [Slack](https://synergy-app.slack.com/join/shared_invite/zt-d8if26fr-6x~TSTz4skGmTnFP5IPaww#/shared-invite/email) in the `#open-source` channel.
-* [Start a discussion](https://github.com/symless/synergy/discussions)
+* [Start a discussion](https://github.com/symless/synergy/discussions) on our GitHub project
 
 Some helpful pages that you might find useful:
 
