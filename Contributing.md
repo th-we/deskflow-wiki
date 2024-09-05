@@ -11,6 +11,6 @@ Some helpful pages that you might find useful:
 
 * [[Developer Guide]] - Common problems encountered when compiling the code.
 * [[Code Style]] - What code style you should use when contributing.
+* [[Unit Testing]] - Optionally, write unit tests using Google Test.
 * [[Code Planning]] - Long-term plans for the future of the code base.
-* [[Unit Testing]] - How to write unit tests for the project using Google Test.
 * [[Protocol]] - Useful for writing a Synergy-compatible app.
