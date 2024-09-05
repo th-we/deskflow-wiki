@@ -1,3 +1,7 @@
+Welcome to the Synergy Wiki!
+
+Here's a few pages to get you started with your search:
+
 * [[Contributing]] - If you want to make a change to the source code.
 * [[Command Line]] - Go full manual and run Synergy Core from the command line.
 * [[Text Config]] - Write a text config file when running Synergy Core manually.
