@@ -1,6 +1,6 @@
 The Synergy project welcomes changes from the community.
 
-Please create a new PR (pull request) if you want to make a change.
+Please [create a new PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (pull request) if you want to make a change.
 Don't worry about getting your code perfect. Our philosophy is to be friendly and welcoming to contributors.
 
 If you have any questions or need help with making changes:
