@@ -1,4 +1,4 @@
-The Synergy project welcomes changes from the community.
+The Synergy project welcomes changes from the community. Please create a new PR (pull request) if you want to make a change.
 
 Don't worry about getting your code perfect. Our philosophy is to be friendly and welcoming to contributors.
 
