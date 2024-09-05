@@ -9,7 +9,7 @@ If you have any questions or need help with making changes:
 
 Some helpful pages that you might find useful:
 
-* [[Developer Guide]] - For those who plan to contribute code.
+* [[Developer Guide]] - Common problems encountered when compiling the code.
 * [[Code Style]] - What code style you should use when contributing.
 * [[Code Planning]] - Long-term plans for the future of the code base.
 * [[Unit Testing]] - How to write unit tests for the project using Google Test.
