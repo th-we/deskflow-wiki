@@ -3,7 +3,7 @@
 The original authors of version 1.3 (now legacy).
 
 {| class="wikitable" cellpadding="2"
-| '''Chris Schoeneman''' || Creator, owner, primary developer
+| '''Chris Schoeneman''' || Original creator
 |-
 | '''Ryan Breen'''  || Initial Mac OS X port
 |-
