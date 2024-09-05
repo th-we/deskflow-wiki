@@ -2,19 +2,12 @@
 
 The original authors of version 1.3 (now legacy).
 
-{| class="wikitable" cellpadding="2"
-| '''Chris Schoeneman''' || Original creator
-|-
-| '''Ryan Breen'''  || Initial Mac OS X port
-|-
-| '''Guido Poschta''' || Windows installer
-|-
-| '''Bertrand Landry Hetu''' || Mac OS X port
-|-
-| '''Tom Chadwick''' || PageUp/PageDown on X servers without mouse wheel support
-|-
-| '''Brent Priddy''' || Re-resolving server hostname on each connection
-|}
+| **Chris Schoeneman** | Original creator |
+| **Ryan Breen**  | Initial Mac OS X port |
+| **Guido Poschta** | Windows installer |
+| **Bertrand Landry Hetu** | Mac OS X port |
+| **Tom Chadwick** | PageUp/PageDown on X servers without mouse wheel support |
+| **Brent Priddy** | Re-resolving server hostname on each connection |
 
 # History
 
