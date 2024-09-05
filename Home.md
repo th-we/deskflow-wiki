@@ -1,3 +1,4 @@
+* [[Contributing]] - If you want to make a change to the source code.
 * [[Developer Guide]] - For those who plan to contribute code.
 * [[Code Style]] - What code style you should use when contributing.
 * [[Code Planning]] - Long-term plans for the future of the code base.
