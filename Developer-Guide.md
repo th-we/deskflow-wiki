@@ -126,7 +126,7 @@ If you're using VS Code, the easiest way to fix this is to use the recommended e
 
 ## Packaging
 
-### Windows error: `error LGHT0103: The system cannot find the file`
+### Windows error: `LGHT0103: The system cannot find the file`
 
 If you see this error then you're probably building in debug mode:
 ```
