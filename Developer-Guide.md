@@ -129,10 +129,8 @@ If you're using VS Code, the easiest way to fix this is to use the recommended e
 ### Windows error: `LGHT0103: The system cannot find the file`
 
 If you see this error then you're probably building in debug mode:
-```
-D:\Projects\symless\synergy-1.16\build\installer\Product.wxs(117): error LGHT0103: The system cannot find the file 'D:/Pro 
-jects/symless/synergy-1.16/build/bin\Qt6Core.dll'.
-```
+
+`C:\path\to\synergy\build\installer\Product.wxs(117): error LGHT0103: The system cannot find the file 'D:/path/to/synergy/build/bin\Qt6Core.dll'.`
 
 Re-build the project in release mode. To do this, you can use the `windows-release` CMake preset.
 
