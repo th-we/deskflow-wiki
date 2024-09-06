@@ -3,6 +3,7 @@ The quick start instructions in the [README](/symless/synergy-core/blob/master/R
 - [Tools](#tools)
 - [Dependencies](#dependencies)
 - [Configure](#configure)
+- [Packaging](#packaging)
 - [Development](#development)
 
 ## Tools
