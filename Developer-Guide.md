@@ -2,7 +2,7 @@ The quick start instructions in the [README](/symless/synergy-core/blob/master/R
 
 - [Tools](#tools)
 - [Dependencies](#dependencies)
-- [Configure step](#configure-step)
+- [Configure](#configure)
 - [Development](#development)
 
 ## Tools
@@ -56,7 +56,7 @@ On some Linux distros, `pip` and `venv` are not included with Python by default.
 
 If you're still having problems running the dependencies script, you can get the packages command from `config.yml` file and run it manually.
 
-## Configure step
+## Configure
 
 Problems running `cmake` in configure mode.
 
@@ -122,6 +122,18 @@ pipx install gcovr
 This may be because the wrong arch is being used to compile. Instead of using the default `Developer command prompt for VS 2022`, try using `x86_64 Cross Tools Command Prompt for VS 2022` instead.
 
 If you're using VS Code, the easiest way to fix this is to use the recommended extension, [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) which automatically sets up the Visual Studio developer tools environment for you.
+
+## Packaging
+
+### Windows error: `error LGHT0103: The system cannot find the file`
+
+If you see this error then you're probably building in debug mode:
+```
+D:\Projects\symless\synergy-1.16\build\installer\Product.wxs(117): error LGHT0103: The system cannot find the file 'D:/Pro 
+jects/symless/synergy-1.16/build/bin\Qt6Core.dll'.
+```
+
+Re-build the project in release mode. To do this, you can use the `windows-release` CMake preset.
 
 ## Development
 
