@@ -203,4 +203,4 @@ pipx inject clang-format pyyaml
 pipx inject cmakelang pyyaml
 ```
 
-For some reason `clang-format` does not try to resolve it's dependency on `pyyaml` which isn't always available (depending on the version of Python you have), so you'll sometimes need to use `pipx inject` to satisfy this dependency.
+For some reason `clang-format` and `cmakelang` do not try to resolve the `pyyaml` dependency, which isn't always available (depending on the version of Python you have), so you'll sometimes need to use `pipx inject` to satisfy this dependency.
