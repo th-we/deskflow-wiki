@@ -1,10 +1,59 @@
-The quick start instructions in the [README](/symless/synergy-core/blob/master/README.md) are simplified and should work in the ideal development environment. However, some developers will likely need to make changes to their environment to build Synergy Core. This guide aims to help with common development environment issues.
+Synergy 1 Community Edition is free and open source software, and anyone is welcome to build it,
+run it, tinker with it, redistribute it as part of their own app, etc.
 
+These instructions will build Synergy 1 Community Edition, which doesn't require a license
+or serial key.
+
+The quick start instructions (also found in the [README](/symless/synergy-core/blob/master/README.md) and [BUILD](https://github.com/symless/synergy/blob/master/BUILD.md) files) are simplified and should work in the ideal development environment. However, some people will likely need to make changes to their environment to build Synergy 1 Community Edition. This guide aims to help with common development environment issues.
+
+- [Quick Start](#quick-start)
 - [Tools](#tools)
 - [Dependencies](#dependencies)
 - [Configure](#configure)
 - [Packaging](#packaging)
 - [Development](#development)
+
+## Quick Start
+
+**1. Dependencies:**
+
+*Linux, macOS, or BSD-derived:*
+```
+./scripts/install_deps.sh
+```
+
+*Windows:*
+```
+python scripts/install_deps.py
+```
+
+**2. Configure:**
+
+*Linux, macOS, or BSD-derived:*
+```
+cmake -B build
+```
+
+*Windows:*
+```
+cmake -B build --preset=windows-release
+```
+
+**3. Build:**
+```
+cmake --build build -j8
+```
+
+**4. Test:**
+```
+./build/bin/unittests
+./build/bin/integtests
+```
+
+**5. Run**
+```
+./build/bin/synergy
+```
 
 ## Tools
 
