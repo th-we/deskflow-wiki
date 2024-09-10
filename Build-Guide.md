@@ -125,8 +125,8 @@ For example, a common CMake error solved by removing the `build` dir is: `The C 
 ### CMake cannot find Qt: `CMake Warning at src/gui/CMakeLists.txt`
 
 On Windows and macOS, the dependencies script should set the `CMAKE_PREFIX_PATH` environment variables with the Qt path, for example:
-- Windows: `C:\Qt\5.15.2\msvc2019_64`
-- macOS: `$(brew --prefix qt@5)`
+- Windows: `C:\Qt\6.7.2\msvc2019_64`
+- macOS: `$(brew --prefix qt@6)`
 
 This is not normally required on Linux.
 
