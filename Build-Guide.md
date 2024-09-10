@@ -62,7 +62,7 @@ We suggest using [VS Code](https://code.visualstudio.com/) with our recommended 
 For modifying the GUI appearance, we recommend using Qt Creator. This can be installed in two ways:
 
 1. [Qt Creator package](https://github.com/qt-creator/qt-creator/releases) from their GitHub project (recommended)
-2. [Qt Online Installer](https://www.qt.io/download-open-source) (not recommended as it's quite bloated)
+2. [Qt Online Installer](https://www.qt.io/download-open-source) (not recommended as it's quite extensive)
 
 We don't recommend using your favorite package manager, because it's often harder to install the same version on all computers (which is important).
 
