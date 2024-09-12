@@ -10,7 +10,7 @@ Packaging is off by default, but you can enable it by [adding a variable](https:
 
 The CI workflow is setup to run:
 - when you update a PR (`on: pull_request`)
-- when run it manually ([`on: workflow_dispatch`](https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch/))
+- when started manually ([`on: workflow_dispatch`](https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch/))
 - nightly on a cron schedule (`on: schedule`)
 
 # Branding
