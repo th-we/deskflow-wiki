@@ -6,7 +6,7 @@ Making your own fork of Synergy is easy: [Fork a repository](https://docs.github
 
 If you want to run the CI workflow on your Synergy fork, you'll need to enable actions for your fork (off by default).
 
-Packaging is off by default, but you can enable it by [adding a variable](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/store-information-in-variables): `CI_ENABLE_PACKAGING`
+Packaging is off by default, but you can enable it by [adding a variable](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/store-information-in-variables): `CI_ENABLE_PACKAGING` with the value `true`
 
 # Branding
 
