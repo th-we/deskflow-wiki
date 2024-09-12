@@ -2,6 +2,8 @@
 
 Making your own fork of Synergy is easy: [Fork a repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
 
+Once you've made changes, please consider [[contributing]] by opening a PR (pull request).
+
 # Workflows
 
 If you want to run the CI workflow on your Synergy fork, you'll need to enable actions for your fork (off by default).
