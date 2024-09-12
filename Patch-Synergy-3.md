@@ -4,4 +4,4 @@ Synergy 3 is proprietary software (for now) that uses the open source Synergy 1 
 
 # Compiler flags
 
-By default, the `synergy-core` binary is only built by Synergy 3, but you can [build it yourself](https://github.com/symless/synergy/blob/master/BUILD.md) by passing `-DBUILD_UNIFIED=ON` to `cmake`.
+By default, the `synergy-core` binary is only built by Synergy 3, but you can [build it yourself](https://github.com/symless/synergy/blob/master/BUILD.md) by running `cmake` with the `-DBUILD_UNIFIED=ON` arg.
