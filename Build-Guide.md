@@ -74,7 +74,9 @@ Problems running the dependencies script (`python scripts/install_deps.py`)
 
 ### On Windows: Most problems
 
-Windows development is difficult because of environment variables and caching. If you have a problem, these steps first:
+Windows development is difficult because of environment variables and caching. 
+
+If you have a problem, these steps first:
 
 1. Deleting the `build` dir
 2. Restarting your IDE or Terminal
@@ -118,7 +120,9 @@ If you're still having problems running the dependencies script, you can get the
 
 ### On Windows: Most problems
 
-Windows development is difficult because of environment variables and caching. If you have a problem, these steps first:
+Windows development is difficult because of environment variables and caching.
+
+If you have a problem, these steps first:
 
 1. Deleting the `build` dir
 2. Restarting your IDE or Terminal
