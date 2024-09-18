@@ -1,4 +1,6 @@
-When reviewing or modifying a PR, we should follow these rules:
+When reviewing or modifying a PR, we should follow these rules.
+
+See also: [[Hacking Guide]]
 
 ## Rules
 
