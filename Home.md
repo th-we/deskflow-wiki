@@ -10,3 +10,4 @@ Here are a few pages to get you started with your search:
 * [[GUI Settings]] - Info about the GUI settings (including how to reset them).
 * [[Workarounds]] - Inventive solutions to strange problems.
 * [[History]] - Learn about the original authors and how it all started.
+* [[Maintainers]] - Guidance and rules for maintainers to follow.
