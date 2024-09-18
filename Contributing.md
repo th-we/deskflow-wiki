@@ -11,6 +11,7 @@ If you have any questions or need help with making changes:
 Some helpful pages that you might find useful:
 
 * [[Build Guide]] - How to build from source and solve common problems.
+* [[Hacking Guide]] - How to make sure your PR gets merged.
 * [[Code Style]] - What code style you should use when contributing.
 * [[Unit Testing]] - Optionally, write unit tests using Google Test.
 * [[Code Planning]] - Long-term plans for the future of the code base.
