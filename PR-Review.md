@@ -1,5 +1,7 @@
 When reviewing or modifying a PR, we should follow these rules:
 
+## Rules
+
 ### 1. Rebase in open requests (do not merge from `master`)
 
 Rebasing keeps the commit history clean and linear, making it easier to track changes and avoiding unnecessary merge commits that clutter the history.
