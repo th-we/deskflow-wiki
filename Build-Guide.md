@@ -72,6 +72,13 @@ If you choose to use the Qt Online Installer, then you'll only need to install Q
 
 Problems running the dependencies script (`python scripts/install_deps.py`)
 
+### On Windows: Most problems
+
+On Windows, most problems can be solved by:
+1. Deleting the `build` dir
+2. Restarting your IDE or Terminal
+3. Re-installing Visual Studio Community Edition
+
 ### On Linux: `ERROR: File "setup.py" not found.`
 
 This happens on older Linux distros such as Ubuntu 20, as they come with an older version of Python. Try upgrading `pip` to solve this.
