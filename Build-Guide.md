@@ -76,11 +76,11 @@ Problems running the dependencies script (`python scripts/install_deps.py`)
 
 Windows development is difficult because of environment variables and caching. 
 
-If you have a problem, these steps first:
+If you have a problem, try these steps first:
 
-1. Deleting the `build` dir
-2. Restarting your IDE or Terminal
-3. Re-installing Visual Studio Community Edition
+1. Delete the `build` dir
+2. Restart your IDE or Terminal
+3. Re-install Visual Studio Community Edition
 
 ### On Linux: `ERROR: File "setup.py" not found.`
 
@@ -118,17 +118,17 @@ If you're still having problems running the dependencies script, you can get the
 
 ## Configure
 
+Problems running `cmake` in configure mode.
+
 ### On Windows: Most problems
 
-Windows development is difficult because of environment variables and caching.
+Windows development is difficult because of environment variables and caching. 
 
-If you have a problem, these steps first:
+If you have a problem, try these steps first:
 
-1. Deleting the `build` dir
-2. Restarting your IDE or Terminal
-3. Re-installing Visual Studio Community Edition
-
-Problems running `cmake` in configure mode.
+1. Delete the `build` dir
+2. Restart your IDE or Terminal
+3. Re-install Visual Studio Community Edition
 
 ### Error: `cmake : The term 'cmake' is not recognized`
 
