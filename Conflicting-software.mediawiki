@@ -1,4 +1,4 @@
-These are applications known to either interfere with Synergy's operation, or Synergy interferes with them in some way.
+These are applications known to either interfere with Deskflow's operation, or Synergy interferes with them in some way.
 
 * Photoshop
 * MS Office
