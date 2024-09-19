@@ -1,6 +1,12 @@
 # Paths
 
-**v1.15.0 or higher**
+**v1.17.0 or higher**
+
+- *Windows:* `\HKEY_CURRENT_USER\Software\Deskflow\Deskflow`
+- *macOS:* `~/Library/Preferences/com.deskflow.Deskflow.plist`
+- *Linux:* `~/.config/Deskflow/Deskflow.conf`
+
+**v1.15.0 or v1.16.0**
 
 - *Windows:* `\HKEY_CURRENT_USER\Software\Synergy\Synergy`
 - *macOS:* `~/Library/Preferences/com.symless.Synergy.plist`
