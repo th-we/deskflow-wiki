@@ -1,6 +1,6 @@
 We are a welcoming and friendly community of developers, so if you have a question please let us know.
 
-Here's how to get in touch with the Synergy team:
+Here's how to get in touch with the Deskflow team:
 
 - We're on Libera Chat IRC network (`#deskflow` or `#deskflow-dev`).
 - Start a [new discussion](https://github.com/deskflow/deskflow/discussions) on our GitHub project
