@@ -1,4 +1,4 @@
-The Synergy project welcomes changes from the community.
+The Deskflow project welcomes changes from the community.
 
 Please [create a new PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (pull request) if you want to make a change.
 Don't worry about getting your code perfect. Our philosophy is to be friendly and welcoming to contributors.
@@ -6,7 +6,7 @@ Don't worry about getting your code perfect. Our philosophy is to be friendly an
 If you have any questions or need help with making changes:
 
 * Join us on [Discord](https://discord.com/invite/xBFv6j7) or [Slack](https://synergy-app.slack.com/join/shared_invite/zt-d8if26fr-6x~TSTz4skGmTnFP5IPaww#/shared-invite/email) in the `#open-source` channel.
-* [Start a discussion](https://github.com/symless/synergy/discussions) on our GitHub project
+* [Start a discussion](https://github.com/deskflow/deskflow/discussions) on our GitHub project
 
 Some helpful pages that you might find useful:
 
