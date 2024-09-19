@@ -1,6 +1,6 @@
 <PRE>
-Hotkeys refers to Synergy's ability to map a key on the physical keyboard to an arbitrary (possibly different) key or 
-combination to be sent to the Synergy Client. The following is a list of keycodes and their names as taken from the source 
+Hotkeys refers to Deskflow's ability to map a key on the physical keyboard to an arbitrary (possibly different) key or 
+combination to be sent to the Deskflow Client. The following is a list of keycodes and their names as taken from the source 
 code in src/lib/platform/CMSWindowsKeyState.cpp.
 
 
