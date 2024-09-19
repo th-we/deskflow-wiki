@@ -1,10 +1,9 @@
-Synergy 1 Community Edition is free and open source software, and anyone is welcome to build it,
+Deskflow is free and open source software, and anyone is welcome to build it,
 run it, tinker with it, redistribute it as part of their own app, etc.
 
-These instructions will build Synergy 1 Community Edition, which doesn't require a license
-or serial key.
+These instructions will build Deskflow
 
-The quick start instructions (also found in the [README](/symless/synergy-core/blob/master/README.md) and [BUILD](https://github.com/symless/synergy/blob/master/BUILD.md) files) are simplified and should work in the ideal development environment. However, some people will likely need to make changes to their environment to build Synergy 1 Community Edition. This guide aims to help with common development environment issues.
+The quick start instructions (also found in the [README](/deskflow/deskflow-core/blob/master/README.md) and [BUILD](https://github.com/deskflow/deskflow/blob/master/BUILD.md) files) are simplified and should work in the ideal development environment. However, some people will likely need to make changes to their environment to build Deskflow. This guide aims to help with common development environment issues.
 
 - [Quick Start](#quick-start)
 - [Tools](#tools)
@@ -52,7 +51,7 @@ cmake --build build -j8
 
 **5. Run**
 ```
-./build/bin/synergy
+./build/bin/deskflow
 ```
 
 ## Tools
@@ -199,7 +198,7 @@ If you're using VS Code, the easiest way to fix this is to use the recommended e
 
 If you see this error then you're probably building in debug mode:
 
-`C:\path\to\synergy\build\installer\Product.wxs(117): error LGHT0103: The system cannot find the file 'D:/path/to/synergy/build/bin\Qt6Core.dll'.`
+`C:\path\to\deskflow\build\installer\Product.wxs(117): error LGHT0103: The system cannot find the file 'D:/path/to/deskflow/build/bin\Qt6Core.dll'.`
 
 Re-build the project in release mode. To do this, you can use the `windows-release` CMake preset.
 
