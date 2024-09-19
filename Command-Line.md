@@ -1,9 +1,9 @@
-Some users prefer to use the command line to run Synergy instead of using automatic configuration.
+Some users prefer to use the command line to run Deskflow instead of using automatic configuration.
 
 General information
 -------------------
 
-The Synergy binaries generally take the same parameters on all 3
+The Deskflow binaries generally take the same parameters on all 3
 platforms.
 
 See [[Text-Config]] for information on how to create a config file. If you
@@ -12,43 +12,43 @@ setting up your system in that GUI, and then exporting the config file
 with File --&gt; Save Configuration As and copy it over to the system
 you need it on. The same config file will work on any platform.
 
-Open up a command prompt and cd into the Synergy install directory.
+Open up a command prompt and cd into the Deskflow install directory.
 
 | OS | Command |
 | ------- | --------------------------------------------- |
-| Windows | `cd "C:\Program Files\Synergy"`               |
-| macOS   | `cd /Applications/Synergy.app/Contents/Resources/` |
+| Windows | `cd "C:\Program Files\Deskflow"`               |
+| macOS   | `cd /Applications/Deskflow.app/Contents/Resources/` |
 | Linux   | `cd /usr/bin`                                 |
 
-Run the Synergy client binary, pointing it at the Synergy Server.
+Run the Deskflow client binary, pointing it at the Deskflow Server.
 
 | OS | Command |
 | ------- | ------------------------------------- |
-| Windows | `synergyc [server IP]`   |
-| macOS   | `./synergyc [server IP]` |
-| Linux   | `./synergyc [server IP]` |
+| Windows | `deskflowc [server IP]`   |
+| macOS   | `./deskflowc [server IP]` |
+| Linux   | `./deskflowc [server IP]` |
 
-Run the Synergy server binary, pointing it at the configuration file.
+Run the Deskflow server binary, pointing it at the configuration file.
 
 | OS | Command |
 | ------- | -------------------------------------------------- |
-| Windows | `synergys -c [path to config file]`   |
-| macOS   | `./synergys -c [path to config file]` |
-| Linux   | `./synergys -c [path to config file]` |
+| Windows | `deskflows -c [path to config file]`   |
+| macOS   | `./deskflows -c [path to config file]` |
+| Linux   | `./deskflows -c [path to config file]` |
 
 Command line options
 --------------------
 
   [Text Config]: Text_Config "wikilink"
 
-### Options for `synergy-core --client`
+### Options for `deskflow-core --client`
 
 Taken from MacOS X 10.11 system:
 
 ```
-Usage: synergyc [--address <address>] [--yscroll <delta>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>] <server-address>
+Usage: deskflowc [--address <address>] [--yscroll <delta>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>] <server-address>
 
-Connect to a synergy mouse/keyboard sharing server.
+Connect to a deskflow mouse/keyboard sharing server.
 
   -a, --address <address>  local network interface address.
   -d, --debug <level>      filter out log messages with priority below level.
@@ -75,17 +75,17 @@ must be the address or hostname of the server.  The port overrides the
 default port, 24800.
 ```
 
-Unlike `synergys`, `synergyc` has no config file.
+Unlike `deskflows`, `deskflowc` has no config file.
 The options are set either at runtime by the command line on the client,
 or for settings inherited from Synergy server they are set at connection time.
 
-## Options for `synergy-core --server`
+## Options for `deskflow-core --server`
 
 Taken from a MacOS X 10.11 system:
 ```
-Usage: synergys [--address <address>] [--config <pathname>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>]
+Usage: deskflows [--address <address>] [--config <pathname>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>]
 
-Start the synergy mouse/keyboard sharing server.
+Start the deskflow mouse/keyboard sharing server.
 
   -a, --address <address>  listen for clients on the given address.
   -c, --config <pathname>  use the named configuration file instead.
@@ -113,6 +113,6 @@ default port, 24800.
 
 If no configuration file pathname is provided then the first of the
 following to load successfully sets the configuration:
-  $HOME/.synergy.conf
-  /etc/synergy.conf
+  $HOME/.deskflow.conf
+  /etc/deskflow.conf
 ```
