@@ -1,4 +1,4 @@
-Welcome to the Synergy Wiki!
+Welcome to the Deskflow Wiki!
 
 Here are a few pages to get you started with your search:
 
