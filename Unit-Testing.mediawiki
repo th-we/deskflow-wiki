@@ -1,4 +1,4 @@
-To unit test Synergy, we use googletest (Google C++ Testing Framework), also known as gtest.
+To unit test Deskflow, we use googletest (Google C++ Testing Framework), also known as gtest.
 
 == Writing tests ==
 
@@ -74,11 +74,11 @@ TEST(CKeyStateTests, sendKeyEvent_keyRepeat_addEventCalledOnce)
 
 === Integration tests ===
 
-There is an interesting problem with writing unit tests for Synergy.
+There is an interesting problem with writing unit tests for Deskflow.
 
-Each unit test should only test one component; if you test logic that uses the clipboard for example, then you're testing multiple components (both Synergy and the OS). A test that exercises multiple components is **not a true unit test**, but is in fact it is an integration test (in my opinion).
+Each unit test should only test one component; if you test logic that uses the clipboard for example, then you're testing multiple components (both Deskflow and the OS). A test that exercises multiple components is **not a true unit test**, but is in fact it is an integration test (in my opinion).
 
-So, any logic that ventures into non-Synergy territory, such as most of the code in CMSWindowsClipboard, should be tested with an integration test.
+So, any logic that ventures into non-Deskflow territory, such as most of the code in CMSWindowsClipboard, should be tested with an integration test.
 
 I think that this can only be a good thing, because a developer will think twice about running integration tests, since it will cause strange things to happen, such as:
 
