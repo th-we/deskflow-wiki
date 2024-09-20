@@ -1,7 +1,7 @@
 # macOS laggy cursor
 
 ## Problem
-Using Wi-Fi on a MacOS client causes Synergy cursor laggy.
+Using Wi-Fi on a MacOS client causes Deskflow cursor laggy.
 
 ## Workaround
 Run this command in the Terminal
@@ -32,7 +32,7 @@ exit
 
 # AltGr key
 
-Support for AltGr is limited in Synergy. Some users have good luck with remapping the Alt key to AltGr. You will have to use a config file for this, it is not supported in the GUI. Here are the instructions for that:
+Support for AltGr is limited in Deskflow. Some users have good luck with remapping the Alt key to AltGr. You will have to use a config file for this, it is not supported in the GUI. Here are the instructions for that:
 
 Start by exporting your current configuration, using File -> Save Configuration As.
 
@@ -61,12 +61,12 @@ What we want to do is add the option "alt=altgr" in the client section, like thi
       etc
       alt=altgr
 
-Be sure to save this file someplace safe, where Synergy will be able to find it but it won't be messed with, and point Synergy to this file using the "Use existing configuration" option.
+Be sure to save this file someplace safe, where Deskflow will be able to find it but it won't be messed with, and point Deskflow to this file using the "Use existing configuration" option.
 
 Some people have better results going the other way, using altgr=alt instead. Try this if you continue having troubles with the above example.
 
-For recent versions of Synergy, at least partial success has been reported with using
+For recent versions of Deskflow, at least partial success has been reported with using
 
       altgr = shift
 
-for the clients in the Screen section of the Synergy configuration file (same place as above) instead.
+for the clients in the Screen section of the Deskflow configuration file (same place as above) instead.
