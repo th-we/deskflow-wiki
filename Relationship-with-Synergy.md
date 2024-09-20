@@ -8,8 +8,6 @@ Deskflow is the upstream of Synergy.
 
 The Deskflow project is sponsored by Synergy.
 
-<a href="https://symless.com/synergy">
-<img width="200" src="https://raw.githubusercontent.com/deskflow/deskflow-artwork/refs/heads/main/synergy-sponsor.svg" />
-</a>
+[![Sponsored by: Synergy](https://raw.githubusercontent.com/deskflow/deskflow-artwork/refs/heads/main/synergy-sponsor.svg)](https://github.com/deskflow/deskflow/wiki/Relationship-with-Synergy)
 
 [More info about Synergy](https://symless.com/synergy)
