@@ -115,6 +115,13 @@ On some Linux distros, `pip` and `venv` are not included with Python by default.
 
 If you're still having problems running the dependencies script, you can get the packages command from `config.yml` file and run it manually.
 
+### Qt install: `ERROR: Failed to download checksum ... Check your internet connection`
+
+Follow the guide on [SSL cert verification](https://requests.readthedocs.io/en/latest/user/advanced/#ssl-cert-verification) and the env var:
+```
+set REQUESTS_CA_BUNDLE=path/to/pem
+```
+
 ## Configure
 
 Problems running `cmake` in configure mode.
