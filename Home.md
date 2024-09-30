@@ -11,3 +11,4 @@ Here are a few pages to get you started with your search:
 * [[Workarounds]] - Inventive solutions to strange problems.
 * [[History]] - Learn about the original authors and how it all started.
 * [[Maintainers]] - Guidance and rules for maintainers to follow.
+* [[Relationship with Synergy]] - How Deskflow and Synergy are related.
