@@ -1,6 +1,6 @@
 We are a welcoming and friendly community of developers, so if you have a question please let us know.
 
-Here's how to get in touch with the Deskflow team:
+Here's how to get in touch with the Deskflow development community:
 
 - Main discussion on Matrix: [`#deskflow:matrix.org`](https://matrix.to/#/#deskflow:matrix.org)
 - We're also on Libera Chat IRC network (`#deskflow` or `#deskflow-dev`).
