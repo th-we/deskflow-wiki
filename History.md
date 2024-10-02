@@ -12,10 +12,11 @@
 - 2010: Donations were accepted to help fund the project which was used to hire developers.
 - 2011: Synergy+ was renamed back to Synergy and QSynergy by Volker Lanz was added as the GUI.
 - 2012: Symless was formed as an employer for the developers who continued to add improvements.
+- 2016: Wayland development began but struggled to progress due to security limitations in Wayland.
 - 2017: Synergy 2 was launched as a more user-friendly proprietary tool for less technical users.
 - 2018: Due to stability issues, Synergy 2 was rolled back to beta, and the Barrier fork was created.
 - 2021: Barrier was forked to Input Leap, giving project maintainers more freedom over changes.
-- 2022: Wayland development began on the Barrier fork and later moved to Input Leap and Synergy.
+- 2022: Wayland development restarted on the Barrier fork and later moved to Input Leap and Synergy.
 - 2023: Synergy 3 was officially launched by Symless, which uses Synergy 1 as its open core.
 - 2024: The Deskflow project was created as the community-driven upstream of Synergy.
 
