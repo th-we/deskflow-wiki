@@ -19,8 +19,8 @@ xattr -dr com.apple.quarantine /Applications/Deskflow.app
 <img width="512" alt="macOS security settings" src="https://github.com/user-attachments/assets/7ab76129-8ddf-4a30-b308-560f9a423769">
 
 4. If you don't see ` deskflow`, you may also need to:
-  - Open the bundle: `open /Applications/Deskflow.app/Contents/MacOS/`
-  - Drag all of the `deskflow*` binaries to the accessibility window.
+    - Open the bundle: `open /Applications/Deskflow.app/Contents/MacOS/`
+    - Drag all of the `deskflow*` binaries to the accessibility window.
 
 # Use `anchore/quill` (unconfirmed)
 
