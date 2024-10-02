@@ -38,8 +38,8 @@ _Written in early 2000s by Chris Schoeneman:_
 | **Ryan Breen**  | Initial Mac OS X port |
 | **Guido Poschta** | Windows installer |
 | **Bertrand Landry Hetu** | Mac OS X port |
-| **Tom Chadwick** | PageUp/PageDown on X servers without mouse wheel support |
-| **Brent Priddy** | Re-resolving server hostname on each connection |
+| **Tom Chadwick** | X server improvements |
+| **Brent Priddy** | Connection bug fixes |
 
 ## 2006-2009
 
