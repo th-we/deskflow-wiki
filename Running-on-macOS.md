@@ -1,6 +1,6 @@
 How to run the unsigned Deskflow app on macOS.
 
-# Run scary commands
+# Use `xattr` (and maybe `spctl`?)
 
 1. You _may_ need to do this, we're not sure:
 > [!WARNING]
