@@ -20,7 +20,7 @@ xattr -dr com.apple.quarantine /Applications/Deskflow.app
 
 4. If you don't see ` deskflow`, you may also need to:
   - Open the bundle: `open /Applications/Deskflow.app/Contents/MacOS/`
-  - Drag the `deskflow` binary to the accessibility window.
+  - Drag all of the `deskflow*` binaries to the accessibility window.
 
 # Use `anchore/quill` (unconfirmed)
 
