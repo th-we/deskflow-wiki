@@ -3,7 +3,7 @@
 - 1996: Richard Lee and Adam Feder created the proprietary in-house tool, CosmoSynergy.
 - 1998: CosmoSynergy was developed in-house at Cosmo Software with Chris Schoeneman's help.
 - 2000: SGI decided to close down Cosmo Software and never productized CosmoSynergy.
-- 2001: Chris Schoeneman began to rewrite CosmoSynergy as Synergy with Linux support.
+- 2001: Chris Schoeneman began writing Synergy from scratch with Linux support.
 - 2002: Synergy was first released under GPL v2 and Windows support was added.
 - 2003: macOS support was added, allowing sharing between all three major platforms.
 - 2006: Development slowed as Chris had to prioritize other aspects of his life.
