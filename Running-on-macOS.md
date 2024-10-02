@@ -2,9 +2,9 @@ How to run the unsigned Deskflow app on macOS.
 
 # Use `xattr` (and maybe `spctl`?)
 
-1. You _may_ need to do this, we're not sure:
 > [!WARNING]
 > `spctl` only works on macOS 14 and below, and won't work on macOS 15.
+1. You _may_ need to do this, we're not sure:
 ```
 sudo spctl --add --label "Approved" /Applications/Deskflow.app
 sudo spctl --enable --label "Approved"
