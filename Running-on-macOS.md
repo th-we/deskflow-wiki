@@ -1,7 +1,15 @@
-To run the Deskflow app on macOS, you may need to run these commands:
+How to run the unsigned Deskflow app on macOS.
+
+1. You _may_ need to do this, we're not sure:
+> [!WARNING]
+> `spctl` only works on macOS 14 and below, and won't work on macOS 15.
 ```
 sudo spctl --add --label "Approved" /Applications/Deskflow.app
 sudo spctl --enable --label "Approved"
+```
+
+2. You will almost certainly need to do this:
+```
 xattr -dr com.apple.quarantine /Applications/Deskflow.app
 ```
 
