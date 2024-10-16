@@ -1,4 +1,11 @@
-How to run the unsigned Deskflow app on macOS.
+# Running the unsigned Deskflow app on macOS
+
+We do not yet sign our macOS app bundle, so you'll see the error:
+> "Deskflow" is damaged and can't be opened.
+
+![image](https://github.com/user-attachments/assets/22852f32-c4a9-4c1a-a362-ef8f1183833c)
+
+## Solution
 
 1. First, try [Apple's solution](https://support.apple.com/en-gb/guide/mac-help/mh40616/mac).
 
@@ -13,6 +20,6 @@ How to run the unsigned Deskflow app on macOS.
     - Open the bundle: `open /Applications/Deskflow.app/Contents/MacOS/`
     - Drag all of the `deskflow*` binaries to the accessibility window.
 
-### Other resources
+## Other resources
 
 Maybe of use to someone: [Quill](https://github.com/anchore/quill) is a simple mac binary signing and notarization.
