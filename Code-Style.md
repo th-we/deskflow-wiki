@@ -8,6 +8,18 @@ Our code formatting is enforced via CI which runs the `script/lint_clang.py` scr
 - Python: Use [black](https://github.com/psf/black)
 - JSON/YAML: Undefined (TBD)
 
+# Copyright
+
+Example:
+```
+/*
+ * Deskflow -- mouse and keyboard sharing utility
+ *
+ * SPDX-License-Identifier: GPL-2.0
+ * SPDX-FileCopyrightText: Copyright (C) 2024 Symless Ltd.
+ */
+```
+
 # Naming
 
 1. Member variables should be prefixed with `m_helloWorld`
