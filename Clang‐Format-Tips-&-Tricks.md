@@ -20,7 +20,7 @@ For developers who are new to Clang-Format, there can be a temptation to fight a
 
 # Line breaks
 
-Use a comment at the end of the line to force a line break
+Use a comment at the end of the line to force a line break.
 
 Some developers may struggle to mentally parse function args when they're not deliberately placed:
 ```
