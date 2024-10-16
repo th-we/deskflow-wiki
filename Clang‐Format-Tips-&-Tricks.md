@@ -6,10 +6,10 @@ Inspired by KDE's code style doc: [Clang-format automatic code formatting](https
 For developers who are new to Clang-Format, there can be a temptation to fight against it. However, it's much more productive to go with it and accept its quirks because the benefits of using it far outweigh the costs.
 
 **Pros:**
-- You don't need to worry about the code style either when developing or during code review, which reduces cognitive load.
-- Ensures consistent formatting across the entire codebase, making it easier for teams to work together.
-- Saves time by automating formatting tasks that would otherwise be done manually.
+- You don't need to worry about the code style while developing, reducing cognitive load.
 - Reduces debates over subjective style preferences in code reviews.
+- Saves time by automating formatting tasks that would otherwise be done manually.
+- Ensures consistent formatting across the entire codebase, making it easier for teams to work together.
 - Helps with code refactoring by keeping the formatting clean during changes.
 - Can be easily integrated into CI/CD pipelines for automatic checks.
 
