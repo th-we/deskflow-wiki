@@ -41,6 +41,20 @@ It may be a little easier for some developers to grok if they force a break with
 
 Split your includes up into groups to force ordering. This can be useful when there are accidental (or nasty) interdependencies between headers.
 
+```
+#include "client/Client.h"
+
+#include "net/IDataSocket.h"
+#include "net/ISocketFactory.h"
+#include "net/SecureSocket.h"
+#include "net/TCPSocket.h"
+
+#include <format>
+#include <fstream>
+#include <iterator>
+#include <stream>
+```
+
 # Formatting enumerations
 
 Add a trailing comma to tell Clang-Format that you want enums and initializer lists on separate lines.
