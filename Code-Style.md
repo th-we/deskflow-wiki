@@ -15,8 +15,8 @@ Example:
 /*
  * Deskflow -- mouse and keyboard sharing utility
  *
- * SPDX-License-Identifier: GPL-2.0
  * SPDX-FileCopyrightText: Copyright (C) 2024 Symless Ltd.
+ * SPDX-License-Identifier: GPL-2.0
  */
 ```
 
