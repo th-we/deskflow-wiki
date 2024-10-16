@@ -1,12 +1,23 @@
 ## Comitting & PRs
 
 ### 1. Prefix your commits with a commit type
+Use on the these prefixes on commits when applicable, as they will be used to generate change logs on release.
 
-- `fix:`
-- `feat:`
-- `refactor:`
-- `build:`
-- `ci:`
+- `fix:` MUST be used if the commit "fixes" a known issue or if Fixes a Bug.
+- `feat:` MUST be used for the commit that introduces a new feature
+- `refactor:` MUST be used when existing code is reworked
+- `build:`: MUST be used for changes in project (CMake) or build files.
+- `ci:` MUST be used for commits that modify ci 
+- `chore:` MAYBE used for most anything else.
+
+#### Example of a good commit message
+```
+fix: #3393 Crash on startup 
+
+  Additional commit info can be helpful 
+```
+where #3393 is the Issue Number of the reported issue.
+
 
 ### 2. PRs are not squashed, so make each commit sane
 
@@ -14,4 +25,10 @@
   See: [[PR Review]]
 - Each commit must build; no broken commits.
 
+### 3. Update Documentation
 
+Since documentation can become stale quickly its important we do our best to keep it updated.
+
+ - You MUST update the documentation within the same Pull Request where you invalidate the document's contents.
+ - This SHALL include Creating or updating [Doxygen comments](https://www.doxygen.nl/manual/docblocks.html) for methods.
+ - This SHOULD includes also updating any relevant wiki pages.
