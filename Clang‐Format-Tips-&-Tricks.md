@@ -16,7 +16,6 @@ For developers who are new to Clang-Format, there can be a temptation to fight a
 **Cons:**
 - It may do things in ways you don't expect, such as breaking lines in places that could make code less readable.
 - Developers may feel a loss of control over certain style preferences or nuances.
-- Configuring it to match existing codebases with unique styles can be time-consuming.
 - Some formatting decisions, such as alignment or bracket placement, can clash with personal or team preferences.
 
 # Line breaks
