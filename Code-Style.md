@@ -2,7 +2,7 @@
 Our code formatting is enforced via CI which runs the `script/lint_clang.py` scripts to ensure that all files match our code style. If your IDE doesn't support formatting, you can use `--format` on either of those scripts to format your code.
 
 > [!TIP]
-> See our guide: [Clang‐Format Tips & Tricks]
+> See our guide: [[Clang‐Format Tips & Tricks]]
 
 - CLang (C/C++/Objective-C): `.clang-format` - LLVM with a few minor tweaks.
 - Python: Use [black](https://github.com/psf/black)
