@@ -3,7 +3,7 @@
 We do not yet sign our macOS app bundle, so you'll see the error:
 > "Deskflow" is damaged and can't be opened.
 
-![image](https://github.com/user-attachments/assets/22852f32-c4a9-4c1a-a362-ef8f1183833c)
+<img width="274" alt="image" src="https://github.com/user-attachments/assets/23e1d6ee-e922-47cf-a6ea-0a515f366057">
 
 ## Solution
 
