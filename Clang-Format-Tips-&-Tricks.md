@@ -1,7 +1,7 @@
 > [!WARNING]
 > WIP: This work-in-progress article is not yet finished.
 
-Inspired by: KDE's [Clang-format automatic code formatting](https://community.kde.org/Policies/Frameworks_Coding_Style#Clang-format_automatic_code_formatting) doc
+Inspired by: KDE's doc, [Clang-format automatic code formatting](https://community.kde.org/Policies/Frameworks_Coding_Style#Clang-format_automatic_code_formatting)
 
 For developers who are new to Clang-Format, there can be a temptation to fight against it. However, it's much more productive to go with it and accept it's idiosyncracies because the benefits of using it far outweigh the costs.
 
