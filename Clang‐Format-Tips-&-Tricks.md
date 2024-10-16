@@ -18,6 +18,14 @@ For developers who are new to Clang-Format, there can be a temptation to fight a
 - Developers may feel a loss of control over certain style preferences or nuances.
 - Some formatting decisions, such as alignment or bracket placement, can clash with personal or team preferences.
 
+# Use format-on-save
+
+Most IDEs now have format on save feature.
+- VS Code: Use `xaver.clang-format` and `"editor.formatOnSave": true,`
+- Kate: See below (Configure -> External Tools -> Clang Format Full File)
+
+![image](https://github.com/user-attachments/assets/cd9f7559-7785-4790-864b-8838342a946f)
+
 # Line breaks
 
 Use a comment at the end of the line to force a line break.
