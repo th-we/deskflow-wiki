@@ -13,6 +13,6 @@ How to run the unsigned Deskflow app on macOS.
     - Open the bundle: `open /Applications/Deskflow.app/Contents/MacOS/`
     - Drag all of the `deskflow*` binaries to the accessibility window.
 
-# Other resources
+### Other resources
 
 Maybe of use to someone: [Quill](https://github.com/anchore/quill) is a simple mac binary signing and notarization.
