@@ -26,8 +26,4 @@ Why we don't want to maintain a `CMakePresets.json` file: A CMake presets file s
 
 # Maintain docs
 
-It's better for the dev to figure it out rather than hiding stuff from them. Not because it's a right of passage or whatever, but because if they have to do the steps then they'll understand better how the project fits together.
-
-then that may be a sign of other problems for the dev.
-
-This is also true. If a dev won't take the time to learn the build env, what kind of value will they really add? I think @sithlord48 made this point when we were on a call at the weekend, IIRC.
+It's better for the new contributor to figure it out rather than hiding steps from them. Not because it's a right of passage, but because if they have to do the steps then they'll better understand how the project fits together. If a dev won't take the time to follow the build env setup steps, what kind of value will they really add?
