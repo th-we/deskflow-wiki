@@ -35,11 +35,9 @@ Since documentation can become stale quickly its important we do our best to kee
 
 ### 4. No rage caps in comments/logs
 
-Rage caps errode SNR (signal-to-noise); what is important to you may not be important to other developers.
+Rage caps erode SNR (signal-to-noise). Do not shout in your comments or log messages. This rule applies to both the program code and the build config.
 
-Do not shout in your comments or log messages. Be respectful of other developers and do not cause unnecessary distractions.
-
-This rule applies to both the program code and the build config.
+What is important to one developer is usually not as important to another. Prioritizing your message over everyone else's is not a polite thing to do. If you want to find something, use a text search tool. Be respectful of other developers and do not cause unnecessary distractions.
 
 Example:
 ```
