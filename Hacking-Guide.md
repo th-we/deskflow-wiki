@@ -43,6 +43,7 @@ Example:
 ```
 # This is a polite and respectful comment.
 # THIS IS AN OBNOXIOUS AND DISTRACTING COMMENT
+
 message(VERBOSE "This is a polite and respectful log line.")
 message(STATUS "THIS IS AN OBNOXIOUS AND DISTRACTING LOG LINE")
 ```
