@@ -11,4 +11,4 @@ It's wrong to impose our local dev env settings on other people. In a way, this 
 
 CI is there to force consistency in the codebase.
 
-Why we don't want to maintain a `CMakePresets.json` file: A CMake presets file seems like a good thing at first, but it actually promotes laziness.
+Why we don't want to maintain a `CMakePresets.json` file: A CMake presets file seems like a good thing at first, but it actually promotes laziness. Qt Creator, for example makes it look like you have you have to select a preset (even though it is optional) and so developers are likely to do this rather than figuring out what settings they should set.
