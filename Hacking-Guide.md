@@ -29,6 +29,26 @@ where #3393 is the Issue Number of the reported issue.
 
 Since documentation can become stale quickly its important we do our best to keep it updated.
 
- - You MUST update the documentation within the same Pull Request where you invalidate the document's contents.
- - This SHALL include Creating or updating [Doxygen comments](https://www.doxygen.nl/manual/docblocks.html) for methods.
- - This SHOULD includes also updating any relevant wiki pages.
+ - You **must** update the documentation within the same Pull Request where you invalidate the document's contents.
+ - This **shall** include Creating or updating [Doxygen comments](https://www.doxygen.nl/manual/docblocks.html) for methods.
+ - This **should** includes also updating any relevant wiki pages.
+
+### 4. No rage caps in comments/logs
+
+Rage caps errode SNR (signal-to-noise); what is important to you may not be important to other developers.
+
+Do not shout in your comments or log messages. Be respectful of other developers and do not cause unnecessary distractions.
+
+This rule applies to both the program code and the build config.
+
+Example:
+```
+# This is a polite and respectful comment.
+# THIS IS AN OBNOXIOUS AND DISTRACTING COMMENT
+```
+
+Example:
+```
+message(VERBOSE "This is a polite and respectful log line.")
+message(STATUS "THIS IS AN OBNOXIOUS AND DISTRACTING LOG LINE")
+```
