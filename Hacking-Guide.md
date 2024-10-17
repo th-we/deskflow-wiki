@@ -42,8 +42,8 @@ What is important to one developer is usually not as important to another. Prior
 Example:
 ```
 # This is a polite and respectful comment.
-# THIS IS AN OBNOXIOUS AND DISTRACTING COMMENT
+# THIS IS AN SHOUTY AND DISTRACTING COMMENT
 
 message(VERBOSE "This is a polite and respectful log line.")
-message(STATUS "THIS IS AN OBNOXIOUS AND DISTRACTING LOG LINE")
+message(STATUS "THIS IS AN SHOUTY AND DISTRACTING LOG LINE")
 ```
