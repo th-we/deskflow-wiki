@@ -4,9 +4,9 @@
 > [!NOTE]
 > **TODO:** Add tips and tricks to help devs adapt to this philosophy.
 
-> "The more you try to force things, the more you're gimping your project." -- Chris (@sithlord48)
-
 Here's our general philosophy about CI vs dev env.
+
+> "The more you try to force things, the more you're gimping your project." -- Chris (@sithlord48)
 
 # Don't match CI
 
