@@ -4,12 +4,12 @@
 
 Use these prefixes on commits when applicable, as they will be used to generate change logs on release.
 
-- `fix:` **must** be used if the commit _fixes_ a known issue or if _fixes_ a bug.
-- `feat:` **must** be used for the commit that introduces a new feature.
-- `refactor:` **must** be used when existing code is reworked without changing functionality.
-- `build:`: **must** be used for changes in project (CMake) or build files.
-- `ci:` **must** be used for commits that modify CI.
-- `chore:` **may** be used for most anything else.
+- `fix:` **_must_** be used if the commit _fixes_ a known issue or if _fixes_ a bug.
+- `feat:` **_must_** be used for the commit that introduces a new feature.
+- `refactor:` **_must_** be used when existing code is reworked without changing functionality.
+- `build:`: **_must_** be used for changes in project (CMake) or build files.
+- `ci:` **_must_** be used for commits that modify CI.
+- `chore:` **_may_** be used for most anything else.
 
 #### Example of a good commit message
 
@@ -30,9 +30,9 @@ fix: #3393 Crash on startup
 
 Since documentation can become stale quickly we must do our best to keep it updated.
 
- - You **must** update the documentation within the same Pull Request where you invalidate the document's contents.
- - This **shall** include Creating or updating [Doxygen comments](https://www.doxygen.nl/manual/docblocks.html) for methods.
- - This **should** include also updating any relevant wiki pages.
+ - You **_must_** update the documentation within the same Pull Request where you invalidate the document's contents.
+ - This **_shall_** include Creating or updating [Doxygen comments](https://www.doxygen.nl/manual/docblocks.html) for methods.
+ - This **_should_** include also updating any relevant wiki pages.
 
 ### 4. No rage caps
 
