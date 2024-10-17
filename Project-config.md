@@ -1,6 +1,8 @@
 > [!WARNING]
 > WIP: This is a bit rambly and needs more structure.
 
+> "The more we try to force things, the more you're gimping your project." -- Chris
+
 Here's our general philosophy about CI vs dev env.
 
 We believe it's a mistake to try to match CI on local dev env because the more you try to replicate CI locally, the more you compromise your setup configuration; it becomes more complex and buggy. This is why we don't maintain build scripts; each build script is like a mini-program with its own bugs.
