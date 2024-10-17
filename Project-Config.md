@@ -4,7 +4,7 @@
 > [!NOTE]
 > **TODO:** Add tips and tricks to help devs adapt to this philosophy.
 
-Here's our general philosophy about CI vs dev env.
+Here's our general philosophy about project config (CI and dev env).
 
 > "The more you try to force things, the more you're gimping your project." -- Chris (@sithlord48)
 
