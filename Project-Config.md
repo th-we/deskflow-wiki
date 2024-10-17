@@ -1,7 +1,7 @@
 > [!WARNING]
 > WIP: This is a bit rambly and needs more structure.
 
-> "The more we try to force things, the more you're gimping your project." -- Chris
+> "The more we try to force things, the more you're gimping your project." -- Chris (@sithlord48)
 
 Here's our general philosophy about CI vs dev env.
 
