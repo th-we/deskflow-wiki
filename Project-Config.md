@@ -1,6 +1,8 @@
 > [!WARNING]
-> WIP: This mostly encapsulates our ideas, but needs more work.
-> TODO: Add tips and tricks to help devs adapt to this philosophy.
+> **WIP:** This mostly encapsulates our ideas, but needs more work.
+
+> [!NOTE]
+> **TODO:** Add tips and tricks to help devs adapt to this philosophy.
 
 > "The more you try to force things, the more you're gimping your project." -- Chris (@sithlord48)
 
