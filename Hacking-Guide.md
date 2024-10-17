@@ -33,9 +33,12 @@ Since documentation can become stale quickly its important we do our best to kee
  - This **shall** include Creating or updating [Doxygen comments](https://www.doxygen.nl/manual/docblocks.html) for methods.
  - This **should** includes also updating any relevant wiki pages.
 
-### 4. No rage caps in comments/logs
+### 4. No rage caps
 
-Rage caps erode SNR (signal-to-noise). Do not shout in your comments or log messages. This rule applies to both the program code and the build config.
+Rage caps erode SNR (signal-to-noise). Do not shout in your comments or log messages. This rule applies to:
+- Program code
+- Build config
+- Documentation
 
 What is important to one developer is usually not as important to another. Prioritizing your message over everyone else's is not a polite thing to do. If you want to find something, use a text search tool. Be respectful of other developers and do not cause unnecessary distractions.
 
