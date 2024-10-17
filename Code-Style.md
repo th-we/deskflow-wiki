@@ -4,7 +4,7 @@ Our code formatting is enforced via CI which runs the `script/lint_clang.py` scr
 > [!TIP]
 > See our guide: [[Clang‐Format Tips & Tricks]]
 
-- CLang (C/C++/Objective-C): `.clang-format` - LLVM with a few minor tweaks (80 columns).
+- CLang (C/C++/Objective-C): `.clang-format` - LLVM with a few minor tweaks (80 column width).
 - Python: Use [black](https://github.com/psf/black)
 - JSON/YAML: Undefined (TBD)
 
