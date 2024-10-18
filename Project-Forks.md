@@ -34,7 +34,7 @@ Only comparing active projects. Accurate as of Oct 2024.
 | Stability | Leading edge | Stable | Stable | Stable |
 | Legacy systems | No | Yes | Yes | No |
 | Community-driven | Yes | Yes | No | No |
-| Code reviews | Always | Sometimes | Yes | Yes |
+| Code reviews | Required | Sometimes | Required | Required |
 | Funding | Sponsored | None | Customers | Customers |
 | Customer code* | No | No | Yes | Yes |
 | GUI features | Original | Original | Original | Extended |
