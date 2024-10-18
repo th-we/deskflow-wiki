@@ -36,7 +36,7 @@ Only comparing active projects. Accurate as of Oct 2024.
 | Community-driven | Yes | Yes | No | No |
 | Code reviews | Required | Sometimes | Required | Required |
 | Funding | Sponsored | None | Customers | Customers |
-| Customer code* | No | No | Yes | Yes |
+| Customer code | No | No | Yes* | Yes* |
 | GUI features | Original | Original | Original | Extended |
 | GUI technology | Qt | Qt | Qt | Electron |
 | Auto-discovery | No | Yes** | No | Yes** |
