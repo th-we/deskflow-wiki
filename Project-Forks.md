@@ -13,14 +13,14 @@ There are several forks, derivatives, and downstream projects based on the origi
 
 Accurate as of Oct 2024.
 
-| Project | Base | Started | Type | Status | Philosophy |
+| Project | Base | Started | Type | Status |
 | --- | --- | --- | --- | --- | --- |
-| Deskflow | Synergy v1.15 | 2024 | Upstream | Active | GPLv2, leading edge, community-driven, no customer code |
-| Synergy (>v1.15) | Deskflow | 2024 | Downstream | Active | GPLv2, stability, legacy support, customer-focused, for-profit |
-| Synergy (v3.x) | Synergy v1.x | 2023 | Downstream | Active | Proprietary, Electron, easy config, customer-focused, for-profit |
-| Input Leap | Barrier v2.x | 2021 | Fork | Active | GPLv2, stability, legacy support, optional code reviews |
-| Barrier | Synergy v1.9 | 2018 | Fork | Superseded* | GPLv2, removal of customer-related code |
-| Synergy (<=v1.15) | - | 2001 | Original | Superseded | Mostly open source (GPLv2), stability, customer-focused, for-profit |
+| Deskflow | Synergy v1.15 | 2024 | Upstream | Active |
+| Synergy (>v1.15) | Deskflow | 2024 | Downstream | Active |
+| Synergy (v3.x) | Synergy v1.x | 2023 | Downstream | Active |
+| Input Leap | Barrier v2.x | 2021 | Fork | Active |
+| Barrier | Synergy v1.9 | 2018 | Fork | Superseded* |
+| Synergy (<=v1.15) | - | 2001 | Original | Superseded |
 
 \* As of Oct 2024, the last commit on Barrier was `653e4ba` (2 years ago). The general view is that it is a dead project superseded by Input Leap.
 
