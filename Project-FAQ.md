@@ -1,4 +1,4 @@
-# Frequently asked questions
+# Frequently Asked Questions
 
 ## Is Deskflow compatible with Lan Mouse or Input Leap?
 
