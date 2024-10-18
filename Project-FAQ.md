@@ -5,7 +5,7 @@
 Please see the [[Project Forks]] page which explains the difference between Deskflow, Input Leap, Barrier, and Synergy.
 
 Deskflow was first created as Synergy in 2001 by Chris Schoeneman.
-Read about the [history of the project](https://github.com/deskflow/deskflow/wiki/History) on our
+Read about the [[history of the project|History]] on our
 wiki.
 
 ## Is Deskflow compatible with Lan Mouse or Input Leap?
