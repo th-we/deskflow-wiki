@@ -39,9 +39,11 @@ Only comparing active projects. Accurate as of Oct 2024.
 | Customer code* | No | No | Yes | Yes |
 | GUI features | Original | Original | Original | Extended |
 | GUI technology | Qt | Qt | Qt | Electron |
-| Auto discovery | No | Yes | No | Yes |
+| Auto-discovery | No | Yes** | No | Yes** |
 
 \* Customer code in Synergy 1 includes code to enable customers to enter a license key. Synergy 3 adds a small layer of proprietary code in a separate unlinked binary for customers who want an easier config experience and other features that aren't of interest to the Deskflow community but are of interest to Synergy customers.
+
+\** Input Leap (and Barrier) use the legacy auto-discovery from Synergy (Bonjour) which was removed from Synergy due to issues with stability. Deskflow does not intend to develop an auto-discovery feature. Synergy 3 uses mDNS for auto-discovery.
 
 See also:
 - [[History]]
