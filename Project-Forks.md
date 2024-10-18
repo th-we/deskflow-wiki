@@ -14,7 +14,7 @@ There are several forks, derivatives, and downstream projects based on the origi
 Accurate as of Oct 2024.
 
 | Project | Base | Started | Type | Status |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | Deskflow | Synergy v1.15 | 2024 | Upstream | Active |
 | Synergy (>v1.15) | Deskflow | 2024 | Downstream | Active |
 | Synergy (v3.x) | Synergy v1.x | 2023 | Downstream | Active |
