@@ -22,7 +22,7 @@ Accurate as of Oct 2024.
 | Barrier | Synergy v1.9 | 2018 | Fork | Superseded* |
 | Synergy (<=v1.15) | - | 2001 | Original | Superseded |
 
-\* As of Oct 2024, the last commit on Barrier was `653e4ba` (2 years ago). The general view is that it is a dead project superseded by Input Leap.
+\* As of Oct 2024, the last commit on Barrier was `653e4ba` (2 years ago). The general view is that it is an inactive project superseded by Input Leap.
 
 # Comparison
 
