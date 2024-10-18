@@ -1,5 +1,9 @@
 # Frequently Asked Questions
 
+## What's the difference between Deskflow and other forks?
+
+Please see the [[Project Forks]] page which explains the difference between Deskflow, Input Leap, Barrier, and Synergy.
+
 ## Is Deskflow compatible with Lan Mouse or Input Leap?
 
 We would love to see compatibility between our fellow open source projects, Lan Mouse and 
