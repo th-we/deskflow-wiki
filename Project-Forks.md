@@ -2,10 +2,14 @@ There are several forks, derivatives, and downstream projects based on the origi
 
 # Fork History
 
+# Summary
+
 - 2001: Synergy
 - 2018: Synergy forked to Barrier
 - 2021: Barrier forked to Input Leap
 - 2024: Synergy renamed Deskflow
+
+# Full details
 
 Accurate as of Oct 2024.
 
