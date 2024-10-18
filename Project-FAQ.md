@@ -35,3 +35,5 @@ Wayland implementation.
 We welcome PRs (pull requests) from the community. If you'd like to make a change, please feel
 free to [start a discussion](https://github.com/deskflow/deskflow/discussions) or 
 [open a PR](https://github.com/deskflow/deskflow/wiki/Contributing).
+
+If you simply want to make a personal fork in order to send us a PR: [[How to fork]]
