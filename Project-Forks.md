@@ -4,7 +4,7 @@ There are several forks, derivatives, and downstream projects based on the origi
 
 # Summary
 
-- 2001: Synergy was [born](../History)
+- 2001: Synergy was born (see: [[History]])
 - 2018: Synergy forked to Barrier
 - 2021: Barrier forked to Input Leap
 - 2024: Deskflow became upstream of Synergy
