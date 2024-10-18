@@ -38,7 +38,7 @@ Only comparing active projects. Accurate as of Oct 2024.
 | Funding | Sponsored | None | Customers | Customers |
 | Customer code* | No | No | Yes | Yes |
 | GUI features | Original | Original | Original | Extended |
-| GUI technology | Qt | Qt | Qt | Qt |
+| GUI technology | Qt | Qt | Qt | Electron |
 
 \* Customer code in Synergy 1 includes code to enable customers to enter a license key. Synergy 3 adds a small layer of proprietary code in a separate unlinked binary for customers who want an easier config experience and other features that aren't of interest to the Deskflow community but are of interest to Synergy customers.
 
