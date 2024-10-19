@@ -22,6 +22,7 @@ Example:
 
 # Naming
 
+1. Namespaces should be all lower case and begin with `synergy`, e.g. `synergy::gui`
 1. Member variables should be prefixed with `m_helloWorld`
 1. Pointers should begin with a lower case `p`, e.g. `m_pHelloWorld`
 1. Getters _should not_ have `get` prefixed, e.g. `helloWorld()`
