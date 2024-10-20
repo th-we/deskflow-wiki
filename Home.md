@@ -5,7 +5,8 @@ Here are a few pages to get you started with your search:
 * [[Chat with us]] - We're friendly! Let us know if you have any questions.
 * [[Project FAQ]] - Answers to frequently asked questions about Deskflow.
 * [[Contributing]] - If you want to make a change to the source code.
-* [[Build Guide]] - How to build from source and solve common problems.
+* [[Build Guide]] (legacy) - How to build from source and solve common problems.
+* [[Building]] - How to get setup to build deskflow
 * [[Command Line]] - Go full manual and run Deskflow Core from the command line.
 * [[Text Config]] - Write a text config file when running Synergy Core manually.
 * [[GUI Settings]] - Info about the GUI settings (including how to reset them).
