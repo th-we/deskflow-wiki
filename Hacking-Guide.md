@@ -12,8 +12,6 @@ Use these prefixes on commits when applicable, as they will be used to generate 
 - `chore:` **_may_** be used for most anything else.
 
 #### Example of a good commit message
-
-Issue number (e.g. #3393) is optional:
 ```
 fix: Crash on startup 
 
