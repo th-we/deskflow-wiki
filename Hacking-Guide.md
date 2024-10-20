@@ -15,9 +15,10 @@ Use these prefixes on commits when applicable, as they will be used to generate 
 
 Issue number (e.g. #3393) is optional:
 ```
-fix: #3393 Crash on startup 
+fix: Crash on startup 
 
-  Additional commit info can be helpful 
+   fixes #4444, #4323
+   Additional commit info can be helpful 
 ```
 
 ### 2. PRs are not squashed, so make each commit sane
