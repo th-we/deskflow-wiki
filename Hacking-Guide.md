@@ -47,6 +47,6 @@ Example:
 # This is a polite and respectful comment.
 # THIS IS A SHOUTY AND DISTRACTING COMMENT
 
-message(VERBOSE "This is a polite and respectful log line.")
+message(STATUS "This is a polite and respectful log line.")
 message(STATUS "THIS IS AN SHOUTY AND DISTRACTING LOG LINE")
 ```
