@@ -62,7 +62,7 @@ Accurate as of Oct 2024.
 | | Deskflow | Input Leap |
 | --- | --- | --- |
 | Code reviews | Required | Sometimes |
-| Dependencies | CMake [`FetchContent`](https://cmake.org/cmake/help/latest/module/FetchContent.html) | [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) |
+| Dependencies | [`FetchContent`](https://cmake.org/cmake/help/latest/module/FetchContent.html) and [`vcpkg`](https://vcpkg.io) | [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) |
 | Qt support (minimum) | Qt 6 | Qt 5 |
 | Depend on [`libei`](https://gitlab.freedesktop.org/libinput/libei) | Required | Optional |
 | Depend on [`libportal`](https://github.com/flatpak/libportal) | Required | Optional |
