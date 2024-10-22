@@ -1,9 +1,6 @@
-Deskflow is free and open source software, and anyone is welcome to build it,
-run it, tinker with it, redistribute it as part of their own app, etc.
+This guide has been superseded by: [[Building]]
 
-These instructions will build Deskflow
-
-The quick start instructions (also found in the [README](/deskflow/deskflow-core/blob/master/README.md) and [BUILD](https://github.com/deskflow/deskflow/blob/master/BUILD.md) files) are simplified and should work in the ideal development environment. However, some people will likely need to make changes to their environment to build Deskflow. This guide aims to help with common development environment issues.
+# Legacy Build Guide
 
 - [Quick Start](#quick-start)
 - [Tools](#tools)
