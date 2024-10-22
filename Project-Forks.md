@@ -1,8 +1,8 @@
 There are several forks, derivatives, and downstream projects based on the original Synergy project.
 
 - [History](#history)
-- [Fork List(#fork-list)
-- [Comparison (high-level))[#comparison-high-level]
+- [Fork List](#fork-list)
+- [Comparison (high-level)](#comparison-high-level)
 - [Technical Differences](#technical-differences)
 
 # History (summary)
