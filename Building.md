@@ -89,6 +89,56 @@ the following items will be installed by vcpkg
   - cli11(optional)
   - google test (optional)
 
+Debian / Ubuntu
+```
+  apt install cmake build-essential ninja-build \
+              xorg-dev libx11-dev libxtst-dev libssl-dev \
+              libglib2.0-dev libgdk-pixbuf-2.0-dev libnotify-dev \
+              libxkbfile-dev qt6-base-dev qt6-tools-dev \
+              libgtk-3-dev libgtest-dev libgmock-dev libpugixml-dev \
+              libei-dev libportal-dev libtomlplusplus-dev libcli11-dev
+```
+
+fedora
+```
+  dnf install cmake make ninja-build gcc-c++ rpm-build \
+              openssl-devel glib2-devel gdk-pixbuf2-devel \
+              libXtst-devel libnotify-devel libxkbfile-devel \
+              qt6-qtbase-devel qt6-qttools-devel gtk3-devel \
+              gtest-devel gmock-devel pugixml-devel libei-devel \
+              libportal-devel tomlplusplus-devel cli11-devel
+```
+
+rhel
+```
+  dnf install epel-release
+  dnf config-manager --set-enabled crb
+  dnf install cmake make ninja-build gcc-c++ rpm-build \
+              openssl-devel glib2-devel gdk-pixbuf2-devel \
+              libXtst-devel libnotify-devel libxkbfile-devel \
+              qt6-qtbase-devel qt6-qttools-devel gtk3-devel \
+              gtest-devel gmock-devel pugixml-devel libei-devel \
+              libportal-devel tomlplusplus-devel cli11-devel
+
+```
+
+suse
+```
+  zypper install cmake make ninja gcc-c++ rpm-build libopenssl-devel \
+                 glib2-devel gdk-pixbuf-devel libXtst-devel libnotify-devel \
+                 libxkbfile-devel qt6-base-devel qt6-tools-devel gtk3-devel \
+                 googletest-devel googlemock-devel pugixml-devel libei-devel \
+                 libportal-devel tomlplusplus-devel cli11-devel
+```
+
+arch
+```
+  pacman -S base-devel cmake ninja gcc openssl \
+            glib2 gdk-pixbuf2 libxtst libnotify \
+            libxkbfile gtest pugixml libei libportal \
+            qt6-base qt6-tools gtk3 tomlplusplus cli11
+```
+
 
 # Configuration
 
