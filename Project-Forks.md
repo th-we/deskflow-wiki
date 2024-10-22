@@ -1,15 +1,20 @@
 There are several forks, derivatives, and downstream projects based on the original Synergy project.
 
-# Fork History
+- [History](#history)
+- [Fork List(#fork-list)
+- [Comparison (high-level))[#comparison-high-level]
+- [Technical Differences](#technical-differences)
 
-# Summary
+# History (summary)
 
 - 2001: Synergy was [[born|History]]
 - 2018: Synergy forked to Barrier
 - 2021: Barrier forked to Input Leap
 - 2024: Deskflow became upstream of Synergy
 
-# Full Details
+See also: [[Full history|History]]
+
+## Fork List
 
 Accurate as of Oct 2024.
 
@@ -24,7 +29,7 @@ Accurate as of Oct 2024.
 
 \* As of Oct 2024, the last commit on Barrier was `653e4ba` (2 years ago). The general view is that it is an inactive project superseded by Input Leap.
 
-# Comparison
+## Comparison (high-level)
 
 Only comparing active projects.
 
@@ -48,7 +53,7 @@ Accurate as of Oct 2024.
 
 \** Input Leap (and Barrier) use the legacy auto-discovery from Synergy (Bonjour) which was removed from Synergy due to issues with stability. Deskflow does not intend to develop an auto-discovery feature. Synergy 3 uses mDNS for auto-discovery.
 
-# Technical Differences
+## Technical Differences
 
 There are some technical differences between Deskflow and Input Leap. We don't believe that this makes one better than the other; they are simply different technical approaches that are important to study and understand. The differences are often driven by community preference and project philosophy. The communities for each project are made up of both programmers and non-programmer contributors.
 
