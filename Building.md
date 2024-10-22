@@ -155,7 +155,6 @@ CMake options:
 | ENABLE_COVERAGE          | Enable test coverage                    | OFF                | `gcov` |
 | SYSTEM_LIBEI             | Use system libei (use local dep)        | ON                 | |
 | SYSTEM_LIBPORTAL         | Use system libportal (or local dep)     | ON                 | |
-| LIBPORTAL_STATIC         | Use static libportal (hacky)            | OFF                | `subprojects/packagefiles/libportal/static-lib.diff` |
 
 To configure you use CMake.
 
