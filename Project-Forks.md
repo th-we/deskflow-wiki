@@ -9,7 +9,7 @@ There are several forks, derivatives, and downstream projects based on the origi
 - 2021: Barrier forked to Input Leap
 - 2024: Deskflow became upstream of Synergy
 
-# Full details
+# Full Details
 
 Accurate as of Oct 2024.
 
@@ -26,7 +26,9 @@ Accurate as of Oct 2024.
 
 # Comparison
 
-Only comparing active projects. Accurate as of Oct 2024.
+Only comparing active projects.
+
+Accurate as of Oct 2024.
 
 | | Deskflow | Input Leap | Synergy (v1.x) | Synergy (v3.x) |
 | --- | --- | --- | --- | --- |
@@ -34,7 +36,6 @@ Only comparing active projects. Accurate as of Oct 2024.
 | Stability | Leading edge | Stable | Stable | Stable |
 | Legacy systems | No | Yes | Yes | No |
 | Community-driven | Yes | Yes | No | No |
-| Code reviews | Required | Sometimes | Required | Required |
 | Funding | Sponsored | None | Customers | Customers |
 | Customer code | No | No | Yes* | Yes* |
 | GUI features | Original | Original | Original | Extended |
@@ -45,10 +46,18 @@ Only comparing active projects. Accurate as of Oct 2024.
 
 \** Input Leap (and Barrier) use the legacy auto-discovery from Synergy (Bonjour) which was removed from Synergy due to issues with stability. Deskflow does not intend to develop an auto-discovery feature. Synergy 3 uses mDNS for auto-discovery.
 
-# Technical differences
+# Technical Differences
 
 There are some technical differences between Deskflow and Input Leap. We don't believe that this makes one better than the other; they are simply different technical approaches that it's important to study and understand.
 
+Accurate as of Oct 2024. 
+
+| | Deskflow | Input Leap |
+| --- | --- | --- |
+| Code reviews | Required | Sometimes |
+| Use of Git submodules | No | Yes |
+| Depend on [`libei`](https://gitlab.freedesktop.org/libinput/libei) and [`libportal`](https://github.com/flatpak/libportal) | Required | Optional |
+| Qt support (min) | Qt 6 | Qt 5 |
 
 See also:
 - [[History]]
