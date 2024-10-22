@@ -59,8 +59,8 @@ Deskflow requires the following items to build
  - tomlplusplus**
  - cli11**
  - google test**
- - libportal 0.8+ (linux wayland)
- - libei 1.3+ (linux wayland)
+ - libportal 0.8+ (linux)
+ - libei 1.3+ (linux)
  - wintoast (windows)
 
 ** These dependencies will be downloaded automatically at build time if they are not found on your system, Google Test Is only needed for build tests
