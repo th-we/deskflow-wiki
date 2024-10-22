@@ -5,11 +5,11 @@ Here are a few pages to get you started with your search.
 ## Introduction
 * [[Chat with us]] - We're friendly! Let us know if you have any questions.
 * [[Project FAQ]] - Answers to frequently asked questions about Deskflow.
-* [[Maintainers]] - Guidance and rules for maintainers to follow.
 
 ## Get Involved
-* [[Contributing]] - If you want to make a change to the source code.
 * [[Building]] - Instructions for compiling the Deskflow source code.
+* [[Contributing]] - If you want to make a change to the source code.
+* [[Maintainers]] - Guidance and rules for maintainers to follow.
 
 ## User Guides
 * [[Command Line]] - Go full manual and run Deskflow Core from the command line.
