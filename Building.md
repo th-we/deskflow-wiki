@@ -6,6 +6,8 @@ run it, tinker with it, fork it, redistribute it as part of their own app, etc.
 
 - [Getting Started](#getting-started)
 - [Dependencies](#dependencies)
+- [Configure](#configure)
+- [Build](#build)
 
 # Getting Started
 
@@ -142,7 +144,7 @@ Both `tomlplusplus` and `cli11` will be embedded by CMake.
             qt6-base qt6-tools gtk3 tomlplusplus cli11
 ```
 
-# Configuration
+# Configure
 
 CMake options:
 
@@ -158,12 +160,14 @@ CMake options:
 
 To configure you use CMake.
 
-**Configure example:**
+**Configure command example:**
 ```
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 ```
 
-**Build example:**
+# Build
+
+**Build command example:**
 ```
 cmake --build build
 ```
