@@ -48,16 +48,17 @@ Accurate as of Oct 2024.
 
 # Technical Differences
 
-There are some technical differences between Deskflow and Input Leap. We don't believe that this makes one better than the other; they are simply different technical approaches that it's important to study and understand.
+There are some technical differences between Deskflow and Input Leap. We don't believe that this makes one better than the other; they are simply different technical approaches that are important to study and understand. The differences are often driven by community preference and project philosophy. The communities for each project are made up of both programmers and non-programmer contributors.
 
-Accurate as of Oct 2024. 
+Accurate as of Oct 2024.
 
 | | Deskflow | Input Leap |
 | --- | --- | --- |
 | Code reviews | Required | Sometimes |
-| Use of Git submodules | No | Yes |
-| Depend on [`libei`](https://gitlab.freedesktop.org/libinput/libei) and [`libportal`](https://github.com/flatpak/libportal) | Required | Optional |
-| Qt support (min) | Qt 6 | Qt 5 |
+| Dependencies | CMake [`FetchContent`](https://cmake.org/cmake/help/latest/module/FetchContent.html) | [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) |
+| Qt support (minimum) | Qt 6 | Qt 5 |
+| Depend on [`libei`](https://gitlab.freedesktop.org/libinput/libei) | Required | Optional |
+| Depend on [`libportal`](https://github.com/flatpak/libportal) | Required | Optional |
 
 See also:
 - [[History]]
