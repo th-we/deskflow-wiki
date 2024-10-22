@@ -12,9 +12,9 @@ Here are a few pages to get you started with your search.
 * [[Maintainers]] - Guidance and rules for maintainers to follow.
 
 ## User Guides
-* [[Command Line]] - Go full manual and run Deskflow Core from the command line.
-* [[Text Config]] - Write a text config file when running Synergy Core manually.
-* [[GUI Settings]] - Info about the GUI settings (including how to reset them).
+* [[Command Line]] - Skip the GUI and run Deskflow from the command line.
+* [[Text Config]] - Write a text config file for advanced configurations.
+* [[GUI Settings]] - Info about the GUI settings (and how to reset them).
 * [[Workarounds]] - Inventive solutions to strange problems.
 
 ## Background
