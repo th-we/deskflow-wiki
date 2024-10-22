@@ -45,6 +45,11 @@ Only comparing active projects. Accurate as of Oct 2024.
 
 \** Input Leap (and Barrier) use the legacy auto-discovery from Synergy (Bonjour) which was removed from Synergy due to issues with stability. Deskflow does not intend to develop an auto-discovery feature. Synergy 3 uses mDNS for auto-discovery.
 
+# Technical differences
+
+There are some technical differences between Deskflow and Input Leap. We don't believe that this makes one better than the other; they are simply different technical approaches that it's important to study and understand.
+
+
 See also:
 - [[History]]
 - [[Relationship with Synergy]]
