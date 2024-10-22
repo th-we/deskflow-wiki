@@ -7,7 +7,9 @@ These instructions are A WIP
 
 # Getting Started
 
-Before we can begin building we will need to make sure we correctly set up our system 
+Before we can begin building we will need to make sure we correctly set up our system.
+
+Legacy instructions: [[Building (legacy)]]
 
 ## Windows
  Getting started on windows requires you first have the following tools installed and in your `PATH`
