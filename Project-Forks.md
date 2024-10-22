@@ -43,7 +43,6 @@ Accurate as of Oct 2024.
 | Community-driven | Yes | Yes | No | No |
 | Funding | Sponsored | None | Customers | Customers |
 | Customer code | No | No | Yes* | Yes* |
-| GUI features | Original | Original | Original | Extended |
 | GUI technology | Qt | Qt | Qt | Electron |
 | Auto-discovery | No | Yes** | No | Yes** |
 | Synergy protocol | Yes | No | Yes | Yes |
