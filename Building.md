@@ -160,6 +160,9 @@ CMake options:
 
 To configure you use CMake.
 
+> [!TIP]
+> You could create a [`CMakeUserPresets.json`](https://gist.github.com/nbolton/1a6c59b576528f20f76ae2e3fd0c72d5) file.
+
 **Configure command example:**
 ```
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
