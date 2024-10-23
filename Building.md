@@ -155,8 +155,6 @@ CMake options:
 | BUILD_TESTS              | Build unit tests and integration tests  | ON                 | `gtest`|
 | BUILD_UNIFIED            | Build unified binary (client+server)    | OFF                | |
 | ENABLE_COVERAGE          | Enable test coverage                    | OFF                | `gcov` |
-| SYSTEM_LIBEI             | Use system libei (use local dep)        | ON                 | |
-| SYSTEM_LIBPORTAL         | Use system libportal (or local dep)     | ON                 | |
 
 To configure you use CMake.
 
