@@ -170,5 +170,5 @@ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 
 **Build command example:**
 ```
-cmake --build build
+cmake --build build -j8
 ```
