@@ -34,12 +34,31 @@ Example:
 1. The word "deps" should be used to mean "dependencies"
 
 ## Qt naming
+1. Qt Controls SHALL NOT use  a `p` to indicate they are a pointer.
+1. Qt Controls SHALL be named `<type><Description>` (`lblShortName`) 
+                                                    OR `<type>_<lenghtyDescription>`  (`lbl_longerNamesMayUseThisStyle`)
+1. Qt signals should indicate that something happened, e.g. `nameChanged`
 
-1. Qt controls should be named `m_p<type><description>`, e.g. `m_pLabelSpecificThing`
-1. Qt signals should indicate that something happened, e.g. `somethingHappened`
-1. Qt slots should always begin with `on`
-1. Manual Qt slots should _not_ follow the autoconnection convention (`on_foo_bar`)
-1. Manual Qt slots should include both the signal origin and signal name, e.g. `onOriginSomethingHappened`
+### UI Form Specific Rules
+1. Members of UI forms SHALL NOT use the `m_` prefix (i.e lblError NOT m_lblError) 
+1. Don't use the autoconnection conventions (`on_foo_bar`) or `onFooBar`.
+1. Ui Forms should always be in the namespace `Ui`
+    1. Always use `ui{std::make_unique<Ui::Type>()}` make the ui instance
+    1. The Ui Form SHALL be a private member of the class using
+    1. The variable name SHALL be `ui` 
+1. Ui Forms should never have connections internally 
+1. When editing ui files take extra care to not accidentally change item sizes
+1.When editing ui files take extra care to not accidentally change the current item on container based widgets.
+
+### Qt Type Prefix scheme
+  - `label`  QLabels that are  a static label
+  - `lbl`      QLabels you will be changing programmatically
+  - `rb`      QRadioButton
+  - `cb`      QCheckBoxe
+  - `combo`  QComboBox
+  -  `btn`    Buttons (Tool or Push)
+  -  `action`  QAction
+  - Others name without the Q 
 
 # Organization
 
