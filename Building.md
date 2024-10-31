@@ -151,6 +151,7 @@ CMake options:
 |         Option           |            Description                  |   Default Value    | Additional requirements |
 :-------------------------:|:---------------------------------------:|:------------------:|:-----------------------:|
 | BUILD_GUI                | Build GUI                               | ON                 | `Qt`|
+| BUILD_DOCS               | Build User Documentation                | ON                 | `Doxygen` |
 | BUILD_INSTALLER          | Build installers/packages               | ON                 | |
 | BUILD_TESTS              | Build unit tests and integration tests  | ON                 | `gtest`|
 | BUILD_UNIFIED            | Build unified binary (client+server)    | OFF                | |
