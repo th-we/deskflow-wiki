@@ -2,7 +2,7 @@
 
 macOS 15 Sequoia introduced new firewall and security features which [caused problems](https://9to5mac.com/2024/09/19/security-bite-macos-sequoias-filewall-is-disrupting-security-tools-and-more/) with some apps. The quickly released 15.0.1 patch helped a little, but did not solve the problems completely.
 
-**Update:** The macOS 15 Sequoia firewall and security problems have now been fixed by Apple in the 15.1 minor update (not to be confused with 15.0.1 patch). Please update to 15.1 to solve the firewall and security problems.
+**Fixed:** The macOS 15 Sequoia firewall and security problems have now been fixed by Apple in the 15.1 minor update (not to be confused with 15.0.1 patch). Please update to 15.1 to solve the firewall and security problems.
 
 # Running the unsigned Deskflow app on macOS
 
