@@ -46,7 +46,7 @@ It may be a little easier for some developers to grok if they force a break with
 
 # Overriding `#include` ordering
 
-Split your includes up into groups to force ordering. This can be useful when there are accidental (or nasty) interdependencies between headers.
+Split your includes up into groups to force ordering. This can be useful when there are accidental (or nasty) inter-dependencies between headers.
 
 ```
 #include "client/Client.h"
@@ -85,4 +85,29 @@ enum HelloWorld {
 // clang-format off
 Some fragile or from third parties imported code...
 // clang-format on
+```
+
+## Git Pre-commit hook
+You can the script below as a pre-commit hook to format the files you have changed.
+
+Copy the contents below into a file `.git/hooks/pre-commit` and make it executable 
+When you commit changes you clang format will be run on the files you change in your commit. Make sure you `--amend`  any linter changes to you commit. 
+
+```
+#!/bin/bash
+
+# Get list of staged files
+staged_files=$(git diff --cached --name-only --diff-filter=ACM)
+
+# Filter for C/C++/Objective-C files
+files_to_format=$(echo "$staged_files" | grep -E '\.(c|cpp|cxx|h|hpp|m|mm)$')
+
+# Check if there are files to format
+if [ -n "$files_to_format" ]; then
+  # Run clang-format on the files
+  clang-format -i $files_to_format
+
+  # Add the formatted files back to the staging area
+  git add $files_to_format
+fi
 ```
