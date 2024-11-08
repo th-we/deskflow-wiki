@@ -10,6 +10,22 @@ Run this command in the Terminal
 
 Then type `ifconfig` to double check the status under the awdl0 section, it should be `status: inactive`.
 
+# macOS Accessibility Access
+(by [Trouffman](https://github.com/Trouffman))
+
+For MacOS here is how to solve that issue and allow the deskflow "process". 
+
+1. Go in to system settings -> privacy and security -> accessibility
+2. Open Finder. Go to Applications, right-click on 'Deskflow' -> Show Package Content
+
+![image](https://github.com/user-attachments/assets/7f0dce4d-ea18-480b-9420-540538a227be)
+
+3. Go to Contents -> MacOS
+4. Drag & Drop the file `deskflow` into the Accessiblity settings windows (opened in Step 1)
+5. Enable both deskflow options
+
+![image](https://github.com/user-attachments/assets/081f156a-e702-457c-922e-1fddf3648a49)
+
 # German keyboards
 '# Problem
 
