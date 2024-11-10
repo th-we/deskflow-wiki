@@ -6,7 +6,7 @@ Don't worry about getting your code perfect. Our philosophy is to be friendly an
 Some helpful pages that you might find useful:
 
 * [[Chat with us]] - We're friendly! Let us know if you have any questions.
-* [[Build Guide]] - How to build from source and solve common problems.
+* [[Building]] - How to build from source and solve common problems.
 * [[Hacking Guide]] - How to make sure your PR gets merged.
 * [[Code Style]] - What code style you should use when contributing.
 * [[Project Config]] - Our philosophy on how we configure our project.
