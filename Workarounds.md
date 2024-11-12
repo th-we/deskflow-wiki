@@ -1,3 +1,9 @@
+## Contents
+- [macOS laggy cursor](#macOS-laggy-cursor)
+- [macOS accessibility access](#macOS-accessibility-access)
+- [German keyboards](#German-keyboards)
+- [AltGr key](#AltGr-key)
+
 # macOS laggy cursor
 
 ## Problem
@@ -10,7 +16,7 @@ Run this command in the Terminal
 
 Then type `ifconfig` to double check the status under the awdl0 section, it should be `status: inactive`.
 
-# macOS Accessibility Access
+# macOS accessibility access
 (by [Trouffman](https://github.com/Trouffman))
 
 For MacOS here is how to solve that issue and allow the deskflow "process". 
@@ -27,13 +33,13 @@ For MacOS here is how to solve that issue and allow the deskflow "process".
 ![image](https://github.com/user-attachments/assets/081f156a-e702-457c-922e-1fddf3648a49)
 
 # German keyboards
-'# Problem
+## Problem
 
 German Server -> Windows 10 -> German keyboard layout
 
 German Client -> Manjaro Linux -> German keyboard layout
 
-'# Workaround
+## Workaround
 
 If the client swaps z and y, and can't write german letters correctly (öäüß) type "setxkbmap de" in terminal, now it works correctly.
 
