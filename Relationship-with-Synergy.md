@@ -1,5 +1,5 @@
 > [!TIP]
-> See also: [Project Forks](https://github.com/deskflow/deskflow/wiki/Project-Forks)
+> See also: [[Project Forks]]
 
 Deskflow is the official upstream project for [Synergy](https://symless.com/synergy). Purchasing a Synergy license is one way to support Deskflow’s growth and sustainability.
 
