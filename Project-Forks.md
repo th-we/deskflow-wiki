@@ -1,3 +1,6 @@
+> [!TIP]
+> See also: [[Relationship with Synergy]]
+
 There are several forks, derivatives, and downstream projects based on the original Synergy project.
 
 - [History (summary)](#history-summary)
