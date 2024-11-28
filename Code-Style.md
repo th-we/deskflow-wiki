@@ -72,7 +72,7 @@ Example:
     - Class members
 1. Headers should be ordered in separate groups of:
     - Header file for the `.cpp` file
-    - For Qt, the `_ui.h` file
+    - For Qt, the `.ui` file
     - Project header files
     - 3rd party lib and system headers
 1. Getters should be grouped together
