@@ -1,3 +1,7 @@
+# Upgrade Issues
+ 
+When upgrading you may have to manually remove deskflow entries from the accessibility section of privacy and security.
+
 # Sequoia firewall and security problems
 
 macOS 15 Sequoia introduced new firewall and security features which [caused problems](https://9to5mac.com/2024/09/19/security-bite-macos-sequoias-filewall-is-disrupting-security-tools-and-more/) with some apps. The quickly released 15.0.1 patch helped a little, but did not solve the problems completely.
