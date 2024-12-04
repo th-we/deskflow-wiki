@@ -1,8 +1,10 @@
 ## Contents
 - [macOS laggy cursor](#macOS-laggy-cursor)
 - [macOS accessibility access](#macOS-accessibility-access)
+- [Input method mismatch](#Input-method-mismatch)
 - [German keyboards](#German-keyboards)
 - [AltGr key](#AltGr-key)
+
 
 # macOS laggy cursor
 
@@ -15,6 +17,7 @@ Run this command in the Terminal
 `sudo ifconfig awdl0 down`
 
 Then type `ifconfig` to double check the status under the awdl0 section, it should be `status: inactive`.
+
 
 # macOS accessibility access
 (by [Trouffman](https://github.com/Trouffman))
@@ -31,6 +34,18 @@ For MacOS here is how to solve that issue and allow the deskflow "process".
 5. Enable both deskflow options
 
 ![image](https://github.com/user-attachments/assets/081f156a-e702-457c-922e-1fddf3648a49)
+
+
+# Input method mismatch
+
+## Problem
+
+When you intentionally want to use different keyboard layouts on the client and server, you may experience a layout mismatch.
+
+## Solution
+
+Go to Preferences and uncheck the option: Use server's keyboard language on this computer (client mode)
+
 
 # German keyboards
 ## Problem
@@ -51,6 +66,7 @@ cat setxkbmap.sh
 setxkbmap de
 exit
 ```
+
 
 # AltGr key
 
