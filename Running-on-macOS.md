@@ -4,9 +4,11 @@ When upgrading you may have to manually remove deskflow entries from the accessi
 
 # Sequoia firewall and security problems
 
-macOS 15 Sequoia introduced new firewall and security features which [caused problems](https://9to5mac.com/2024/09/19/security-bite-macos-sequoias-filewall-is-disrupting-security-tools-and-more/) with some apps. The quickly released 15.0.1 patch helped a little, but did not solve the problems completely.
+macOS 15 Sequoia introduced new firewall and security features which [caused problems](https://9to5mac.com/2024/09/19/security-bite-macos-sequoias-filewall-is-disrupting-security-tools-and-more/) with some apps. The quickly released 15.0.1 patch helped a little but did not solve the problems completely.
 
-**Fixed:** The macOS 15 Sequoia firewall and security problems have now been fixed by Apple in the 15.1 minor update (not to be confused with 15.0.1 patch). Please update to 15.1 to solve the firewall and security problems.
+✅ _For new app installs:_ The macOS 15 Sequoia firewall and security problems have now been fixed by Apple in the 15.1 minor update (not to be confused with 15.0.1 patch). Please update to 15.1 to solve the firewall and security problems.
+
+:warning: _When updating an app:_ You will need to remove the app from the macOS 15 Sequoia firewall settings, and re-add it for the new app update to be allowed.
 
 # Running the unsigned Deskflow app on macOS
 
