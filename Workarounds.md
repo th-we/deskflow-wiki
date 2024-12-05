@@ -1,5 +1,6 @@
 ## Contents
 - [macOS laggy cursor](#macOS-laggy-cursor)
+- [macOS upgrade issues](#macOS-not-working-correctly-after-upgrade)
 - [macOS accessibility access](#macOS-accessibility-access)
 - [Input method mismatch](#Input-method-mismatch)
 - [German keyboards](#German-keyboards)
@@ -18,7 +19,7 @@ Run this command in the Terminal
 
 Then type `ifconfig` to double check the status under the awdl0 section, it should be `status: inactive`.
 
-# macOS not working correctly after upgrade or install
+# macOS not working correctly after upgrade
 
  1. If you have manually installed you may need to reset the quarantine for the app `xattr -c <pathof>/Deskflow.app`
  2. Accessibility settings on mac os need to be removed and re-added sometimes on macOS when upgrading. If you are unable to remove the permission make sure the application is not installed and restart the machine. Rebooting seams to remove no longer installed applications from the permissions. After you have removed the application the app should prompt when run and add itself correct this time.
