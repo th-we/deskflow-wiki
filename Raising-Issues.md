@@ -1,0 +1,1 @@
+- If an issue is OS-specific, use the OS tag ([`windows`](https://github.com/deskflow/deskflow/labels/windows), [`macos`](https://github.com/deskflow/deskflow/labels/macos), `linux`)
