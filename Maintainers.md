@@ -6,4 +6,4 @@
 
 # Useful pages
 - [[PR Review]] - Rules we follow when reviewing PRs.
-- [[Raising issues]] - Rules we follow when raising issues.
+- [[Raising Issues]] - Rules we follow when raising issues.
