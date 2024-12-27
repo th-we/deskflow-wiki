@@ -1,6 +1,6 @@
 ## Contents
 - [macOS: laggy cursor](#macOS-laggy-cursor)
-- [macOS: accessibility access](#macOS-accessibility-permissions)
+- [macOS: Accessibility permissions](#macOS-accessibility-permissions)
 - [macOS: Not working after upgrade](#macOS-Not-working-after-upgrade)
 - [Input method mismatch](#Input-method-mismatch)
 - [German keyboards](#German-keyboards)
