@@ -1,13 +1,13 @@
 ## Contents
-- [macOS laggy cursor](#macOS-laggy-cursor)
-- [macOS upgrade issues](#macOS-not-working-correctly-after-upgrade)
-- [macOS accessibility access](#macOS-accessibility-access)
+- [macOS: laggy cursor](#macOS-laggy-cursor)
+- [macOS: accessibility access](#macOS-accessibility-permissions)
+- [macOS: Not working after upgrade](#macOS-Not-working-after-upgrade)
 - [Input method mismatch](#Input-method-mismatch)
 - [German keyboards](#German-keyboards)
 - [AltGr key](#AltGr-key)
 
 
-# macOS laggy cursor
+# macOS: Laggy cursor
 
 ## Problem
 Using Wi-Fi on a MacOS client causes Deskflow cursor laggy.
@@ -19,13 +19,8 @@ Run this command in the Terminal
 
 Then type `ifconfig` to double check the status under the awdl0 section, it should be `status: inactive`.
 
-# macOS not working correctly after upgrade
 
- 1. If you have manually installed you may need to reset the quarantine for the app `xattr -c <pathof>/Deskflow.app`
- 2. Accessibility settings on mac os need to be removed and re-added sometimes on macOS when upgrading. If you are unable to remove the permission make sure the application is not installed and restart the machine. Rebooting seams to remove no longer installed applications from the permissions. After you have removed the application the app should prompt when run and add itself correct this time.
-
-
-# macOS accessibility access
+# macOS: Accessibility permissions
 (by [Trouffman](https://github.com/Trouffman))
 
 For macOS, you need to allow the Deskflow process. 
@@ -41,6 +36,13 @@ For macOS, you need to allow the Deskflow process.
 5. Enable both "Deskflow" and "deskflow"
 
 ![image](https://github.com/user-attachments/assets/081f156a-e702-457c-922e-1fddf3648a49)
+
+
+# macOS: Not working after upgrade
+
+If you have manually installed you may need to reset the quarantine for the app: `xattr -c <pathof>/Deskflow.app`
+
+Accessibility settings on macOS need to be removed and re-added sometimes when upgrading. If you are unable to remove the permission, make sure the application is not installed and restart the machine. Rebooting seems to remove no longer installed applications from the permissions. After you have removed the application the app should prompt when run and add itself correctly this time.
 
 
 # Input method mismatch
