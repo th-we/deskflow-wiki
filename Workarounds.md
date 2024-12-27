@@ -24,19 +24,21 @@ Then type `ifconfig` to double check the status under the awdl0 section, it shou
  1. If you have manually installed you may need to reset the quarantine for the app `xattr -c <pathof>/Deskflow.app`
  2. Accessibility settings on mac os need to be removed and re-added sometimes on macOS when upgrading. If you are unable to remove the permission make sure the application is not installed and restart the machine. Rebooting seams to remove no longer installed applications from the permissions. After you have removed the application the app should prompt when run and add itself correct this time.
 
+
 # macOS accessibility access
 (by [Trouffman](https://github.com/Trouffman))
 
-For MacOS here is how to solve that issue and allow the deskflow "process". 
+For macOS, you need to allow the Deskflow process. 
 
-1. Go in to system settings -> privacy and security -> accessibility
-2. Open Finder. Go to Applications, right-click on 'Deskflow' -> Show Package Content
+1. Run: `xattr -c /Applications/Deskflow.app`
+1. Go to: System Settings -> Privacy and Security -> Accessibility
+2. Open Finder and go to Applications, right-click on 'Deskflow' -> Show Package Contents
 
 ![image](https://github.com/user-attachments/assets/7f0dce4d-ea18-480b-9420-540538a227be)
 
-3. Go to Contents -> MacOS
-4. Drag & Drop the file `deskflow` into the Accessiblity settings windows (opened in Step 1)
-5. Enable both deskflow options
+3. Go to: Contents -> MacOS
+4. Drag & drop the file `deskflow` into the Accessiblity settings windows (opened in Step 1)
+5. Enable both "Deskflow" and "deskflow"
 
 ![image](https://github.com/user-attachments/assets/081f156a-e702-457c-922e-1fddf3648a49)
 
