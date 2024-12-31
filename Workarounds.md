@@ -2,6 +2,7 @@
 - [macOS: laggy cursor](#macOS-laggy-cursor)
 - [macOS: Accessibility permissions](#macOS-accessibility-permissions)
 - [macOS: Not working after upgrade](#macOS-Not-working-after-upgrade)
+- [GNOME is missing tray icons](#GNOME-is-missing-tray-icons)
 - [Input method mismatch](#Input-method-mismatch)
 - [German keyboards](#German-keyboards)
 - [AltGr key](#AltGr-key)
@@ -54,6 +55,14 @@ When you intentionally want to use different keyboard layouts on the client and 
 ## Solution
 
 Go to Preferences and uncheck the option: Use server's keyboard language on this computer (client mode)
+
+# GNOME is missing tray icons
+## Problem 
+
+No Tray icons are visible under GNOME
+
+## Solution 
+Install the [Appindicator Support Extension](https://extensions.gnome.org/extension/615/appindicator-support/)
 
 
 # German keyboards
@@ -117,3 +126,4 @@ For recent versions of Deskflow, at least partial success has been reported with
       altgr = shift
 
 for the clients in the Screen section of the Deskflow configuration file (same place as above) instead.
+
