@@ -33,11 +33,11 @@ For macOS, you need to allow the Deskflow process.
 ![image](https://github.com/user-attachments/assets/7f0dce4d-ea18-480b-9420-540538a227be)
 
 3. Go to: Contents -> MacOS
-4. Drag & drop the file `deskflow` into the Accessiblity settings windows (opened in Step 1)
-5. Enable both "Deskflow" and "deskflow"
+4. Drag & drop the file `Deskflow` into the Accessiblity settings windows (opened in Step 1)
+5. Enable both "Deskflow" and "Deskflow" 
 
 ![image](https://github.com/user-attachments/assets/081f156a-e702-457c-922e-1fddf3648a49)
-
+* Unlike this image the newer version has Deskflow for both of these names one with an icon one is as a terminal application
 
 # macOS: Not working after upgrade
 
