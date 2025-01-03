@@ -37,7 +37,7 @@ For macOS, you need to allow the Deskflow process.
 5. Enable both "Deskflow" and "Deskflow" 
 
 ![image](https://github.com/user-attachments/assets/081f156a-e702-457c-922e-1fddf3648a49)
-* Unlike this image the newer version has Deskflow for both of these names one with an icon one is as a terminal application
+* Unlike this image the newer version has Deskflow for both of these names one with the icon and the other a terminal application
 
 # macOS: Not working after upgrade
 
