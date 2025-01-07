@@ -28,7 +28,7 @@ Example:
 1. Pointers should begin with a lower case `p`, e.g. `m_pHelloWorld`
 1. Getters _should not_ have `get` prefixed, e.g. `helloWorld()`
 1. Setters should have `set` prefixed, e.g. `setHelloWorld(...)`
-1. Enum values and constants should begin with `k`, e.g. `kHelloWorld`
+1. Enum values and constants may begin with `k`, e.g. `kHelloWorld`
 1. Class filenames should be pascal case, e.g. `HelloWorld.cpp`
 1. Files with many classes or functions should be snake case, e.g. `hello_world.cpp`
 1. Unit test names should follow the function-input-output pattern, e.g. `helloWorld_fooIn_barOut`
