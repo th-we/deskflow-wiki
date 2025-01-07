@@ -179,3 +179,15 @@ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 ```
 cmake --build build -j8
 ```
+
+# Gotchas
+
+## Error: `qt.qpa.plugin: Could not find the Qt platform plugin "windows" in ""`
+
+Attempted fix: https://github.com/deskflow/deskflow/pull/8057
+
+Create a `qt.conf` file in `bin`:
+```
+[Paths]
+Plugins = C:\vcpkg...debug\Qt6\plugins
+```
