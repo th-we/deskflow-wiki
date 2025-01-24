@@ -10,16 +10,34 @@ Our code formatting is enforced via CI which runs the `script/lint_clang.py` scr
 
 # Copyright
 
-Example:
+Deskflow is reuse compliant and request reuse lint to pass in order to build
+New files Must include license info. Either in a comment at the top of the file or in the REUSE.toml file
+
+Examples:
 ```
 /*
  * Deskflow -- mouse and keyboard sharing utility
- *
- * SPDX-FileCopyrightText: (C) YEAR Deskflow Developers
- * SPDX-FileCopyrightText: (C) YEAR MY NAME <myEmail@provider.com>
+ * SPDX-FileCopyrightText: (C) xxxx Deskflow Developers
  * SPDX-License-Identifier: GPL-2.0-only WITH LicenseRef-OpenSSL-Exception
  */
 ```
+
+```
+/*
+ * Deskflow -- mouse and keyboard sharing utility
+ * SPDX-FileCopyrightText: (C) xxxx - xxxx MY name <myemail>
+ * SPDX-License-Identifier: GPL-2.0-only WITH LicenseRef-OpenSSL-Exception
+ */
+```
+
+```
+/*
+ * Deskflow -- mouse and keyboard sharing utility
+ * SPDX-FileCopyrightText: (C) xxxx - xxxx Deskflow Developers
+ * SPDX-License-Identifier: GPL-2.0-only WITH LicenseRef-OpenSSL-Exception
+ */
+```
+more info: https://spdx.dev/learn/handling-license-info/
 
 # Naming
 
