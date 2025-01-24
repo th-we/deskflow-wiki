@@ -25,7 +25,33 @@ fix: Crash on startup
   See: [[PR Review]]
 - Each commit must build; no broken commits.
 
-### 3. Update Documentation
+
+### 3. Update FileLicense info
+
+To remain reuse compliant its important contributors add proper license info when creating new files or editing existing ones. 
+
+You **_must_** include copyright info for **_all_** source files 
+You **_may_** add your name to the list of copyright holders if you have made non trivial changes to the file.
+
+The most basic form for code files is 
+```
+/*
+ * Deskflow -- mouse and keyboard sharing utility
+ * SPDX-FileCopyrightText: (C) YEAR Deskflow Developers
+ * SPDX-License-Identifier: GPL-2.0-only WITH LicenseRef-OpenSSL-Exception
+ */
+```
+
+Files that don't take comments well (ui, parsed files, icons, etc) **_must_** be added to the REUSE.toml file in the root of the project.
+
+Our "General" licenses for our files are:
+ - CMake and build / packaging related scripts `MIT`. As these files need to be accessible w/o restriction.
+ - Source files `GPL-2.0-only WITH LicenseRef-OpenSSL-Exception`
+ - Our icons are `GPL-2.0-only` (they don't need to link openssl)
+
+See https://github.com/deskflow/deskflow/wiki/Code-Style#copyright for more details on the formatting
+
+### 4. Update Documentation
 
 Since documentation can become stale quickly we must do our best to keep it updated.
 
@@ -33,7 +59,7 @@ Since documentation can become stale quickly we must do our best to keep it upda
  - This **_shall_** include Creating or updating [Doxygen comments](https://www.doxygen.nl/manual/docblocks.html) for methods.
  - This **_should_** include also updating any relevant wiki pages.
 
-### 4. No rage caps
+### 5. No rage caps
 
 Rage caps erode SNR (signal-to-noise). Don't shout in your comments or log messages. This rule applies to:
 - Program code
