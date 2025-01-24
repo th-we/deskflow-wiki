@@ -41,6 +41,7 @@ more info: https://spdx.dev/learn/handling-license-info/
 
 # Naming
 
+1. Function names should be `camelCase` (for both class member functions and free functions)
 1. Namespaces should be all lower case and begin with `synergy`, e.g. `synergy::gui`
 1. Member variables should be prefixed with `m_helloWorld`
 1. Static variables should be prefixed with `s_`, e.g. `s_helloWorld`
