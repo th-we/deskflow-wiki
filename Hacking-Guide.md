@@ -41,11 +41,13 @@ To remain reuse compliant its important contributors add proper license info whe
 
  - All Files **_shall_** include copyright info. (In file or in REUSE.toml)
  - Copyright **_must_** be in order from newest to oldest
- - You **_must_** preform action one of the below actions when you have made non trivial changes to the file.
-    - Add your name to the list of copyright holders
-    - Use "Deskflow Developers" in place of your name
-
-
+ - You **_must_** preform action one of the actions below when you have made non trivial changes to the file. Sub year and info 
+    - Add `(C) YEAR Your Name <youremail>` to the list of copyright holders.
+    - Use `(C) YEAR Deskflow Developers` if you do not want to add your name.
+    - Update the Copyright year if already on the list. Years needs to be
+       - `20XX` Changes by Author just in that year
+       - `200X - 20XX` Changes ever year in this range
+       - `20XX, 20XY` Changes in these non constitutive years
 
 The most basic form for code files is 
 ```
