@@ -35,12 +35,17 @@ Before asking a maintainer to review your PR, you must keep the PR in draft mode
 
 Once all of the above conditions are met, then set your PR to open and request a review from one maintainer. If you do not have access to an OS (e.g., macOS), please let us know if it might not compile successfully on that OS before we approve and run the workflows.
 
-### 4. Update FileLicense info
+### 4. Update File License info
 
 To remain reuse compliant its important contributors add proper license info when creating new files or editing existing ones. 
 
-You **_must_** include copyright info for **_all_** source files 
-You **_may_** add your name to the list of copyright holders if you have made non trivial changes to the file.
+ - All Files **_shall_** include copyright info. (In file or in REUSE.toml)
+ - Copyright **_must_** be in order from newest to oldest
+ - You **_must_** preform action one of the below actions when you have made non trivial changes to the file.
+    - Add your name to the list of copyright holders
+    - Use "Deskflow Developers" in place of your name
+
+
 
 The most basic form for code files is 
 ```
