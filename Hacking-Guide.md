@@ -26,7 +26,16 @@ fix: Crash on startup
 - Each commit must build; no broken commits.
 
 
-### 3. Update FileLicense info
+### 3. Open PRs must be tested and must compile
+
+Before asking a maintainer to review your PR, you must keep the PR in draft mode. Before switching to open, you must:
+- For new features, the feature must be tested and working
+- For bug fixes, you should be confident the bug fix works
+- Code must compile on Linux, macOS, and Windows
+
+Once all of the above conditions are met, then set your PR to open and request a review from one maintainer. If you do not have access to an OS (e.g., macOS), please let us know if it might not compile successfully on that OS before we approve and run the workflows.
+
+### 4. Update FileLicense info
 
 To remain reuse compliant its important contributors add proper license info when creating new files or editing existing ones. 
 
@@ -51,7 +60,7 @@ Our "General" licenses for our files are:
 
 See https://github.com/deskflow/deskflow/wiki/Code-Style#copyright for more details on the formatting
 
-### 4. Update Documentation
+### 5. Update documentation
 
 Since documentation can become stale quickly we must do our best to keep it updated.
 
@@ -59,7 +68,7 @@ Since documentation can become stale quickly we must do our best to keep it upda
  - This **_shall_** include Creating or updating [Doxygen comments](https://www.doxygen.nl/manual/docblocks.html) for methods.
  - This **_should_** include also updating any relevant wiki pages.
 
-### 5. No rage caps
+### 6. No rage caps in comments/logs
 
 Rage caps erode SNR (signal-to-noise). Don't shout in your comments or log messages. This rule applies to:
 - Program code
