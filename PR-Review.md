@@ -12,6 +12,6 @@ Rebasing keeps the commit history clean and linear, making it easier to track ch
 
 Using `git commit --amend` allows you to update the original commit with the corrected code, keeping the commit history cleaner and more concise. This avoids having multiple commits like "fix typo" or "fix previous commit."
 
-### 3. Merge or rebase, do not squash
+### 3. rebase, do not squash or merge
 
 Squashing allows casual commits in a PR, which we do not want.
