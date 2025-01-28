@@ -120,3 +120,13 @@ more info: https://spdx.dev/learn/handling-license-info/
     - Remember: `qFatal` can be ignored on Windows, but not on macOS/Linux
 1. Do use exceptions for exceptional situations (things that should not happen)
 1. Do not use exceptions for validation (e.g. if a user input value is unexpected)
+
+# Logging
+
+1. Use `DEBUG` for debug messages that do not occur frequently.
+1. Use `DEBUG1` for debug for high-frequency messages.
+1. Use `DEBUG2` for debug messages that are very high frequency (e.g. events system).
+1. Omit function names from log strings because (it's impractical to keep them consistent long-term).
+1. Use lower case for our log lines, instead of sentence case.
+1. End log messages with numeric data if possible.
+1. Wrap inserted strings with single quotes.
