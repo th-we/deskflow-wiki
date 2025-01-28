@@ -130,3 +130,5 @@ more info: https://spdx.dev/learn/handling-license-info/
 1. Use lower case for our log lines, instead of sentence case.
 1. End log messages with numeric data if possible.
 1. Wrap inserted strings with single quotes.
+1. Do not end log messages with a period character.
+1. A comma can be used to make the log line read easier.
