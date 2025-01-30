@@ -10,7 +10,7 @@ Our code formatting is enforced via CI which runs the `script/lint_clang.py` scr
 
 # Copyright
 
-Deskflow is reuse compliant and request reuse lint to pass in order to build
+Deskflow is reuse compliant and requires reuse lint to pass in order to build
 New files Must include license info. Either in a comment at the top of the file or in the REUSE.toml file
 
 Examples:
