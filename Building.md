@@ -30,13 +30,8 @@ Legacy instructions: [[Building (legacy)]]
       - After you have `vcpkg.exe` in `C:\vcpkg` be sure to run `vcpkg integrate install`
       - Note the "toolchain" it tells you to use for CMake; we will need this to configure.
       - Be sure to add `%VCPKG_ROOT%` to your `PATH` env var.
-   1. To make packages you need Wix and the Ui, Utils and Firewall extensions The commands below will install them for all users
-      ``` 
-        dotnet tool install --global wix --version 5.0.2
-        wix extension add --global WixToolset.UI.wixext/5.0.2
-        wix extension add --global WixToolset.Util.wixext/5.0.2
-        wix extension add --global WixToolset.Firewall.wixext/5.0.2
-      ```
+   1. [WiX](https://github.com/wixtoolset/wix/releases)
+
 ## macOS
  Getting started on macOS you will need to have the following tools
   1. [XCode](https://apps.apple.com/us/app/xcode/id497799835) - App Store
