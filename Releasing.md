@@ -1,5 +1,13 @@
 Create a new PR with a single commit:
 1. Set version in `CMakeLists.txt`
-1. Update `deploy/linux/org.deskflow.deskflow.metainfo.xml`
+2. Update `deploy/linux/org.deskflow.deskflow.metainfo.xml`
    - Go to [Releases](https://github.com/deskflow/deskflow/releases) and compare continuous to the last release
    - Manually write an abridged is of bullet points based on commits
+   - Add a new release to the `releases` section of metainfo file
+3. After landing the PR, tag the release
+   - Always use annotated tag like the example below
+   - The tag must match the major, minor, patch from `CMakeLists.txt`
+   - Example:
+     - `git tag -a v1.21.1 -m "v1.21.1"`
+     - `git push origin v1.21.1`
+4. Watch CI to ensure the release builds
