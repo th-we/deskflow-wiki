@@ -15,3 +15,4 @@ Create a new PR with a single commit:
      - `git tag -a v1.2.3 -m "v1.2.3"`
      - `git push origin v1.2.3`
 4. Watch CI to ensure the release builds
+5. Go grab yourself a nice cold brew 🍺 
