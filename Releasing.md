@@ -15,5 +15,6 @@ Create a new PR with a single commit:
      - `git tag -a v1.2.3 -m "v1.2.3"`
      - `git push origin v1.2.3`
 4. Watch CI to ensure the release builds
+   - Runners can sometimes fail intermittently (re-run failed)
    - Once done, check the [latest release](https://github.com/deskflow/deskflow/releases/latest) page
 5. Go grab yourself a nice cold brew 🍺 
