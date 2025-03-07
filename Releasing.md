@@ -11,6 +11,6 @@ Create a new PR with a single commit:
    - Always use annotated tag like the example below
    - The tag must match the major, minor, patch from `CMakeLists.txt`
    - Example:
-     - `git tag -a v1.21.1 -m "v1.21.1"`
-     - `git push origin v1.21.1`
+     - `git tag -a v1.2.3 -m "v1.2.3"`
+     - `git push origin v1.2.3`
 4. Watch CI to ensure the release builds
