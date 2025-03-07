@@ -6,6 +6,7 @@ Create a new PR with a single commit:
    - Go to [Releases](https://github.com/deskflow/deskflow/releases) and compare continuous to the last release
    - Manually write an abridged is of bullet points based on commits
    - Add a new release to the `releases` section of metainfo file
+   - Date format is: YYYY-MM-DD
 3. After landing the PR, tag the release
    - Always use annotated tag like the example below
    - The tag must match the major, minor, patch from `CMakeLists.txt`
