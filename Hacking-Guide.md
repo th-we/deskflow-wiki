@@ -67,6 +67,12 @@ Our "General" licenses for our files are:
 
 See https://github.com/deskflow/deskflow/wiki/Code-Style#copyright for more details on the formatting
 
+The following changes are considered to be trivial
+ - Moving files from one path to another
+ - Removing unused variables
+ - Changing spacing or indenting
+ - Moving a function to a new file with little to no changes
+
 ### 5. Update documentation
 
 Since documentation can become stale quickly we must do our best to keep it updated.
