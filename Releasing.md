@@ -1,5 +1,5 @@
 Create a new PR with a single commit:
-1. Commit message: "Release v[version]"
+1. Commit message: "Release [version]"
    - Do not use conventional commit style prefix
 1. Set version in `CMakeLists.txt`
 2. Update `deploy/linux/org.deskflow.deskflow.metainfo.xml`
