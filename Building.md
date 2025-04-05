@@ -60,7 +60,7 @@ Use your package manager to install these.
 
 Deskflow requires the following to build:
  - CMake 3.24+
- - Qt 6.5+
+ - Qt 6.7+
  - OpenSSL 3.0
  - TOML++**
  - CLI11**
@@ -78,7 +78,7 @@ The following items will be installed by vcpkg: `qt`, `openssl`, `gtest`, and `w
 Both `tomlplusplus` and `cli11` will be embedded by CMake.
 
 ## macOS
-  1. Qt 6.5+ 
+  1. Qt 6.7+ 
     - You should not use the `brew` version of Qt if you plan to distribute the build (it targets only the current system).
     - If you want to distribute your builds you need to get Qt from the [Qt Online Installer](https://doc.qt.io/qt-6/qt-online-installation.html)
   1. openssl 3.0+
@@ -90,7 +90,7 @@ Both `tomlplusplus` and `cli11` will be embedded by CMake.
   If your disto has `dev` or `devel` package be sure to install those.
   - libei 1.3
   - libportal 0.8 
-  - qt 6.5+
+  - qt 6.7+
   - tomlplusplus (optional)
   - cli11(optional)
   - google test (optional)
@@ -99,20 +99,18 @@ Both `tomlplusplus` and `cli11` will be embedded by CMake.
 ```
   apt install cmake build-essential ninja-build \
               xorg-dev libx11-dev libxtst-dev libssl-dev \
-              libglib2.0-dev libgdk-pixbuf-2.0-dev libnotify-dev \
-              libxkbfile-dev qt6-base-dev qt6-tools-dev \
-              libgtk-3-dev libgtest-dev libgmock-dev libpugixml-dev \
-              libei-dev libportal-dev libtomlplusplus-dev libcli11-dev
+              libglib2.0-dev libxkbfile-dev qt6-base-dev qt6-tools-dev \
+              libgtk-3-dev libgtest-dev libgmock-dev libei-dev \
+              libportal-dev libtomlplusplus-dev libcli11-dev
 ```
 
 **Fedora:**
 ```
   dnf install cmake make ninja-build gcc-c++ rpm-build \
-              openssl-devel glib2-devel gdk-pixbuf2-devel \
-              libXtst-devel libnotify-devel libxkbfile-devel \
+              openssl-devel glib2-devel libXtst-devel libxkbfile-devel \
               qt6-qtbase-devel qt6-qttools-devel gtk3-devel \
-              gtest-devel gmock-devel pugixml-devel libei-devel \
-              libportal-devel tomlplusplus-devel cli11-devel
+              gtest-devel gmock-devel libei-devel libportal-devel \
+              tomlplusplus-devel cli11-devel
 ```
 
 **RHEL**
@@ -120,10 +118,9 @@ Both `tomlplusplus` and `cli11` will be embedded by CMake.
   dnf install epel-release
   dnf config-manager --set-enabled crb
   dnf install cmake make ninja-build gcc-c++ rpm-build \
-              openssl-devel glib2-devel gdk-pixbuf2-devel \
-              libXtst-devel libnotify-devel libxkbfile-devel \
+              openssl-devel glib2-devel libXtst-devel libxkbfile-devel \
               qt6-qtbase-devel qt6-qttools-devel gtk3-devel \
-              gtest-devel gmock-devel pugixml-devel libei-devel \
+              gtest-devel gmock-devel libei-devel \
               libportal-devel tomlplusplus-devel cli11-devel
 
 ```
@@ -131,19 +128,25 @@ Both `tomlplusplus` and `cli11` will be embedded by CMake.
 **SUSE/openSUSE:**
 ```
   zypper install cmake make ninja gcc-c++ rpm-build libopenssl-devel \
-                 glib2-devel gdk-pixbuf-devel libXtst-devel libnotify-devel \
-                 libxkbfile-devel qt6-base-devel qt6-tools-devel gtk3-devel \
-                 googletest-devel googlemock-devel pugixml-devel libei-devel \
-                 libportal-devel tomlplusplus-devel cli11-devel
+                 glib2-devel libXtst-devel libxkbfile-devel qt6-base-devel \
+                 qt6-tools-devel gtk3-devel googletest-devel googlemock-devel 
+                 libei-devel libportal-devel tomlplusplus-devel cli11-devel
 ```
 
 **Arch Linux:**
 ```
   pacman -S base-devel cmake ninja gcc openssl \
-            glib2 gdk-pixbuf2 libxtst libnotify \
-            libxkbfile gtest pugixml libei libportal \
+            glib2 libxtst libxkbfile gtest libei libportal \
             qt6-base qt6-tools gtk3 tomlplusplus cli11
 ```
+
+**FreeBSD:**
+```
+  pkg install cmake ninja gmake gcc12 openssl glib \
+              libX11 libXtst libxkbfile qt6-base qt6-tools \
+              gtk3 googletest tomlplusplus cli11 pkgconf libei libportal
+```
+
 
 # Configure
 
