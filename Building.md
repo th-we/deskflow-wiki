@@ -67,7 +67,6 @@ Deskflow requires the following to build:
  - Google Test**
  - libportal 0.8+ (Linux only)
  - libei 1.3+ (Linux only)
- - WinToast (Windows only)
 
 ** These dependencies will be downloaded automatically at build time if they are not found on your system, Google Test is only needed to build tests.
 
