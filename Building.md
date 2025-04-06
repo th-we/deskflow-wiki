@@ -73,7 +73,7 @@ Deskflow requires the following to build:
 ## Windows
 If you have installed `vcpkg` when using either Qt Creator or Visual Studio Code it should automatically detect your vcpkg info. If it does not you will need to [set your `CMAKE_TOOLCHAIN_FILE`](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-powershell#4---build-and-run-the-project). Once `vcpkg` has been setup it will download and build the needed dependencies when you run the configuration command. It will take a while to build things the first time, which is normal.
 
-The following items will be installed by vcpkg: `qt`, `openssl`, `gtest`, and `wintoast`.
+The following items will be installed by vcpkg: `qt`, `openssl`, and `gtest`.
 Both `tomlplusplus` and `cli11` will be embedded by CMake.
 
 ## macOS
