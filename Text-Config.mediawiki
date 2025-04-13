@@ -5,7 +5,7 @@ Needing to deal with text-based configuration files directly can be avoided by u
 When a text-based configuration file is needed you can specify it on the command-line using the <code>--config</code> option. Example:
 
 <pre>
- deskflow-core --config /path/to/deskflow.conf
+ deskflow-core --config /path/to/deskflow-server.conf
 </pre>
 
 Deskflow also checks certain pathnames to load the configuration file if you don't specify a path using the <code>--config</code>. Running <code>deskflow-core --help</code> reports those pathnames.
