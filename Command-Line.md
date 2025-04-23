@@ -17,7 +17,7 @@ Open up a command prompt and cd into the Deskflow install directory.
 | OS | Command |
 | ------- | --------------------------------------------- |
 | Windows | `cd "C:\Program Files\Deskflow"`               |
-| macOS   | `cd /Applications/Deskflow.app/Contents/Resources/` |
+| macOS   | `cd /Applications/Deskflow.app/Contents/MacOS/` |
 | Linux   | `cd /usr/bin`                                 |
 
 Run the Deskflow client binary, pointing it at the Deskflow Server.
