@@ -24,17 +24,17 @@ Run the Deskflow client binary, pointing it at the Deskflow Server.
 
 | OS | Command |
 | ------- | ------------------------------------- |
-| Windows | `deskflowc [server IP]`   |
-| macOS   | `./deskflowc [server IP]` |
-| Linux   | `./deskflowc [server IP]` |
+| Windows | `deskflow-client [server IP]`   |
+| macOS   | `./deskflow-client [server IP]` |
+| Linux   | `./deskflow-client [server IP]` |
 
 Run the Deskflow server binary, pointing it at the configuration file.
 
 | OS | Command |
 | ------- | -------------------------------------------------- |
-| Windows | `deskflows -c [path to config file]`   |
-| macOS   | `./deskflows -c [path to config file]` |
-| Linux   | `./deskflows -c [path to config file]` |
+| Windows | `deskflow-server -c [path to config file]`   |
+| macOS   | `./deskflow-server -c [path to config file]` |
+| Linux   | `./deskflows-server -c [path to config file]` |
 
 Command line options
 --------------------
@@ -43,12 +43,19 @@ Command line options
 
 ### Options for `deskflow-core --client`
 
-Taken from MacOS X 10.11 system:
+Taken from MacOS X 15 system:
 
 ```
-Usage: deskflowc [--address <address>] [--yscroll <delta>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>] <server-address>
+❯ ./deskflow-client --help
+Keyboard and mouse sharing utility
+Usage: ./deskflow-client [OPTIONS]
 
-Connect to a deskflow mouse/keyboard sharing server.
+Options:
+  -h,--help                   Print this help message and exit
+  --config-toml TEXT          Use TOML configuration file
+Usage:  [--address <address>] [--yscroll <delta>] [--sync-language] [--invert-scroll] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>] <server-address>
+
+Connect to a Deskflow mouse/keyboard sharing server.
 
   -a, --address <address>  local network interface address.
   -d, --debug <level>      filter out log messages with priority below level.
@@ -59,33 +66,45 @@ Connect to a deskflow mouse/keyboard sharing server.
   -1, --no-restart         do not try to restart on failure.
 *     --restart            restart the server automatically if it fails.
   -l  --log <file>         write log messages to file.
-      --no-tray            disable the system tray icon.
-      --enable-drag-drop   enable file drag & drop.
+      --enable-crypto      enable TLS encryption.
+      --tls-cert           specify the path to the TLS certificate file.
   -f, --no-daemon          run in the foreground.
 *     --daemon             run as a daemon.
-      --yscroll <delta>    defines the vertical scrolling delta, which is
-                             120 by default.
+      --yscroll <delta>    defines the vertical scrolling delta,
+                             which is 120 by default.
+      --enable-drag-drop   enable file drag & drop.
+
+      --sync-language      enable language synchronization.
+      --invert-scroll      invert scroll direction on this
+                             computer.
   -h, --help               display this help and exit.
       --version            display version information and exit.
 
 * marks defaults.
 
-The server address is of the form: [<hostname>][:<port>].  The hostname
-must be the address or hostname of the server.  The port overrides the
-default port, 24800.
+The server address is of the form: [<hostname>][:<port>].
+The hostname must be the address or hostname of the server.
+The port overrides the default port, 24800.
 ```
 
-Unlike `deskflows`, `deskflowc` has no config file.
+Unlike `deskflow-server`, `deskflow-client` has no config file.
 The options are set either at runtime by the command line on the client,
 or for settings inherited from Synergy server they are set at connection time.
 
 ## Options for `deskflow-core --server`
 
-Taken from a MacOS X 10.11 system:
+Taken from a MacOS X 15.3 system:
 ```
-Usage: deskflows [--address <address>] [--config <pathname>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>]
+Usage: ./deskflow-server [OPTIONS]
 
-Start the deskflow mouse/keyboard sharing server.
+Options:
+  -h,--help                   Print this help message and exit
+  --config-toml TEXT          Use TOML configuration file
+Usage:  [--address <address>] [--config <pathname>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>]
+      --enable-drag-drop   enable file drag & drop.
+
+
+Start the Deskflow mouse/keyboard sharing server.
 
   -a, --address <address>  listen for clients on the given address.
   -c, --config <pathname>  use the named configuration file instead.
@@ -97,8 +116,10 @@ Start the deskflow mouse/keyboard sharing server.
   -1, --no-restart         do not try to restart on failure.
 *     --restart            restart the server automatically if it fails.
   -l  --log <file>         write log messages to file.
-      --no-tray            disable the system tray icon.
-      --enable-drag-drop   enable file drag & drop.
+      --enable-crypto      enable TLS encryption.
+      --tls-cert           specify the path to the TLS certificate file.
+      --disable-client-cert-check disable client SSL certificate
+                                     checking (deprecated)
   -f, --no-daemon          run in the foreground.
 *     --daemon             run as a daemon.
   -h, --help               display this help and exit.
@@ -113,6 +134,7 @@ default port, 24800.
 
 If no configuration file pathname is provided then the first of the
 following to load successfully sets the configuration:
-  $HOME/.deskflow.conf
-  /etc/deskflow.conf
+  settings/Deskflow
+  /Users/chris/Library/Deskflow/Deskflow.conf
+  /Library/Deskflow/Deskflow.conf 
 ```
