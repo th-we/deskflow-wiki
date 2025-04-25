@@ -13,7 +13,7 @@ There are several forks, derivatives, and downstream projects based on the origi
 - 2001: Synergy was [[created|History]] by Chris Schoeneman
 - 2018: Synergy forked to Barrier
 - 2021: Barrier forked to Input Leap
-- 2024: Deskflow became upstream of Synergy
+- 2024: Deskflow became upstream of Synergy, Input Leap, and Barrier
 
 See also: [[Full history|History]]
 
