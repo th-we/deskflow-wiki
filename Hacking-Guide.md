@@ -1,5 +1,7 @@
 ## Comitting & PRs
 
+Please [create a new PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (pull request) if you want to make a change.
+
 ### 1. Prefix your commits with a commit type
 
 Use these prefixes on commits when applicable, as they will be used to generate change logs on release.
