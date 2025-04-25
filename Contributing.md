@@ -1,13 +1,20 @@
-The Deskflow project welcomes changes from the community.
+There are many ways to contribute to the Deskflow project.
 
-Please [create a new PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (pull request) if you want to make a change.
-Don't worry about getting your code perfect. Our philosophy is to be friendly and welcoming to contributors.
+# Getting started
 
-Some helpful pages that you might find useful:
+Deskflow is an open source project, so we welcome contributions.
+- A great place to start: ![Good first issues](https://img.shields.io/github/issues/deskflow/deskflow/good%20first%20issue)
+- Read the [[Hacking Guide]] to ensure your PR gets landed.
+- Get started by [[Building]] the project from source.
 
-* [[Chat with us]] - We're friendly! Let us know if you have any questions.
-* [[Building]] - How to build from source and solve common problems.
-* [[Hacking Guide]] - How to make sure your PR gets merged.
+# Join our community
+
+- Main discussion on Matrix: [`#deskflow:matrix.org`](https://matrix.to/#/#deskflow:matrix.org)
+- Discussion also happens on our IRC channel: `#deskflow` or `#deskflow-dev` on Libera Chat IRC
+- Start a [new discussion](https://github.com/deskflow/deskflow/discussions) on our GitHub project
+
+# More resources
+
 * [[Code Style]] - What code style you should use when contributing.
 * [[Project Config]] - Our philosophy on how we configure our project.
 * [[Unit Testing]] - Optionally, write unit tests using Google Test.
