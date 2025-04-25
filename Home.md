@@ -3,13 +3,9 @@ Welcome to the Deskflow Wiki!
 Here are a few pages to get you started with your search.
 
 ## Introduction
-* [[Chat with us]] - We're friendly! Let us know if you have any questions.
-* [[Project FAQ]] - Answers to frequently asked questions about Deskflow.
-
-## Get Involved
-* [[Building]] - Instructions for compiling the Deskflow source code.
 * [[Contributing]] - If you want to make a change to the source code.
-* [[Maintainers]] - Guidance and rules for maintainers to follow.
+* [[Building]] - Instructions for compiling the Deskflow source code.
+* [[Project FAQ]] - Answers to frequently asked questions about Deskflow.
 
 ## User Guides
 * [[Command Line]] - Skip the GUI and run Deskflow from the command line.
