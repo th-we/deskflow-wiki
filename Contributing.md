@@ -3,7 +3,8 @@ There are many ways to contribute to the Deskflow project.
 # Getting started
 
 Deskflow is an open source project, so we welcome contributions.
-- A great place to start: ![Good first issues](https://img.shields.io/github/issues/deskflow/deskflow/good%20first%20issue)
+- A great place to start:  
+  ![Good first issues](https://img.shields.io/github/issues/deskflow/deskflow/good%20first%20issue)
 - Read the [[Hacking Guide]] to ensure your PR gets landed.
 - Get started by [[Building]] the project from source.
 
