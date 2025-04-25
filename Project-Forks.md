@@ -68,7 +68,9 @@ Accurate as of Oct 2024.
 | Qt support (minimum) | Qt 6 | Qt 5 |
 | Depend on [`libei`](https://gitlab.freedesktop.org/libinput/libei) | Required | Optional |
 | Depend on [`libportal`](https://github.com/flatpak/libportal) | Required | Optional |
-| ARM64 support | Linux + macOS | macOS only |
+| ARM64 support | Linux, macOS, Windows* | macOS only |
+
+\* Windows ARM64 support in development: [#8512](https://github.com/deskflow/deskflow/pull/8512)
 
 See also:
 - [[History]]
