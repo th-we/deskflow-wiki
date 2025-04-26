@@ -30,7 +30,13 @@ Legacy instructions: [[Building (legacy)]]
       - After you have `vcpkg.exe` in `C:\vcpkg` be sure to run `vcpkg integrate install`
       - Note the "toolchain" it tells you to use for CMake; we will need this to configure.
       - Be sure to add `%VCPKG_ROOT%` to your `PATH` env var.
+
    1. [WiX](https://github.com/wixtoolset/wix/releases)
+
+ Tip: Initial configuration using vcpkg can take awhile since it will checkout and build all dependencies this is the easiest way to configure the project on windows. If you do not want to build a dependency (or any of them) You must
+  1. Edit the `vcpkg.config` file to remove the items you do will install manually, This must happen before you attempt to configure the project. OR when configuring the project without CMAKE_TOOLCHAIN_FILE set to the vcpkg toolchain.
+  1. Install the item manually and make sure that cmake can find it, usually this involves adding the path where the projects *.cmake file is located to your PATH
+  1. In the case of Qt also add the path of the qt tools to your PATH
 
 ## macOS
  Getting started on macOS you will need to have the following tools
@@ -41,9 +47,11 @@ Legacy instructions: [[Building (legacy)]]
   1. CMake 3.24
   1. Qt 6
 
+Tip: The Brew version of Qt can crash when it should show a dialog, For this reason its recommended to use [aqtinstall](https://github.com/miurahr/aqtinstall) or the [Official Qt Installer](https://www.qt.io/download-qt-installer-oss).
+
 Tip: Once you have installed `brew`, run this command
 ```
-brew install git cmake qt
+brew install git cmake
 ```
 
 ## Linux
