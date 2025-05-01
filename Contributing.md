@@ -17,6 +17,14 @@ Deskflow is an open source project, so we welcome contributions.
 - Discussion also happens on IRC: `#deskflow` or `#deskflow-dev` on [Libera Chat](https://libera.chat/)
 - Start a [new discussion](https://github.com/deskflow/deskflow/discussions) on our GitHub project.
 
+# Our values
+
+- Motivated by the community interests (not business-driven)
+- Privacy by default (e.g. update check is off by default)
+- Leading edge releases (we don't focus on supporting older systems)
+- Decisions are discussed and documented publicly with majority rule
+- Have fun; we don't need to worry about impressing anyone
+
 # More resources
 
 * [[Code Style]] - What code style you should use when contributing.
