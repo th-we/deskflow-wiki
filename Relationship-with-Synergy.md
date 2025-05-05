@@ -3,7 +3,7 @@
 
 [Synergy](https://symless.com/synergy) sponsors the Deskflow project by contributing code and providing financial support.
 
-The Deskflow project was established to cultivate community-driven development where everyone can collaborate. Deskflow is the official upstream project for [Synergy](https://symless.com/synergy).
+The Deskflow project was established to cultivate community-driven development where everyone can collaborate. Deskflow is the official upstream project for Synergy.
 
 ![Sponsored by: Synergy](https://raw.githubusercontent.com/deskflow/deskflow-artwork/b2c72a3e60a42dee793bd47efc275b5ee0bdaa5f/misc/synergy-sponsor.svg)
 
