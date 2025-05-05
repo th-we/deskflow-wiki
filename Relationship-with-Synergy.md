@@ -1,11 +1,9 @@
 > [!TIP]
 > See also: [[Project Forks]]
 
-Deskflow is the official upstream project for [Synergy](https://symless.com/synergy). Purchasing a Synergy license is one way to support Deskflow’s growth and sustainability.
+[Synergy](https://symless.com/synergy) sponsors the Deskflow project by contributing code and providing financial support.
 
-[Get Synergy](https://symless.com/synergy)
-
-The Deskflow project was established to cultivate community-driven development where everyone can collaborate. Synergy sponsors the Deskflow project by contributing code and providing financial support.
+The Deskflow project was established to cultivate community-driven development where everyone can collaborate. Deskflow is the official upstream project for [Synergy](https://symless.com/synergy).
 
 ![Sponsored by: Synergy](https://raw.githubusercontent.com/deskflow/deskflow-artwork/b2c72a3e60a42dee793bd47efc275b5ee0bdaa5f/misc/synergy-sponsor.svg)
 
