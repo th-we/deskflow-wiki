@@ -167,6 +167,7 @@ CMake options:
 | BUILD_TESTS              | Build unit tests and legacy tests       | ON                 | `gtest`|
 | BUILD_UNIFIED            | Build unified binary (client+server)    | OFF                | |
 | ENABLE_COVERAGE          | Enable test coverage                    | OFF                | `gcov` |
+| SKIP_BUILD_TESTS         | Skip running of tests at build time     | OFF                | |
 
 To configure you use CMake.
 
