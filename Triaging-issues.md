@@ -4,7 +4,7 @@ There are two types of triage queue:
 - [Bugs](https://github.com/deskflow/deskflow/issues?q=is%3Aissue%20state%3Aopen%20type%3A%22Triage%20%5Bbug%5D%22)
 - [Features](https://github.com/deskflow/deskflow/issues?q=is%3Aissue%20state%3Aopen%20type%3A%22Triage%20%5Bfeature%5D%22)
 
-# All issue types
+# General
 
 1. Close or archive issues that are stale, duplicates, or out of scope.
 1. Ensure the issue has a clear title and detailed description.
