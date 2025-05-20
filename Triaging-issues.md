@@ -19,3 +19,4 @@ There are two types of triage queue:
 # Features
 
 1. If you believe it is in-scope for the product and is possible, then please add a comment saying so.
+1. Try to uncover if the root cause of a problem is being solved or if you're seeing [XY Problem](en.wikipedia.org/wiki/XY_problem).
