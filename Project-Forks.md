@@ -70,7 +70,7 @@ Accurate as of Oct 2024.
 | Depend on [`libportal`](https://github.com/flatpak/libportal) | Required | Optional |
 | ARM64 support | Linux, macOS, Windows* | macOS only |
 
-\* Windows ARM64 support in development: [#8512](https://github.com/deskflow/deskflow/pull/8512)
+\* Windows ARM64 CI support in development: [#8512](https://github.com/deskflow/deskflow/pull/8512)
 
 See also:
 - [[History]]
