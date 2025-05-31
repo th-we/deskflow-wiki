@@ -36,9 +36,8 @@ Examples:
 more info: https://spdx.dev/learn/handling-license-info/
 
 # Naming
-
 1. Function names should be `camelCase` (for both class member functions and free functions)
-1. Namespaces should be all lower case and begin with `synergy`, e.g. `synergy::gui`
+1. Namespaces should be all lower case and begin with `deskflow`, e.g. `deskflow::gui`
 1. Member variables should be prefixed with `m_helloWorld`
 1. Static variables should be prefixed with `s_`, e.g. `s_helloWorld`
 1. Pointers should begin with a lower case `p`, e.g. `m_pHelloWorld`
@@ -49,6 +48,11 @@ more info: https://spdx.dev/learn/handling-license-info/
 1. Files with many classes or functions should be snake case, e.g. `hello_world.cpp`
 1. Unit test names should follow the function-input-output pattern, e.g. `helloWorld_fooIn_barOut`
 1. The word "deps" should be used to mean "dependencies"
+
+## Qt Keywords
+1. You must use `Q_SIGNALS` in place of `signals`
+1. You must use `Q_SLOTS` in place of `slots`
+1. You must use `Q_EMIT` in place of `emit`
 
 ## Qt naming
 1. Qt Controls SHALL NOT use  a `p` to indicate they are a pointer.
