@@ -1,6 +1,7 @@
 ## Contents
 - [macOS: laggy cursor](#macOS-laggy-cursor)
 - [macOS: Accessibility permissions](#macOS-accessibility-permissions)
+- [macOS: Input Monitoring permissions](#macOS-inputmonitoring-permissions)
 - [macOS: Not working after upgrade](#macOS-Not-working-after-upgrade)
 - [GNOME is missing tray icons](#GNOME-is-missing-tray-icons)
 - [Input method mismatch](#Input-method-mismatch)
@@ -33,17 +34,26 @@ For macOS, you need to allow the Deskflow process.
 ![image](https://github.com/user-attachments/assets/7f0dce4d-ea18-480b-9420-540538a227be)
 
 3. Go to: Contents -> MacOS
-4. Drag & drop the file `Deskflow` into the Accessiblity settings windows (opened in Step 1)
+4. Drag & drop the file `Deskflow` into the Accessibility settings windows (opened in Step 1)
 5. Enable both "Deskflow" and "Deskflow" 
 
 ![image](https://github.com/user-attachments/assets/081f156a-e702-457c-922e-1fddf3648a49)
 * Unlike this image the newer version has Deskflow for both of these names one with the icon and the other a terminal application
 
+# macOS: Input Monitoring permissions
+
+For macOS, to send keystrokes to clients you need to give `input monitoring` access to the Deskflow process
+ 
+1. Go to: System Settings -> Privacy and Security -> InputMonitoring
+1. Click the + and find the Deskflow.app  (or drag and drop deskflow.app in the list) 
+
+If you have upgraded deskflow you may need to remove the previous version and add the new one manually.
+
 # macOS: Not working after upgrade
 
 If you have manually installed you may need to reset the quarantine for the app: `xattr -c <pathof>/Deskflow.app`
 
-Accessibility settings on macOS need to be removed and re-added sometimes when upgrading. If you are unable to remove the permission, make sure the application is not installed and restart the machine. Rebooting seems to remove no longer installed applications from the permissions. After you have removed the application the app should prompt when run and add itself correctly this time.
+Accessibility and Input Monitoring settings on macOS need to be removed and re-added sometimes when upgrading. If you are unable to remove the permission, make sure the application is not installed and restart the machine. Rebooting seems to remove no longer installed applications from the permissions. After you have removed the application the app should prompt when run and add itself correctly this time.
 
 
 # Input method mismatch
