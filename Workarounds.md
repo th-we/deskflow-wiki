@@ -1,7 +1,7 @@
 ## Contents
 - [macOS: laggy cursor](#macOS-laggy-cursor)
 - [macOS: Accessibility permissions](#macOS-accessibility-permissions)
-- [macOS: Input Monitoring permissions](#macOS-inputmonitoring-permissions)
+- [macOS: Input Monitoring permissions](#macOS-input-monitoring-permissions)
 - [macOS: Not working after upgrade](#macOS-Not-working-after-upgrade)
 - [GNOME is missing tray icons](#GNOME-is-missing-tray-icons)
 - [Input method mismatch](#Input-method-mismatch)
