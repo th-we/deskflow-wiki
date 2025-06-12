@@ -16,10 +16,10 @@ Status of backports from forks
 |🚧| Use std::this_thread::sleep to replace ARCH_SLEEP | https://github.com/input-leap/input-leap/pull/1462 | https://github.com/deskflow/deskflow/pull/8677 | 
 |🚧| Use std::crono items to replace ARCH_TIME | https://github.com/input-leap/input-leap/pull/1464 | https://github.com/deskflow/deskflow/pull/8637|
 |🚧| use std::genenv | https://github.com/debauchee/barrier/pull/847/ | Can't port directly but should do similar, https://github.com/deskflow/deskflow/pull/8678 |
+|🚧| remove --no-xinitthreds option | https://github.com/input-leap/input-leap/pull/1503  and https://github.com/input-leap/input-leap/pull/1504 | https://github.com/deskflow/deskflow/pull/8679 |
 |🔥| Explicit memory ownership in SocketMultiPlexer | https://github.com/debauchee/barrier/pull/411 | |
 |🔥| Fix Inf Loop on fast TCP connections | https://github.com/debauchee/barrier/pull/557/files| |
 |🔥| Added nextScreen function | https://github.com/debauchee/barrier/pull/703 | requested by a few users| 
-|🔥| remove --no-xinitthreds option | https://github.com/input-leap/input-leap/pull/1503  and https://github.com/input-leap/input-leap/pull/1504 | |
 |🔥| std::function | https://github.com/input-leap/input-leap/pull/1552 | |
 |❔| PreserveFocus Fix| https://github.com/debauchee/barrier/pull/178 | |
 |❔| Fix Cpu Spike on win 10 | https://github.com/debauchee/barrier/pull/656| |
