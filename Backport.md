@@ -14,9 +14,7 @@ Status of backports from forks
 |🚧| TcpSocket Handle RW at same time | https://github.com/debauchee/barrier/pull/211 | https://github.com/deskflow/deskflow/pull/8675 |
 |🚧| More std::mutex | https://github.com/debauchee/barrier/pull/410 | https://github.com/deskflow/deskflow/pull/8674 |
 |🚧| Use std::this_thread::sleep to replace ARCH_SLEEP | https://github.com/input-leap/input-leap/pull/1462 | https://github.com/deskflow/deskflow/pull/8677 | 
-|🚧| Use std::crono items to replace ARCH_TIME | https://github.com/input-leap/input-leap/pull/1464 | https://github.com/deskflow/deskflow/pull/8637|
-|🚧| use std::genenv | https://github.com/debauchee/barrier/pull/847/ | Can't port directly but should do similar, https://github.com/deskflow/deskflow/pull/8678 |
-|🚧| remove --no-xinitthreds option | https://github.com/input-leap/input-leap/pull/1503  and https://github.com/input-leap/input-leap/pull/1504 | https://github.com/deskflow/deskflow/pull/8679 |
+|🚧| Use std::crono items to replace ARCH_TIME | https://github.com/input-leap/input-leap/pull/1464 | https://github.com/deskflow/deskflow/
 |🚧| Explicit memory ownership in SocketMultiPlexer | https://github.com/debauchee/barrier/pull/411 |https://github.com/deskflow/deskflow/pull/8680 |
 |🔥| Fix Inf Loop on fast TCP connections | https://github.com/debauchee/barrier/pull/557/files|  Requires barrier#411 first|
 |🔥| Added nextScreen function | https://github.com/debauchee/barrier/pull/703 | requested by a few users| 
@@ -66,4 +64,7 @@ Status of backports from forks
 |☑️| Fix CVE-2021-42072, CVE-2024-42073 | https://github.com/debauchee/barrier/pull/1351 |https://github.com/deskflow/deskflow/pull/7931 | 
 |☑️| Fix CVE-2021-42074 | https://github.com/debauchee/barrier/pull/1351 |https://github.com/deskflow/deskflow/pull/7982 | 
 |☑️| Fix CVE-2021-42075 | https://github.com/debauchee/barrier/pull/1350 |https://github.com/deskflow/deskflow/pull/7981 | 
-|☑️| Fix CVE-2021-42076 | https://github.com/debauchee/barrier/pull/1347 |https://github.com/deskflow/deskflow/pull/7984 | 
+|☑️| Fix CVE-2021-42076 | https://github.com/debauchee/barrier/pull/1347 |https://github.com/deskflow/deskflow/pull/7984 |
+pull/8637|
+|☑️| use std::genenv | https://github.com/debauchee/barrier/pull/847/ | Can't port directly but should do similar, https://github.com/deskflow/deskflow/pull/8678 |
+|☑️| remove --no-xinitthreds option | https://github.com/input-leap/input-leap/pull/1503  and https://github.com/input-leap/input-leap/pull/1504 | https://github.com/deskflow/deskflow/pull/8679 |
