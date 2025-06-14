@@ -34,7 +34,8 @@ Deskflow is an open source project, so we welcome contributions.
 * [[Code Planning]] - Long-term plans for the future of the code base.
 * [[How to fork]] - Things you may want to know when forking.
 * [[Protocol]] - Useful for writing a Synergy-compatible app.
-* [[Backport]] - Tracker for items to back port from forks
+* [[Backport]] - Tracker for items to backport from forks.
+* [[Maintainers]] - Guides for project maintainers.
 
 # More ways to contribute
 
