@@ -8,7 +8,7 @@ Open PRs will be landed if approved. If the PR is not yet ready to land (e.g. bl
 
 ### 2. Use 'Blocked by' at the top to indicate blockers
 
-If another PR needs to be landed first, use the term "Blocked by" at the top of the PR to indicate that another PR blocks the current PR and needs to be landed first.
+If another PR needs to be landed first, use the term "Blocked by" at the top of the PR to indicate that another PR blocks the current PR and needs to be landed first. Do not rely on this alone to block the land of a PR as it is easily missed; you should also set it to draft.
 
 ### 3. Rebase in open requests (do not merge from `master`)
 
