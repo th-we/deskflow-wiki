@@ -30,14 +30,14 @@ Deskflow is an open source project, so we welcome contributions.
 
 - [[Pull Requests]] - Rules we follow when creating pull requests.
 - [[Raising Issues]] - Rules we follow when raising issues.
-* [[Code Style]] - The code style to use when contributing.
-* [[Project Config]] - Our philosophy on configuring our project.
-* [[Unit Testing]] - Optionally, write unit tests using Google Test.
-* [[Code Planning]] - Long-term plans for the future of the code base.
-* [[How to fork]] - Things you may want to know when forking.
-* [[Protocol]] - Useful for writing a Synergy-compatible app.
-* [[Backport]] - Tracker for items to backport from forks.
-* [[Maintainers]] - Guides for project maintainers.
+- [[Code Style]] - The code style to use when contributing.
+- [[Project Config]] - Our philosophy on configuring our project.
+- [[Unit Testing]] - Optionally, write unit tests using Google Test.
+- [[Code Planning]] - Long-term plans for the future of the code base.
+- [[How to fork]] - Things you may want to know when forking.
+- [[Protocol]] - Useful for writing a Synergy-compatible app.
+- [[Backport]] - Tracker for items to backport from forks.
+- [[Maintainers]] - Guides for project maintainers.
 
 # More ways to contribute
 
