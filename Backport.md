@@ -13,7 +13,7 @@ Status of backports from forks
 |:--------:|:-------|:------|:--|
 |🚧| TcpSocket Handle RW at same time | https://github.com/debauchee/barrier/pull/211 | https://github.com/deskflow/deskflow/pull/8675 |
 |🚧| More std::mutex | https://github.com/debauchee/barrier/pull/410 | https://github.com/deskflow/deskflow/pull/8674 |
-|🚧| Use std::this_thread::sleep to replace ARCH_SLEEP | https://github.com/input-leap/input-leap/pull/1462 | https://github.com/deskflow/deskflow/pull/8677 | 
+|🚧| Use std::this_thread::sleep to replace ARCH_SLEEP | https://github.com/input-leap/input-leap/pull/1462 && https://github.com/input-leap/input-leap/pull/1499| https://github.com/deskflow/deskflow/pull/8677 | 
 |🚧| Use std::crono items to replace ARCH_TIME | https://github.com/input-leap/input-leap/pull/1464 | https://github.com/deskflow/deskflow/
 |🚧| Explicit memory ownership in SocketMultiPlexer | https://github.com/debauchee/barrier/pull/411 |https://github.com/deskflow/deskflow/pull/8680 |
 |🔥| Fix Inf Loop on fast TCP connections | https://github.com/debauchee/barrier/pull/557/files|  Requires barrier#411 first|
@@ -24,7 +24,6 @@ Status of backports from forks
 |❔| Revert make connection success a "note" | https://github.com/debauchee/barrier/pull/738| | 
 |❔| Gui Status Log Comment about CLOG_PRINT, we should check if we have this issue | https://github.com/debauchee/barrier/pull/739| |
 |❔| remove unused defines | https://github.com/debauchee/barrier/pull/981 | | 
-|❔| remove more unneeded ifdef | https://github.com/input-leap/input-leap/pull/1499 | |
 |❔| only active client can grab clipboard | https://github.com/input-leap/input-leap/pull/1434 |  |
 |❓| Support sun keys | https://github.com/debauchee/barrier/pull/790 | |
 |❓| Suppoet Kan, Eisu_toggle and Muhenkan| https://github.com/debauchee/barrier/pull/832 | |
