@@ -11,14 +11,11 @@ Status of backports from forks
 
 | STATUS | Description  | FORK PR | Our PR / Notes | 
 |:--------:|:-------|:------|:--|
-|🚧| TcpSocket Handle RW at same time | https://github.com/debauchee/barrier/pull/211 | https://github.com/deskflow/deskflow/pull/8675 |
-|🚧| More std::mutex | https://github.com/debauchee/barrier/pull/410 | https://github.com/deskflow/deskflow/pull/8674 |
-|🚧| Use std::this_thread::sleep to replace ARCH_SLEEP | https://github.com/input-leap/input-leap/pull/1462 && https://github.com/input-leap/input-leap/pull/1499| https://github.com/deskflow/deskflow/pull/8677 | 
-|🚧| Use std::crono items to replace ARCH_TIME | https://github.com/input-leap/input-leap/pull/1464 | https://github.com/deskflow/deskflow/
 |🚧| Explicit memory ownership in SocketMultiPlexer | https://github.com/debauchee/barrier/pull/411 |https://github.com/deskflow/deskflow/pull/8680 |
 |🔥| Fix Inf Loop on fast TCP connections | https://github.com/debauchee/barrier/pull/557/files|  Requires barrier#411 first|
 |🔥| Added nextScreen function | https://github.com/debauchee/barrier/pull/703 | requested by a few users| 
-|🔥| std::function | https://github.com/input-leap/input-leap/pull/1552 | |
+|🔥| EventTarget Type in place of void* for events | https://github.com/input-leap/input-leap/pull/1587 | | 
+|🔥| smart pointers | https://github.com/input-leap/input-leap/pull/1574 https://github.com/input-leap/input-leap/pull/1578 https://github.com/input-leap/input-leap/pull/1588 ||
 |❔| PreserveFocus Fix| https://github.com/debauchee/barrier/pull/178 | |
 |❔| Fix Cpu Spike on win 10 | https://github.com/debauchee/barrier/pull/656| |
 |❔| Revert make connection success a "note" | https://github.com/debauchee/barrier/pull/738| | 
@@ -67,3 +64,8 @@ Status of backports from forks
 pull/8637|
 |☑️| use std::genenv | https://github.com/debauchee/barrier/pull/847/ | Can't port directly but should do similar, https://github.com/deskflow/deskflow/pull/8678 |
 |☑️| remove --no-xinitthreds option | https://github.com/input-leap/input-leap/pull/1503  and https://github.com/input-leap/input-leap/pull/1504 | https://github.com/deskflow/deskflow/pull/8679 |
+|☑️| TcpSocket Handle RW at same time | https://github.com/debauchee/barrier/pull/211 | https://github.com/deskflow/deskflow/pull/8675 |
+|☑️| More std::mutex | https://github.com/debauchee/barrier/pull/410 | https://github.com/deskflow/deskflow/pull/8674 |
+|☑️| Use std::this_thread::sleep to replace ARCH_SLEEP | https://github.com/input-leap/input-leap/pull/1462 && https://github.com/input-leap/input-leap/pull/1499| https://github.com/deskflow/deskflow/pull/8677 | 
+|☑️| Use std::crono items to replace ARCH_TIME | https://github.com/input-leap/input-leap/pull/1464 | https://github.com/deskflow/deskflow/
+|☑️| std::function | https://github.com/input-leap/input-leap/pull/1552 |https://github.com/deskflow/deskflow/pull/8697 |
