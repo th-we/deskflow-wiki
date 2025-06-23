@@ -38,6 +38,7 @@ Deskflow is an open source project, so we welcome contributions.
 - [[Protocol]] - Useful for writing a Synergy-compatible app.
 - [[Backport]] - Tracker for items to backport from forks.
 - [[Maintainers]] - Guides for project maintainers.
+- [Developer Docs](https://deskflow.github.io/deskflow/) - Doxygen pages generated from code comments.
 
 # More ways to contribute
 
