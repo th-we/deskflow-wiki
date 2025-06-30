@@ -60,8 +60,7 @@ Status of backports from forks
 |☑️| Fix CVE-2021-42072, CVE-2024-42073 | https://github.com/debauchee/barrier/pull/1351 |https://github.com/deskflow/deskflow/pull/7931 | 
 |☑️| Fix CVE-2021-42074 | https://github.com/debauchee/barrier/pull/1351 |https://github.com/deskflow/deskflow/pull/7982 | 
 |☑️| Fix CVE-2021-42075 | https://github.com/debauchee/barrier/pull/1350 |https://github.com/deskflow/deskflow/pull/7981 | 
-|☑️| Fix CVE-2021-42076 | https://github.com/debauchee/barrier/pull/1347 |https://github.com/deskflow/deskflow/pull/7984 |
-pull/8637|
+|☑️| Fix CVE-2021-42076 | https://github.com/debauchee/barrier/pull/1347 |https://github.com/deskflow/deskflow/pull/7984 https://github.com/deskflow/deskflow/pull/8637 |
 |☑️| use std::genenv | https://github.com/debauchee/barrier/pull/847/ | Can't port directly but should do similar, https://github.com/deskflow/deskflow/pull/8678 |
 |☑️| remove --no-xinitthreds option | https://github.com/input-leap/input-leap/pull/1503  and https://github.com/input-leap/input-leap/pull/1504 | https://github.com/deskflow/deskflow/pull/8679 |
 |☑️| TcpSocket Handle RW at same time | https://github.com/debauchee/barrier/pull/211 | https://github.com/deskflow/deskflow/pull/8675 |
