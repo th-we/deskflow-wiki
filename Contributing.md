@@ -57,6 +57,6 @@ Deskflow is an open source project, so we welcome contributions.
 
 Sponsoring our project is a great way to further the development and maintenance of Deskflow. Funding allows us to hire developers, prioritize critical features, and ensure long-term sustainability.
 
-We’re proud to be sponsored by [Synergy](https://symless.com/synergy), who support our development by contributing code and financial support. If you want to join Synergy in sponsoring Deskflow, please contact us: maintainers@deskflow.org
+We’re proud to be sponsored by [Synergy](https://symless.com/synergy/open-source), who support our development by contributing code and financial support. If you want to join Synergy in sponsoring Deskflow, please contact us: maintainers@deskflow.org
 
-![Sponsored by: Synergy](https://raw.githubusercontent.com/deskflow/deskflow-artwork/b2c72a3e60a42dee793bd47efc275b5ee0bdaa5f/misc/synergy-sponsor.svg)
+[![Sponsored by: Synergy](https://raw.githubusercontent.com/deskflow/deskflow-artwork/b2c72a3e60a42dee793bd47efc275b5ee0bdaa5f/misc/synergy-sponsor.svg)](https://symless.com/synergy/open-source)
