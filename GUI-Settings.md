@@ -22,14 +22,14 @@
 
 Clearing settings may help resolve some bugs.
 
-## Soft-reset
+## Soft-reset 
 
 If you have v1.15.0 or higher, use the GUI to reset the settings.
 
 ![image](https://github.com/user-attachments/assets/4b62b8c7-b585-432f-bbf3-1999a91c17f1)
 
 ## Hard-reset
-
+ 
 For a more thorough reset, you can delete the actual files on disk.
 
 **Windows:**
@@ -38,15 +38,11 @@ First, ensure that Synergy is uninstalled.
 
 Run `regedit` and delete these registry keys (if they exist):
 
-* `HKEY_CURRENT_USER\Software\Symless`
-* `HKEY_CURRENT_USER\Software\Synergy`
+* `HKEY_CURRENT_USER\Software\Deskflow`
 
 Now, delete these directories (if they exist):
 
-* `%ProgramData%\Symless`
-* `%ProgramData%\Synergy`
-* `%USERPROFILE%\AppData\Local\Synergy`
-* `%USERPROFILE%\AppData\Local\Symless`
+* `%ProgramData%\Deskflow`
 
 **macOS:**
 
