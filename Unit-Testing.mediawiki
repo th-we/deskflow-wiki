@@ -1,3 +1,5 @@
+Update this page. We are using QTests now for all new tests. The only place googletests remain is in the legacytests and these are planned to be ported to QTest as well.
+
 To unit test Deskflow, we use googletest (Google C++ Testing Framework), also known as gtest.
 
 == Writing tests ==
