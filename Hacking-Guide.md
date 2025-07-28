@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> AI-trash PRs will be closed immediately.
+
 ## Comitting & PRs
 
 Please [create a new PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (pull request) if you want to make a change.
