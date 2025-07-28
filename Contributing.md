@@ -1,5 +1,8 @@
 There are many ways to contribute to the Deskflow project.
 
+> [!IMPORTANT]
+> AI-trash PRs will be closed immediately.
+
 # Getting started
 
 Deskflow is an open source project, so we welcome contributions.
