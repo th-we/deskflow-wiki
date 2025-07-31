@@ -59,7 +59,7 @@ Accurate as of Oct 2024.
 
 There are some technical differences between Deskflow and Input Leap. We don't believe that this makes one better than the other; they are simply different technical approaches that are important to study and understand. The differences are often driven by community preference and project philosophy. The communities for each project are made up of both programmers and non-programmer contributors.
 
-Accurate as of Oct 2024.
+Accurate as of July 2025.
 
 | | Deskflow | Input Leap |
 | --- | --- | --- |
@@ -68,9 +68,7 @@ Accurate as of Oct 2024.
 | Qt support (minimum) | Qt 6 | Qt 5 |
 | Depend on [`libei`](https://gitlab.freedesktop.org/libinput/libei) | Required | Optional |
 | Depend on [`libportal`](https://github.com/flatpak/libportal) | Required | Optional |
-| ARM64 support | Linux, macOS, Windows* | macOS only |
-
-\* Windows ARM64 CI support in development: [#8512](https://github.com/deskflow/deskflow/pull/8512)
+| ARM64 support | Linux, macOS, Windows | macOS only |
 
 See also:
 - [[History]]
