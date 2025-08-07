@@ -141,12 +141,16 @@ Note that links do not have to be symmetrical; for instance, here the edge betwe
 
 <pre>
  section: options
+     protocol = barrier
      heartbeat = 5000
      switchDelay = 500
  end
 </pre>
 
 ====List of options====
+
+* <code>protocol = [barrier|synergy]</code>
+: The protocol to use when saying hello to clients. Can be set to barrier or synergy. If not set barrier is used as the default
 
 * <code>heartbeat = N</code>
 : The server will expect each client to send a message no less than every ''N'' milliseconds. If no message arrives from a client within ''3N'' seconds the server forces that client to disconnect.
