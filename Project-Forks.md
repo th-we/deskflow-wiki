@@ -26,7 +26,7 @@ Accurate as of Oct 2024.
 | Deskflow | Synergy v1.15 | 2024 | Upstream | Active |
 | Synergy (>v1.15) | Deskflow | 2024 | Downstream | Active |
 | Synergy (v3.x) | Synergy v1.x | 2023 | Downstream | Active |
-| Input Leap | Barrier v2.4 | 2021 | Fork | Active |
+| Input Leap | Barrier v2.4 | 2021 | Fork | Semi-active |
 | Barrier | Synergy v1.9 | 2018 | Fork | Superseded* |
 | Synergy (<=v1.15) | - | 2001 | Original | Superseded |
 
@@ -41,7 +41,7 @@ Accurate as of Oct 2024.
 | | Deskflow | Input Leap | Synergy (v1.x) | Synergy (v3.x) |
 | --- | --- | --- | --- | --- |
 | License | GPLv2 | GPLv2 | GPLv2 | Proprietary |
-| Stability | Leading edge | Stable | Stable | Stable |
+| Stability | Leading edge | Legacy? | Stable | Stable |
 | Legacy systems | No | Yes | Yes | No |
 | Community-driven | Yes | Yes | No | No |
 | Funding | Sponsored | None | Customers | Customers |
