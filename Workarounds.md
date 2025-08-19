@@ -7,6 +7,7 @@
 - [Input method mismatch](#Input-method-mismatch)
 - [German keyboards](#German-keyboards)
 - [AltGr key](#AltGr-key)
+- [Remove Xdg Remote Desktop permission](#Remove-Xdg-Remote-Desktop-permission)
 
 
 # macOS: Laggy cursor
@@ -137,3 +138,7 @@ For recent versions of Deskflow, at least partial success has been reported with
 
 for the clients in the Screen section of the Deskflow configuration file (same place as above) instead.
 
+
+# Remove Xdg Remote Desktop permission
+ 
+To remove the persistent token remove the `xdgRestoreToken` value from you Deskflow settings file. (~/.config/Deskflow/Deskflow.conf)
