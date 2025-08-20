@@ -26,5 +26,5 @@ Alternatively, they may choose the donation option described above.
 :dollar: **Bounty:** $2500 ([details](https://github.com/deskflow/deskflow/wiki/Bounties))
 
 > [!IMPORTANT]
-> AI-trash PRs will be closed immediately.
+> AI-slop PRs will be closed immediately.
 ```
