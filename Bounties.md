@@ -9,3 +9,18 @@ We've used [Algora](https://algora.io/deskflow/home) as our main platform for ma
 Developers who complete a bounty can claim the reward directly through Algora. 
 
 Alternatively, they may choose the donation option described above.
+
+# Resources
+
+## Markdown
+
+```
+### Sponsored
+
+![Sponsored by: Synergy](https://raw.githubusercontent.com/deskflow/deskflow-artwork/b2c72a3e60a42dee793bd47efc275b5ee0bdaa5f/misc/synergy-sponsor.svg)
+
+:dollar: **Bounty:** $2500 ([details](https://github.com/deskflow/deskflow/wiki/Bounties))
+
+> [!IMPORTANT]
+> AI-trash PRs will be closed immediately.
+```
