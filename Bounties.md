@@ -18,9 +18,11 @@ Alternatively, they may choose the donation option described above.
 
 # AI Slop
 
-Example: #8780
+Example: [#8780](https://github.com/deskflow/deskflow/pull/8780)
 
 We have a strict no-vibe-coder policy.
+
+AI slop PRs will be closed, and the author will be blocked from the project.
 
 The AI slop problem in pull requests is when code and descriptions look convincing at first glance but lack the depth or functionality needed to actually work. Common signs include marketing-like phrases such as “military grade security” alongside patches that add lots of files and classes but only contain placeholders, mocked data, or unimplemented stubs instead of real system integration (for example, clipboard code that compiles but never calls the Wayland protocols or D-Bus APIs it claims to support).
 
