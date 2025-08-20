@@ -14,6 +14,18 @@ Alternatively, they may choose the donation option described above.
 
 [![Open bounty issues](https://img.shields.io/github/issues/deskflow/deskflow/%F0%9F%92%8E%20bounty?label=💎%20open%20bounty%20issues&color=%2344cc11)](https://github.com/deskflow/deskflow/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22%F0%9F%92%8E%20bounty%22) [![Rewarded bounties](https://img.shields.io/github/issues-search/deskflow/deskflow?query=label%3A%22%F0%9F%92%B0%20rewarded%22&label=%F0%9F%92%B0%20rewarded%20bounties&color=yellow)](https://github.com/deskflow/deskflow/issues?q=label%3A%22%F0%9F%92%B0%20rewarded%22%20sort%3Aupdated-desc)
 
+# AI Slop
+
+Example: #8780
+
+We have a strict no-vibe-coder policy.
+
+The AI slop problem in pull requests is when code and descriptions look convincing at first glance but lack the depth or functionality needed to actually work. Common signs include marketing-like phrases such as “military grade security” alongside patches that add lots of files and classes but only contain placeholders, mocked data, or unimplemented stubs instead of real system integration (for example, clipboard code that compiles but never calls the Wayland protocols or D-Bus APIs it claims to support).
+
+Deskflow developers are highly experienced with C++ and software develpoment in general, so we can spot AI slop a mile away. Don't bother opening AI slop PRs as you're just wasting your time.
+
+We're not saying you can't use LLMs to assist you with writing code for a bounty attempt PR; LLMs are fine when used as a "fancy autocomplete" for helping to write code, but please don't turn your brain off.
+
 # Resources
 
 ## Markdown
@@ -26,5 +38,5 @@ Alternatively, they may choose the donation option described above.
 :dollar: **Bounty:** $2500 ([details](https://github.com/deskflow/deskflow/wiki/Bounties))
 
 > [!IMPORTANT]
-> AI-slop PRs will be closed immediately.
+> AI-slop PRs will be closed immediately (e.g. #8780).
 ```
