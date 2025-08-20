@@ -58,6 +58,8 @@ Deskflow is an open source project, so we welcome contributions.
 
 # Sponsor
 
+See also: [[Bounties]]
+
 Sponsoring our project is a great way to further the development and maintenance of Deskflow. Funding allows us to hire developers, prioritize critical features, and ensure long-term sustainability.
 
 We’re proud to be sponsored by [Synergy](https://symless.com/synergy/open-source), who support our development by contributing code and financial support. If you want to join Synergy in sponsoring Deskflow, please contact us: maintainers@deskflow.org
