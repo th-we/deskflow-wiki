@@ -1,86 +1,3 @@
-# Paths
-
-**v1.17.0 or higher**
-
-- *Windows:* `\HKEY_CURRENT_USER\Software\Deskflow\Deskflow`
-- *macOS:* `~/Library/Preferences/com.deskflow.Deskflow.plist`
-- *Linux:* `~/.config/Deskflow/Deskflow.conf`
-
-**v1.15.0 or v1.16.0**
-
-- *Windows:* `\HKEY_CURRENT_USER\Software\Synergy\Synergy`
-- *macOS:* `~/Library/Preferences/com.symless.Synergy.plist`
-- *Linux:* `~/.config/Synergy/Synergy.conf`
-
-**v1.14.x or lower**
-
-- *Windows:* `\HKEY_CURRENT_USER\Software\Synergy\Synergy`
-- *macOS:* `~/Library/Preferences/http-symless-com.Synergy.plist`
-- *Linux:* `~/.config/Synergy/Synergy.conf`
-
-# Clear
-
-Clearing settings may help resolve some bugs.
-
-## Soft-reset 
-
-If you have v1.15.0 or higher, use the GUI to reset the settings.
-
-![image](https://github.com/user-attachments/assets/4b62b8c7-b585-432f-bbf3-1999a91c17f1)
-
-## Hard-reset
- 
-For a more thorough reset, you can delete the actual files on disk.
-
-**Windows:**
-
-First, ensure that Synergy is uninstalled.
-
-Run `regedit` and delete these registry keys (if they exist):
-
-* `HKEY_CURRENT_USER\Software\Deskflow`
-
-Now, delete these directories (if they exist):
-
-* `%ProgramData%\Deskflow`
-
-**macOS:**
-
-First, ensure that Synergy is uninstalled.
-
-On newer macOS versions, you'll need to use `defaults delete` to clear the settings cache:
-```
-defaults delete com.symless.Synergy.plist
-defaults delete com.http-symless-com.Synergy.plist
-defaults delete com.https-symless-com.Synergy.plist
-```
-
-For all macOS versions, delete any files on disk:
-```
-rm -r ~/Library/Preferences/Symless
-rm -r ~/Library/Synergy
-rm ~/Library/Preferences/com.symless.Synergy.plist
-rm ~/Library/Preferences/com.http-symless-com.Synergy.plist
-rm ~/Library/Preferences/com.https-symless-com.Synergy.plist
-```
-
-On older macOS versions, you'll need to kill the `cfprefsd` process to clear the cache:
-```
-killall -u $USER cfprefsd
-```
-
-**Linux:**
-
-First, ensure that Synergy is uninstalled.
-
-Run these commands to delete these files and folders (if they exist):
-```
-rm -rf ~/.config/Synergy/
-rm -rf ~/.config/Symless/
-rm -rf ~/.synergy/
-```
-
-
 # GUI Config
 
  Deskflow will automatically figure out where to save settings and other files.
@@ -116,6 +33,28 @@ The path of the settings file will be used as the base for all other config file
 Windows will save to the install dir if settings are loaded from there. If not, it saves any other config files in: `C:\ProgramData\Deskflow\`
 
 When using settings from the install dir, the service mode will not be available.
+
+### Historic Paths
+
+**v1.17.0 or higher**
+
+- *Windows:* `\HKEY_CURRENT_USER\Software\Deskflow\Deskflow`
+- *macOS:* `~/Library/Preferences/com.deskflow.Deskflow.plist`
+- *Linux:* `~/.config/Deskflow/Deskflow.conf`
+
+**v1.15.0 or v1.16.0**
+
+- *Windows:* `\HKEY_CURRENT_USER\Software\Synergy\Synergy`
+- *macOS:* `~/Library/Preferences/com.symless.Synergy.plist`
+- *Linux:* `~/.config/Synergy/Synergy.conf`
+
+**v1.14.x or lower**
+
+- *Windows:* `\HKEY_CURRENT_USER\Software\Synergy\Synergy`
+- *macOS:* `~/Library/Preferences/http-symless-com.Synergy.plist`
+- *Linux:* `~/.config/Synergy/Synergy.conf`
+
+
 
 ## Valid GUI Keys
 
@@ -349,4 +288,64 @@ switchDelay=250
 switchDoubleTap=250
 win32KeepForeground=false
 ```
+# Clear
 
+Clearing settings may help resolve some bugs.
+
+## Soft-reset 
+
+If you have v1.15.0 or higher, use the GUI to reset the settings.
+
+![image](https://github.com/user-attachments/assets/4b62b8c7-b585-432f-bbf3-1999a91c17f1)
+
+## Hard-reset
+ 
+For a more thorough reset, you can delete the actual files on disk.
+
+**Windows:**
+
+First, ensure that Synergy is uninstalled.
+
+Run `regedit` and delete these registry keys (if they exist):
+
+* `HKEY_CURRENT_USER\Software\Deskflow`
+
+Now, delete these directories (if they exist):
+
+* `%ProgramData%\Deskflow`
+
+**macOS:**
+
+First, ensure that Synergy is uninstalled.
+
+On newer macOS versions, you'll need to use `defaults delete` to clear the settings cache:
+```
+defaults delete com.symless.Synergy.plist
+defaults delete com.http-symless-com.Synergy.plist
+defaults delete com.https-symless-com.Synergy.plist
+```
+
+For all macOS versions, delete any files on disk:
+```
+rm -r ~/Library/Preferences/Symless
+rm -r ~/Library/Synergy
+rm ~/Library/Preferences/com.symless.Synergy.plist
+rm ~/Library/Preferences/com.http-symless-com.Synergy.plist
+rm ~/Library/Preferences/com.https-symless-com.Synergy.plist
+```
+
+On older macOS versions, you'll need to kill the `cfprefsd` process to clear the cache:
+```
+killall -u $USER cfprefsd
+```
+
+**Linux:**
+
+First, ensure that Synergy is uninstalled.
+
+Run these commands to delete these files and folders (if they exist):
+```
+rm -rf ~/.config/Synergy/
+rm -rf ~/.config/Symless/
+rm -rf ~/.synergy/
+```
