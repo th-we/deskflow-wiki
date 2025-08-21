@@ -160,6 +160,23 @@ You can use `setxkbmap -option [OPTION]` with one of the options below. Once you
  | lv3:bksl_switch          | Backslash |
  | lv3:lsgt_switch          | Less/Greater |
 
+Example autostart file 
+
+Saved as `~/.config/autostart/keyboard-options.desktop`
+```
+[Desktop Entry]
+Type=Application
+Name=Keyboard Options
+Exec=sh -c 'sleep 5 && setxkbmap -option lv3:rwin_switch'
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+```
+
+> This adds a keyboard-options.desktop file with the content which ensures that the command is executed on startup. Can be viewed and adjusted in 'Startup Applications Preferences' as well.
+The sleep can be adjusted there. I recommend keeping it, since if it's executed too early it can be overridden. I personally have it at 10 seconds and it works pretty well.
+
+
 # Remove Xdg Remote Desktop permission
  
 To remove the persistent token remove the `xdgRestoreToken` value from you Deskflow settings file. (~/.config/Deskflow/Deskflow.conf)
