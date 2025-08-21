@@ -162,6 +162,8 @@ You can use `setxkbmap -option [OPTION]` with one of the options below. Once you
 
 Example autostart file 
 
+This example comes from https://github.com/deskflow/deskflow/issues/4411#issuecomment-3210586777
+
 Saved as `~/.config/autostart/keyboard-options.desktop`
 ```
 [Desktop Entry]
