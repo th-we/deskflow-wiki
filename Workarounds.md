@@ -138,7 +138,29 @@ For recent versions of Deskflow, at least partial success has been reported with
 
 for the clients in the Screen section of the Deskflow configuration file (same place as above) instead.
 
+## Modify altgr on linux
 
+When running on linux you can set how the system defines altgr. 
+
+You can use `setxkbmap -option [OPTION]` with one of the options below. Once you find a setting you like you can add it in to your user profile or run the command in a script running when you startup. 
+
+ |  Option                  | Description |
+ |:-----------------        |:------------|
+ | lv3:switch               | Right Ctrl  |
+ | lv3:menu_switch          | Menu        |
+ | lv3:win_switch           | Any Win key |
+ | lv3:lwin_switch          | Left Win    |
+ | lv3:rwin_switch          | Right Win   |
+ | lv3:alt_switch           | Any Alt key |
+ | lv3:lalt_switch          | Left Alt    |
+ | lv3:ralt_switch          | Right Alt   |
+ | lv3:ralt_switch_multikey | Right Alt, Shift+Right Alt key is Compose |
+ | lv3:enter_switch         | Enter on keypad |
+ | lv3:caps_switch          | Caps Lock |
+ | lv3:bksl_switch          | Backslash |
+ | lv3:lsgt_switch          | Less/Greater |
+
+```
 # Remove Xdg Remote Desktop permission
  
 To remove the persistent token remove the `xdgRestoreToken` value from you Deskflow settings file. (~/.config/Deskflow/Deskflow.conf)
