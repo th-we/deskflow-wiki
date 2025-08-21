@@ -160,7 +160,6 @@ You can use `setxkbmap -option [OPTION]` with one of the options below. Once you
  | lv3:bksl_switch          | Backslash |
  | lv3:lsgt_switch          | Less/Greater |
 
-```
 # Remove Xdg Remote Desktop permission
  
 To remove the persistent token remove the `xdgRestoreToken` value from you Deskflow settings file. (~/.config/Deskflow/Deskflow.conf)
