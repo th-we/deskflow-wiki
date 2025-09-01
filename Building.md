@@ -1,5 +1,5 @@
 > [!WARNING]
-> **WIP:** These instructions are a work in progress.
+> **WIP:** These instructions are a work in progress. [[Building (legacy)]]
 
 Deskflow is free and open source software, and anyone is welcome to build it,
 run it, tinker with it, fork it, redistribute it as part of their own app, etc.
@@ -13,7 +13,7 @@ run it, tinker with it, fork it, redistribute it as part of their own app, etc.
 
 Before we can begin building, we need to set up the development environment.
 
-Legacy instructions: [[Building (legacy)]]
+
 
 ## Windows
 
