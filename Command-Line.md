@@ -20,21 +20,21 @@ Open up a command prompt and cd into the Deskflow install directory.
 | macOS   | `cd /Applications/Deskflow.app/Contents/MacOS/` |
 | Linux   | `cd /usr/bin`                                 |
 
-Run the Deskflow client binary, pointing it at the Deskflow Server.
+Run the Deskflow core in client mode, pointing it at the Deskflow Server.
 
 | OS | Command |
 | ------- | ------------------------------------- |
-| Windows | `deskflow-client [server IP]`   |
-| macOS   | `./deskflow-client [server IP]` |
-| Linux   | `./deskflow-client [server IP]` |
+| Windows | `deskflow-core client [server IP]`   |
+| macOS   | `./deskflow-core client [server IP]` |
+| Linux   | `./deskflow-core client [server IP]` |
 
-Run the Deskflow server binary, pointing it at the configuration file.
+Run the Deskflow core in server mode, pointing it at the configuration file.
 
 | OS | Command |
 | ------- | -------------------------------------------------- |
-| Windows | `deskflow-server -c [path to config file]`   |
-| macOS   | `./deskflow-server -c [path to config file]` |
-| Linux   | `./deskflows-server -c [path to config file]` |
+| Windows | `deskflow-core server -c [path to config file]`   |
+| macOS   | `./deskflow-core server -c [path to config file]` |
+| Linux   | `./deskflow-core server -c [path to config file]` |
 
 Command line options
 --------------------
