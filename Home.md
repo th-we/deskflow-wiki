@@ -9,7 +9,7 @@ Here are a few pages to get you started with your search.
 
 ## User Guides
 * [[Command Line]] - Skip the GUI and run Deskflow from the command line.
-* [[Text Config]] - Write a text config file for advanced configurations.
+* [[Server Text Config]] - Write a text config file for advanced configurations.
 * [[GUI Settings]] - Info about the GUI settings (and how to reset them).
 * [[Workarounds]] - Inventive solutions to strange problems.
 
