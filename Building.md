@@ -70,8 +70,6 @@ Deskflow requires the following to build:
  - CMake 3.24+
  - Qt 6.7+
  - OpenSSL 3.0
- - TOML++**
- - CLI11**
  - Google Test**
  - libportal 0.8+ (Linux only)
  - libei 1.3+ (Linux only)
@@ -79,18 +77,17 @@ Deskflow requires the following to build:
 ** These dependencies will be downloaded automatically at build time if they are not found on your system, Google Test is only needed to build tests.
 
 ## Windows
+
 If you have installed `vcpkg` when using either Qt Creator or Visual Studio Code it should automatically detect your vcpkg info. If it does not you will need to [set your `CMAKE_TOOLCHAIN_FILE`](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-powershell#4---build-and-run-the-project). Once `vcpkg` has been setup it will download and build the needed dependencies when you run the configuration command. It will take a while to build things the first time, which is normal.
 
 The following items will be installed by vcpkg: `qt`, `openssl`, and `gtest`.
-Both `tomlplusplus` and `cli11` will be embedded by CMake.
 
 ## macOS
+
   1. Qt 6.7+ 
     - You should not use the `brew` version of Qt if you plan to distribute the build (it targets only the current system).
     - If you want to distribute your builds you need to get Qt from the [Qt Online Installer](https://doc.qt.io/qt-6/qt-online-installation.html)
   1. openssl 3.0+
-  1. tomlplusplus (optional)
-  1. cli11 (optional)
   1. googletest (optional)       
 
 ## Linux
@@ -98,8 +95,6 @@ Both `tomlplusplus` and `cli11` will be embedded by CMake.
   - libei 1.3
   - libportal 0.8 
   - qt 6.7+
-  - tomlplusplus (optional)
-  - cli11(optional)
   - google test (optional)
 
 **Debian/Ubuntu:**
@@ -107,8 +102,7 @@ Both `tomlplusplus` and `cli11` will be embedded by CMake.
   apt install cmake build-essential ninja-build \
               xorg-dev libx11-dev libxtst-dev libssl-dev \
               libglib2.0-dev libxkbfile-dev qt6-base-dev qt6-tools-dev \
-              libgtk-3-dev libgtest-dev libgmock-dev libei-dev \
-              libportal-dev libtomlplusplus-dev libcli11-dev
+              libgtk-3-dev libgtest-dev libgmock-dev libei-dev libportal-dev
 ```
 
 **Fedora:**
@@ -116,8 +110,7 @@ Both `tomlplusplus` and `cli11` will be embedded by CMake.
   dnf install cmake make ninja-build gcc-c++ rpm-build \
               openssl-devel glib2-devel libXtst-devel libxkbfile-devel \
               qt6-qtbase-devel qt6-qttools-devel gtk3-devel \
-              gtest-devel gmock-devel libei-devel libportal-devel \
-              tomlplusplus-devel cli11-devel
+              gtest-devel gmock-devel libei-devel libportal-devel
 ```
 
 **RHEL**
@@ -127,8 +120,7 @@ Both `tomlplusplus` and `cli11` will be embedded by CMake.
   dnf install cmake make ninja-build gcc-c++ rpm-build \
               openssl-devel glib2-devel libXtst-devel libxkbfile-devel \
               qt6-qtbase-devel qt6-qttools-devel gtk3-devel \
-              gtest-devel gmock-devel libei-devel \
-              libportal-devel tomlplusplus-devel cli11-devel
+              gtest-devel gmock-devel libei-devel libportal-devel
 
 ```
 
@@ -137,21 +129,21 @@ Both `tomlplusplus` and `cli11` will be embedded by CMake.
   zypper install cmake make ninja gcc-c++ rpm-build libopenssl-devel \
                  glib2-devel libXtst-devel libxkbfile-devel qt6-base-devel \
                  qt6-tools-devel gtk3-devel googletest-devel googlemock-devel 
-                 libei-devel libportal-devel tomlplusplus-devel cli11-devel
+                 libei-devel libportal-devel
 ```
 
 **Arch Linux:**
 ```
   pacman -S base-devel cmake ninja gcc openssl \
             glib2 libxtst libxkbfile gtest libei libportal \
-            qt6-base qt6-tools gtk3 tomlplusplus cli11
+            qt6-base qt6-tools gtk3
 ```
 
 **FreeBSD:**
 ```
   pkg install cmake ninja gmake gcc12 openssl glib \
               libX11 libXtst libxkbfile qt6-base qt6-tools \
-              gtk3 googletest tomlplusplus cli11 pkgconf libei libportal
+              gtk3 googletest pkgconf libei libportal
 ```
 
 
