@@ -13,7 +13,6 @@ Status of backports from forks
 |:--------:|:-------|:------|:--|
 |🚧| Explicit memory ownership in SocketMultiPlexer | https://github.com/debauchee/barrier/pull/411 |https://github.com/deskflow/deskflow/pull/8680 |
 |🔥| Fix Inf Loop on fast TCP connections | https://github.com/debauchee/barrier/pull/557/files|  Requires barrier#411 first|
-|🔥| Added nextScreen function | https://github.com/debauchee/barrier/pull/703 | requested by a few users| 
 |🔥| EventTarget Type in place of void* for events | https://github.com/input-leap/input-leap/pull/1587 | | 
 |🔥| smart pointers | https://github.com/input-leap/input-leap/pull/1574 https://github.com/input-leap/input-leap/pull/1578 https://github.com/input-leap/input-leap/pull/1588 ||
 |❔| PreserveFocus Fix| https://github.com/debauchee/barrier/pull/178 | |
@@ -29,6 +28,7 @@ Status of backports from forks
 |❓| Add hotkey config rule for `,` and `;` | https://github.com/debauchee/barrier/pull/916 | should fix: https://github.com/deskflow/deskflow/issues/7130 |
 |❓| Use Ansi code page for multibyteString | https://github.com/debauchee/barrier/pull/979 | could help with some localization issue internally 
 |❓| Simplify code path with lots of ifdef removals | https://github.com/input-leap/input-leap/pull/1491 | |
+|☑️| Added nextScreen function | https://github.com/debauchee/barrier/pull/703 | https://github.com/deskflow/deskflow/pull/8904 | 
 |☑️| IPv6 Support | https://github.com/debauchee/barrier/pull/19 |  |
 |☑️| Scroll fix (osx) | https://github.com/debauchee/barrier/pull/64 | |
 |☑️| Scroll fix (x11) | https://github.com/debauchee/barrier/pull/68 | |
