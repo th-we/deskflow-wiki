@@ -18,7 +18,7 @@ Status of backports from forks
 |🔥| smart pointers | https://github.com/input-leap/input-leap/pull/1574 https://github.com/input-leap/input-leap/pull/1578 https://github.com/input-leap/input-leap/pull/1588 ||
 |❔| PreserveFocus Fix| https://github.com/debauchee/barrier/pull/178 | |
 |❔| Fix Cpu Spike on win 10 | https://github.com/debauchee/barrier/pull/656| |
-|❔| Revert make connection success a "note" | https://github.com/debauchee/barrier/pull/738| | 
+|🚫| Revert make connection success a "note" | https://github.com/debauchee/barrier/pull/738| | 
 |🚫| Gui Status Log Comment about CLOG_PRINT, we should check if we have this issue | https://github.com/debauchee/barrier/pull/739| |
 |❔| remove unused defines | https://github.com/debauchee/barrier/pull/981 | | 
 |❔| only active client can grab clipboard | https://github.com/input-leap/input-leap/pull/1434 |  |
