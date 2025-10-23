@@ -30,6 +30,29 @@ set (${CMAKE_PROJECT_NAME}_TRS
  - the modifier `&` is used to define an accelerator. For example &Close will have the C accelerated (i.e Alt+C will select the item). Adjust these when translating so they make sense in the target language.
 
 
+## Translating Non code files
 
+In addition to the ts files several other files in the repo support direct translations with the file
 
+### Desktop files
+
+translations can be added to  the desktop file `deploy/linux/org.deskflow.deskflow.desktop`
+
+you can add to the desktop file `Name[langcode]` and `Description[langcode]`  entries
+
+ex for spanish add
+
+Name[es]= Spanish Name of Deskflow
+Description[es]=Spanish Description of deskflow
+
+More info https://specifications.freedesktop.org/desktop-entry-spec/latest/localized-keys.html
+
+### Translating appstream data
+
+in the appstream data translations can also be added `deploy/linux/org.deskflow.deskflow.metainfo.xml`
+
+you can add 
+`xml:lang="es"` to make new description , keywords 
+
+More info https://freedesktop.org/software/appstream/docs/chap-Metadata.html#tag-description
 
