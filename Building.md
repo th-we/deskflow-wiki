@@ -194,6 +194,6 @@ Plugins = C:\vcpkg...debug\Qt6\plugins
 
 Icons must be installed to work correctly on linux
 
-copy `src/apps/icons/deskflow-light/apps/64/org.deskflow.deskflow.svg` -> `/usr/share/icons/hicolor/512x512/apps/org.deskflow.deskflow.png`
+copy `src/apps/res/icons/deskflow-light/apps/64/org.deskflow.deskflow.svg` -> `/usr/share/icons/hicolor/512x512/apps/org.deskflow.deskflow.png`
 
-copy `src/apps/icons/deskflow-light/apps/64/org.deskflow.deskflow-symbolic.svg` -> `/usr/share/icons/hicolor/symbolic/apps/org.deskflow.deskflow-symbolic.png`
+copy `src/apps/res/icons/deskflow-light/apps/64/org.deskflow.deskflow-symbolic.svg` -> `/usr/share/icons/hicolor/symbolic/apps/org.deskflow.deskflow-symbolic.png`
