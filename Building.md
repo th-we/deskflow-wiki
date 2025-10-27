@@ -128,15 +128,15 @@ The following items will be installed by vcpkg: `qt`, `openssl`, and `gtest`.
 ```
   zypper install cmake make ninja gcc-c++ rpm-build libopenssl-devel \
                  glib2-devel libXtst-devel libxkbfile-devel qt6-base-devel \
-                 qt6-tools-devel gtk3-devel googletest-devel googlemock-devel 
-                 libei-devel libportal-devel
+                 qt6-tools-devel qt6-linguist-devel gtk3-devel googletest-devel \
+                 googlemock-devel libei-devel libportal-devel
 ```
 
 **Arch Linux:**
 ```
   pacman -S base-devel cmake ninja gcc openssl \
             glib2 libxtst libxkbfile gtest libei libportal \
-            qt6-base qt6-tools gtk3
+            qt6-base qt6-tools qt6-translations qt6-declarative gtk3
 ```
 
 **FreeBSD:**
@@ -160,6 +160,9 @@ CMake options:
 | BUILD_UNIFIED            | Build unified binary (client+server)    | OFF                | |
 | ENABLE_COVERAGE          | Enable test coverage                    | OFF                | `gcov` |
 | SKIP_BUILD_TESTS         | Skip running of tests at build time     | OFF                | |
+| VCPKG_QT                 | Build Qt w/ vcpkg (windows only)        | OFF                | |
+| CLEAN_TRS                | Remove obsolete strings from tr files   | OFF                | |
+
 
 To configure you use CMake.
 
