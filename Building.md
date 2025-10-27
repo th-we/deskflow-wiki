@@ -197,3 +197,5 @@ Icons must be installed to work correctly on linux
 copy `src/apps/res/icons/deskflow-light/apps/64/org.deskflow.deskflow.svg` -> `/usr/share/icons/hicolor/512x512/apps/org.deskflow.deskflow.png`
 
 copy `src/apps/res/icons/deskflow-light/apps/64/org.deskflow.deskflow-symbolic.svg` -> `/usr/share/icons/hicolor/symbolic/apps/org.deskflow.deskflow-symbolic.png`
+
+you may need to update your icon cache with a command like `gtk-update-icon-cache` after copying them over
