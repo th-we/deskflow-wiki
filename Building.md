@@ -202,3 +202,17 @@ copy `deploy/linux/org.deskflow.deskflow.png` -> `/usr/share/icons/hicolor/512x5
 copy `src/apps/res/icons/deskflow-light/apps/64/org.deskflow.deskflow-symbolic.svg` -> `/usr/share/icons/hicolor/symbolic/apps/org.deskflow.deskflow-symbolic.svg`
 
 you may need to update your icon cache with a command like `gtk-update-icon-cache` after copying them over
+
+## Self-sign for local dev on macOS
+
+> [!IMPORTANT]
+> Requires PR #9089
+
+1. Install Xcode
+2. Go to Settings -> Accounts
+3. Add your account (requires a free Apple Developer ID)
+4. Manage certificates -> Add -> Apple Development
+5. To get your ID, run: `security find-identity -v -p codesigning login.keychain-db`
+6. Pass the ID to CMAke, e.g. `-DDEV_CODESIGN_ID=Apple Development: bob@exmaple.com (KLGSJHLFXY)`
+7. Configure and build
+8. To verify, run: `codesign -d -r- build/bin/Deskflow.app`
