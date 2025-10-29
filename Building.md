@@ -213,6 +213,6 @@ you may need to update your icon cache with a command like `gtk-update-icon-cach
 3. Add your account (requires a free Apple Developer ID)
 4. Manage certificates -> Add -> Apple Development
 5. To get your ID, run: `security find-identity -v -p codesigning login.keychain-db`
-6. Pass the ID to CMAke, e.g. `-DDEV_CODESIGN_ID=Apple Development: bob@exmaple.com (KLGSJHLFXY)`
+6. Pass the ID to CMAke, e.g. `-DAPPLE_CODESIGN_ID=Apple Development: bob@exmaple.com (KLGSJHLFXY)`
 7. Configure and build
 8. To verify, run: `codesign -d -r- build/bin/Deskflow.app`
