@@ -20,10 +20,10 @@ Status of backports from forks
 |🚫| Gui Status Log Comment about CLOG_PRINT, we should check if we have this issue | https://github.com/debauchee/barrier/pull/739| | 
 |❔| PreserveFocus Fix| https://github.com/debauchee/barrier/pull/178 | |
 |❔| only active client can grab clipboard | https://github.com/input-leap/input-leap/pull/1434 |  |
+|❔| noexcept | https://github.com/debauchee/barrier/pull/718 | This might be done various PRS |
 |❓| Support sun keys | https://github.com/debauchee/barrier/pull/790 | |
 |❓| Suppoet Kan, Eisu_toggle and Muhenkan| https://github.com/debauchee/barrier/pull/832 | |
 |❓| Hscroll fix | https://github.com/debauchee/barrier/pull/391 | |
-|❓| noexcept | https://github.com/debauchee/barrier/pull/718 | |
 |❓| Add hotkey config rule for `,` and `;` | https://github.com/debauchee/barrier/pull/916 | should fix: https://github.com/deskflow/deskflow/issues/7130 |
 |❓| Use Ansi code page for multibyteString | https://github.com/debauchee/barrier/pull/979 | could help with some localization issue internally 
 |☑️| Simplify code path with lots of ifdef removals | https://github.com/input-leap/input-leap/pull/1491 | https://github.com/deskflow/deskflow/pull/9102 Does not include xorg parts |
