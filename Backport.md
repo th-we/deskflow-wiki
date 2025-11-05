@@ -25,7 +25,7 @@ Status of backports from forks
 |❓| Suppoet Kan, Eisu_toggle and Muhenkan| https://github.com/debauchee/barrier/pull/832 | |
 |❓| Hscroll fix | https://github.com/debauchee/barrier/pull/391 | |
 |❓| Add hotkey config rule for `,` and `;` | https://github.com/debauchee/barrier/pull/916 | should fix: https://github.com/deskflow/deskflow/issues/7130 |
-|❓| Use Ansi code page for multibyteString | https://github.com/debauchee/barrier/pull/979 | could help with some localization issue internally 
+|❓| Use Ansi code page for multibyteString | https://github.com/debauchee/barrier/pull/979 | May not be needed since we use QStrings now 
 |☑️| Simplify code path with lots of ifdef removals | https://github.com/input-leap/input-leap/pull/1491 | https://github.com/deskflow/deskflow/pull/9102 Does not include xorg parts |
 |☑️| remove unused defines | https://github.com/debauchee/barrier/pull/981 | https://github.com/deskflow/deskflow/pull/8684 |
 |☑️| Added nextScreen function | https://github.com/debauchee/barrier/pull/703 | https://github.com/deskflow/deskflow/pull/8904 | 
