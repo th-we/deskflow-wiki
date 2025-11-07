@@ -12,7 +12,6 @@ Status of backports from forks
 | STATUS | Description  | FORK PR | Our PR / Notes | 
 |:--------:|:-------|:------|:--|
 |🚧| Explicit memory ownership in SocketMultiPlexer | https://github.com/debauchee/barrier/pull/411 |https://github.com/deskflow/deskflow/pull/8680 |
-|🚧| Fix Cpu Spike on win 10 | https://github.com/debauchee/barrier/pull/656| https://github.com/deskflow/deskflow/pull/9116 |
 |🔥| Fix Inf Loop on fast TCP connections | https://github.com/debauchee/barrier/pull/557/files|  Requires barrier#411 first|
 |🔥| EventTarget Type in place of void* for events | https://github.com/input-leap/input-leap/pull/1587 | | 
 |🔥| smart pointers | https://github.com/input-leap/input-leap/pull/1574 https://github.com/input-leap/input-leap/pull/1578 https://github.com/input-leap/input-leap/pull/1588 ||
@@ -26,6 +25,7 @@ Status of backports from forks
 |❓| Hscroll fix | https://github.com/debauchee/barrier/pull/391 | |
 |❓| Add hotkey config rule for `,` and `;` | https://github.com/debauchee/barrier/pull/916 | should fix: https://github.com/deskflow/deskflow/issues/7130 |
 |❓| Use Ansi code page for multibyteString | https://github.com/debauchee/barrier/pull/979 | May not be needed since we use QStrings now 
+|☑️| Fix Cpu Spike on win 10 | https://github.com/debauchee/barrier/pull/656| https://github.com/deskflow/deskflow/pull/9116 |
 |☑️| Simplify code path with lots of ifdef removals | https://github.com/input-leap/input-leap/pull/1491 | https://github.com/deskflow/deskflow/pull/9102 Does not include xorg parts |
 |☑️| remove unused defines | https://github.com/debauchee/barrier/pull/981 | https://github.com/deskflow/deskflow/pull/8684 |
 |☑️| Added nextScreen function | https://github.com/debauchee/barrier/pull/703 | https://github.com/deskflow/deskflow/pull/8904 | 
