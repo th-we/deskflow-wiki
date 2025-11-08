@@ -157,7 +157,6 @@ CMake options:
 | BUILD_DOCS               | Build User Documentation                | ON                 | `Doxygen` |
 | BUILD_INSTALLER          | Build installers/packages               | ON                 | |
 | BUILD_TESTS              | Build unit tests and legacy tests       | ON                 | `gtest`|
-| BUILD_UNIFIED            | Build unified binary (client+server)    | OFF                | |
 | ENABLE_COVERAGE          | Enable test coverage                    | OFF                | `gcov` |
 | SKIP_BUILD_TESTS         | Skip running of tests at build time     | OFF                | |
 | VCPKG_QT                 | Build Qt w/ vcpkg (windows only)        | OFF                | |
