@@ -33,7 +33,7 @@ set (${CMAKE_PROJECT_NAME}_TRS
 
  - Translations sources are updated when the project is built.
  - In order to update the translations in a TS file you should use Qt Linguist. Check the [Qt Translator Guide](https://doc.qt.io/qt-6/linguist-translators.html) for general info about using Qt Linguist.  
- - the place holders `%1` can be moved around and will be replaced by a string
+ - the place holders `%1` `%2` (... `%15`) can be moved around and will be replaced by a string
  - the place holder `%n` will be replaced by a number and is optional to have in the translated string
  - the modifier `&` is used to define an accelerator. For example &Close will have the C accelerated (i.e Alt+C will select the item). Adjust these when translating so they make sense in the target language.
 
