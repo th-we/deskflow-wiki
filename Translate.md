@@ -33,10 +33,27 @@ set (${CMAKE_PROJECT_NAME}_TRS
 
  - Translations sources are updated when the project is built.
  - In order to update the translations in a TS file you should use Qt Linguist. Check the [Qt Translator Guide](https://doc.qt.io/qt-6/linguist-translators.html) for general info about using Qt Linguist.  
- - the place holders `%1` `%2` (%Some_Number) can be moved around and will be replaced by a string
- - the place holder `%n` will be replaced by a number and is optional to have in the translated string
- - the modifier `&` is used to define an accelerator. For example &Close will have the C accelerated (i.e Alt+C will select the item). Adjust these when translating so they make sense in the target language.
 
+### Translating Placeholders and accelerators
+#### Numeric placeholder
+
+The placeholder `%n` is replaced by a number. When used to translate plural forms using `%n` in the translated string is optional. `%n` will be replaced by a number at runtime.
+
+For example the input string `you have %n message(s)` 
+
+The single form would be `you have a message` with a plural form of `you have %n messages`
+
+#### String Placeholders
+
+The placeholder `%number>0` (i.e `%1`, `%2`, ...) will be replaced by a string at runtime. The strings comments should tell you what the each one will be replaced by. When translating the order of these placeholders can be changes as long as all of the used placeholers exists in the translated string. 
+
+For Example the input string `There is a %1 in the %2`  (%1 is a animalName , %2 is a Place)
+ 
+Could be translated as `You look %2 and can see the %1` 
+
+#### Accelerators and shortcuts
+
+Shortcuts `Ctrl+X` are expected to be translated. the modifier `&` is used to define an accelerator. For example &Close will have the C accelerated (i.e Alt+C will select the item). Adjust these when translating so they make sense in the target language.
 
 ## Translating Non code files
 
