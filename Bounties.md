@@ -1,16 +1,19 @@
-Deskflow development is supported by a bounty program, sponsored by [Synergy](https://symless.com/synergy).
+Deskflow development is sponsored by [Synergy](https://symless.com/synergy).
 
 [![Sponsored by: Synergy](https://raw.githubusercontent.com/deskflow/deskflow-artwork/b2c72a3e60a42dee793bd47efc275b5ee0bdaa5f/misc/synergy-sponsor.svg)](https://symless.com/synergy)
 
-We've used [Algora](https://algora.io/deskflow/home) as our main platform for managing bounties. However, we are not tied exclusively to a platform. If you prefer to be sponsored through [GitHub Sponsors](https://github.com/sponsors), let us know.
+There are three ways that funds are distributed to open source development:
+1. [Algora](https://algora.io/deskflow/home) is our main platform for managing bounties and tips.
+2. [GitHub Sponsors](https://github.com/sponsors) is used when developers prefer receiving tips this way.
+3. Sponsorship of foundations such as [GNOME Foundation](https://en.wikipedia.org/wiki/GNOME_Foundation) and [KDE e.V.](https://en.wikipedia.org/wiki/KDE_e.V.)
 
-Developers who are unable (or prefer not) to accept a bounty, for example, those working at open source companies (such as Red Hat), can elect to have Synergy donate the bounty amount to a foundation of their choice (e.g. [KDE e.V.](https://en.wikipedia.org/wiki/KDE_e.V.) or [GNOME Foundation](https://en.wikipedia.org/wiki/GNOME_Foundation)).
+Developers who are unable (or prefer not) to accept a bounty or tips, for example, those working at open source companies (such as Red Hat), can elect to have Synergy donate the bounty amount to a foundation of their choice.
+
+We're also open to other means of distributing funds to contributors. Join us on [Matrix](https://matrix.to/#/#deskflow-general:matrix.org) if you'd like to discuss funding.
 
 # Claiming a Bounty
 
-Developers who complete a bounty can claim the reward directly through Algora. 
-
-Alternatively, they may choose the donation option described above.
+Developers who complete a bounty can claim the reward directly through Algora. Those who contributed partially to a bounty can also receive tips. Alternatively, they may choose the donation option described above.
 
 # Find Bounties
 
@@ -26,7 +29,7 @@ AI slop PRs will be closed, and the author will be blocked from the project.
 
 The AI slop problem in pull requests is when code and descriptions look convincing at first glance but lack the depth or functionality needed to actually work. Common signs include marketing-like phrases such as “military grade security” alongside patches that add lots of files and classes but only contain placeholders, mocked data, or unimplemented stubs instead of real system integration (for example, clipboard code that compiles but never calls the Wayland protocols or D-Bus APIs it claims to support).
 
-Deskflow developers are highly experienced with C++ and software develpoment in general, so we can spot AI slop a mile away. Don't bother opening AI slop PRs as you're just wasting your time.
+Deskflow developers are highly experienced with C++ and software development in general, so we can spot AI slop a mile away. Don't bother opening AI slop PRs as you're just wasting your time.
 
 We're not saying you can't use LLMs to assist you with writing code for a bounty attempt PR; LLMs are fine when used as a "fancy autocomplete" for helping to write code, but please don't turn your brain off.
 
