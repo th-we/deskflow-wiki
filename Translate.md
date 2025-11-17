@@ -47,13 +47,23 @@ The single form would be `you have a message` with a plural form of `you have %n
 
 The placeholder `%number>0` (i.e `%1`, `%2`, ...) will be replaced by a string at runtime. The strings comments should tell you what the each one will be replaced by. When translating the order of these placeholders can be changes as long as all of the used placeholers exists in the translated string. 
 
-For Example the input string `There is a %1 in the %2`  (%1 is a animalName , %2 is a Place)
+For Example the input string `There is a %1 in the %2`  (%1 is a animal Name , %2 is a Place)
  
 Could be translated as `You look %2 and can see the %1` 
 
 #### Accelerators and shortcuts
 
 Shortcuts `Ctrl+X` are expected to be translated. the modifier `&` is used to define an accelerator. For example &Close will have the C accelerated (i.e Alt+C will select the item). Adjust these when translating so they make sense in the target language.
+
+### Testing translations
+
+You can test new and updated translation files without rebuilding or restarting deskflow. In order to test your new translations you need to `release` it from Qt Linguist. This will create a `*.qm` file this file will need to be placed in the deskflow translation directory 
+
+`<installPath>/translations` on windows
+`Deskflow.app/Contents/Macos/translations/` Mac bundle
+`<installPrefix>/share/deskflow/translations` Linux
+
+After copying the new file you should be able to see the language next time you enter the settings screen. 
 
 ## Translating Non code files
 
