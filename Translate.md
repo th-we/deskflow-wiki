@@ -59,8 +59,10 @@ Shortcuts `Ctrl+X` are expected to be translated. the modifier `&` is used to de
 
 You can test new and updated translation files without rebuilding or restarting deskflow. In order to test your new translations you need to `release` it from Qt Linguist. This will create a `*.qm` file this file will need to be placed in the deskflow translation directory 
 
-`<installPath>/translations` on windows
+`C:\Program Files\Deskflow\translations` on windows
+
 `Deskflow.app/Contents/Macos/translations/` Mac bundle
+
 `<installPrefix>/share/deskflow/translations` Linux
 
 After copying the new file you should be able to see the language next time you enter the settings screen. 
