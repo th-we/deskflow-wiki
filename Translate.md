@@ -67,8 +67,8 @@ You can test new and updated translation files without rebuilding or restarting 
 
 The `<installPrefix>` for linux is usually 
  - `/usr` Most system installed packages
- - `/var/app/org.deskflow.Deskflow/data` Flatpaks,  that are System installed
- - `~/.var/app/org.deskflow.Deskflow/data` (User installed)
+ - `/var/app/org.deskflow.Deskflow/data` Flatpak, System installed
+ - `~/.var/app/org.deskflow.Deskflow/data` Flatpak, User installed
 
 After copying the new file you should be able to see the language next time you enter the settings screen. 
 
