@@ -14,6 +14,7 @@ Deskflow is an open source project, so we welcome contributions.
 - Read the [[Hacking Guide]] to ensure your PR gets landed.
 - Get started by [[Building]] the project from source.
 - Help us with [[triaging issues|Triaging issues]].
+- Learn more about how [[funding|Funding]] works (bounties, tips, sponsorship).
 
 # Join our community
 
