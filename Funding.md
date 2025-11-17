@@ -2,7 +2,7 @@ Deskflow development is sponsored by [Synergy](https://symless.com/synergy).
 
 [![Sponsored by: Synergy](https://raw.githubusercontent.com/deskflow/deskflow-artwork/b2c72a3e60a42dee793bd47efc275b5ee0bdaa5f/misc/synergy-sponsor.svg)](https://symless.com/synergy)
 
-There are three ways that funds are distributed to open source development:
+There are three ways that we distribute funds to open source development:
 1. [Algora](https://algora.io/deskflow/home) is our main platform for managing bounties and tips.
 2. [GitHub Sponsors](https://github.com/sponsors) is used when developers prefer receiving tips this way.
 3. Sponsorship of foundations such as [GNOME Foundation](https://en.wikipedia.org/wiki/GNOME_Foundation) and [KDE e.V.](https://en.wikipedia.org/wiki/KDE_e.V.)
