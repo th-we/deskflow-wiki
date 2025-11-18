@@ -11,11 +11,9 @@ Developers who are unable (or prefer not) to accept a bounty or tips, for exampl
 
 We're also open to other means of distributing funds to contributors. Join us on [Matrix](https://matrix.to/#/#deskflow-general:matrix.org) if you'd like to discuss funding.
 
-# Claiming a Bounty
+# Bounties
 
 Developers who complete a bounty can claim the reward directly through Algora. Those who contributed partially to a bounty can also receive tips. Alternatively, they may choose the donation option described above.
-
-# Find Bounties
 
 [![Open bounty issues](https://img.shields.io/github/issues/deskflow/deskflow/%F0%9F%92%8E%20bounty?label=💎%20open%20bounty%20issues&color=%2344cc11)](https://github.com/deskflow/deskflow/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22%F0%9F%92%8E%20bounty%22) [![Rewarded bounties](https://img.shields.io/github/issues-search/deskflow/deskflow?query=label%3A%22%F0%9F%92%B0%20rewarded%22&label=%F0%9F%92%B0%20rewarded%20bounties&color=yellow)](https://github.com/deskflow/deskflow/issues?q=label%3A%22%F0%9F%92%B0%20rewarded%22%20sort%3Aupdated-desc)
 
