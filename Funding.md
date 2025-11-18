@@ -19,7 +19,13 @@ Developers who complete a bounty can claim the reward directly through Algora. T
 
 [![Open bounty issues](https://img.shields.io/github/issues/deskflow/deskflow/%F0%9F%92%8E%20bounty?label=💎%20open%20bounty%20issues&color=%2344cc11)](https://github.com/deskflow/deskflow/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22%F0%9F%92%8E%20bounty%22) [![Rewarded bounties](https://img.shields.io/github/issues-search/deskflow/deskflow?query=label%3A%22%F0%9F%92%B0%20rewarded%22&label=%F0%9F%92%B0%20rewarded%20bounties&color=yellow)](https://github.com/deskflow/deskflow/issues?q=label%3A%22%F0%9F%92%B0%20rewarded%22%20sort%3Aupdated-desc)
 
-# AI Slop
+# Sponsor Deskflow
+
+If your company would like to join Synergy in becoming a corporate sponsor of Deskflow, please contact us: [maintainers@deskflow.org](mailto:maintainers@deskflow.org)
+
+# Appendix
+
+## AI Slop
 
 Example: [#8780](https://github.com/deskflow/deskflow/pull/8780)
 
@@ -33,9 +39,9 @@ Deskflow developers are highly experienced with C++ and software development in 
 
 We're not saying you can't use LLMs to assist you with writing code for a bounty attempt PR; LLMs are fine when used as a "fancy autocomplete" for helping to write code, but please don't turn your brain off.
 
-# Resources
+## Resources
 
-## Markdown
+### Markdown
 
 ```
 ### Sponsored
