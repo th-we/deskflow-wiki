@@ -61,7 +61,7 @@ Deskflow is an open source project, so we welcome contributions.
 
 # Sponsor
 
-See also: [[Bounties]]
+See also: [[Funding]]
 
 Sponsoring our project is a great way to further the development and maintenance of Deskflow. Funding allows us to hire developers, prioritize critical features, and ensure long-term sustainability.
 
