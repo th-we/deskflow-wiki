@@ -153,14 +153,16 @@ CMake options:
 
 |         Option           |            Description                  |   Default Value    | Additional requirements |
 :-------------------------:|:---------------------------------------:|:------------------:|:-----------------------:|
-| BUILD_DOCS               | Build User Documentation                | ON                 | `Doxygen` |
+| BUILD_USER_DOCS          | Build User Documentation                | DOXYGEN_FOUND      | `Doxygen` |
+| BUILD_DEV_DOCS           | Build developer Documentation           | OFF                | `Doxygen` |
 | BUILD_INSTALLER          | Build installers/packages               | ON                 | |
 | BUILD_TESTS              | Build unit tests and legacy tests       | ON                 | `gtest`|
+| BUILD_X11_SUPPORT        | Build X11 backend (linux and bsd only   | ON                 | x11 , xlibs |
 | ENABLE_COVERAGE          | Enable test coverage                    | OFF                | `gcov` |
 | SKIP_BUILD_TESTS         | Skip running of tests at build time     | OFF                | |
 | VCPKG_QT                 | Build Qt w/ vcpkg (windows only)        | OFF                | |
 | CLEAN_TRS                | Remove obsolete strings from tr files   | OFF                | |
-
+| APPLE_CODESIGN_DEV       | Apple codesign certID for development   | Not Set            | |
 
 To configure you use CMake.
 
