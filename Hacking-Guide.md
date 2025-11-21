@@ -7,15 +7,16 @@ Please [create a new PR](https://docs.github.com/en/pull-requests/collaborating-
 
 ### 1. Prefix your commits with a commit type
 
-Use these prefixes on commits when applicable, as they will be used to generate change logs on release.
+Use these prefixes on commits, they will be used to generate change logs on release.
 
-- `fix:` **_must_** be used if the commit _fixes_ a known issue or if _fixes_ a bug.
+- `fix:` **_must_** be used if the commit **_fixes_** a known issue or if **_fixes_** a bug.
 - `feat:` **_must_** be used for the commit that introduces a new feature.
 - `refactor:` **_must_** be used when existing code is reworked without changing functionality.
 - `build:`: **_must_** be used for changes in project (CMake) or build files.
+- `package:` **_must_** be used for commits that change package files (i.e wix or cpack only) 
 - `ci:` **_must_** be used for commits that modify CI.
-- `i18n(lang):` Should be used for translation updates where lang is replaced with the short form (example: en, zh_CN, ru, it)
-- `chore:` **_should_** be used when removed unused code and for most anything else.
+- `i18n (LANG):` **_must_** be used for standalone translation corrections. Replace LANG with the iso639 language name (example: en, zh_CN, ru, it). Only change one language with any commit. **_do not use_** if the source string is changing only use if a translation is being updated without new source strings changing.
+- `chore:` **_must_** be used when removed unused code or renaming a file. **_should_** be used for things not fitting in any other category anything else.
 
 #### Example of a good commit message
 ```
@@ -30,6 +31,7 @@ fix: Crash on startup
 - Use `git commit --amend` to fix a previous commit rather than a follow-up commit.
   See: [[PR Review]]
 - Each commit must build; no broken commits.
+- Each commit does one thing, Add a feature, or fix a bug.
 
 
 ### 3. Open PRs must be tested and must compile
