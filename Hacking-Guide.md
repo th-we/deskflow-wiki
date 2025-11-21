@@ -14,6 +14,7 @@ Use these prefixes on commits when applicable, as they will be used to generate 
 - `refactor:` **_must_** be used when existing code is reworked without changing functionality.
 - `build:`: **_must_** be used for changes in project (CMake) or build files.
 - `ci:` **_must_** be used for commits that modify CI.
+- `i18n(lang):` Should be used for translation updates where lang is replaced with the short form (example: en, zh_CN, ru, it)
 - `chore:` **_should_** be used when removed unused code and for most anything else.
 
 #### Example of a good commit message
