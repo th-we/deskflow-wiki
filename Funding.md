@@ -7,7 +7,7 @@ There are three ways that we distribute funds to open source development:
 2. [GitHub Sponsors](https://github.com/sponsors) is used when developers prefer receiving tips this way.
 3. Sponsorship of foundations such as [GNOME Foundation](https://en.wikipedia.org/wiki/GNOME_Foundation) and [KDE e.V.](https://en.wikipedia.org/wiki/KDE_e.V.)
 
-Developers who are unable (or prefer not) to accept a bounty or tips, for example, those working at open source companies (such as Red Hat), can elect to have Synergy donate the bounty amount to a foundation of their choice.
+Developers who are unable (or prefer not) to accept a bounty or tips, for example, those working at open source companies (such as Red Hat), can elect to have us donate the bounty amount to a foundation of their choice.
 
 We're also open to other means of distributing funds to contributors. Join us on [Matrix](https://matrix.to/#/#deskflow-general:matrix.org) if you'd like to discuss funding.
 
