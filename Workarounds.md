@@ -62,7 +62,7 @@ Some users of deskflow report an issue where the controlling machine can get loc
 
 > I have now the following `~/.wakeup` script to fight this situation. It will kill deskflow on laptop wakeup ensuring there is no situation like [@a4840639](https://github.com/a4840639) have mentioned:
 >
-Versions <1.24.0)
+Versions < 1.24.0
 ``` 
 # Deskflow resque
 pgrep -x deskflow-server && { pkill -9 -i -x deskflow-server && while pgrep -x deskflow-server > /dev/null; do sleep 0.1; done; }
