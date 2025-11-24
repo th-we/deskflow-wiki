@@ -61,12 +61,19 @@ Accessibility and Input Monitoring settings on macOS need to be removed and re-a
 Some users of deskflow report an issue where the controlling machine can get locked out when the server (macOS) sleeps while the cursor is on a client (https://github.com/deskflow/deskflow/issues/8652) to work around this issue try the workaround from the thread
 
 > I have now the following `~/.wakeup` script to fight this situation. It will kill deskflow on laptop wakeup ensuring there is no situation like [@a4840639](https://github.com/a4840639) have mentioned:
-> 
-> # Deskflow resque
-> pgrep -x deskflow-server && { pkill -9 -i -x deskflow-server && while pgrep -x deskflow-server > /dev/null; do sleep 0.1; done; }
-> #
-
-Users >= v1.24.0 will need to replace `deskflow-server` with `deskflow-core` in the above script
+>
+Versions <1.24.0)
+``` 
+# Deskflow resque
+pgrep -x deskflow-server && { pkill -9 -i -x deskflow-server && while pgrep -x deskflow-server > /dev/null; do sleep 0.1; done; }
+#
+```
+Versions >= 1.24.0
+``` 
+# Deskflow resque
+pgrep -x deskflow-core && { pkill -9 -i -x deskflow-core && while pgrep -x deskflow-core > /dev/null; do sleep 0.1; done; }
+#
+```
 
 # Input method mismatch
 
