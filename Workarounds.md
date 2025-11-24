@@ -9,7 +9,6 @@
 - [AltGr key](#AltGr-key)
 - [Remove Xdg Remote Desktop permission](#Remove-Xdg-Remote-Desktop-permission)
 
-
 # macOS: Laggy cursor
 
 ## Problem
