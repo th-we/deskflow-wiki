@@ -11,7 +11,7 @@ For developers who are new to Clang-Format, there can be a temptation to fight a
 - You don't need to worry about the code style while developing, reducing cognitive load.
 - Reduces debates over subjective style preferences in code reviews.
 - Saves time by automating formatting tasks that would otherwise be done manually.
-- Ensures consistent formatting across the entire codebase, making it easier for teams to work together.
+- Ensures consistent formatting across the entire codebase, making it easier for people to work together.
 - Helps with code refactoring by keeping the formatting clean during changes.
 - Can be easily integrated into CI/CD pipelines for automatic checks.
 
@@ -19,6 +19,8 @@ For developers who are new to Clang-Format, there can be a temptation to fight a
 - It may do things in ways you don't expect, such as breaking lines in places that could make code less readable.
 - Developers may feel a loss of control over certain style preferences or nuances.
 - Some formatting decisions, such as alignment or bracket placement, can clash with personal or team preferences.
+
+The following tips and tricks can help with the above cons.
 
 # Use format-on-save
 
