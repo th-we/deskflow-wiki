@@ -58,7 +58,9 @@ Accessibility and Input Monitoring settings on macOS need to be removed and re-a
 
 # macOS: Lockout on wakeup if server died
 
-Some users of deskflow report an issue where the controlling machine can get locked out when the server (macOS) sleeps while the cursor is on a client (https://github.com/deskflow/deskflow/issues/8652) to work around this issue try the workaround from the thread
+Some users of deskflow report an issue where the controlling machine can get locked out when the server (macOS) sleeps while the cursor is on a client (https://github.com/deskflow/deskflow/issues/8652) to work around this issue try the workaround from the thread by Installing 
+
+This requires you install [sleepwatcher](https://formulae.brew.sh/formula/sleepwatcher)
 
 > I have now the following `~/.wakeup` script to fight this situation. It will kill deskflow on laptop wakeup...
 >
