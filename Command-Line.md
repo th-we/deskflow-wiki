@@ -32,109 +32,30 @@ Run the Deskflow core in server mode, pointing it at the configuration file.
 
 | OS | Command |
 | ------- | -------------------------------------------------- |
-| Windows | `deskflow-core server -c [path to config file]`   |
-| macOS   | `./deskflow-core server -c [path to config file]` |
-| Linux   | `./deskflow-core server -c [path to config file]` |
+| Windows | `deskflow-core server -s [path to settings file]`   |
+| macOS   | `./deskflow-core server -s [path to settings file]` |
+| Linux   | `./deskflow-core server -s [path to settings file]` |
 
 Command line options
 --------------------
 
   [Text Config]: Text_Config "wikilink"
 
-### Options for `deskflow-core --client`
-
-Taken from MacOS X 15 system:
+### Options for `deskflow-core`
 
 ```
-❯ ./deskflow-client --help
+❯ deskflow-core --help
+deskflow-core: 1.25.0.23 (7e278b62)
+Usage: deskflow-core coremode [options]
 Keyboard and mouse sharing utility
-Usage: ./deskflow-client [OPTIONS]
 
 Options:
-  -h,--help                   Print this help message and exit
-  --config-toml TEXT          Use TOML configuration file
-Usage:  [--address <address>] [--yscroll <delta>] [--sync-language] [--invert-scroll] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>] <server-address>
+  -h, --help                   Display Help on the command line
+  -v, --version                Display version information
+  --new-instance               Skip the check for a running instance, always
+                               makes a new instance
+  -s, --settings <configFile>  override configuration file to use
 
-Connect to a Deskflow mouse/keyboard sharing server.
-
-  -a, --address <address>  local network interface address.
-  -d, --debug <level>      filter out log messages with priority below level.
-                             level may be: FATAL, ERROR, WARNING, NOTE, INFO,
-                             DEBUG, DEBUG1, DEBUG2.
-  -n, --name <screen-name> use screen-name instead the hostname to identify
-                             this screen in the configuration.
-  -1, --no-restart         do not try to restart on failure.
-*     --restart            restart the server automatically if it fails.
-  -l  --log <file>         write log messages to file.
-      --enable-crypto      enable TLS encryption.
-      --tls-cert           specify the path to the TLS certificate file.
-  -f, --no-daemon          run in the foreground.
-*     --daemon             run as a daemon.
-      --yscroll <delta>    defines the vertical scrolling delta,
-                             which is 120 by default.
-      --enable-drag-drop   enable file drag & drop.
-
-      --sync-language      enable language synchronization.
-      --invert-scroll      invert scroll direction on this
-                             computer.
-  -h, --help               display this help and exit.
-      --version            display version information and exit.
-
-* marks defaults.
-
-The server address is of the form: [<hostname>][:<port>].
-The hostname must be the address or hostname of the server.
-The port overrides the default port, 24800.
-```
-
-Unlike `deskflow-server`, `deskflow-client` has no config file.
-The options are set either at runtime by the command line on the client,
-or for settings inherited from Synergy server they are set at connection time.
-
-## Options for `deskflow-core --server`
-
-Taken from a MacOS X 15.3 system:
-```
-Usage: ./deskflow-server [OPTIONS]
-
-Options:
-  -h,--help                   Print this help message and exit
-  --config-toml TEXT          Use TOML configuration file
-Usage:  [--address <address>] [--config <pathname>] [--daemon|--no-daemon] [--name <screen-name>] [--restart|--no-restart] [--debug <level>]
-      --enable-drag-drop   enable file drag & drop.
-
-
-Start the Deskflow mouse/keyboard sharing server.
-
-  -a, --address <address>  listen for clients on the given address.
-  -c, --config <pathname>  use the named configuration file instead.
-  -d, --debug <level>      filter out log messages with priority below level.
-                             level may be: FATAL, ERROR, WARNING, NOTE, INFO,
-                             DEBUG, DEBUG1, DEBUG2.
-  -n, --name <screen-name> use screen-name instead the hostname to identify
-                             this screen in the configuration.
-  -1, --no-restart         do not try to restart on failure.
-*     --restart            restart the server automatically if it fails.
-  -l  --log <file>         write log messages to file.
-      --enable-crypto      enable TLS encryption.
-      --tls-cert           specify the path to the TLS certificate file.
-      --disable-client-cert-check disable client SSL certificate
-                                     checking (deprecated)
-  -f, --no-daemon          run in the foreground.
-*     --daemon             run as a daemon.
-  -h, --help               display this help and exit.
-      --version            display version information and exit.
-
-* marks defaults.
-
-The argument for --address is of the form: [<hostname>][:<port>].  The
-hostname must be the address or hostname of an interface on the system.
-The default is to listen on all interfaces.  The port overrides the
-default port, 24800.
-
-If no configuration file pathname is provided then the first of the
-following to load successfully sets the configuration:
-  settings/Deskflow
-  /Users/chris/Library/Deskflow/Deskflow.conf
-  /Library/Deskflow/Deskflow.conf 
+Arguments:
+  coremode                     The mode to start in either: server or client
 ```
