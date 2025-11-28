@@ -13,7 +13,7 @@
 
 # windows: readonly settings after upgrade
 
-Remove C:\ProgramData\Deskflow or Adjust the permission so your use can read the files in this path. 
+Remove `C:\ProgramData\Deskflow` or Adjust its permissions so your use can read the files in this path. 
 
 # macOS: Laggy cursor
 
