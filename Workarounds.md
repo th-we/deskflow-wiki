@@ -1,4 +1,5 @@
 ## Contents
+- [Windows: readonly settings after upgrade](#Windows-readonly-settings-after-upgrade)
 - [macOS: laggy cursor](#macOS-laggy-cursor)
 - [macOS: Accessibility permissions](#macOS-accessibility-permissions)
 - [macOS: Input Monitoring permissions](#macOS-input-monitoring-permissions)
@@ -9,6 +10,10 @@
 - [German keyboards](#German-keyboards)
 - [AltGr key](#AltGr-key)
 - [Remove Xdg Remote Desktop permission](#Remove-Xdg-Remote-Desktop-permission)
+
+# windows: readonly settings after upgrade
+
+Remove C:\ProgramData\Deskflow or Adjust the permission so your use can read the files in this path. 
 
 # macOS: Laggy cursor
 
