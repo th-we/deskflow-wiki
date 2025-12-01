@@ -95,7 +95,7 @@ Some fragile or from third parties imported code...
 You can the script below as a pre-commit hook to format the files you have changed.
 
 Copy the contents below into a file `.git/hooks/pre-commit` and make it executable 
-When you commit changes you clang format will be run on the files you change in your commit. Make sure you `--amend`  any linter changes to you commit. 
+When you commit changes clang format will be run on the files you change in your commit. Make sure you `--amend` any changes to you commit. Take special during rebase. Using `git rebase --continue` will not pre-commit hook
 
 ```
 #!/bin/bash
