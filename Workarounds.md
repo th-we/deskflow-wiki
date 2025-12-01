@@ -61,6 +61,13 @@ If you have manually installed you may need to reset the quarantine for the app:
 
 Accessibility and Input Monitoring settings on macOS need to be removed and re-added sometimes when upgrading. If you are unable to remove the permission, make sure the application is not installed and restart the machine. Rebooting seems to remove no longer installed applications from the permissions. After you have removed the application the app should prompt when run and add itself correctly this time.
 
+Try to reset the permissions
+```
+sudo tccutil reset Accessibility org.deskflow.deskflow
+```
+
+then run deskflow it should ask one last time then start after that.
+
 # macOS: Lockout on wakeup if server died
 
 Some users of deskflow report an issue where the controlling machine can get locked out when the server (macOS) sleeps while the cursor is on a client (https://github.com/deskflow/deskflow/issues/8652) to work around this issue try the workaround from the thread by Installing 
