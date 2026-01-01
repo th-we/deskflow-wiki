@@ -15,6 +15,7 @@ Status of backports from forks
 |🔥| Fix Inf Loop on fast TCP connections | https://github.com/debauchee/barrier/pull/557/files|  Requires barrier#411 first|
 |🔥| EventTarget Type in place of void* for events | https://github.com/input-leap/input-leap/pull/1587 | | 
 |🔥| smart pointers | https://github.com/input-leap/input-leap/pull/1574 https://github.com/input-leap/input-leap/pull/1578 https://github.com/input-leap/input-leap/pull/1588 ||
+|🔥| non-POD EventData | https://github.com/input-leap/input-leap/pull/1555 ||
 |🚫| Revert make connection success a "note" | https://github.com/debauchee/barrier/pull/738| | 
 |🚫| Gui Status Log Comment about CLOG_PRINT, we should check if we have this issue | https://github.com/debauchee/barrier/pull/739| |
 |🚫| Explicit memory ownership in SocketMultiPlexer | https://github.com/debauchee/barrier/pull/411 |https://github.com/deskflow/deskflow/pull/8680  Needs more work for C++17 | 
