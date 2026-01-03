@@ -1,4 +1,5 @@
 ## Contents
+- [Unable to connect to server](#Unable-to-connect-to-server)
 - [Windows: readonly settings after upgrade](#Windows-readonly-settings-after-upgrade)
 - [macOS: laggy cursor](#macOS-laggy-cursor)
 - [macOS: Accessibility permissions](#macOS-accessibility-permissions)
@@ -11,7 +12,18 @@
 - [AltGr key](#AltGr-key)
 - [Remove Xdg Remote Desktop permission](#Remove-Xdg-Remote-Desktop-permission)
 
-# windows: readonly settings after upgrade
+# Unable to connect to server
+
+There are few solutions that seam to work (sometimes)
+
+1. Check firewall to make sure the used port is open `24800` is default
+1. Connect to the server using its IP address and not the hostname
+1. Disable TLS, This works for some but is less than ideal
+1. Regenerate the TLS key
+1. Change The TLS key size to `4096`
+1. For Windows servers: The daemon (background service) is used by default. For some users find using this breaks server mode on windows. Try disabling the daemon (Configure Server -> Advanced). (The daemon is used to allow clients to interact with UAC and the login screen)
+
+# Windows: readonly settings after upgrade
 
 Remove `C:\ProgramData\Deskflow` or Adjust its permissions so your use can read the files in this path. 
 
