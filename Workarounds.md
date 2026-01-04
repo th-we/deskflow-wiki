@@ -226,4 +226,4 @@ The sleep can be adjusted there. I recommend keeping it, since if it's executed 
 
 # Remove Xdg Remote Desktop permission
  
-To remove the persistent token remove the `xdgRestoreToken` value from you Deskflow settings file. (~/.config/Deskflow/Deskflow.conf)
+To remove the persistent token remove the `xdgRestoreToken` value from the Deskflow settings file. (~/.config/Deskflow/Deskflow.conf)
