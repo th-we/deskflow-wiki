@@ -12,6 +12,7 @@ Here are a few pages to get you started with your search.
 * [[Server Text Config]] - Write a text config file for advanced configurations.
 * [[GUI Settings]] - Info about the GUI settings (and how to reset them).
 * [[Workarounds]] - Inventive solutions to strange problems.
+* [[Mixed App Issues]] - Issues that are known when using Deskflow with another server / client app
 
 ## About The Project
 * [[History]] - Learn about the original authors and how it all started.
