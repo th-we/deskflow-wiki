@@ -17,6 +17,7 @@
 There are few solutions that seam to work (sometimes)
 
 1. Check firewall to make sure the used port is open `24800` is default
+1. If this is the initial run of Deskflow, Exit the application and re run it. 
 1. Connect to the server using its IP address and not the hostname
 1. Disable TLS, This works for some but is less than ideal
 1. Regenerate the TLS key
