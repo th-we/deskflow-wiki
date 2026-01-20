@@ -2,7 +2,7 @@ There are many ways to contribute to the Deskflow project.
 
 > [!IMPORTANT]
 > AI-trash PRs will be closed immediately. <br/>
-> We do no participate in gittensor, PRS will be redone or closed. 
+> We do no participate in gittensor, PRs will be redone or closed. 
 
 # Getting started
 
