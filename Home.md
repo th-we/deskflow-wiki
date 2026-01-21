@@ -12,6 +12,7 @@ Here are a few pages to get you started with your search.
 * [[Server Text Config]] - Write a text config file for advanced configurations.
 * [[GUI Settings]] - Info about the GUI settings (and how to reset them).
 * [[Workarounds]] - Inventive solutions to strange problems.
+* [[Raising Issues]] - What to do if you have found an issue.
 * [[Known Issues]] - Deskflow Known Issues
 
 ## About The Project
