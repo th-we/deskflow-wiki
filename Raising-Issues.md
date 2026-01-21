@@ -3,7 +3,8 @@
 > Many bugs are fixed between releases and yours could be one of them.
 
 > [!Note] 
-> When providing version information use the copy button on the about dialog. This will include the version as well as the OS Type OS Version, Processor Architecture, and session type
+> When providing version information always use the copy button on the about dialog.<br/>
+> This will include the version as well as the OS Type OS Version, Processor Architecture, and session type
  
 If You have Found an issue not fixed by continuous
 
