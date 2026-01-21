@@ -1,6 +1,6 @@
 > [!Important]
-> If your having an issue. Always try the [continuous](https://github.com/deskflow/deskflow/releases/tag/continuous) version. Many bugs are 
-fixed between releases and yours could be one of them.
+> If your having an issue. Always try the [continuous](https://github.com/deskflow/deskflow/releases/tag/continuous) version. <br/>
+> Many bugs are fixed between releases and yours could be one of them.
 
 > [!Note] 
 > When providing version information use the copy button on the about dialog. This will include the version as well as the OS Type OS Version, Processor Architecture, and session type
