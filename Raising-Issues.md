@@ -21,6 +21,10 @@ If a matching or similar issues exists add a :+1:  to the issue. There is no nee
  1. Use `<details> <summary><h3>TITLE</h3></summary LONG BLOCK TEXT</details>` tags to wrap logs and other lengthy blocks so they are collapse-able  
  1. Fill out the bug form completely, when relevant include info about the both server and clients
 
+#### Create a new issue
+
+Create A [New Issue](https://github.com/deskflow/deskflow/issues/new/choose)
+
 ### Maintainers should follow these rules when raising or triaging a new issue.
 
 See also: [Hacking Guide](https://github.com/deskflow/deskflow/wiki/Hacking-Guide)
