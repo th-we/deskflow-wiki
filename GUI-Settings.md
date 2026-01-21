@@ -78,7 +78,7 @@ It will begin with `[client]`
 | binary                | Filename           | The filename of the binary to call for client mode. This binary exists in the same path as the GUI |
 | invertScrollDirection | `true` or `false`  | Invert scroll on this client [default: false] |
 | languageSync          | `true` or `false`  | Sync to server language [default: true] |
-| remoteHost            | `IP` or `hostname` | The remote host last connected to | 
+| remoteHost            | `IP` or `hostname` | The remote host last connected to, this can be a comma separated list of hosts | 
 | xdpRestoreToken       | UUID               | Restore token provided by XDG portals |
 
 
@@ -126,7 +126,9 @@ This section contains options used by the GUI it will begin with `[gui]`
 | logExpanded                    | `true` or `false` | Should the log section of the GUI be opened [default: false] |
 | symbolicTrayIcon               | `true` or `false` | When true use the monocolor (symbolic) icon false uses a colorful icon for the tray [default: true] |
 | windowGeometry                 | QRect             | Geometry of the window used to restore the window geometry after exiting the app |
-| showGenericClietnFailureDialog | `true` or `false` | When `true` client connection errors will not show popup error messages [default: true] |
+| showGenericClientFailureDialog | `true` or `false` | When `true` client connection errors will not show popup error messages [default: true]  | shownFirstConnectedMessage     | `true` or `false` | When `true` the first connected has been show and will not show again [default: false] 
+| shownServerFirstStartMessage   | `true` or `false` | When `true` the first started message has been show and will not show again [default: false] |
+| showVersionInTitle             | `true` or `false` | When `true` the version will be included in the window's title [default: false] |
 
 
 ### Log
