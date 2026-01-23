@@ -28,7 +28,8 @@ set (${CMAKE_PROJECT_NAME}_TRS
 
  1. Run Cmake and build the project to generate the new TS files in the translations directory
  1. After generating a new language file you MUST translate the "LocalizedName" in the I18N Section string before using the translation.
-
+ 1. Update the `I18NTests` to include the new language in its `m_langMap` This map is used as basic sanity check your new entry will be 
+a map of the "native name" and the 639 name ex: for italian `{QStringLiteral("Italiano"), QStringLiteral("it")}` 
 ## Updating existing TS files
 
  - Translations sources are updated when the project is built.
