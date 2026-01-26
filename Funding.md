@@ -3,8 +3,8 @@ Deskflow development is sponsored by [Synergy](https://symless.com/synergy).
 [![Sponsored by: Synergy](https://raw.githubusercontent.com/deskflow/deskflow-artwork/b2c72a3e60a42dee793bd47efc275b5ee0bdaa5f/misc/synergy-sponsor.svg)](https://symless.com/synergy)
 
 There are 2 ways that we distribute funds to open source development:
-2. [GitHub Sponsors](https://github.com/sponsors) is used when developers prefer receiving tips this way.
-3. Sponsorship of foundations such as [GNOME Foundation](https://en.wikipedia.org/wiki/GNOME_Foundation) and [KDE e.V.](https://en.wikipedia.org/wiki/KDE_e.V.)
+1. [GitHub Sponsors](https://github.com/sponsors) is used when developers prefer receiving tips this way.
+1. Sponsorship of foundations such as [GNOME Foundation](https://en.wikipedia.org/wiki/GNOME_Foundation) and [KDE e.V.](https://en.wikipedia.org/wiki/KDE_e.V.)
 
 Developers who are unable (or prefer not) to accept tips, for example, those working at open source companies (such as Red Hat), can elect to have us donate to a foundation of their choice.
 
