@@ -6,7 +6,8 @@ There are many ways to contribute to the Deskflow project.
 
 # Getting started
 
-Deskflow is an open source project, so we welcome contributions.
+Deskflow is an open source project, so we welcome contributions. You may work any an Issues you want to. We do not assign issues to non members so please do not ask to be assigned an issue before working on it. If an issue you want to work on is assigned to someone you should ask them if they are still working on it before working on your own fix.
+
 - A great place to start is by solving issues labelled:  
   [![Good first issues](https://img.shields.io/github/issues/deskflow/deskflow/good%20first%20issue?label=good%20first%20issues&color=%2344cc11
 )](https://github.com/deskflow/deskflow/labels/good%20first%20issue)
