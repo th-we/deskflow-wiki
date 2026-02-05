@@ -89,13 +89,14 @@ This section contains general options it will begin with `[core]`
 |Option         | Valid Values|Description|
 |:--------------|:-----------:|:-----------|
 | coreMode      | `0` or `1` or `2` | The mode to start in 0: None, 1: Client, 2: Server [default: 0]|
+| computerName    | string          | Name used to identify the computer [default: machine's hostname] (added 1.25.0.216) |
 | display       |  int              | The XWindow display to use [default: autodetected] |
 | interface     | IP Address        | Preferred IP to use for network communication. By default the server board casts on any available address |
 | lastVersion   | M.m.p.t           | The version last run used for checking for updates |
 | port          | port #            | Port to use when connecting [default: 24800 |
 | preventSleep  | `true` or `false` | Prevent sleep when Deskflow is active [default: false] |
 | processMode   | `1` or `0`        | The mode we use to start the process Service or Desktop |
-| screenName    | string            | Name used to identify the screen [default: machine's hostname] |
+| screenName    | string            | Name used to identify the computer [default: machine's hostname] (removed 1.25.0.216) |
 | startedBefore | `true` or `false `| Have we started client or server before. Used in logic when deciding to show some dialogs.
 | updateUrl     | URL               | The URL to use when checking for a new version number, it should return a version [default: https://api.deskflow.org/version]|
 | useHooks      | `true` or `false` | If windows use use hooks or not [default: true] |
