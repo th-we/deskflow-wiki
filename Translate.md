@@ -1,14 +1,14 @@
 # Guide for translators
 
-This is a general guide for Translating deskflow. Those looking to update in application translaions should install Qt Linguist. For translators who do no have Qt (dev tools ) installed you can install a standalone version of linguist.
+This is a general guide for Translating Deskflow. Those looking to update in application translations should install Qt Linguist. For translators who do no have Qt (dev tools ) installed you can install a standalone version of linguist.
 
  - Linux you can get this from your distros package manager
  - On Mac os you can install this with brew
  - Window uses can download a binary from the Qt6 version of linguist [here](https://github.com/thurask/Qt-Linguist/)
 
-Not all items that need translation are in ts files. Some distributed files can have translations included direclty in them see the [Translating non code files](#translating-non-code-files) section for more info on these types (may not be a complete list at this time)
+Not all items that need translation are in ts files. Some distributed files can have translations included directly in them see the [Translating non code files](#translating-non-code-files) section for more info on these types (may not be a complete list at this time)
 
-## Adding A New Translations for deskflow 
+## Adding A New Translations for Deskflow 
 
 ###  Add the translation to list in `translations/CMakeLists.txt`
   - Look for `set (${CMAKE_PROJECT_NAME}_TRS` in `translations/CMakeLists.txt`. add your new item in the list after it. This variable controls what ts files are generated.
@@ -29,7 +29,7 @@ set (${CMAKE_PROJECT_NAME}_TRS
  1. Run Cmake and build the project to generate the new TS files in the translations directory
  1. After generating a new language file you MUST translate the "LocalizedName" in the I18N Section string before using the translation.
  1. Update the `I18NTests` to include the new language in its `m_langMap` This map is used as basic sanity check your new entry will be 
-a map of the "native name" and the 639 name ex: for italian `{QStringLiteral("Italiano"), QStringLiteral("it")}` 
+a map of the "native name" and the 639 name ex: for Italian `{QStringLiteral("Italiano"), QStringLiteral("it")}` 
 ## Updating existing TS files
 
  - Translations sources are updated when the project is built.
@@ -83,10 +83,10 @@ translations can be added to  the desktop file `deploy/linux/org.deskflow.deskfl
 
 you can add to the desktop file `Name[langcode]` and `Description[langcode]`  entries
 
-ex for spanish add
+ex for Spanish add
 
 Name[es]= Spanish Name of Deskflow
-Description[es]=Spanish Description of deskflow
+Description[es]=Spanish Description of Deskflow
 
 More info https://specifications.freedesktop.org/desktop-entry-spec/latest/localized-keys.html
 
