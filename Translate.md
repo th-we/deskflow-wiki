@@ -6,7 +6,7 @@ This is a general guide for Translating deskflow. Those looking to update in app
  - On Mac os you can install this with brew
  - Window uses can download a binary from the Qt6 version of linguist [here](https://github.com/thurask/Qt-Linguist/)
 
-Not all items that need translation are in ts files. Some distributed files can have translations included direclty in them see the [Translating non text files](#translating-non-code-files) section for more info on these types (may not be a complete list at this time)
+Not all items that need translation are in ts files. Some distributed files can have translations included direclty in them see the [Translating non code files](#translating-non-code-files) section for more info on these types (may not be a complete list at this time)
 
 ## Adding A New Translations for deskflow 
 
