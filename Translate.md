@@ -30,6 +30,7 @@ set (${CMAKE_PROJECT_NAME}_TRS
  1. After generating a new language file you MUST translate the "LocalizedName" in the I18N Section string before using the translation.
 
 ### Update I18N Tests
+
  Update the `I18NTests` to include the new language in its `m_langMap` This map is used as basic sanity check your new entry will be 
 a map of the "native name" and the 639 name ex: for Italian `{QStringLiteral("Italiano"), QStringLiteral("it")}` 
 ## Updating existing TS files
@@ -48,7 +49,7 @@ The single form would be `you have a message` with a plural form of `you have %n
 
 #### String Placeholders
 
-The placeholder `%number>0` (i.e `%1`, `%2`, ...) will be replaced by a string at runtime. The strings comments should tell you what the each one will be replaced by. When translating the order of these placeholders can be changes as long as all of the used placeholers exists in the translated string. 
+The placeholder `%number>0` (i.e `%1`, `%2`, ...) will be replaced by a string at runtime. The strings comments should tell you what the each one will be replaced by. When translating the order of these placeholders can be changes as long as all of the used placeholders exists in the translated string. 
 
 For Example the input string `There is a %1 in the %2`  (%1 is a animal Name , %2 is a Place)
  
