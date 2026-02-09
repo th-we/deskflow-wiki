@@ -25,7 +25,7 @@ set (${CMAKE_PROJECT_NAME}_TRS
   ${CMAKE_PROJECT_NAME}_zh_CN.ts # Chinese (China)
 )
 ```
-### Generate and complete the language files.
+### Generate and Set the Localized Language Name.
  1. Run Cmake and build the project to generate the new TS files in the translations directory
  1. After generating a new language file you MUST translate the "LocalizedName" in the I18N Section string before using the translation.
 
@@ -34,6 +34,8 @@ set (${CMAKE_PROJECT_NAME}_TRS
  Update the `I18NTests` to include the new language in its `m_langMap` This map is used as basic sanity check your new entry will be 
 a map of the "native name" and the 639 name ex: for Italian `{QStringLiteral("Italiano"), QStringLiteral("it")}` 
 ## Updating existing TS files
+
+### Translation notes
 
  - Translations sources are updated when the project is built.
  - In order to update the translations in a TS file you should use Qt Linguist. Check the [Qt Translator Guide](https://doc.qt.io/qt-6/linguist-translators.html) for general info about using Qt Linguist.  
