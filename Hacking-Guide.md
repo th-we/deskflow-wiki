@@ -41,6 +41,7 @@ fix: Crash on startup
 ### 3. Open PRs must be tested and must compile
 
 Before asking a maintainer to review your PR, you must keep the PR in draft mode. Before switching to open, you must:
+- When creating the PR ALWAYS use our PR template
 - For new features, the feature must be tested and working
 - For bug fixes, you should be confident the bug fix works
 - Code must compile on Linux, macOS, and Windows
