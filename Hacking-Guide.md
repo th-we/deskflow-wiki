@@ -107,3 +107,11 @@ Example:
 message(STATUS "This is a polite and respectful log line.")
 message(STATUS "THIS IS AN SHOUTY AND DISTRACTING LOG LINE")
 ```
+
+### 6. Do not add redundant comments
+
+Code should be self-documenting. In the cases where we cannot make code self-documenting and the code is difficult to reason about, a comment can be added but it _must explain why_ we are doing something and _never what_ the code is doing. 
+
+Comments "rot" over time; they drift away from the original intent of the code and become misleading.
+
+We have recently seen a rise in code comments because of AI. This is because AI training data is based on "hello world" projects (e.g. written for or by students) who need to 'explain their working'. This has no place in professional code and littering code with comments actually makes code harder to understand.
