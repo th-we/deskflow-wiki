@@ -1,8 +1,10 @@
 There are many ways to contribute to the Deskflow project.
 
 > [!IMPORTANT]
-> AI-trash PRs will be closed immediately. <br/>
-> We do no participate in gittensor, PRs will be redone or closed. 
+> Low Quality PRs will be closed immediately. <br/>
+> We do no participate in gittensor, PRs will be redone or closed. <br/>
+> Being dishonest about AI on contributions will result in a ban from the project. <br/>
+> All PRs are REQUIRED to use our PR template any PR not using the template will be closed <br.>
 
 # Getting started
 
