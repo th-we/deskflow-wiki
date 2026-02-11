@@ -46,7 +46,8 @@ Deskflow is an open source project, so we welcome contributions. You may work an
 - [[Backport]] - Tracker for items to backport from forks.
 - [[Maintainers]] - Guides for project maintainers.
 - [Developer Docs](https://deskflow.github.io/deskflow/) - Doxygen pages generated from code comments.
-- [[Translate]] - Resources for those looking to localize deskflow
+- [[Translate]] - Resources for those looking to localize Deskflow.
+- [[Test Tools]] - Useful tools we've found for testing Deskflow.
 
 # More ways to contribute
 
