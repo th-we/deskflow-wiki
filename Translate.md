@@ -12,7 +12,7 @@ Not all items that need translation are in ts files. Some distributed files can 
 
 ###  Add the translation to list in `translations/CMakeLists.txt`
   - Look for `set (${CMAKE_PROJECT_NAME}_TRS` in `translations/CMakeLists.txt`. add your new item in the list after it. This variable controls what ts files are generated.
-  - Language file names should be `${CMAKE_PROJECT_NAME}_LANG.ts` where LANG is the ISO639 name for your language (en, es, fr, it, ko, etc). For Portuguese and Chinese you must also include the country code ie (pt_BR, pt_PT, zh_CN and zh_TW)
+  - Language file names should be `${CMAKE_PROJECT_NAME}_LANG.ts` where LANG is the ISO639 name for your language (en, es, fr, it, ko, pt etc). For Brizilan Portuguese and Chinese you must also include the country code ie (pt_BR, zh_CN and zh_TW)
   - The Lang will also be used to attempt to deploy a matching Qt translation file (on windows / mac os) 
   - If we were adding Chinese (China) and Italian we would add the following lines to the cmake file 
     - `${CMAKE_PROJECT_NAME}_zh_CN.ts` (Chinese (china))
