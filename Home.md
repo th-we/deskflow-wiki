@@ -14,6 +14,7 @@ Here are a few pages to get you started with your search.
 * [[Workarounds]] - Inventive solutions to strange problems.
 * [[Raising Issues]] - What to do if you have found an issue.
 * [[Known Issues]] - Deskflow Known Issues
+* [[Test Tools]] - Tools that can be used to test input 
 
 ## About The Project
 * [[History]] - Learn about the original authors and how it all started.
