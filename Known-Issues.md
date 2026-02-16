@@ -12,6 +12,10 @@ Wayland [Issues](https://github.com/deskflow/deskflow/discussions/7499) <br/>
 
 See also [[Workarounds]]
 
+## Unable to use keyboard in server mode on mac os 
+
+Make sure that Deskflow has `Input Monitoring` access. If you have recently updated deskflow you may need to remove the old version from the list of on the Input Monitoring page and readd it after removing.
+
 ## Issues When using Deskflow with Similar software
 
 
