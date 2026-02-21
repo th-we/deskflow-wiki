@@ -19,7 +19,7 @@ Use these prefixes on commits, they will be used to generate change logs on rele
 - `package: ` **_must_** be used for commits that change package files (i.e wix or cpack only) 
 - `ci: ` **_must_** be used for commits that modify CI.
 - `i18n (LANG): ` **_must_** be used for standalone translation corrections. Replace LANG with the iso639 language name (example: en, zh_CN, ru, it). Only change one language with any commit. **_do not use_** if the source string is changing only use if a translation is being updated without new source strings changing.
-- `chore: ` **_must_** be used when removed unused code or renaming a file. **_should_** be used for things not fitting in any other category anything else.
+- `chore: ` **_must_** be used when removed unused code or renaming a file.
 
 #### Example of a good commit message
 ```
@@ -32,10 +32,11 @@ fix: Crash on startup
 
 ### 2. PRs are not squashed, so make each commit sane
 
-- Use `git commit --amend` to fix a previous commit rather than a follow-up commit.
+- At Review time, use `git commit --amend` to fix a previous commit rather than creating a follow-up commit.
   See: [[PR Review]]
 - Each commit must build; no broken commits.
-- Each commit does one thing, Add a feature, or fix a bug.
+- Each commit does one thing, Such as fix a bug, rename a method, add a small feature.
+- A Feature can be made of several commits if needed. Each commit must still build on its own and should move towards the feature.
 
 
 ### 3. Open PRs must be tested and must compile
