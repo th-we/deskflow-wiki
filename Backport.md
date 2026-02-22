@@ -23,9 +23,9 @@ Status of backports from forks
 |❔| noexcept | https://github.com/debauchee/barrier/pull/718 | This might be done various PRS |
 |❓| Support sun keys | https://github.com/debauchee/barrier/pull/790 | |
 |❓| Suppoet Kan, Eisu_toggle and Muhenkan| https://github.com/debauchee/barrier/pull/832 | |
-|❓| Hscroll fix | https://github.com/debauchee/barrier/pull/391 | |
-|❓| Add hotkey config rule for `,` and `;` | https://github.com/debauchee/barrier/pull/916 | should fix: https://github.com/deskflow/deskflow/issues/7130 |
 |❓| Use Ansi code page for multibyteString | https://github.com/debauchee/barrier/pull/979 | May not be needed since we use QStrings now |
+|☑️| Hscroll fix | https://github.com/debauchee/barrier/pull/391 | https://github.com/deskflow/deskflow/pull/9438 |
+|☑️| Add hotkey config rule for `,` and `;` | https://github.com/debauchee/barrier/pull/916 | https://github.com/deskflow/deskflow/pull/9353 |
 |☑️| Remove IEventQueueBuffer timer management | https://github.com/input-leap/input-leap/pull/1592 | https://github.com/deskflow/deskflow/pull/9313 |
 |☑️| Clean up event data | https://github.com/input-leap/input-leap/pull/1554 |https://github.com/deskflow/deskflow/pull/9150 |
 |☑️| Fix Cpu Spike on win 10 | https://github.com/debauchee/barrier/pull/656| https://github.com/deskflow/deskflow/pull/9116 |
