@@ -82,8 +82,8 @@ The following items will be installed by vcpkg: `qt`, `openssl`, and `gtest`.
 
 ## macOS
 
-  1. Qt 6.7+ 
-    - You should not use the `brew` version of Qt if you plan to distribute the build (it targets only the current system).
+  1. Qt 6.7+ <br/>
+    - If you only plan to run the build on your local system you can use the `brew` version of Qt (`brew install qt`)
     - If you want to distribute your builds you need to get Qt from the [Qt Online Installer](https://doc.qt.io/qt-6/qt-online-installation.html)
   1. openssl 3.0+
   1. googletest (optional)       
