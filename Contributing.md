@@ -31,6 +31,7 @@ Deskflow is an open source project, so we welcome contributions. You may work an
 - Privacy by default (e.g. update check is off by default)
 - Leading edge releases (we don't focus on supporting older systems)
 - Decisions are discussed and documented publicly with majority rule
+- AI is a tool, use it but don't paste walls of AI text to each other
 - Have fun; we don't need to worry about impressing anyone
 
 # More resources
