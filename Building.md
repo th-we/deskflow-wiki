@@ -69,7 +69,7 @@ Deskflow requires the following to build:
  - Qt 6.7+
  - OpenSSL 3.0
  - Google Test**
- - libportal 0.8+ (Linux only)
+ - libportal 0.9.1+ (Linux only)
  - libei 1.3+ (Linux only)
 
 ** These dependencies will be downloaded automatically at build time if they are not found on your system, Google Test is only needed to build tests.
