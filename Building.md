@@ -47,8 +47,6 @@ Before we can begin building, we need to set up the development environment.
   1. CMake 3.24
   1. Qt 6
 
-Tip: The Brew version of Qt can crash when it should show a dialog, For this reason its recommended to use [aqtinstall](https://github.com/miurahr/aqtinstall) or the [Official Qt Installer](https://www.qt.io/download-qt-installer-oss).
-
 Tip: Once you have installed `brew`, run this command
 ```
 brew install git cmake
