@@ -7,7 +7,12 @@
 ## Comitting & PRs
 
 Please [create a new PR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (pull request) if you want to make a change.
-### 1. Prefix your commits with a commit type
+
+### 1. Keep PR descriptions short and don't write with AI
+
+Please do not use an LLM/AI to do write PR descriptions for you. LLMs generate walls of verbose, unreadable text which have no distilled insight. AI generated PR descriptions will be ignored. If the problem you are solving is complex, you can add commentary and detail as an appendix, but don't lead with it.
+
+### 2. Prefix your commits with a commit type
 
 Use these prefixes on commits, they will be used to generate change logs on release.
 
@@ -30,7 +35,7 @@ fix: Crash on startup
    Additional commit info can be helpful 
 ```
 
-### 2. PRs are not squashed, so make each commit sane
+### 3. PRs are not squashed, so make each commit sane
 
 - At Review time, use `git commit --amend` to fix a previous commit rather than creating a follow-up commit.
   See: [[PR Review]]
@@ -39,7 +44,7 @@ fix: Crash on startup
 - A Feature can be made of several commits if needed. Each commit must still build on its own and should move towards the feature.
 
 
-### 3. Open PRs must be tested and must compile
+### 4. Open PRs must be tested and must compile
 
 Before asking a maintainer to review your PR, you must keep the PR in draft mode. Before switching to open, you must:
 - When creating the PR ALWAYS use our PR template
@@ -49,7 +54,7 @@ Before asking a maintainer to review your PR, you must keep the PR in draft mode
 
 Once all of the above conditions are met, then set your PR to open and request a review from one maintainer. If you do not have access to an OS (e.g., macOS), please let us know if it might not compile successfully on that OS before we approve and run the workflows.
 
-### 4. Update File License info
+### 5. Update File License info
 
 To remain reuse compliant its important contributors add proper license info when creating new files or editing existing ones. 
 
@@ -87,7 +92,7 @@ The following changes are considered to be trivial
  - Changing spacing or indenting
  - Moving a function to a new file with little to no changes
 
-### 5. Update documentation
+### 6. Update documentation
 
 Since documentation can become stale quickly we must do our best to keep it updated.
 
@@ -95,7 +100,7 @@ Since documentation can become stale quickly we must do our best to keep it upda
  - This **_shall_** include Creating or updating [Doxygen comments](https://www.doxygen.nl/manual/docblocks.html) for methods.
  - This **_should_** include also updating any relevant wiki pages.
 
-### 6. No rage caps in comments/logs
+### 7. No rage caps in comments/logs
 
 Rage caps erode SNR (signal-to-noise). Don't shout in your comments or log messages. This rule applies to:
 - Program code
@@ -113,7 +118,7 @@ message(STATUS "This is a polite and respectful log line.")
 message(STATUS "THIS IS AN SHOUTY AND DISTRACTING LOG LINE")
 ```
 
-### 6. Do not add redundant comments
+### 8. Do not add redundant comments
 
 Code should be self-documenting. In the cases where we cannot make code self-documenting and the code is difficult to reason about, a comment can be added but it _must explain why_ we are doing something and _never what_ the code is doing. 
 
