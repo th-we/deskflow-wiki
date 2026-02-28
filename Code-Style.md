@@ -68,8 +68,9 @@ more info: https://spdx.dev/learn/handling-license-info/
     1. The Ui Form SHALL be a private member of the class using
     1. The variable name SHALL be `ui` 
 1. Ui Forms should never have connections internally 
-1. When editing ui files take extra care to not accidentally change item sizes
-1.When editing ui files take extra care to not accidentally change the current item on container based widgets.
+1. When editing ui files take extra care to not accidentally change
+   1. item sizes
+   1. the current item on container based widgets.
 
 ### Qt Type Prefix scheme
   - `label`  QLabels that are  a static label
@@ -117,7 +118,7 @@ more info: https://spdx.dev/learn/handling-license-info/
 # Exceptions
 
 1. Do not allow exceptions to propagate to Qt (instead, use `qFatal()`)
-    - Remember: `qFatal` can be ignored on Windows, but not on macOS/Linux
+   - Remember: `qFatal` on Windows for debug builds, will instead report _CRT_ERROR to connect your debugger to the app
 1. Do use exceptions for exceptional situations (things that should not happen)
 1. Do not use exceptions for validation (e.g. if a user input value is unexpected)
 
