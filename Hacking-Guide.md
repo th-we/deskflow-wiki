@@ -40,6 +40,7 @@ fix: Crash on startup
 - At Review time, use `git commit --amend` to fix a previous commit rather than creating a follow-up commit.
   See: [[PR Review]]
 - Each commit must build; no broken commits.
+- Each commit should have the correct [Code Style](Code-Style).
 - Each commit does one thing, Such as fix a bug, rename a method, add a small feature.
 - A Feature can be made of several commits if needed. Each commit must still build on its own and should move towards the feature.
 
