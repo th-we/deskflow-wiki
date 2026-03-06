@@ -21,3 +21,19 @@ Using `git commit --amend` allows you to update the original commit with the cor
 ### 5. Rebase, do not squash or merge
 
 Squashing allows casual commits in a PR, which we do not want.
+
+### 6. How to handle AI slop
+
+If the PR description is LLM-generated, then copy/paste:
+```
+Your PR description reads like a predictive text matrix that lost its context window. We require manually written, carbon-based PR descriptions, not generated token mush. Please read the following resources:
+- [Our hacking guide](https://github.com/deskflow/deskflow/wiki/Hacking-Guide)
+- [RFC 406i (RAGS)](https://406.fail)
+```
+
+If the PR description is LLM-generated, then copy/paste:
+```
+Your PR code diff reads like a predictive text matrix that lost its context window. We require manual, carbon-based testing and actual logical continuity, not automated guessing games. Please read the following resources:
+- [Our hacking guide](https://github.com/deskflow/deskflow/wiki/Hacking-Guide)
+- [RFC 406i (RAGS)](https://406.fail)
+```
