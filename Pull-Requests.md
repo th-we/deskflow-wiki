@@ -27,7 +27,8 @@ Squashing allows casual commits in a PR, which we do not want.
 If the PR description is LLM-generated, then copy/paste:
 ```
 Your PR description reads like a predictive text matrix that lost its context window. 
-We require manually written, carbon-based PR descriptions, not generated token mush. Please read the following resources:
+We require manually written, carbon-based PR descriptions, not generated token mush. 
+Please read the following resources:
 - [Our hacking guide](https://github.com/deskflow/deskflow/wiki/Hacking-Guide)
 - [RFC 406i (RAGS)](https://406.fail)
 ```
@@ -35,7 +36,8 @@ We require manually written, carbon-based PR descriptions, not generated token m
 If the PR description is LLM-generated, then copy/paste:
 ```
 Your PR code diff reads like a predictive text matrix that lost its context window. 
-We require manual, carbon-based testing and actual logical continuity, not automated guessing games. Please read the following resources:
+We require manual, carbon-based testing and actual logical continuity, not automated guessing games. 
+Please read the following resources:
 - [Our hacking guide](https://github.com/deskflow/deskflow/wiki/Hacking-Guide)
 - [RFC 406i (RAGS)](https://406.fail)
 ```
