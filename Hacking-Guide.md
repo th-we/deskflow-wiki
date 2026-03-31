@@ -16,15 +16,15 @@ Please do not use an LLM/AI to do write PR descriptions for you. LLMs generate w
 
 Use these prefixes on commits, they will be used to generate change logs on release.
 
-- `fix: ` **_must_** be used if the commit **_fixes_** a known issue or if **_fixes_** a bug.
-- `feat: ` **_must_** be used for the commit that introduces a new feature.
-- `refactor: ` **_must_** be used when existing code is reworked without changing functionality.
-- `build: `: **_must_** be used for changes in project (CMake) or build files.
-- `doc: ` **_must_** be used if the commit only changes documentation, I.e readme or other markdown, or doxygen made document
-- `package: ` **_must_** be used for commits that change package files (i.e wix or cpack only) 
-- `ci: ` **_must_** be used for commits that modify CI.
-- `i18n (LANG): ` **_must_** be used for standalone translation corrections. Replace LANG with the iso639 language name (example: en, zh_CN, ru, it). Only change one language with any commit. **_do not use_** if the source string is changing only use if a translation is being updated without new source strings changing.
-- `chore: ` **_must_** be used when removed unused code or renaming a file.
+- `fix: `  or `fix(foo): `**_must_** be used if the commit **_fixes_** a known issue or if **_fixes_** a bug.
+- `feat: or `feat(foo): `` **_must_** be used for the commit that introduces a new feature.
+- `refactor: or `refactor(foo): `` **_must_** be used when existing code is reworked without changing functionality.
+- `build: `: or `build(foo): `**_must_** be used for changes in project (CMake) or build files.
+- `doc: ` or `doc(foo): `**_must_** be used if the commit only changes documentation, I.e readme or other markdown, or doxygen made document
+- `package: ` or `package(foo): `**_must_** be used for commits that change package files (i.e wix or cpack only) 
+- `ci: ` or `ci(foo): `**_must_** be used for commits that modify CI.
+- `i18n(LANG): ` **_must_** be used for standalone translation corrections. Replace LANG with the iso639 language name (example: en, zh_CN, ru, it). Only change one language with any commit. **_do not use_** if the source string is changing only use if a translation is being updated without new source strings changing.
+- `chore: ` or `chore(foo): `**_must_** be used when removed unused code or renaming a file.
 
 #### Example of a good commit message
 ```
