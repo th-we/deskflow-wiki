@@ -20,11 +20,12 @@ Use these prefixes on commits, they will be used to generate change logs on rele
 - `feat: ` or `feat(foo): ` **_must_** be used for the commit that introduces a new feature.
 - `refactor: ` or `refactor(foo): ` **_must_** be used when existing code is reworked without changing functionality.
 - `build: `: or `build(foo): `**_must_** be used for changes in project (CMake) or build files.
-- `doc: ` or `doc(foo): `**_must_** be used if the commit only changes documentation, I.e readme or other markdown, or doxygen made document
-- `package: ` or `package(foo): `**_must_** be used for commits that change package files (i.e wix or cpack only) 
+- `doc: ` **_must_** be used if the commit only changes documentation, I.e readme or other markdown, or doxygen made document
+- `package: ` **_must_** be used for commits that change package files (i.e wix or cpack only) 
 - `ci: ` or `ci(foo): `**_must_** be used for commits that modify CI.
-- `i18n(LANG): ` **_must_** be used for standalone translation corrections. Replace LANG with the iso639 language name (example: en, zh_CN, ru, it). Only change one language with any commit. **_do not use_** if the source string is changing only use if a translation is being updated without new source strings changing.
+- `i18n: (LANG)` **_must_** be used for standalone translation corrections. Replace LANG with the iso639 language name (example: en, zh_CN, ru, it). Only change one language with any commit. **_do not use_** if the source string is changing only use if a translation is being updated without new source strings changing.
 - `chore: ` or `chore(foo): `**_must_** be used when removed unused code or renaming a file.
+- In addition to one of the above types You SHOULD also add a footer with `BREAKING CHANGES:...` if your commit breaks things.
 
 #### Example of a good commit message
 ```
