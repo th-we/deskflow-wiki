@@ -17,7 +17,7 @@ Please do not use an LLM/AI to do write PR descriptions for you. LLMs generate w
 Use these prefixes on commits, they will be used to generate change logs on release.
 
 - `fix: `  or `fix(foo): `**_must_** be used if the commit **_fixes_** a known issue or if **_fixes_** a bug.
-- `feat: or `feat(foo): `` **_must_** be used for the commit that introduces a new feature.
+- `feat: ` or `feat(foo): ` **_must_** be used for the commit that introduces a new feature.
 - `refactor: ` or `refactor(foo): ` **_must_** be used when existing code is reworked without changing functionality.
 - `build: `: or `build(foo): `**_must_** be used for changes in project (CMake) or build files.
 - `doc: ` or `doc(foo): `**_must_** be used if the commit only changes documentation, I.e readme or other markdown, or doxygen made document
