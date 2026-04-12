@@ -4,6 +4,7 @@
 - [macOS: laggy cursor](#macOS-laggy-cursor)
 - [macOS: Accessibility permissions](#macOS-accessibility-permissions)
 - [macOS: Input Monitoring permissions](#macOS-input-monitoring-permissions)
+- [macOS: Unable to install via brew](#macOS-unable-to-install-via-brew)
 - [macOS: Not working after upgrade](#macOS-Not-working-after-upgrade)
 - [macOS: Lockout on wakeup if server died](#macOS-Lockout-on-wakeup-if-server-died)
 - [GNOME is missing tray icons](#GNOME-is-missing-tray-icons)
@@ -40,7 +41,6 @@ Run this command in the Terminal
 
 Then type `ifconfig` to double check the status under the awdl0 section, it should be `status: inactive`.
 
-
 # macOS: Accessibility permissions
 (by [Trouffman](https://github.com/Trouffman))
 
@@ -67,6 +67,10 @@ For macOS, to send keystrokes to clients you need to give `input monitoring` acc
 1. Click the + and find the Deskflow.app  (or drag and drop deskflow.app in the list) 
 
 If you have upgraded deskflow you may need to remove the previous version and add the new one manually.
+
+# macOS: Unable to install via brew
+
+If you are facing issues when trying to install deskflow (or deskflow-dev) from brew, run `brew doctor`, check the warnings and see if resolving them allow your installation to be resolved (#9649)
 
 # macOS: Not working after upgrade
 
