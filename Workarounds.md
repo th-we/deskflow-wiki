@@ -70,7 +70,7 @@ If you have upgraded deskflow you may need to remove the previous version and ad
 
 # macOS: Unable to install via brew
 
-If you are facing issues when trying to install deskflow (or deskflow-dev) from brew, run `brew doctor`, check the warnings and see if resolving them allow your installation to be resolved (#9649)
+If you are facing issues when trying to install deskflow (or deskflow-dev) from brew, run `brew doctor`, check the warnings and see if resolving them allow your installation to be resolved ([#9649](https://github.com/deskflow/deskflow/issues/9649))
 
 # macOS: Not working after upgrade
 
