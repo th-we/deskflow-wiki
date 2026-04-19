@@ -58,6 +58,7 @@ For macOS, you need to allow the Deskflow process.
 
 ![image](https://github.com/user-attachments/assets/081f156a-e702-457c-922e-1fddf3648a49)
 * Unlike this image the newer version has Deskflow for both of these names one with the icon and the other a terminal application
+* If Deskflow is already on the list remove it And readd it as described above. If you can not remove it remove Deskflow from /Applications and reboot your mac this should remove it from the list. 
 
 # macOS: Input Monitoring permissions
 
