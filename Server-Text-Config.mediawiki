@@ -150,7 +150,8 @@ Note that links do not have to be symmetrical; for instance, here the edge betwe
 ====List of options====
 
 * <code>protocol = [barrier|synergy]</code>
-: The protocol to use when saying hello to clients. Can be set to barrier or synergy. If not set barrier is used as the default
+: The protocol to use when saying hello to clients. Can be set to barrier or synergy. If not set barrier is used as the default.
+: ** Moved to the [general settings](https://github.com/deskflow/deskflow/wiki/GUI-Settings#server) in deskflow 1.26.0.156 **
 
 * <code>heartbeat = N</code>
 : The server will expect each client to send a message no less than every ''N'' milliseconds. If no message arrives from a client within ''3N'' seconds the server forces that client to disconnect.
