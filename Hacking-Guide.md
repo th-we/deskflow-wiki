@@ -10,7 +10,7 @@ Please [create a new PR](https://docs.github.com/en/pull-requests/collaborating-
 
 ### 1. Keep PR descriptions short and don't write with AI
 
-Please do not use an LLM/AI to do write PR descriptions for you. LLMs generate walls of verbose, unreadable text which have no distilled insight. AI generated PR descriptions will be ignored. If the problem you are solving is complex, you can add commentary and detail as an appendix, but don't lead with it.
+Please do not use an LLM/AI to do write PR descriptions for you. LLMs generate walls of verbose, unreadable text which have no distilled insight. AI generated PR descriptions will be ignored. If the problem you are solving is complex, you can add commentary and detail as an appendix, but don't lead with it. All Pull requests are expected to use the pull request template.
 
 ### 2. Prefix your commits with a commit type
 
