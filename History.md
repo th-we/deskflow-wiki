@@ -19,6 +19,7 @@
 - 2022: Wayland development restarted on the Barrier fork and later moved to Input Leap and Synergy.
 - 2023: Synergy 3 was officially launched by Symless, which uses Synergy 1 as its open core.
 - 2024: The Deskflow project was created as the community-driven upstream of Synergy.
+- 2026: The Symless company renamed to 'Synergy App Ltd' and now contributes under that name.
 
 # A Brief History
 
