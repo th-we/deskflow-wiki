@@ -13,7 +13,7 @@ Here are a few pages to get you started with your search.
 * [[GUI Settings]] - Info about the GUI settings (and how to reset them).
 * [[Workarounds]] - Inventive solutions to strange problems.
 * [[Raising Issues]] - What to do if you have found an issue.
-* [[Security_Policy]] - Our policy around security related topics
+* [[Security Policy]] - Our policy around security related topics
 * [[Known Issues]] - Deskflow Known Issues
 * [[Test Tools]] - Tools that can be used to test input 
 
