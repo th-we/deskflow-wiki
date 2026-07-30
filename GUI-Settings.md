@@ -102,7 +102,7 @@ This section contains general options it will begin with `[core]`
 | updateUrl     | URL               | The URL to use when checking for a new version number, it should return a version [default: https://api.deskflow.org/version]|
 | useHooks      | `true` or `false` | If windows use use hooks or not [default: true] |
 | language      | 639 language      | The language to display the GUI in [default: en] |
-| wlClipboard   | `true` or `false` | When true the wl-clipboard backend will be enabled [default: false] |
+| wlClipboard   | `true` or `false` | When true the wl-clipboard backend will be enabled [default: false] (removed 1.26.0.xxx) |
 
 ### Daemon
 
